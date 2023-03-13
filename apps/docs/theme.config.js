@@ -1,5 +1,5 @@
 export default {
-  logo: <span>My Nextra Documentation</span>,
+  logo: <span>Nomi</span>,
   project: {
     link: 'https://github.com/shuding/nextra',
   },

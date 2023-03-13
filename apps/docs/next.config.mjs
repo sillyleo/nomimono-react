@@ -5,7 +5,10 @@ const withNextra = nextra({
 	themeConfig: "./theme.config.js",
 	defaultShowCopyCode: true,
 });
-export default withNextra({ reactStrictMode: true, transpilePackages: ["ui"] });
+export default withNextra({
+	reactStrictMode: true,
+	transpilePackages: ["nomimono"],
+});
 
 // If you have other Next.js configurations, you can pass them as the parameter:
 // module.exports = withNextra({ /* other next.js config */ })

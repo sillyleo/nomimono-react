@@ -1,0 +1,23 @@
+# Progress
+
+import { Bento, Stack, Text, Input, LucideIcon, Progress, Display } from "nomimono";
+
+<Progress />
+
+—--
+
+<Progress tone="tomato" />
+<Progress tone="sky" />
+
+<Display label="progress">
+  <Progress borderColor="red" tone="tomato" />
+  <Progress tone="sky" />
+  <Progress
+    initialValue={0}
+    trackColor="red"
+    value={50}
+    max={100}
+    leftLabel="hello"
+    rightLabel="world"
+  />
+</Display>

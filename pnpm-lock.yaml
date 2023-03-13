@@ -20,21 +20,23 @@ importers:
       '@types/react-dom': ^18.0.7
       eslint: 7.32.0
       eslint-config-custom: workspace:*
+      framer-motion: ^10.2.4
       next: ^13.2.4
       nextra: ^2.2.19
       nextra-theme-docs: ^2.2.19
+      nomimono: workspace:*
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
       typescript: ^4.5.3
-      ui: workspace:*
     dependencies:
+      framer-motion: 10.2.4_biqbaboplfbrettd7655fr4n2y
       next: 13.2.4_6m24vuloj5ihw4zc5lbsktc4fu
       nextra: 2.2.19_ld2jel3hspngo3u5lti2kgl2sq
       nextra-theme-docs: 2.2.19_i765vautotixoofbdi6dinfkwe
+      nomimono: link:../../packages/ui
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      ui: link:../../packages/ui
     devDependencies:
       '@babel/core': 7.21.0
       '@types/node': 17.0.45
@@ -54,16 +56,16 @@ importers:
       eslint: 7.32.0
       eslint-config-custom: workspace:*
       next: ^13.1.1
+      nomimono: workspace:*
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
       typescript: ^4.5.3
-      ui: workspace:*
     dependencies:
       next: 13.2.4_6m24vuloj5ihw4zc5lbsktc4fu
+      nomimono: link:../../packages/ui
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      ui: link:../../packages/ui
     devDependencies:
       '@babel/core': 7.21.0
       '@types/node': 17.0.45
@@ -103,6 +105,7 @@ importers:
       '@types/react-dom': ^18.0.6
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
+      framer-motion: ^10.2.4
       lodash: ^4.17.21
       react: ^18.2.0
       tsconfig: workspace:*
@@ -111,6 +114,7 @@ importers:
     dependencies:
       '@radix-ui/colors': 0.1.8
       '@stitches/react': 1.2.8_react@18.2.0
+      framer-motion: 10.2.4_react@18.2.0
       lodash: 4.17.21
     devDependencies:
       '@types/lodash': 4.14.191
@@ -317,6 +321,19 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+
+  /@emotion/is-prop-valid/0.8.8:
+    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
+    requiresBuild: true
+    dependencies:
+      '@emotion/memoize': 0.7.4
+    dev: false
+    optional: true
+
+  /@emotion/memoize/0.7.4:
+    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    dev: false
+    optional: true
 
   /@esbuild/android-arm/0.17.11:
     resolution: {integrity: sha512-CdyX6sRVh1NzFCsf5vw3kULwlAhfy9wVt8SZlrhQ7eL2qBjGbFhRBWkkAzuZm9IIEOCKJw4DXA6R85g+qc8RDw==}
@@ -2108,6 +2125,41 @@ packages:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
     dependencies:
       is-callable: 1.2.7
+    dev: false
+
+  /framer-motion/10.2.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-0a5yR1jwOfSO0jJEpZUrgWYEa1EPU2yGVmytSu+uMYWV7bcFHwaHVYz2GchzWPH1rW7nXg8zmw8cp4+zNJJaUA==}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      tslib: 2.5.0
+    optionalDependencies:
+      '@emotion/is-prop-valid': 0.8.8
+    dev: false
+
+  /framer-motion/10.2.4_react@18.2.0:
+    resolution: {integrity: sha512-0a5yR1jwOfSO0jJEpZUrgWYEa1EPU2yGVmytSu+uMYWV7bcFHwaHVYz2GchzWPH1rW7nXg8zmw8cp4+zNJJaUA==}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      tslib: 2.5.0
+    optionalDependencies:
+      '@emotion/is-prop-valid': 0.8.8
     dev: false
 
   /fs.realpath/1.0.0:

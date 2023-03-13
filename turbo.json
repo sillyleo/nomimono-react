@@ -12,8 +12,8 @@
 		"dev": {
 			"cache": false
 		},
-		"ui#ship": {
-			"dependsOn": ["ui#build"]
+		"nomimono#ship": {
+			"dependsOn": ["nomimono#build"]
 		}
 	}
 }
