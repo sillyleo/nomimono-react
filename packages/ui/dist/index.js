@@ -1905,8 +1905,22 @@ var {
 var stitchesDarkTheme = createTheme("dark", {
   colors: __spreadValues({}, darkColors)
 });
-var globalStyles = globalCss({
+var reset = globalCss({
   "*": { margin: 0, boxSizing: "border-box" }
+});
+var brandFont = globalCss({
+  "@font-face": [
+    {
+      fontFamily: "skModernistBold",
+      src: 'url("/fonts/sk-modernist-bold-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-bold-webfont.woff") format("woff"),url("/fonts/sk-modernist-bold-webfont.ttf") format("truetype")',
+      fontWeight: "bold"
+    },
+    {
+      fontFamily: "skModernistRegular",
+      src: 'url("/fonts/sk-modernist-regular-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-regular-webfont.woff") format("woff"),url("/fonts/sk-modernist-regular-webfont.ttf") format("truetype")',
+      fontWeight: 400
+    }
+  ]
 });
 
 // Box/index.tsx
@@ -2277,6 +2291,169 @@ var Button = (_a, ref) => {
   );
 };
 var Button_default = React.forwardRef(Button);
+
+// Text/index.tsx
+var Text = styled("div", {
+  fontFamily: "$heading",
+  variants: {
+    size: {
+      "page-title": {
+        fontWeight: "$bold",
+        fontSize: "$6xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      "page-title2": {
+        fontWeight: "$bold",
+        fontSize: "$5xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title1: {
+        fontWeight: "$bold",
+        fontSize: "$3xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title2: {
+        fontWeight: "$bold",
+        fontSize: "$2xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title3: {
+        fontWeight: "$bold",
+        fontSize: "$xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      subtitle1: {
+        fontWeight: "$bold",
+        fontSize: "$lg",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      subtitle2: {
+        fontWeight: "$bold",
+        fontSize: "$base",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      overline: {
+        fontFamily: "$body",
+        fontWeight: "$bold",
+        fontSize: "$xs",
+        lineHeight: "$heading",
+        letterSpacing: "$increased",
+        textTransform: "$uppercase"
+      },
+      body: {
+        fontFamily: "$body",
+        fontWeight: "$normal",
+        fontSize: "$base",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      },
+      "body-bold": {
+        fontWeight: "$bold",
+        fontFamily: "$body",
+        fontSize: "$base",
+        lineHeight: "body",
+        letterSpacing: "$default"
+      },
+      label: {
+        fontFamily: "$body",
+        fontSize: "$sm",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      },
+      caption: {
+        fontFamily: "$body",
+        fontSize: "$xs",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      }
+    }
+  },
+  defaultVariants: {
+    size: "body"
+  }
+});
+var Text_default = Text;
+
+// NomiStyle/index.tsx
+var nomiObject = {
+  fontSize: "$base",
+  fontFamily: "$body",
+  lineHeight: "$body",
+  webkitFontSmoothing: "antialiased",
+  "& h1": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$2xl",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h2": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$xl",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h3": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$lg",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h4": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$base",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& > *": {
+    marginBottom: "$6"
+  },
+  "& > *:last-child": {
+    marginBottom: 0
+  },
+  "& a": {
+    color: "$grass9"
+  },
+  "& a:hover": {
+    color: "$grass11"
+  },
+  "& ul,& ol": {
+    paddingLeft: "$4"
+  },
+  "& li": {
+    marginBottom: "$2"
+  },
+  "& img": {
+    maxWidth: "100%",
+    height: "auto"
+  }
+};
+var NomiStyle = styled("div", nomiObject);
+var nomiClass = css(nomiObject);
+var NomiStyle_default = NomiStyle;
 export {
-  Button_default as Button
+  Box_default as Box,
+  Button_default as Button,
+  NomiStyle_default as NomiStyle,
+  Radix,
+  Text_default as Text,
+  brandFont,
+  css,
+  globalCss,
+  keyframes,
+  nomiClass,
+  reset,
+  stitchesDarkTheme,
+  theme as stitchesTheme,
+  styled
 };

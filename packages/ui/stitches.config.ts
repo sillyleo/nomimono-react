@@ -326,6 +326,21 @@ export const stitchesDarkTheme = createTheme("dark", {
 	},
 });
 
-export const globalStyles = globalCss({
+export const reset = globalCss({
 	"*": { margin: 0, boxSizing: "border-box" },
+});
+export const brandFont = globalCss({
+	"@font-face": [
+		{
+			fontFamily: "skModernistBold",
+			src: 'url("/fonts/sk-modernist-bold-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-bold-webfont.woff") format("woff"),url("/fonts/sk-modernist-bold-webfont.ttf") format("truetype")',
+			fontWeight: "bold",
+		},
+
+		{
+			fontFamily: "skModernistRegular",
+			src: 'url("/fonts/sk-modernist-regular-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-regular-webfont.woff") format("woff"),url("/fonts/sk-modernist-regular-webfont.ttf") format("truetype")',
+			fontWeight: 400,
+		},
+	],
 });

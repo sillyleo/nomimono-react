@@ -1,16 +1,90 @@
-# Welcome to Nextra
- 
-Hello, world!
+import { Banner } from "../misc/Mono";
+import { Button,stitchesDarkTheme } from "nomimono";
+
+<Banner />
+
+## Installation
+
+```zsh
+pnpm install @sayaww/nomimono
+```
+
+## Usage
+
+Initialize brand fonts in your `index.tsx` or `app.tsx`, where all compoenets can access:
+
+```jsx
+import { brandFont} from "nomimono";
+//set up fonts
+brandFont();
+```
+
+In your components, import the components you need:
+
+```jsx
+import { Button } from "nomimono";
+```
+
+For dark theme, add `stitchesDarkTheme` class to the root element:
+
+```jsx
+import {stitchesDarkTheme} from 'nomimono'
+
+<div className={stitchesDarkTheme} />;
+```
 
 
-import { Button ,stitchesDarkTheme} from "nomimono";
-
-
-
-
-<div className={'stitchesDarkTheme'}>
+<div className={stitchesDarkTheme}>
   <Button isDark>is Dark</Button>
-<Button>Hi There</Button>
+  <Button>Hi There</Button>
 </div>
 <Button isDark>Hi There</Button>
 <Button>Hi There</Button>
+
+## Roadmap
+- [ ] Use sub components for Button (base), Button.WithIcon, Button.IconOnly, etc.
+- [ ] add Input (base), Input.Big, Input.Regular, etc.
+- [ ] add utility layout components (Grid, Flex, etc.)
+- [ ] make Squircle components
+- [ ] make dialog components
+
+## Installation
+
+Install the package with your favorite package manager:
+
+```zsh
+pnpm install nomimono
+```
+
+### Optional fonts
+
+Fonts are optional but prioritize [Sk-Modernist](https://seankanedesign.gumroad.com/l/sk-modernist) for heading and
+Inter for body.
+
+- Install SkModernest in your project's `public` folder
+- Install Inter with `pnpm i @fontsource/inter-tight`
+
+## Usage
+
+In your `index.tsx` or `app.tsx`, where all compoenets can access, import the css file:
+
+```jsx
+import "nomimono/style.css";
+```
+
+In your components, import the components you need:
+
+```jsx
+import { Bento } from "nomimono";
+```
+
+### Typography wrapper
+
+Nomimono also exports a class `nomimono-style` for basic html elements. Wrap your content
+
+```html
+<div class="nomimono-style">
+  <h1>Heading</h1>
+  <p>Body</p>
+</div>
+```
