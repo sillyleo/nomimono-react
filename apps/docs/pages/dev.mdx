@@ -1,4 +1,4 @@
-# Dev
+# Develop components
 
 Available scripts:
 
@@ -13,3 +13,30 @@ pnpm ship
 # only when github workflow failed
 pnpm build-token
 ```
+
+## Run the dev server
+
+```bash
+pnpm dev
+```
+
+- Add files in `packages/ui/*`
+- Export them in the `packages/ui/src/index.tsx` file
+- Test them in `web` or `docs`
+
+## Generate types for documentation
+
+```bash
+pnpm react-docgen src/Button/index.tsx -o src/Button/spec.json --pretty
+```
+
+So the `Props` component can read the `spec.json` file and display the documentation.
+
+In `apps/docs/pages/button.mdx`:
+
+```jsx
+import { Props } from "../src/Button/props";
+<Props />;
+```
+
+- [ ] Todo: automate this process

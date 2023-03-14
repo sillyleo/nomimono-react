@@ -1,10 +1,8 @@
 {
-  "index": {
-    "title": "Introduction"
-  },
-  "dev": "Development",
-  "all-components": {
-    "title": "All components",
-    "type": "page"
-  }
+	"index": {
+		"title": "Introduction"
+	},
+	"dev": {
+		"title": "Development"
+	}
 }

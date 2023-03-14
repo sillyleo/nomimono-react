@@ -5,7 +5,7 @@ import { brandFonts, styled, Text } from "nomimono";
 
 brandFonts();
 
-const NomiLogoText = styled("NomiLogoText", {
+const NomiLogoText = styled("span", {
 	fontFamily: "$heading",
 	fontSize: "$xl",
 });
