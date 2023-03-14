@@ -2251,92 +2251,99 @@ var BaseButton = styled("button", {
     align: "center"
   }
 });
-var Button = (_a, ref) => {
-  var _b = _a, {
-    size,
-    align,
-    tone = "slate",
-    intent = "primary",
-    isLoading,
-    children,
-    leftIcon,
-    rightIcon,
-    depth,
-    css: css2,
-    isDark
-  } = _b, props = __objRest(_b, [
-    "size",
-    "align",
-    "tone",
-    "intent",
-    "isLoading",
-    "children",
-    "leftIcon",
-    "rightIcon",
-    "depth",
-    "css",
-    "isDark"
-  ]);
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
-    BaseButton,
-    __spreadProps(__spreadValues({
-      className: isDark ? stitchesDarkTheme : void 0,
-      ref,
+var Button = import_react2.default.forwardRef(
+  (_a, ref) => {
+    var _b = _a, {
       size,
       align,
-      css: import_lodash.default.merge(
-        getButtonToneStyle(tone, intent),
-        getButtonShadowStyle(tone, depth),
-        css2
-      )
-    }, props), {
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-          Box_default,
-          {
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children: leftIcon
-          }
-        ),
-        isLoading && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-          Box_default,
-          {
-            style: {
-              position: "absolute",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              inset: 0
-            },
-            children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(AutoSpinner, {})
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-          Box_default,
-          {
-            className: "button-text",
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-          Box_default,
-          {
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children: rightIcon
-          }
+      tone = "slate",
+      intent = "primary",
+      isLoading,
+      children,
+      leftIcon,
+      rightIcon,
+      depth,
+      css: css2,
+      isDark
+    } = _b, props = __objRest(_b, [
+      "size",
+      "align",
+      "tone",
+      "intent",
+      "isLoading",
+      "children",
+      "leftIcon",
+      "rightIcon",
+      "depth",
+      "css",
+      "isDark"
+    ]);
+    return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
+      BaseButton,
+      __spreadProps(__spreadValues({
+        className: isDark ? stitchesDarkTheme : void 0,
+        ref,
+        size,
+        align,
+        css: import_lodash.default.merge(
+          getButtonToneStyle(tone, intent),
+          getButtonShadowStyle(tone, depth),
+          css2
         )
-      ]
-    })
-  );
-};
-var Button_default = import_react2.default.forwardRef(Button);
+      }, props), {
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+            Box_default,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: leftIcon
+            }
+          ),
+          isLoading && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+            Box_default,
+            {
+              style: {
+                position: "absolute",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                inset: 0
+              },
+              children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(AutoSpinner, {})
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+            Box_default,
+            {
+              className: "button-text",
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+            Box_default,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: rightIcon
+            }
+          )
+        ]
+      })
+    );
+  }
+);
+var Adaptive = styled(BaseButton, {
+  backdropFilter: "hue-rotate(20) invert(0.5)"
+});
+var Button_default = Object.assign(Button, {
+  Adaptive
+});
 
 // Text/index.tsx
 var Text = styled("div", {

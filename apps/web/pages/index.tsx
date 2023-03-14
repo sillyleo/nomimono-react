@@ -5,6 +5,9 @@ export default function Web() {
 		<div>
 			<h1>Web</h1>
 			<Button>Hello</Button>
+			<br />
+			<br />
+			<Button.Adaptive>Adaptive</Button.Adaptive>
 		</div>
 	);
 }

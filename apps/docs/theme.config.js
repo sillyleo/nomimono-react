@@ -30,13 +30,13 @@ const logoMotion = {
 };
 
 const enLogoMotion = {
-	initial: { opacity: 1, y: "0%", scale: 1 },
-	hover: { opacity: 0, y: "-150%", scale: 1 },
+	initial: { opacity: 1, y: 0 },
+	hover: { opacity: 0, y: -20 },
 };
 
 const jpLogoMotion = {
-	initial: { opacity: 0, y: "-150%", scale: 1 },
-	hover: { opacity: 1, y: "0%", scale: 1 },
+	initial: { opacity: 0, y: 20 },
+	hover: { opacity: 1, y: 0 },
 };
 
 export default {
@@ -69,7 +69,6 @@ export default {
 				// initial={{ y: 0 }}
 				// animate={{ y: -40 }}
 			>
-				<Text size="title3">Nomi</Text>
 				<NomiLogoText>Nomimono</NomiLogoText>
 			</motion.div>
 			<motion.div
@@ -79,7 +78,7 @@ export default {
 				// initial={{ y: 40 }}
 				// animate={{ y: 0 }}
 			>
-				<NomiLogoText>のみもの</NomiLogoText>
+				<NomiLogoText css={{ fontSize: "0.98em" }}>のみもの</NomiLogoText>
 			</motion.div>
 		</motion.div>
 	),

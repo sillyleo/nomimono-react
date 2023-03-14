@@ -31,7 +31,7 @@ export const Mono = () => {
 		return text[index % text.length];
 	};
 
-	return <div>{cycleText()}</div>;
+	return <motion.div>{cycleText()}</motion.div>;
 };
 
 export const Banner = () => {
@@ -50,8 +50,6 @@ export const Banner = () => {
 				mt: "$3",
 				px: "$8",
 				py: "$12",
-				position: "relative",
-				zIndex: "999",
 			}}
 		>
 			<div style={{ fontSize: "clamp(5rem, 5vw, 8rem)", lineHeight: 1.2 }}>
