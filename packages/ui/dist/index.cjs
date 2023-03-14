@@ -61,6 +61,7 @@ var ui_exports = {};
 __export(ui_exports, {
   Box: () => Box_default,
   Button: () => Button_default,
+  ButtonProps: () => Props_default,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Text: () => Text_default,
@@ -2338,12 +2339,42 @@ var Button = import_react2.default.forwardRef(
     );
   }
 );
-var Adaptive = styled(BaseButton, {
-  backdropFilter: "hue-rotate(20) invert(0.5)"
-});
-var Button_default = Object.assign(Button, {
-  Adaptive
-});
+var Button_default = Button;
+
+// ../../apps/docs/specs/Props.tsx
+var import_jsx_runtime3 = require("react/jsx-runtime");
+var Props = (spec) => {
+  const props = spec.props;
+  const keys = Object.keys(props);
+  const rows = keys.map((key) => {
+    const prop = props[key];
+    return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)(
+      "tr",
+      {
+        className: "nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20 ",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: [
+            key,
+            " ",
+            prop.required ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "nx-text-red-500", children: "*" }) : null
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: prop.tsType.raw || prop.tsType.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: prop.description })
+        ]
+      },
+      key
+    );
+  });
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("table", { className: "nx-overflow-x-scroll nextra-scrollbar nx-mt-6 nx-p-0 first:nx-mt-0 nx-w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("thead", { className: "nx-text-left	", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("tr", { className: "nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Props" }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Type" }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Description" })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tbody", { className: "", style: { width: "200%" }, children: rows })
+  ] });
+};
+var Props_default = Props;
 
 // Text/index.tsx
 var Text = styled("div", {
@@ -2498,6 +2529,7 @@ var NomiStyle_default = NomiStyle;
 0 && (module.exports = {
   Box,
   Button,
+  ButtonProps,
   NomiStyle,
   Radix,
   Text,

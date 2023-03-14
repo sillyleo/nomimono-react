@@ -26,17 +26,19 @@ pnpm dev
 
 ## Generate types for documentation
 
-```bash
-pnpm react-docgen src/Button/index.tsx -o src/Button/spec.json --pretty
+Generate button spec file and output it to `apps/docs/specs/button.json`
+
+```bash filename="Run from root"
+pnpm react-docgen packages/ui/Button/index.tsx -o apps/docs/specs/button.json --pretty
 ```
 
-So the `Props` component can read the `spec.json` file and display the documentation.
+Then, in `apps/docs/pages/button.mdx`:
 
-In `apps/docs/pages/button.mdx`:
+```jsx filename="apps/docs/pages/button.mdx"
+import spec from '../specs/button.json'
+import Props from '../specs/props'
 
-```jsx
-import { Props } from "../src/Button/props";
-<Props />;
+<Props spec={spec} />
 ```
 
 - [ ] Todo: automate this process

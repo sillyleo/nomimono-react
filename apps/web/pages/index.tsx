@@ -7,7 +7,7 @@ export default function Web() {
 			<Button>Hello</Button>
 			<br />
 			<br />
-			<Button.Adaptive>Adaptive</Button.Adaptive>
+			<Button>Adaptive</Button>
 		</div>
 	);
 }

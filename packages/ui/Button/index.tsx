@@ -109,7 +109,7 @@ export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
 }
 
 // add forwardRef to the component
-export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 	(
 		{
 			size,
@@ -184,13 +184,15 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 	}
 );
 
-const Adaptive = styled(BaseButton, {
-	backdropFilter: "hue-rotate(20) invert(0.5)",
-});
+export default Button;
 
-// export default Button and make Adpative a subcompoent of Button
-// so that we can do Button.Adaptive
+// export const Adaptive = styled(BaseButton, {
+// 	backdropFilter: "hue-rotate(20) invert(0.5)",
+// });
 
-export default Object.assign(Button, {
-	Adaptive,
-});
+// // export default Button and make Adpative a subcompoent of Button
+// // so that we can do Button.Adaptive
+
+// export default Object.assign(Button, {
+// 	Adaptive,
+// });
