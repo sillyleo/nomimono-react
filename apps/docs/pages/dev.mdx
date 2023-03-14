@@ -35,10 +35,11 @@ pnpm react-docgen packages/ui/Button/index.tsx -o apps/docs/specs/button.json --
 Then, in `apps/docs/pages/button.mdx`:
 
 ```jsx filename="apps/docs/pages/button.mdx"
-import spec from '../specs/button.json'
+import buttonSpec from '../specs/button.json'
 import Props from '../specs/props'
 
-<Props spec={spec} />
+<Props spec={buttonSpec} />
 ```
 
-- [ ] Todo: automate this process
+- [ ] Todo: automate generating spec.json
+- [ ] The description of the props is not displayed in the documentation
