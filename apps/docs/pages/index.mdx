@@ -1,5 +1,6 @@
 import { Banner } from "../misc/Mono";
 import { Button,stitchesDarkTheme } from "nomimono";
+import { Callout } from 'nextra-theme-docs'
 
 <Banner />
 
@@ -28,6 +29,10 @@ import {stitchesDarkTheme} from 'nomimono'
 
 ## Brand Fonts (optional)
 
+<Callout type="warning" emoji="⚠️">
+  You need to buy the fonts yourself. Without the fonts the components works just fine.
+</Callout>
+
 Fonts are optional but prioritize [Sk-Modernist](https://seankanedesign.gumroad.com/l/sk-modernist) for heading and Inter for body.
 
 - [Buy and install SkModernest](https://seankanedesign.gumroad.com/l/sk-modernist) in your project's `public/fonts` folder
@@ -41,14 +46,6 @@ import { brandFonts} from "nomimono";
 //set up fonts
 brandFonts();
 ```
-
-
-## Roadmap
-- [ ] Use sub components for Button (base), Button.WithIcon, Button.IconOnly, etc.
-- [ ] add Input (base), Input.Big, Input.Regular, etc.
-- [ ] add utility layout components (Grid, Flex, etc.)
-- [ ] make Squircle components
-- [ ] make dialog components
 
 ## Installation
 
