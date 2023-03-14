@@ -1,6 +1,4 @@
-const Props = (spec: any) => {
-	// console.log(spec.spec.props);
-	// return <p>props table</p>;
+const Props = ({ spec }: any) => {
 	const props = spec.props;
 	const keys = Object.keys(props);
 	const rows = keys.map((key) => {
