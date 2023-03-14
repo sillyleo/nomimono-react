@@ -1908,7 +1908,7 @@ var stitchesDarkTheme = createTheme("dark", {
 var reset = globalCss({
   "*": { margin: 0, boxSizing: "border-box" }
 });
-var brandFont = globalCss({
+var brandFonts = globalCss({
   "@font-face": [
     {
       fontFamily: "skModernistBold",
@@ -2454,7 +2454,7 @@ export {
   NomiStyle_default as NomiStyle,
   Radix,
   Text_default as Text,
-  brandFont,
+  brandFonts,
   css,
   globalCss,
   keyframes,

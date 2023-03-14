@@ -64,7 +64,7 @@ __export(ui_exports, {
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Text: () => Text_default,
-  brandFont: () => brandFont,
+  brandFonts: () => brandFonts,
   css: () => css,
   globalCss: () => globalCss,
   keyframes: () => keyframes,
@@ -1954,7 +1954,7 @@ var stitchesDarkTheme = createTheme("dark", {
 var reset = globalCss({
   "*": { margin: 0, boxSizing: "border-box" }
 });
-var brandFont = globalCss({
+var brandFonts = globalCss({
   "@font-face": [
     {
       fontFamily: "skModernistBold",
@@ -2501,7 +2501,7 @@ var NomiStyle_default = NomiStyle;
   NomiStyle,
   Radix,
   Text,
-  brandFont,
+  brandFonts,
   css,
   globalCss,
   keyframes,

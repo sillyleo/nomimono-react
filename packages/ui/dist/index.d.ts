@@ -3382,7 +3382,7 @@ declare const stitchesDarkTheme: string & {
     };
 }, "">;
 declare const reset: () => string;
-declare const brandFont: () => string;
+declare const brandFonts: () => string;
 
 declare const BaseButton: _stitches_react_types_styled_component.StyledComponent<"button", {
     size?: "sm" | "md" | "lg" | "xl" | undefined;
@@ -6644,4 +6644,4 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { Box, _default as Button, NomiStyle, Radix, Text, brandFont, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+export { Box, _default as Button, NomiStyle, Radix, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

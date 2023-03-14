@@ -6,20 +6,13 @@ import { Button,stitchesDarkTheme } from "nomimono";
 ## Installation
 
 ```zsh
-pnpm install @sayaww/nomimono
+pnpm install nomimono
 ```
 
 ## Usage
 
-Initialize brand fonts in your `index.tsx` or `app.tsx`, where all compoenets can access:
 
-```jsx
-import { brandFonts} from "nomimono";
-//set up fonts
-brandFonts();
-```
-
-In your components, import the components you need:
+In your file, import the components you need:
 
 ```jsx
 import { Button } from "nomimono";
@@ -33,13 +26,22 @@ import {stitchesDarkTheme} from 'nomimono'
 <div className={stitchesDarkTheme} />;
 ```
 
+## Brand Fonts (optional)
 
-<div className={stitchesDarkTheme}>
-  <Button isDark>is Dark</Button>
-  <Button>Hi There</Button>
-</div>
-<Button isDark>Hi There</Button>
-<Button>Hi There</Button>
+Fonts are optional but prioritize [Sk-Modernist](https://seankanedesign.gumroad.com/l/sk-modernist) for heading and Inter for body.
+
+- [Buy and install SkModernest](https://seankanedesign.gumroad.com/l/sk-modernist) in your project's `public/fonts` folder
+- Install Inter with `pnpm i @fontsource/inter-tight`
+
+
+Initialize brand fonts in your `index.tsx` or `app.tsx`, where all compoenets can access:
+
+```jsx
+import { brandFonts} from "nomimono";
+//set up fonts
+brandFonts();
+```
+
 
 ## Roadmap
 - [ ] Use sub components for Button (base), Button.WithIcon, Button.IconOnly, etc.
@@ -64,27 +66,15 @@ Inter for body.
 - Install SkModernest in your project's `public` folder
 - Install Inter with `pnpm i @fontsource/inter-tight`
 
-## Usage
 
-In your `index.tsx` or `app.tsx`, where all compoenets can access, import the css file:
-
-```jsx
-import "nomimono/style.css";
-```
-
-In your components, import the components you need:
+## Dark theme
 
 ```jsx
-import { Bento } from "nomimono";
-```
+import {stitchesDarkTheme} from 'nomimono'
 
-### Typography wrapper
-
-Nomimono also exports a class `nomimono-style` for basic html elements. Wrap your content
-
-```html
-<div class="nomimono-style">
-  <h1>Heading</h1>
-  <p>Body</p>
+<div className={stitchesDarkTheme}>
+  {/* This button will appear in dark mode */}
+  <Button>Click</Button>
 </div>
+
 ```
