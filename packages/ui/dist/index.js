@@ -2296,9 +2296,9 @@ var Button_default = Button;
 
 // ../../apps/docs/specs/Props.tsx
 import { jsx as jsx3, jsxs as jsxs3 } from "react/jsx-runtime";
-var Props = (props) => {
-  const componentProps = props.spec.props;
-  const keys = Object.keys(componentProps);
+var Props = ({ spec }) => {
+  const props = spec.props;
+  const keys = Object.keys(props);
   const rows = keys.map((key) => {
     const prop = props[key];
     return /* @__PURE__ */ jsxs3(
