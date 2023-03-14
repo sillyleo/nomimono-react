@@ -17,6 +17,7 @@
 	"devDependencies": {
 		"eslint-config-custom": "workspace:*",
 		"prettier": "latest",
+		"react-docgen": "^5.4.3",
 		"turbo": "latest"
 	},
 	"engines": {
