@@ -329,7 +329,7 @@ export const stitchesDarkTheme = createTheme("dark", {
 export const reset = globalCss({
 	"*": { margin: 0, boxSizing: "border-box" },
 });
-export const brandFont = globalCss({
+export const brandFonts = globalCss({
 	"@font-face": [
 		{
 			fontFamily: "skModernistBold",

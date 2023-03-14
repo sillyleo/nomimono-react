@@ -11,6 +11,6 @@ export {
 	theme as stitchesTheme,
 	stitchesDarkTheme,
 	reset,
-	brandFont,
+	brandFonts,
 	Radix,
 } from "./stitches.config";
