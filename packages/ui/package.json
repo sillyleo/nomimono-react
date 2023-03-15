@@ -1,7 +1,7 @@
 {
 	"name": "nomimono",
-	"private": false,
-	"version": "0.0.301",
+	"version": "0.0.303",
+	"access": "public",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
