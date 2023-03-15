@@ -15,6 +15,7 @@
 		"nomimono#ship": {
 			"dependsOn": ["nomimono#build"]
 		},
+		"storybook": {},
 		"build-token": {}
 	}
 }
