@@ -1,0 +1,5 @@
+---
+"nomimono": patch
+---
+
+improve workflow
