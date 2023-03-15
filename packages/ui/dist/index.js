@@ -32,7 +32,6 @@ var __objRest = (source, exclude) => {
 
 // Button/index.tsx
 import _ from "lodash";
-import React from "react";
 
 // stitches.config.ts
 import { createStitches, defaultThemeMap } from "@stitches/react";
@@ -1929,6 +1928,42 @@ var Box_default = Box;
 
 // Spinner/index.tsx
 import { jsx, jsxs } from "react/jsx-runtime";
+function Spinner(props) {
+  return /* @__PURE__ */ jsxs(
+    "svg",
+    __spreadProps(__spreadValues({
+      width: "16",
+      height: "16",
+      viewBox: "0 0 16 16",
+      fill: "none",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, props), {
+      children: [
+        /* @__PURE__ */ jsx(
+          "animateTransform",
+          {
+            attributeName: "transform",
+            type: "rotate",
+            from: "0 0 0",
+            to: "360 0 0",
+            begin: "0s",
+            dur: "1s",
+            repeatCount: "indefinite"
+          }
+        ),
+        /* @__PURE__ */ jsx(
+          "path",
+          {
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            d: "M12.6667 8C12.6667 5.42267 10.5773 3.33333 8 3.33333V2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8H3.33333C3.33333 10.5773 5.42267 12.6667 8 12.6667C10.5773 12.6667 12.6667 10.5773 12.6667 8Z",
+            fill: "currentColor"
+          }
+        )
+      ]
+    })
+  );
+}
 var AutoSpinner = () => {
   return /* @__PURE__ */ jsx(
     "svg",
@@ -2205,93 +2240,90 @@ var BaseButton = styled("button", {
     align: "center"
   }
 });
-var Button = React.forwardRef(
-  (_a, ref) => {
-    var _b = _a, {
+var Button = (_a) => {
+  var _b = _a, {
+    size,
+    align,
+    tone = "slate",
+    intent = "primary",
+    isLoading,
+    children,
+    leftIcon,
+    rightIcon,
+    depth,
+    css: css2,
+    isDark
+  } = _b, props = __objRest(_b, [
+    "size",
+    "align",
+    "tone",
+    "intent",
+    "isLoading",
+    "children",
+    "leftIcon",
+    "rightIcon",
+    "depth",
+    "css",
+    "isDark"
+  ]);
+  return /* @__PURE__ */ jsxs2(
+    BaseButton,
+    __spreadProps(__spreadValues({
+      className: isDark ? stitchesDarkTheme : void 0,
       size,
       align,
-      tone = "slate",
-      intent = "primary",
-      isLoading,
-      children,
-      leftIcon,
-      rightIcon,
-      depth,
-      css: css2,
-      isDark
-    } = _b, props = __objRest(_b, [
-      "size",
-      "align",
-      "tone",
-      "intent",
-      "isLoading",
-      "children",
-      "leftIcon",
-      "rightIcon",
-      "depth",
-      "css",
-      "isDark"
-    ]);
-    return /* @__PURE__ */ jsxs2(
-      BaseButton,
-      __spreadProps(__spreadValues({
-        className: isDark ? stitchesDarkTheme : void 0,
-        ref,
-        size,
-        align,
-        css: _.merge(
-          getButtonToneStyle(tone, intent),
-          getButtonShadowStyle(tone, depth),
-          css2
+      css: _.merge(
+        getButtonToneStyle(tone, intent),
+        getButtonShadowStyle(tone, depth),
+        css2
+      )
+    }, props), {
+      children: [
+        /* @__PURE__ */ jsx2(
+          Box_default,
+          {
+            style: {
+              opacity: isLoading ? 0 : 1
+            },
+            children: leftIcon
+          }
+        ),
+        isLoading && /* @__PURE__ */ jsx2(
+          Box_default,
+          {
+            style: {
+              position: "absolute",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              inset: 0
+            },
+            children: /* @__PURE__ */ jsx2(AutoSpinner, {})
+          }
+        ),
+        /* @__PURE__ */ jsx2(
+          Box_default,
+          {
+            className: "button-text",
+            style: {
+              opacity: isLoading ? 0 : 1
+            },
+            children
+          }
+        ),
+        /* @__PURE__ */ jsx2(
+          Box_default,
+          {
+            style: {
+              opacity: isLoading ? 0 : 1
+            },
+            children: rightIcon
+          }
         )
-      }, props), {
-        children: [
-          /* @__PURE__ */ jsx2(
-            Box_default,
-            {
-              style: {
-                opacity: isLoading ? 0 : 1
-              },
-              children: leftIcon
-            }
-          ),
-          isLoading && /* @__PURE__ */ jsx2(
-            Box_default,
-            {
-              style: {
-                position: "absolute",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                inset: 0
-              },
-              children: /* @__PURE__ */ jsx2(AutoSpinner, {})
-            }
-          ),
-          /* @__PURE__ */ jsx2(
-            Box_default,
-            {
-              className: "button-text",
-              style: {
-                opacity: isLoading ? 0 : 1
-              },
-              children
-            }
-          ),
-          /* @__PURE__ */ jsx2(
-            Box_default,
-            {
-              style: {
-                opacity: isLoading ? 0 : 1
-              },
-              children: rightIcon
-            }
-          )
-        ]
-      })
-    );
-  }
-);
+      ]
+    })
+  );
+};
 var Button_default = Button;
 
 // ../../apps/docs/specs/Props.tsx
@@ -2479,11 +2511,13 @@ var NomiStyle = styled("div", nomiObject);
 var nomiClass = css(nomiObject);
 var NomiStyle_default = NomiStyle;
 export {
+  AutoSpinner,
   Box_default as Box,
   Button_default as Button,
   Props_default as ButtonProps,
   NomiStyle_default as NomiStyle,
   Radix,
+  Spinner,
   Text_default as Text,
   brandFonts,
   css,

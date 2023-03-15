@@ -3858,7 +3858,7 @@ interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
     css?: CSS;
     isDark?: boolean;
 }
-declare const Button: react__default.ForwardRefExoticComponent<Omit<ButtonProps, "ref"> & react__default.RefAttributes<HTMLButtonElement>>;
+declare const Button: ({ size, align, tone, intent, isLoading, children, leftIcon, rightIcon, depth, css, isDark, ...props }: ButtonProps) => JSX.Element;
 
 declare const Props: ({ spec }: any) => JSX.Element;
 
@@ -4781,6 +4781,9 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         backgroundColor: string;
     };
 }>>;
+
+declare function Spinner(props: react__default.SVGProps<SVGSVGElement>): JSX.Element;
+declare const AutoSpinner: () => JSX.Element;
 
 /**
  * Usage:
@@ -5727,4 +5730,4 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { Box, Button, Props as ButtonProps, NomiStyle, Radix, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+export { AutoSpinner, Box, Button, Props as ButtonProps, NomiStyle, Radix, Spinner, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
