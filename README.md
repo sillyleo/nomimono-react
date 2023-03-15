@@ -14,6 +14,7 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 - `docs`: this documentation website built with Nextra
 - `web`: another [Next.js](https://nextjs.org/) app for testing components
+- `workshop`: storybook
 - `ui`: the component library for npm package
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
