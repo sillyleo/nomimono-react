@@ -32,3 +32,4 @@ yarn-error.log*
 # turbo
 .turbo
 nomi.code-workspace
+.fleet/settings.json
