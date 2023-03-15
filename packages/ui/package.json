@@ -20,6 +20,7 @@
 		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.26.0",
 		"@types/lodash": "^4.14.191",
 		"@types/react": "^18.0.17",
 		"@types/react-dom": "^18.0.6",
