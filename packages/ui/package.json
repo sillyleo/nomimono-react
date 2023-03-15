@@ -1,6 +1,6 @@
 {
 	"name": "nomimono",
-	"version": "0.0.303",
+	"version": "0.0.304",
 	"access": "public",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
