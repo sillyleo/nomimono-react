@@ -34,3 +34,4 @@ yarn-error.log*
 nomi.code-workspace
 .fleet/settings.json
 packages/ui/dist
+.fleet/run.json
