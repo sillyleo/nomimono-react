@@ -95,6 +95,9 @@ export const BaseButton = styled("button", {
 });
 
 export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
+	/**
+	 * Size of the button
+	 */
 	size?: "sm" | "md" | "lg" | "xl";
 	align?: "left" | "center" | "right" | "between" | "around";
 	tone?: Tone;

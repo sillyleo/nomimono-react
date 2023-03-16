@@ -3847,6 +3847,9 @@ declare const BaseButton: _stitches_react_types_styled_component.StyledComponent
     };
 }>>;
 interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
+    /**
+     * Size of the button
+     */
     size?: "sm" | "md" | "lg" | "xl";
     align?: "left" | "center" | "right" | "between" | "around";
     tone?: Tone;
