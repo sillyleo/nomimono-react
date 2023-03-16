@@ -2326,41 +2326,6 @@ var Button = (_a) => {
 };
 var Button_default = Button;
 
-// ../../apps/docs/specs/Props.tsx
-import { jsx as jsx3, jsxs as jsxs3 } from "react/jsx-runtime";
-var Props = ({ spec }) => {
-  const props = spec.props;
-  const keys = Object.keys(props);
-  const rows = keys.map((key) => {
-    const prop = props[key];
-    return /* @__PURE__ */ jsxs3(
-      "tr",
-      {
-        className: "nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20 ",
-        children: [
-          /* @__PURE__ */ jsxs3("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: [
-            key,
-            " ",
-            prop.required ? /* @__PURE__ */ jsx3("span", { className: "nx-text-red-500", children: "*" }) : null
-          ] }),
-          /* @__PURE__ */ jsx3("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: prop.tsType.raw || prop.tsType.name }),
-          /* @__PURE__ */ jsx3("td", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 ", children: prop.description })
-        ]
-      },
-      key
-    );
-  });
-  return /* @__PURE__ */ jsxs3("table", { className: "nx-overflow-x-scroll nextra-scrollbar nx-mt-6 nx-p-0 first:nx-mt-0 nx-w-full", children: [
-    /* @__PURE__ */ jsx3("thead", { className: "nx-text-left	", children: /* @__PURE__ */ jsxs3("tr", { className: "nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20", children: [
-      /* @__PURE__ */ jsx3("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Props" }),
-      /* @__PURE__ */ jsx3("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Type" }),
-      /* @__PURE__ */ jsx3("th", { className: "nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600 ", children: "Description" })
-    ] }) }),
-    /* @__PURE__ */ jsx3("tbody", { className: "", style: { width: "200%" }, children: rows })
-  ] });
-};
-var Props_default = Props;
-
 // Text/index.tsx
 var Text = styled("div", {
   fontFamily: "$heading",
@@ -2514,7 +2479,6 @@ export {
   AutoSpinner,
   Box_default as Box,
   Button_default as Button,
-  Props_default as ButtonProps,
   NomiStyle_default as NomiStyle,
   Radix,
   Spinner,

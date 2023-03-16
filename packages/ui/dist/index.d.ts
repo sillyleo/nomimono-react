@@ -3860,8 +3860,6 @@ interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
 }
 declare const Button: ({ size, align, tone, intent, isLoading, children, leftIcon, rightIcon, depth, css, isDark, ...props }: ButtonProps) => JSX.Element;
 
-declare const Props: ({ spec }: any) => JSX.Element;
-
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"div", {
     size?: "body" | "overline" | "caption" | "label" | "page-title" | "page-title2" | "title1" | "title2" | "title3" | "subtitle1" | "subtitle2" | "body-bold" | undefined;
 }, {
@@ -5730,4 +5728,4 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { AutoSpinner, Box, Button, Props as ButtonProps, NomiStyle, Radix, Spinner, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+export { AutoSpinner, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
