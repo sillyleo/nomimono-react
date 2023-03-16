@@ -1,15 +1,11 @@
 module.exports = {
-	stories: [
-		"../**/*.stories.mdx",
-		"../**/*.stories.@(js|jsx|ts|tsx)",
-		"../stories/**/*.stories.mdx",
-		"../stories/**/*.stories.@(js|jsx|ts|tsx)",
-	],
-	addons: [
-		"@storybook/addon-links",
-		"@storybook/addon-docs",
-		"@storybook/addon-essentials",
-		"@storybook/addon-interactions",
-	],
-	framework: "@storybook/react",
+  stories: ["../**/*.mdx", "../**/*.stories.@(js|jsx|ts|tsx)", "../stories/**/*.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
+  addons: ["@storybook/addon-links", "@storybook/addon-docs", "@storybook/addon-essentials", "@storybook/addon-interactions", "@storybook/addon-mdx-gfm"],
+  framework: {
+    name: "@storybook/react-webpack5",
+    options: {}
+  },
+  docs: {
+    autodocs: true
+  }
 };
