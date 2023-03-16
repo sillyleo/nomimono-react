@@ -49,35 +49,6 @@ importers:
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.5
 
-  apps/web:
-    specifiers:
-      '@babel/core': ^7.0.0
-      '@types/node': ^17.0.12
-      '@types/react': ^18.0.22
-      '@types/react-dom': ^18.0.7
-      eslint: 7.32.0
-      eslint-config-custom: workspace:*
-      next: ^13.1.1
-      nomimono: workspace:*
-      react: 18.2.0
-      react-dom: 18.2.0
-      tsconfig: workspace:*
-      typescript: ^4.5.3
-    dependencies:
-      next: 13.2.4_6m24vuloj5ihw4zc5lbsktc4fu
-      nomimono: link:../../packages/ui
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    devDependencies:
-      '@babel/core': 7.21.0
-      '@types/node': 17.0.45
-      '@types/react': 18.0.28
-      '@types/react-dom': 18.0.11
-      eslint: 7.32.0
-      eslint-config-custom: link:../../packages/eslint-config-custom
-      tsconfig: link:../../packages/tsconfig
-      typescript: 4.9.5
-
   packages/eslint-config-custom:
     specifiers:
       eslint: ^7.23.0
@@ -102,9 +73,11 @@ importers:
     specifiers:
       '@babel/core': ^7.21.3
       '@changesets/cli': ^2.26.0
+      '@macaron-elements/loader-webpack': ^0.3.1
       '@radix-ui/colors': ^0.1.8
       '@stitches/react': ^1.2.8
       '@storybook/addon-actions': ^6.5.16
+      '@storybook/addon-docs': ^6.5.16
       '@storybook/addon-essentials': ^6.5.16
       '@storybook/addon-interactions': ^6.5.16
       '@storybook/addon-links': ^6.5.16
@@ -133,7 +106,9 @@ importers:
     devDependencies:
       '@babel/core': 7.21.3
       '@changesets/cli': 2.26.0
+      '@macaron-elements/loader-webpack': 0.3.1
       '@storybook/addon-actions': 6.5.16_sgv4m26tnl4echlq645clg5jc4
+      '@storybook/addon-docs': 6.5.16_cyon3dj2entkxjuf57v5yyjznm
       '@storybook/addon-essentials': 6.5.16_vtvxnosb6eugvmgg3wyfjwbwda
       '@storybook/addon-interactions': 6.5.16_reg7wm2a3qh3ah6z7o23eq7bcm
       '@storybook/addon-links': 6.5.16_sgv4m26tnl4echlq645clg5jc4
@@ -2303,6 +2278,21 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+
+  /@macaron-elements/compiler/0.3.0:
+    resolution: {integrity: sha512-fvojI2ay9OxW/RCQezscGrcNg4dlD4HrS8QCsuytJq/QnZJKeuehpY2TcGLZqxRubBPfft2U4MoAr41obOgiIQ==}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      prettier: 2.8.4
+      slash: 4.0.0
+    dev: true
+
+  /@macaron-elements/loader-webpack/0.3.1:
+    resolution: {integrity: sha512-9iuqmb+VUHp+7tkQvpnWtoMG81Vvc8lPCq9DmwgGYLPsxJaYPXm4WTumfPLgyQ6Z2p5SdFWUVwo8KVzl9ydAcw==}
+    dependencies:
+      '@macaron-elements/compiler': 0.3.0
+    dev: true
 
   /@manypkg/find-root/1.1.0:
     resolution: {integrity: sha512-mki5uBvhHzO8kYYix/WRy2WX8S3B5wdVSc9D6KcU5lQNglP2yt58/VfLuAK49glRXChosY8ap2oJ1qgma3GUVA==}
@@ -12984,6 +12974,11 @@ packages:
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
+
+  /slash/4.0.0:
+    resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
+    engines: {node: '>=12'}
+    dev: true
 
   /slice-ansi/4.0.0:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
