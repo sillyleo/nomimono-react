@@ -15,10 +15,11 @@
 	"scripts": {
 		"lint": "eslint *.ts*",
 		"build": "tsup index.tsx --format esm,cjs --dts --external react",
-		"dev": "tsup index.tsx --format esm,cjs --watch --dts --external react",
+		"watch": "tsup index.tsx --format esm,cjs --watch --dts --external react",
 		"ship": "tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
 		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs",
 		"storybook": "start-storybook -p 6006",
+		"dev": "turbo run watch & turbo run storybook",
 		"build-storybook": "build-storybook"
 	},
 	"devDependencies": {
