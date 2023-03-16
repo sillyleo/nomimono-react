@@ -344,3 +344,34 @@ export const brandFonts = globalCss({
 		},
 	],
 });
+
+// export type Tone from all color scales from RadixColors
+export type Tone =
+	| "gray"
+	| "mauve"
+	| "slate"
+	| "sage"
+	| "olive"
+	| "sand"
+	| "tomato"
+	| "red"
+	| "crimson"
+	| "pink"
+	| "plum"
+	| "purple"
+	| "violet"
+	| "indigo"
+	| "blue"
+	| "sky"
+	| "cyan"
+	| "teal"
+	| "mint"
+	| "green"
+	| "grass"
+	| "lime"
+	| "yellow"
+	| "amber"
+	| "orange"
+	| "brown"
+	| "bronze"
+	| "gold";

@@ -2,7 +2,7 @@ import _ from "lodash";
 import React from "react";
 import Box from "../Box";
 import { AutoSpinner } from "../Spinner";
-import { CSS, stitchesDarkTheme } from "../stitches.config";
+import { CSS, stitchesDarkTheme, Tone } from "../stitches.config";
 import { styled } from "../stitches.config";
 import { getButtonShadowStyle, getButtonToneStyle } from "../util/tones";
 
@@ -97,7 +97,7 @@ export const BaseButton = styled("button", {
 export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
 	size?: "sm" | "md" | "lg" | "xl";
 	align?: "left" | "center" | "right" | "between" | "around";
-	tone?: string;
+	tone?: Tone;
 	intent?: "primary" | "secondary" | "ghost";
 	leftIcon?: React.ReactNode;
 	rightIcon?: React.ReactNode;
@@ -107,7 +107,6 @@ export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
 	css?: CSS;
 	isDark?: boolean;
 }
-
 // add forwardRef to the component
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 	(

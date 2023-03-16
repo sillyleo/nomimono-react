@@ -3383,6 +3383,7 @@ declare const stitchesDarkTheme: string & {
 }, "">;
 declare const reset: () => string;
 declare const brandFonts: () => string;
+type Tone = "gray" | "mauve" | "slate" | "sage" | "olive" | "sand" | "tomato" | "red" | "crimson" | "pink" | "plum" | "purple" | "violet" | "indigo" | "blue" | "sky" | "cyan" | "teal" | "mint" | "green" | "grass" | "lime" | "yellow" | "amber" | "orange" | "brown" | "bronze" | "gold";
 
 declare const BaseButton: _stitches_react_types_styled_component.StyledComponent<"button", {
     size?: "sm" | "md" | "lg" | "xl" | undefined;
@@ -3848,7 +3849,7 @@ declare const BaseButton: _stitches_react_types_styled_component.StyledComponent
 interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
     size?: "sm" | "md" | "lg" | "xl";
     align?: "left" | "center" | "right" | "between" | "around";
-    tone?: string;
+    tone?: Tone;
     intent?: "primary" | "secondary" | "ghost";
     leftIcon?: react__default.ReactNode;
     rightIcon?: react__default.ReactNode;
@@ -5728,4 +5729,4 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { AutoSpinner, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+export { AutoSpinner, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

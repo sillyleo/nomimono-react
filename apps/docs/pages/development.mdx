@@ -5,7 +5,6 @@ Available scripts:
 
 ```bash
 # general
-pnpm build
 pnpm dev
 # publish package
 pnpm ship
@@ -20,26 +19,12 @@ pnpm build-token
 pnpm dev
 ```
 
+You should see two servers running:
+
+- `localhost:3000` - [the documentation website (this site)](https://nomimono.vercel.app/)
+- `localhost:6006` - [the workshop (storybook)](https://nomi-workshop.vercel.app/)
+
+## Develop components
+
 - Add files in `packages/ui/*`
 - Export them in the `packages/ui/src/index.tsx` file
-- Test them in `web` or `docs`
-
-## Generate types for documentation
-
-Generate button spec file and output it to `apps/docs/specs/button.json`
-
-```bash filename="Run from root"
-pnpm react-docgen packages/ui/Button/index.tsx -o apps/docs/specs/button.json --pretty
-```
-
-Then, in `apps/docs/pages/button.mdx`:
-
-```jsx filename="apps/docs/pages/button.mdx"
-import buttonSpec from '../specs/button.json'
-import Props from '../specs/props'
-
-<Props spec={buttonSpec} />
-```
-
-- [ ] Todo: automate generating spec.json
-- [ ] The description of the props is not displayed in the documentation

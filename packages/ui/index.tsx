@@ -16,4 +16,4 @@ export {
 	Radix,
 } from "./stitches.config";
 
-export type { CSS } from "./stitches.config";
+export type { CSS, Tone } from "./stitches.config";

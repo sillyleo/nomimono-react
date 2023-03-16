@@ -6,12 +6,10 @@ importers:
     specifiers:
       eslint-config-custom: workspace:*
       prettier: latest
-      react-docgen: ^5.4.3
       turbo: latest
     devDependencies:
       eslint-config-custom: link:packages/eslint-config-custom
       prettier: 2.8.4
-      react-docgen: 5.4.3
       turbo: 1.8.3
 
   apps/docs:
