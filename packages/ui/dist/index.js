@@ -32,6 +32,7 @@ var __objRest = (source, exclude) => {
 
 // Button/index.tsx
 import _ from "lodash";
+import React from "react";
 
 // stitches.config.ts
 import { createStitches, defaultThemeMap } from "@stitches/react";
@@ -2240,90 +2241,93 @@ var BaseButton = styled("button", {
     align: "center"
   }
 });
-var Button = (_a) => {
-  var _b = _a, {
-    size,
-    align,
-    tone = "slate",
-    intent = "primary",
-    isLoading,
-    children,
-    leftIcon,
-    rightIcon,
-    depth,
-    css: css2,
-    isDark
-  } = _b, props = __objRest(_b, [
-    "size",
-    "align",
-    "tone",
-    "intent",
-    "isLoading",
-    "children",
-    "leftIcon",
-    "rightIcon",
-    "depth",
-    "css",
-    "isDark"
-  ]);
-  return /* @__PURE__ */ jsxs2(
-    BaseButton,
-    __spreadProps(__spreadValues({
-      className: isDark ? stitchesDarkTheme : void 0,
+var Button = React.forwardRef(
+  (_a, ref) => {
+    var _b = _a, {
       size,
       align,
-      css: _.merge(
-        getButtonToneStyle(tone, intent),
-        getButtonShadowStyle(tone, depth),
-        css2
-      )
-    }, props), {
-      children: [
-        /* @__PURE__ */ jsx2(
-          Box_default,
-          {
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children: leftIcon
-          }
-        ),
-        isLoading && /* @__PURE__ */ jsx2(
-          Box_default,
-          {
-            style: {
-              position: "absolute",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              inset: 0
-            },
-            children: /* @__PURE__ */ jsx2(AutoSpinner, {})
-          }
-        ),
-        /* @__PURE__ */ jsx2(
-          Box_default,
-          {
-            className: "button-text",
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children
-          }
-        ),
-        /* @__PURE__ */ jsx2(
-          Box_default,
-          {
-            style: {
-              opacity: isLoading ? 0 : 1
-            },
-            children: rightIcon
-          }
+      tone = "slate",
+      intent = "primary",
+      isLoading,
+      children,
+      leftIcon,
+      rightIcon,
+      depth,
+      css: css2,
+      isDark
+    } = _b, props = __objRest(_b, [
+      "size",
+      "align",
+      "tone",
+      "intent",
+      "isLoading",
+      "children",
+      "leftIcon",
+      "rightIcon",
+      "depth",
+      "css",
+      "isDark"
+    ]);
+    return /* @__PURE__ */ jsxs2(
+      BaseButton,
+      __spreadProps(__spreadValues({
+        className: isDark ? stitchesDarkTheme : void 0,
+        ref,
+        size,
+        align,
+        css: _.merge(
+          getButtonToneStyle(tone, intent),
+          getButtonShadowStyle(tone, depth),
+          css2
         )
-      ]
-    })
-  );
-};
+      }, props), {
+        children: [
+          /* @__PURE__ */ jsx2(
+            Box_default,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: leftIcon
+            }
+          ),
+          isLoading && /* @__PURE__ */ jsx2(
+            Box_default,
+            {
+              style: {
+                position: "absolute",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                inset: 0
+              },
+              children: /* @__PURE__ */ jsx2(AutoSpinner, {})
+            }
+          ),
+          /* @__PURE__ */ jsx2(
+            Box_default,
+            {
+              className: "button-text",
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children
+            }
+          ),
+          /* @__PURE__ */ jsx2(
+            Box_default,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: rightIcon
+            }
+          )
+        ]
+      })
+    );
+  }
+);
 var Button_default = Button;
 
 // Text/index.tsx

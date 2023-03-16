@@ -109,150 +109,79 @@ export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
 }
 
 // add forwardRef to the component
-//const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-//  (
-//    {
-//      size,
-//      align,
-//      tone = "slate",
-//      intent = "primary",
-//      isLoading,
-//      children,
-//      leftIcon,
-//      rightIcon,
-//      depth,
-//      css,
-//      isDark,
-//      ...props
-//    }: ButtonProps,
-//    ref: React.ForwardedRef<HTMLButtonElement>
-//  ) => {
-//    return (
-//      <BaseButton
-//        className={isDark ? stitchesDarkTheme : undefined}
-//        ref={ref}
-//        size={size}
-//        align={align}
-//        css={_.merge(
-//          getButtonToneStyle(tone, intent),
-//          getButtonShadowStyle(tone, depth),
-//          css
-//        )}
-//        {...props}
-//      >
-//        {/*left icon*/}
-//        <Box
-//          style={{
-//            opacity: isLoading ? 0 : 1
-//          }}
-//        >
-//          {leftIcon}
-//        </Box>
-//        {/*loading*/}
-//        {isLoading && (
-//          <Box
-//            style={{
-//              position: "absolute",
-//              display: "flex",
-//              alignItems: "center",
-//              justifyContent: "center",
-//              inset: 0
-//            }}
-//          >
-//            <AutoSpinner />
-//          </Box>
-//        )}
-//
-//        <Box
-//          className="button-text"
-//          style={{
-//            opacity: isLoading ? 0 : 1
-//          }}
-//        >
-//          {children}
-//        </Box>
-//        {/*right icon*/}
-//        <Box
-//          style={{
-//            opacity: isLoading ? 0 : 1
-//          }}
-//        >
-//          {rightIcon}
-//        </Box>
-//      </BaseButton>
-//    );
-//  }
-//);
-//
-//export default Button;
-
-const Button = ({
-	size,
-	align,
-	tone = "slate",
-	intent = "primary",
-	isLoading,
-	children,
-	leftIcon,
-	rightIcon,
-	depth,
-	css,
-	isDark,
-	...props
-}: ButtonProps) => {
-	return (
-		<BaseButton
-			className={isDark ? stitchesDarkTheme : undefined}
-			size={size}
-			align={align}
-			css={_.merge(
-				getButtonToneStyle(tone, intent),
-				getButtonShadowStyle(tone, depth),
-				css
-			)}
-			{...props}
-		>
-			{/*left icon*/}
-			<Box
-				style={{
-					opacity: isLoading ? 0 : 1,
-				}}
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+	(
+		{
+			size,
+			align,
+			tone = "slate",
+			intent = "primary",
+			isLoading,
+			children,
+			leftIcon,
+			rightIcon,
+			depth,
+			css,
+			isDark,
+			...props
+		}: ButtonProps,
+		ref: React.ForwardedRef<HTMLButtonElement>
+	) => {
+		return (
+			<BaseButton
+				className={isDark ? stitchesDarkTheme : undefined}
+				ref={ref}
+				size={size}
+				align={align}
+				css={_.merge(
+					getButtonToneStyle(tone, intent),
+					getButtonShadowStyle(tone, depth),
+					css
+				)}
+				{...props}
 			>
-				{leftIcon}
-			</Box>
-			{/*loading*/}
-			{isLoading && (
+				{/*left icon*/}
 				<Box
 					style={{
-						position: "absolute",
-						display: "flex",
-						alignItems: "center",
-						justifyContent: "center",
-						inset: 0,
+						opacity: isLoading ? 0 : 1,
 					}}
 				>
-					<AutoSpinner />
+					{leftIcon}
 				</Box>
-			)}
+				{/*loading*/}
+				{isLoading && (
+					<Box
+						style={{
+							position: "absolute",
+							display: "flex",
+							alignItems: "center",
+							justifyContent: "center",
+							inset: 0,
+						}}
+					>
+						<AutoSpinner />
+					</Box>
+				)}
 
-			<Box
-				className="button-text"
-				style={{
-					opacity: isLoading ? 0 : 1,
-				}}
-			>
-				{children}
-			</Box>
-			{/*right icon*/}
-			<Box
-				style={{
-					opacity: isLoading ? 0 : 1,
-				}}
-			>
-				{rightIcon}
-			</Box>
-		</BaseButton>
-	);
-};
+				<Box
+					className="button-text"
+					style={{
+						opacity: isLoading ? 0 : 1,
+					}}
+				>
+					{children}
+				</Box>
+				{/*right icon*/}
+				<Box
+					style={{
+						opacity: isLoading ? 0 : 1,
+					}}
+				>
+					{rightIcon}
+				</Box>
+			</BaseButton>
+		);
+	}
+);
 
 export default Button;

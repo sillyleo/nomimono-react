@@ -3858,7 +3858,7 @@ interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
     css?: CSS;
     isDark?: boolean;
 }
-declare const Button: ({ size, align, tone, intent, isLoading, children, leftIcon, rightIcon, depth, css, isDark, ...props }: ButtonProps) => JSX.Element;
+declare const Button: react__default.ForwardRefExoticComponent<Omit<ButtonProps, "ref"> & react__default.RefAttributes<HTMLButtonElement>>;
 
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"div", {
     size?: "body" | "overline" | "caption" | "label" | "page-title" | "page-title2" | "title1" | "title2" | "title3" | "subtitle1" | "subtitle2" | "body-bold" | undefined;

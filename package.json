@@ -12,6 +12,7 @@
 		"lint": "turbo run lint",
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
 		"ship": "turbo run ship",
+		"storybook": "turbo run storybook",
 		"build-token": "turbo run build-token"
 	},
 	"devDependencies": {
