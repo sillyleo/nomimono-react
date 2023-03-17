@@ -2478,11 +2478,45 @@ var nomiObject = {
 var NomiStyle = styled("div", nomiObject);
 var nomiClass = css(nomiObject);
 var NomiStyle_default = NomiStyle;
+
+// util/Display.tsx
+import { motion } from "framer-motion";
+import { jsx as jsx3, jsxs as jsxs3 } from "react/jsx-runtime";
+function Display(_a) {
+  var _b = _a, { label, css: css2 } = _b, rest = __objRest(_b, ["label", "css"]);
+  return /* @__PURE__ */ jsxs3(
+    motion.div,
+    {
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      style: {
+        marginTop: "2em",
+        marginBottom: "2em"
+      },
+      children: [
+        /* @__PURE__ */ jsx3(Text_default, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
+        /* @__PURE__ */ jsx3(
+          Box_default,
+          __spreadValues({
+            css: __spreadValues({
+              borderWidth: 1,
+              p: "$6",
+              overflow: "hidden",
+              borderColor: "$slate6",
+              borderRadius: "$xl"
+            }, css2)
+          }, rest)
+        )
+      ]
+    }
+  );
+}
 export {
   AutoSpinner,
   BaseButton,
   Box_default as Box,
   Button,
+  Display,
   NomiStyle_default as NomiStyle,
   Radix,
   Spinner,

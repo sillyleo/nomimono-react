@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Box, Text } from "nomimono";
+import { Box, Text } from "../index";
 
 // An utility display for component
 export function Display({ label, css, ...rest }: any) {

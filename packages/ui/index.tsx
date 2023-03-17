@@ -3,6 +3,7 @@ export { default as Text } from "./Text";
 export { default as Box } from "./Box";
 export { Spinner, AutoSpinner } from "./Spinner";
 export { default as NomiStyle, nomiClass } from "./NomiStyle";
+export { Display } from "./util/Display";
 // stitches
 export {
 	styled,

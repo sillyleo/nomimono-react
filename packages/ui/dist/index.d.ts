@@ -5735,4 +5735,6 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { AutoSpinner, BaseButton, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+declare function Display({ label, css, ...rest }: any): JSX.Element;
+
+export { AutoSpinner, BaseButton, Box, Button, CSS, Display, NomiStyle, Radix, Spinner, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

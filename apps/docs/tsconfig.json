@@ -4,7 +4,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "dom"
+    "dom",
+    "../../packages/ui/util/Display.tsx"
   ],
   "exclude": [
     "node_modules"

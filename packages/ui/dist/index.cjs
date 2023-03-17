@@ -63,6 +63,7 @@ __export(ui_exports, {
   BaseButton: () => BaseButton,
   Box: () => Box_default,
   Button: () => Button,
+  Display: () => Display,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Spinner: () => Spinner,
@@ -2527,12 +2528,46 @@ var nomiObject = {
 var NomiStyle = styled("div", nomiObject);
 var nomiClass = css(nomiObject);
 var NomiStyle_default = NomiStyle;
+
+// util/Display.tsx
+var import_framer_motion = require("framer-motion");
+var import_jsx_runtime3 = require("react/jsx-runtime");
+function Display(_a) {
+  var _b = _a, { label, css: css2 } = _b, rest = __objRest(_b, ["label", "css"]);
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)(
+    import_framer_motion.motion.div,
+    {
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      style: {
+        marginTop: "2em",
+        marginBottom: "2em"
+      },
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Text_default, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+          Box_default,
+          __spreadValues({
+            css: __spreadValues({
+              borderWidth: 1,
+              p: "$6",
+              overflow: "hidden",
+              borderColor: "$slate6",
+              borderRadius: "$xl"
+            }, css2)
+          }, rest)
+        )
+      ]
+    }
+  );
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AutoSpinner,
   BaseButton,
   Box,
   Button,
+  Display,
   NomiStyle,
   Radix,
   Spinner,

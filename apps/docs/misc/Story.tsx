@@ -1,4 +1,4 @@
-import { Display } from "./Display";
+import { Display } from "nomimono";
 
 export const Story = ({ id }: { id: string }) => {
 	return (
