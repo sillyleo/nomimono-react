@@ -96,14 +96,15 @@ export const BaseButton = styled("button", {
 
 export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
 	size?: "sm" | "md" | "lg" | "xl";
-
-	align?: "left" | "center" | "right" | "between" | "around";
 	/**
 	 * No brand color here
-	 *
 	 */
 	tone?: Tone;
 	intent?: "primary" | "secondary" | "ghost";
+	/**
+	 * Use with leftIcon or rightIcon
+	 */
+	align?: "left" | "center" | "right" | "between" | "around";
 	leftIcon?: React.ReactNode;
 	rightIcon?: React.ReactNode;
 	isLoading?: boolean;

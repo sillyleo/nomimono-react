@@ -3848,13 +3848,15 @@ declare const BaseButton: _stitches_react_types_styled_component.StyledComponent
 }>>;
 interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
     size?: "sm" | "md" | "lg" | "xl";
-    align?: "left" | "center" | "right" | "between" | "around";
     /**
      * No brand color here
-     *
      */
     tone?: Tone;
     intent?: "primary" | "secondary" | "ghost";
+    /**
+     * Use with leftIcon or rightIcon
+     */
+    align?: "left" | "center" | "right" | "between" | "around";
     leftIcon?: react__default.ReactNode;
     rightIcon?: react__default.ReactNode;
     isLoading?: boolean;
