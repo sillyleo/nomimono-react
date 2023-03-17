@@ -2,12 +2,11 @@
 
 import type { Meta, StoryObj } from "@storybook/react";
 
-import Button from "./";
+import { Button } from "./";
 
 const meta: Meta<typeof Button> = {
 	title: "Button",
 	component: Button,
-	//👇 Enables auto-generated documentation for the component story
 	tags: ["autodocs"],
 };
 

@@ -60,8 +60,9 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var ui_exports = {};
 __export(ui_exports, {
   AutoSpinner: () => AutoSpinner,
+  BaseButton: () => BaseButton,
   Box: () => Box_default,
-  Button: () => Button_default,
+  Button: () => Button,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Spinner: () => Spinner,
@@ -2376,7 +2377,6 @@ var Button = import_react2.default.forwardRef(
     );
   }
 );
-var Button_default = Button;
 
 // Text/index.tsx
 var Text = styled("div", {
@@ -2530,6 +2530,7 @@ var NomiStyle_default = NomiStyle;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AutoSpinner,
+  BaseButton,
   Box,
   Button,
   NomiStyle,

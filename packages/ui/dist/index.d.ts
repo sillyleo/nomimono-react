@@ -3847,11 +3847,12 @@ declare const BaseButton: _stitches_react_types_styled_component.StyledComponent
     };
 }>>;
 interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
-    /**
-     * Size of the button
-     */
     size?: "sm" | "md" | "lg" | "xl";
     align?: "left" | "center" | "right" | "between" | "around";
+    /**
+     * No brand color here
+     *
+     */
     tone?: Tone;
     intent?: "primary" | "secondary" | "ghost";
     leftIcon?: react__default.ReactNode;
@@ -5732,4 +5733,4 @@ declare const nomiClass: _stitches_react_types_styled_component.CssComponent<nev
     };
 }>>;
 
-export { AutoSpinner, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+export { AutoSpinner, BaseButton, Box, Button, CSS, NomiStyle, Radix, Spinner, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

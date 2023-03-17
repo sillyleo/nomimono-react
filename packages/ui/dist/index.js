@@ -2328,7 +2328,6 @@ var Button = React.forwardRef(
     );
   }
 );
-var Button_default = Button;
 
 // Text/index.tsx
 var Text = styled("div", {
@@ -2481,8 +2480,9 @@ var nomiClass = css(nomiObject);
 var NomiStyle_default = NomiStyle;
 export {
   AutoSpinner,
+  BaseButton,
   Box_default as Box,
-  Button_default as Button,
+  Button,
   NomiStyle_default as NomiStyle,
   Radix,
   Spinner,
