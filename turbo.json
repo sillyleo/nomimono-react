@@ -18,6 +18,7 @@
 		"nomimono#dev": {},
 		"nomimono#watch": {},
 		"nomimono#storybook": {},
-		"build-token": {}
+		"build-token": {},
+		"chromatic": {}
 	}
 }

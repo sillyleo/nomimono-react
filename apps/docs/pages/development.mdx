@@ -5,18 +5,24 @@ Available scripts:
 
 ```bash
 # general
-pnpm dev
+turbo dev
+
 # publish package
-pnpm ship
+turbo ship
+
+# publish storybook to Chromatic
+turbo chromatic
+
+
 # manually build token file from Figma
 # only when github workflow failed
-pnpm build-token
+turbo build-token
 ```
 
 ## Run the dev server
 
 ```bash
-pnpm dev
+turbo dev
 ```
 
 You should see two servers running:
