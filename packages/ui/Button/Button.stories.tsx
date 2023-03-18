@@ -1,8 +1,6 @@
 // Button.stories.ts|tsx
 
-import type { Meta, StoryObj } from "@storybook/react";
-import Box from "../Box";
-import { Display } from "../util/Display";
+import { Meta, StoryObj } from "@storybook/react";
 import { Button } from "./";
 
 const meta: Meta<typeof Button> = {

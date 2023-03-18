@@ -1,12 +1,12 @@
 import { stitchesDarkTheme, theme } from "./../stitches.config";
 import { withThemeByClassName } from "@storybook/addon-styling";
 import type { Preview } from "@storybook/react";
-console.log(stitchesDarkTheme);
+
 export const decorators = [
 	withThemeByClassName({
 		themes: {
-			light: "light",
-			dark: "dark",
+			Light: "light",
+			Dark: stitchesDarkTheme.className,
 		},
 		defaultTheme: "light",
 	}),
@@ -15,11 +15,25 @@ export const decorators = [
 const preview: Preview = {
 	parameters: {
 		backgrounds: {
-			list: [{ name: "light", value: theme.colors.baseBackground }],
+			default: "Auto",
+			values: [
+				{
+					name: "Auto",
+					value: theme.colors["baseBackground"],
+				},
+				{
+					name: "White",
+					value: "#fff",
+				},
+				{
+					name: "Black",
+					value: "#000",
+				},
+			],
 		},
 		actions: { argTypesRegex: "^on[A-Z].*" },
 		controls: {
-			expanded: true,
+			expanded: false,
 			matchers: {
 				color: /(background|color)$/i,
 				date: /Date$/,
