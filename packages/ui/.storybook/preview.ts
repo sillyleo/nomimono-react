@@ -2,7 +2,9 @@ import { brandFonts, stitchesDarkTheme, theme } from "./../stitches.config";
 import { withThemeByClassName } from "@storybook/addon-styling";
 import type { Preview } from "@storybook/react";
 import DocTemplate from "./DocTemplate.mdx";
-import "@fontsource/inter";
+import "@fontsource/inter"; // Defaults to weight 400.
+import YourTheme from "./YourTheme";
+
 brandFonts();
 
 export const decorators = [
@@ -48,6 +50,7 @@ const preview: Preview = {
 			},
 		},
 		docs: {
+			theme: YourTheme,
 			page: DocTemplate,
 		},
 	},

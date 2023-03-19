@@ -9,7 +9,14 @@ const meta: Meta<typeof Box> = {
 	args: {
 		children: (
 			<>
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
 			</>
 		),
 	},
@@ -28,12 +35,54 @@ export const stack: Story = {
 		children: (
 			//@ts-ignore
 			<Stack>
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
-				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
+				<Box
+					css={{
+						bg: "$baseText",
+						opacity: 0.2,
+						borderRadius: "$xl",
+						boxSize: 60,
+					}}
+				/>
 			</Stack>
 		),
 	},
