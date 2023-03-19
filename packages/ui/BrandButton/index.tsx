@@ -4,14 +4,13 @@ import { Spinner } from "../Spinner";
 import { styled } from "../stitches.config";
 
 export interface BrandButtonProps {
-  // this doesn't extend 
-	// extends React.ComponentProps<typeof BaseButton> 
+	// this doesn't extend
+	// extends React.ComponentProps<typeof BaseButton>
 	isLoading?: boolean;
 	children?: React.ReactNode;
-  leftIcon?: React.ReactNode;
-  size?: "xs" | "sm" | "md" | "lg";
-  
-
+	leftIcon?: React.ReactNode;
+	size?: "xs" | "sm" | "md" | "lg";
+	brand?: "primary" | "normal" | "secondary";
 }
 
 export const BrandButton = forwardRef(
