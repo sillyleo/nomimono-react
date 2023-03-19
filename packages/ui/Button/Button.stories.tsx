@@ -14,20 +14,8 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const Primary: Story = {
+export const Default: Story = {
 	args: {
 		intent: "primary",
-	},
-};
-
-export const Secondary: Story = {
-	args: {
-		intent: "secondary",
-	},
-};
-
-export const Ghost: Story = {
-	args: {
-		intent: "ghost",
 	},
 };

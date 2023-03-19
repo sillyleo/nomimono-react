@@ -17,15 +17,3 @@ type Story = StoryObj<typeof BrandButton>;
 export const Default: Story = {
 	args: {},
 };
-
-export const Normal: Story = {
-	args: {
-		brand: "normal",
-	},
-};
-
-export const Secondary: Story = {
-	args: {
-		brand: "secondary",
-	},
-};
