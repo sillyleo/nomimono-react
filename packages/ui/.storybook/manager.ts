@@ -3,7 +3,7 @@
 import { addons } from "@storybook/manager-api";
 
 addons.setConfig({
-	isFullscreen: true,
+	isFullscreen: false,
 	showNav: false,
 	showPanel: true,
 	panelPosition: "bottom",
