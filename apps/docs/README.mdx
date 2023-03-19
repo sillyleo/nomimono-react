@@ -1,0 +1,42 @@
+## Installation
+
+```zsh
+pnpm install nomimono
+```
+
+## Usage
+
+In your file, import the components you need:
+
+```jsx
+import { Button } from "nomimono";
+```
+
+See all components here at the [Workshop](https://nomi-workshop.vercel.app/).
+
+For dark theme, add `stitchesDarkTheme` class to the root element:
+
+```jsx
+import { stitchesDarkTheme } from "nomimono";
+
+<div className={stitchesDarkTheme}>
+	{/* Component will display in dark mode */}
+</div>;
+```
+
+## Brand Fonts (optional)
+
+> Note: You need to buy the fonts yourself. Without the fonts the components works just fine.
+
+Fonts are optional but prioritize [Sk-Modernist](https://seankanedesign.gumroad.com/l/sk-modernist) for heading and Inter for body.
+
+- [Buy and install SkModernest](https://seankanedesign.gumroad.com/l/sk-modernist) in your project's `public/fonts` folder
+- Install Inter with `pnpm i @fontsource/inter-tight`
+
+Initialize brand fonts in your `index.tsx` or `app.tsx`, where all compoenets can access:
+
+```jsx
+import { brandFonts } from "nomimono";
+//set up fonts
+brandFonts();
+```

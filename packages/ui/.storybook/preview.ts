@@ -17,6 +17,11 @@ export const decorators = [
 
 const preview: Preview = {
 	parameters: {
+		options: {
+			storySort: {
+				order: ["Reademe", ["Atomic", "Components", "Recepies", "Templates"]],
+			},
+		},
 		backgrounds: {
 			default: "Auto",
 			values: [
