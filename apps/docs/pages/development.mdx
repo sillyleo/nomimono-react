@@ -35,3 +35,29 @@ You should see two servers running:
 
 - Add files in `packages/ui/*`
 - Export them in the `packages/ui/src/index.tsx` file
+
+## Publish package
+
+```bash
+turbo ship
+```
+
+## Publish storybook to Chromatic
+
+```bash
+turbo chromatic
+```
+
+## Embed Story in website
+
+Get `url` from the [top right corner of a story](https://nomi-workshop.vercel.app/?path=/story/atomic-button--default).
+
+Example:
+
+```jsx
+import {Story} from "../misc/Story"
+
+# Button
+
+<Story id="https://nomi-workshop.vercel.app/iframe.html?args=&id=atomic-button--default"/>
+```
