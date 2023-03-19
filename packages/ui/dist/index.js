@@ -1925,7 +1925,11 @@ var brandFonts = globalCss({
 
 // Box/index.tsx
 var Box = styled("div", {});
-var Box_default = Box;
+var Stack = styled(Box, {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4"
+});
 
 // Spinner/index.tsx
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -2283,7 +2287,7 @@ var Button = React.forwardRef(
       }, props), {
         children: [
           /* @__PURE__ */ jsx2(
-            Box_default,
+            Box,
             {
               style: {
                 opacity: isLoading ? 0 : 1
@@ -2292,7 +2296,7 @@ var Button = React.forwardRef(
             }
           ),
           isLoading && /* @__PURE__ */ jsx2(
-            Box_default,
+            Box,
             {
               style: {
                 position: "absolute",
@@ -2305,7 +2309,7 @@ var Button = React.forwardRef(
             }
           ),
           /* @__PURE__ */ jsx2(
-            Box_default,
+            Box,
             {
               className: "button-text",
               style: {
@@ -2315,7 +2319,7 @@ var Button = React.forwardRef(
             }
           ),
           /* @__PURE__ */ jsx2(
-            Box_default,
+            Box,
             {
               style: {
                 opacity: isLoading ? 0 : 1
@@ -2495,7 +2499,7 @@ function Display(_a) {
       children: [
         /* @__PURE__ */ jsx3(Text, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
         /* @__PURE__ */ jsx3(
-          Box_default,
+          Box,
           __spreadValues({
             css: __spreadValues({
               borderWidth: 1,
@@ -2513,12 +2517,13 @@ function Display(_a) {
 export {
   AutoSpinner,
   BaseButton,
-  Box_default as Box,
+  Box,
   Button,
   Display,
   NomiStyle_default as NomiStyle,
   Radix,
   Spinner,
+  Stack,
   Text,
   brandFonts,
   css,

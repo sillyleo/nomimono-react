@@ -1,5 +1,9 @@
 import { styled } from "../stitches.config";
 
-const Box = styled("div", {});
+export const Box = styled("div", {});
 
-export default Box; 
+export const Stack = styled(Box, {
+	display: "flex",
+	flexDirection: "column",
+	gap: "$4",
+});

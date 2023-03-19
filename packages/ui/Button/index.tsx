@@ -1,6 +1,6 @@
 import _ from "lodash";
 import React from "react";
-import Box from "../Box";
+import { Box } from "../Box";
 import { AutoSpinner } from "../Spinner";
 import { CSS, stitchesDarkTheme, Tone } from "../stitches.config";
 import { styled } from "../stitches.config";

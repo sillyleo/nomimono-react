@@ -61,12 +61,13 @@ var ui_exports = {};
 __export(ui_exports, {
   AutoSpinner: () => AutoSpinner,
   BaseButton: () => BaseButton,
-  Box: () => Box_default,
+  Box: () => Box,
   Button: () => Button,
   Display: () => Display,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Spinner: () => Spinner,
+  Stack: () => Stack,
   Text: () => Text,
   brandFonts: () => brandFonts,
   css: () => css,
@@ -1975,7 +1976,11 @@ var brandFonts = globalCss({
 
 // Box/index.tsx
 var Box = styled("div", {});
-var Box_default = Box;
+var Stack = styled(Box, {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4"
+});
 
 // Spinner/index.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
@@ -2333,7 +2338,7 @@ var Button = import_react2.default.forwardRef(
       }, props), {
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-            Box_default,
+            Box,
             {
               style: {
                 opacity: isLoading ? 0 : 1
@@ -2342,7 +2347,7 @@ var Button = import_react2.default.forwardRef(
             }
           ),
           isLoading && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-            Box_default,
+            Box,
             {
               style: {
                 position: "absolute",
@@ -2355,7 +2360,7 @@ var Button = import_react2.default.forwardRef(
             }
           ),
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-            Box_default,
+            Box,
             {
               className: "button-text",
               style: {
@@ -2365,7 +2370,7 @@ var Button = import_react2.default.forwardRef(
             }
           ),
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-            Box_default,
+            Box,
             {
               style: {
                 opacity: isLoading ? 0 : 1
@@ -2545,7 +2550,7 @@ function Display(_a) {
       children: [
         /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Text, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
         /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
-          Box_default,
+          Box,
           __spreadValues({
             css: __spreadValues({
               borderWidth: 1,
@@ -2570,6 +2575,7 @@ function Display(_a) {
   NomiStyle,
   Radix,
   Spinner,
+  Stack,
   Text,
   brandFonts,
   css,
