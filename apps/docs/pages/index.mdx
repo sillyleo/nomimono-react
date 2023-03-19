@@ -1,9 +1,16 @@
 import { Banner } from "../misc/Mono";
 import Readme from "../README.mdx";
-import {Button} from 'nomimono'
+import {Button,Stack} from 'nomimono'
 
 <br/>
 <Banner/>
+
+## Get Started
+
+<Stack css={{py: 24,flexDirection: "row"}}>
+  <Button tone="amber" intent="secondary" as="a" href="https://nomimono.vercel.app">Documentation</Button>
+  <Button  tone="amber" intent="secondary" as="a" href="https://nomi-workshop.vercel.app">Workshop</Button>
+</Stack>
 
 <Readme />
 

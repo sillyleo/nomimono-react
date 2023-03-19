@@ -1,8 +1,14 @@
 {
-    "index": {
-        "title": "Introduction"
-    },
-    "development": {
-        "title": "Development"
-    }
+	"index": {
+		"title": "Introduction"
+	},
+	"development": {
+		"title": "Development"
+	},
+	"workshop": {
+		"title": "Workshop",
+		"type": "page",
+		"href": "https://nomi-workshop.vercel.app",
+		"newWindow": true
+	}
 }

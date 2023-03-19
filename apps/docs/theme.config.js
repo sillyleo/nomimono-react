@@ -155,7 +155,7 @@ export default {
 		text: (
 			<span>
 				MIT {new Date().getFullYear()} ©{" "}
-				<a href="https://github.com/sillyleo" target="_blank">
+				<a href="https://twitter.com/LeoLin12982377" target="_blank">
 					Leo Lin
 				</a>
 				.
