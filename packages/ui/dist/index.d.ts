@@ -1,7 +1,7 @@
 import * as _stitches_react_types_styled_component from '@stitches/react/types/styled-component';
 import * as _stitches_react_types_css_util from '@stitches/react/types/css-util';
-import * as react from 'react';
-import react__default from 'react';
+import * as React from 'react';
+import React__default from 'react';
 import * as _stitches_react_types_theme from '@stitches/react/types/theme';
 import * as _stitches_react_types_css from '@stitches/react/types/css';
 import * as _stitches_react_types_stitches from '@stitches/react/types/stitches';
@@ -10,7 +10,7 @@ import * as Stitches from '@stitches/react';
 import * as RadixColors from '@radix-ui/colors';
 
 declare const Radix: typeof RadixColors;
-declare const styled: <Type extends _stitches_react_types_util.Function | keyof JSX.IntrinsicElements | react.ComponentType<any>, Composers extends (string | _stitches_react_types_util.Function | react.ComponentType<any> | {
+declare const styled: <Type extends _stitches_react_types_util.Function | keyof JSX.IntrinsicElements | React.ComponentType<any>, Composers extends (string | _stitches_react_types_util.Function | React.ComponentType<any> | {
     [name: string]: unknown;
 })[], CSS_1 = _stitches_react_types_css_util.CSS<{
     sm: "(min-width: 480px)";
@@ -463,7 +463,7 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
     bgTone12: (value: string) => {
         backgroundColor: string;
     };
-}>>(type: Type, ...composers: { [K in keyof Composers]: string extends Composers[K] ? Composers[K] : Composers[K] extends string | _stitches_react_types_util.Function | react.ComponentType<any> ? Composers[K] : _stitches_react_types_stitches.RemoveIndex<CSS_1> & {
+}>>(type: Type, ...composers: { [K in keyof Composers]: string extends Composers[K] ? Composers[K] : Composers[K] extends string | _stitches_react_types_util.Function | React.ComponentType<any> ? Composers[K] : _stitches_react_types_stitches.RemoveIndex<CSS_1> & {
     variants?: {
         [x: string]: {
             [x: string]: CSS_1;
@@ -932,7 +932,7 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         backgroundColor: string;
     };
 }>>;
-declare const css: <Composers extends (string | _stitches_react_types_util.Function | react.JSXElementConstructor<any> | react.ExoticComponent<any> | {
+declare const css: <Composers extends (string | _stitches_react_types_util.Function | React.JSXElementConstructor<any> | React.ExoticComponent<any> | {
     [name: string]: unknown;
 })[], CSS_1 = _stitches_react_types_css_util.CSS<{
     sm: "(min-width: 480px)";
@@ -1385,7 +1385,7 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
     bgTone12: (value: string) => {
         backgroundColor: string;
     };
-}>>(...composers: { [K in keyof Composers]: string extends Composers[K] ? Composers[K] : Composers[K] extends string | _stitches_react_types_util.Function | react.JSXElementConstructor<any> | react.ExoticComponent<any> ? Composers[K] : _stitches_react_types_stitches.RemoveIndex<CSS_1> & {
+}>>(...composers: { [K in keyof Composers]: string extends Composers[K] ? Composers[K] : Composers[K] extends string | _stitches_react_types_util.Function | React.JSXElementConstructor<any> | React.ExoticComponent<any> ? Composers[K] : _stitches_react_types_stitches.RemoveIndex<CSS_1> & {
     variants?: {
         [x: string]: {
             [x: string]: CSS_1;
@@ -3846,7 +3846,7 @@ declare const BaseButton: _stitches_react_types_styled_component.StyledComponent
         backgroundColor: string;
     };
 }>>;
-interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
+interface ButtonProps extends React__default.ComponentProps<typeof BaseButton> {
     size?: "sm" | "md" | "lg" | "xl";
     /**
      * No brand color here
@@ -3857,15 +3857,15 @@ interface ButtonProps extends react__default.ComponentProps<typeof BaseButton> {
      * Use with leftIcon or rightIcon
      */
     align?: "left" | "center" | "right" | "between" | "around";
-    leftIcon?: react__default.ReactNode;
-    rightIcon?: react__default.ReactNode;
+    leftIcon?: React__default.ReactNode;
+    rightIcon?: React__default.ReactNode;
     isLoading?: boolean;
-    children?: react__default.ReactNode;
+    children?: React__default.ReactNode;
     depth?: "0" | "1" | "2" | "3";
     css?: CSS;
     isDark?: boolean;
 }
-declare const Button: react__default.ForwardRefExoticComponent<Omit<ButtonProps, "ref"> & react__default.RefAttributes<HTMLButtonElement>>;
+declare const Button: React__default.ForwardRefExoticComponent<Omit<ButtonProps, "ref"> & React__default.RefAttributes<HTMLButtonElement>>;
 
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"div", {
     size?: "body" | "overline" | "caption" | "label" | "page-title" | "page-title2" | "title1" | "title2" | "title3" | "subtitle1" | "subtitle2" | "body-bold" | undefined;
@@ -4787,7 +4787,7 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
     };
 }>>;
 
-declare function Spinner(props: react__default.SVGProps<SVGSVGElement>): JSX.Element;
+declare function Spinner(props: React__default.SVGProps<SVGSVGElement>): JSX.Element;
 declare const AutoSpinner: () => JSX.Element;
 
 /**

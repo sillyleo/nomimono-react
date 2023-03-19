@@ -1,5 +1,5 @@
 export { Button, BaseButton } from "./Button";
-export { default as Text } from "./Text";
+export { Text } from "./Text";
 export { default as Box } from "./Box";
 export { Spinner, AutoSpinner } from "./Spinner";
 export { default as NomiStyle, nomiClass } from "./NomiStyle";

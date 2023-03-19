@@ -67,7 +67,7 @@ __export(ui_exports, {
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Spinner: () => Spinner,
-  Text: () => Text_default,
+  Text: () => Text,
   brandFonts: () => brandFonts,
   css: () => css,
   globalCss: () => globalCss,
@@ -2466,7 +2466,6 @@ var Text = styled("div", {
     size: "body"
   }
 });
-var Text_default = Text;
 
 // NomiStyle/index.tsx
 var nomiObject = {
@@ -2544,7 +2543,7 @@ function Display(_a) {
         marginBottom: "2em"
       },
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Text_default, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Text, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
         /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
           Box_default,
           __spreadValues({

@@ -1,6 +1,9 @@
-import { stitchesDarkTheme, theme } from "./../stitches.config";
+import { brandFonts, stitchesDarkTheme, theme } from "./../stitches.config";
 import { withThemeByClassName } from "@storybook/addon-styling";
 import type { Preview } from "@storybook/react";
+import DocTemplate from "./DocTemplate.mdx";
+
+brandFonts();
 
 export const decorators = [
 	withThemeByClassName({
@@ -33,11 +36,14 @@ const preview: Preview = {
 		},
 		actions: { argTypesRegex: "^on[A-Z].*" },
 		controls: {
-			expanded: false,
+			expanded: true,
 			matchers: {
 				color: /(background|color)$/i,
 				date: /Date$/,
 			},
+		},
+		docs: {
+			page: DocTemplate,
 		},
 	},
 };

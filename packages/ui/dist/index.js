@@ -2416,7 +2416,6 @@ var Text = styled("div", {
     size: "body"
   }
 });
-var Text_default = Text;
 
 // NomiStyle/index.tsx
 var nomiObject = {
@@ -2494,7 +2493,7 @@ function Display(_a) {
         marginBottom: "2em"
       },
       children: [
-        /* @__PURE__ */ jsx3(Text_default, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
+        /* @__PURE__ */ jsx3(Text, { css: { mb: "$2" }, size: "overline", color: "slate10", children: label }),
         /* @__PURE__ */ jsx3(
           Box_default,
           __spreadValues({
@@ -2520,7 +2519,7 @@ export {
   NomiStyle_default as NomiStyle,
   Radix,
   Spinner,
-  Text_default as Text,
+  Text,
   brandFonts,
   css,
   globalCss,

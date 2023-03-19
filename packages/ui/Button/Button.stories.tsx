@@ -6,7 +6,6 @@ import { Button } from "./";
 const meta: Meta<typeof Button> = {
 	title: "Button",
 	component: Button,
-	tags: ["autodocs"],
 	args: {
 		children: "Button",
 	},
@@ -15,6 +14,6 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const Primary: Story = {
+export const Default: Story = {
 	args: {},
 };

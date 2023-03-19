@@ -1,8 +1,23 @@
+import React from "react";
 import { styled } from "../stitches.config";
 
-export type TextProps = React.ComponentProps<typeof Text>;
+export type TextProps = React.ComponentProps<typeof Text> & {
+	size?:
+		| "page-title"
+		| "page-title2"
+		| "title1"
+		| "title2"
+		| "title3"
+		| "subtitle1"
+		| "subtitle2"
+		| "overline"
+		| "body"
+		| "body-bold"
+		| "label"
+		| "caption";
+};
 
-const Text = styled("div", {
+export const Text = styled("div", {
 	fontFamily: "$heading",
 	variants: {
 		size: {
@@ -88,5 +103,3 @@ const Text = styled("div", {
 		size: "body",
 	},
 });
-
-export default Text;
