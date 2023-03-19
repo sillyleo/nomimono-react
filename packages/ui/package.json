@@ -1,6 +1,6 @@
 {
 	"name": "nomimono",
-	"version": "0.0.305",
+	"version": "0.0.306",
 	"access": "public",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
@@ -68,6 +68,5 @@
 		"lodash": "^4.17.21",
 		"storybook-addon-designs": "^6.3.1"
 	},
-	"readme": "ERROR: No README data found!",
-	"_id": "nomimono@0.0.305"
+	"readme": "ERROR: No README data found!"
 }
