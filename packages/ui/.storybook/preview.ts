@@ -2,7 +2,7 @@ import { brandFonts, stitchesDarkTheme, theme } from "./../stitches.config";
 import { withThemeByClassName } from "@storybook/addon-styling";
 import type { Preview } from "@storybook/react";
 import DocTemplate from "./DocTemplate.mdx";
-
+import "@fontsource/inter";
 brandFonts();
 
 export const decorators = [

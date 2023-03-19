@@ -15,6 +15,7 @@ importers:
   apps/docs:
     specifiers:
       '@babel/core': ^7.0.0
+      '@fontsource/inter': ^4.5.15
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
       '@types/react-dom': ^18.0.7
@@ -30,6 +31,7 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.5.3
     dependencies:
+      '@fontsource/inter': 4.5.15
       framer-motion: 10.2.4_biqbaboplfbrettd7655fr4n2y
       next: 13.2.4_6m24vuloj5ihw4zc5lbsktc4fu
       nextra: 2.2.19_ld2jel3hspngo3u5lti2kgl2sq
@@ -74,6 +76,7 @@ importers:
       '@babel/preset-react': ^7.18.6
       '@babel/preset-typescript': ^7.21.0
       '@changesets/cli': ^2.26.0
+      '@fontsource/inter': ^4.5.15
       '@macaron-elements/loader-webpack': ^0.3.1
       '@radix-ui/colors': ^0.1.8
       '@stitches/react': ^1.2.8
@@ -108,6 +111,7 @@ importers:
       tsup: ^6.6.3
       typescript: ^4.5.2
     dependencies:
+      '@fontsource/inter': 4.5.15
       '@radix-ui/colors': 0.1.8
       '@stitches/react': 1.2.8_react@18.2.0
       framer-motion: 10.2.4_biqbaboplfbrettd7655fr4n2y
@@ -2188,6 +2192,10 @@ packages:
       '@figspec/components': 1.0.1
       '@lit-labs/react': 1.1.1
       react: 18.2.0
+    dev: false
+
+  /@fontsource/inter/4.5.15:
+    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
     dev: false
 
   /@headlessui/react/1.7.13_biqbaboplfbrettd7655fr4n2y:
