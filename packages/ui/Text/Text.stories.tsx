@@ -2,20 +2,46 @@
 
 import { Meta, StoryObj } from "@storybook/react";
 import { Text } from ".";
-
+import { Box } from "../Box";
 const meta: Meta<typeof Text> = {
 	title: "Atomic/Text",
 	component: Text,
 	args: {
 		children: "Text",
-		css: {
-			color: "$baseText",
-		},
 	},
 };
 
 export default meta;
 type Story = StoryObj<typeof Text>;
+
+export const Typeset: Story = {
+	render: () => {
+		return (
+			<div
+				style={{
+					// flex vertical layout gap 16px
+					display: "flex",
+					flexDirection: "column",
+					gap: "24px",
+				}}
+			>
+				{/* all text type here */}
+				<Text size="page-title">Page Title</Text>
+				<Text size="page-title2">Page Title 2</Text>
+				<Text size="title1">Title 1</Text>
+				<Text size="title2">Title 2</Text>
+				<Text size="title3">Title 3</Text>
+				<Text size="subtitle1">Subtitle 1</Text>
+				<Text size="subtitle2">Subtitle 2</Text>
+				<Text size="overline">Overline</Text>
+				<Text size="body">Body</Text>
+				<Text size="body-bold">Body Bold</Text>
+				<Text size="label">Label</Text>
+				<Text size="caption">Caption</Text>
+			</div>
+		);
+	},
+};
 
 export const PageTitle: Story = {
 	args: {
@@ -87,34 +113,5 @@ export const Label: Story = {
 export const Caption: Story = {
 	args: {
 		size: "caption",
-	},
-};
-
-export const Typeset: Story = {
-	render: () => {
-		return (
-			<div
-				style={{
-					// flex vertical layout gap 16px
-					display: "flex",
-					flexDirection: "column",
-					gap: "24px",
-				}}
-			>
-				{/* all text type here */}
-				<Text size="page-title">Page Title</Text>
-				<Text size="page-title2">Page Title 2</Text>
-				<Text size="title1">Title 1</Text>
-				<Text size="title2">Title 2</Text>
-				<Text size="title3">Title 3</Text>
-				<Text size="subtitle1">Subtitle 1</Text>
-				<Text size="subtitle2">Subtitle 2</Text>
-				<Text size="overline">Overline</Text>
-				<Text size="body">Body</Text>
-				<Text size="body-bold">Body Bold</Text>
-				<Text size="label">Label</Text>
-				<Text size="caption">Caption</Text>
-			</div>
-		);
 	},
 };

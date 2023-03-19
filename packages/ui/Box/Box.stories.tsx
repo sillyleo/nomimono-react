@@ -26,6 +26,7 @@ export const box: Story = {
 export const stack: Story = {
 	args: {
 		children: (
+			//@ts-ignore
 			<Stack>
 				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
 				<Box css={{ bg: "$slate5", borderRadius: "$xl", boxSize: 60 }} />
