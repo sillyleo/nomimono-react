@@ -8,6 +8,9 @@ const meta: Meta<typeof Text> = {
 	component: Text,
 	args: {
 		children: "Text",
+		css: {
+			color: "$baseText",
+		},
 	},
 };
 
@@ -17,12 +20,13 @@ type Story = StoryObj<typeof Text>;
 export const Typeset: Story = {
 	render: () => {
 		return (
-			<div
-				style={{
+			<Box
+				css={{
 					// flex vertical layout gap 16px
 					display: "flex",
 					flexDirection: "column",
 					gap: "24px",
+					color: "$baseText",
 				}}
 			>
 				{/* all text type here */}
@@ -38,7 +42,7 @@ export const Typeset: Story = {
 				<Text size="body-bold">Body Bold</Text>
 				<Text size="label">Label</Text>
 				<Text size="caption">Caption</Text>
-			</div>
+			</Box>
 		);
 	},
 };

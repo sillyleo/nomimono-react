@@ -68,6 +68,7 @@
 		"@radix-ui/colors": "^0.1.8",
 		"@stitches/react": "^1.2.8",
 		"@storybook/addons": "^6.5.16",
+		"ariakit": "2.0.0-next.43",
 		"framer-motion": "^10.2.4",
 		"lodash": "^4.17.21",
 		"storybook-addon-designs": "^6.3.1"
