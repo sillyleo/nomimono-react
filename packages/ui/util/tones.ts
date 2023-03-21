@@ -231,9 +231,13 @@ export function getCheckboxToneStyle(tone: string) {
 	) {
 		return {
 			bgTone2: tone,
-			boxShadow: `0 0 0 1.5px $${tone + "7"}`,
+			boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
 			"&:active": {
 				bgTone3: tone,
+			},
+			"&[data-state=checked]": {
+				bgTone9: tone,
+				boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`,
 			},
 			color: "black",
 		};
@@ -248,18 +252,26 @@ export function getCheckboxToneStyle(tone: string) {
 	) {
 		return {
 			bgTone3: tone,
-			boxShadow: `0 0 0 1.5px $${tone + "8"}`,
+			boxShadow: `0 0 0 1.5px $colors$${tone + "8"}`,
 			"&:active": {
 				bgTone4: tone,
+			},
+			"&[data-state=checked]": {
+				bgTone9: tone,
+				boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`,
 			},
 			color: "white",
 		};
 	} else {
 		return {
 			bgTone2: tone,
-			boxShadow: `0 0 0 1.5px $${tone + "7"}`,
+			boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
 			"&:active": {
 				bgTone3: tone,
+			},
+			"&[data-state=checked]": {
+				bgTone9: tone,
+				boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`,
 			},
 			color: "white",
 		};

@@ -7,7 +7,7 @@ const meta: Meta<typeof Checkbox> = {
 	title: "Atomic/Checkbox",
 	component: Checkbox,
 	args: {
-		children: "Check2box",
+		children: "Checkbox",
 	},
 };
 

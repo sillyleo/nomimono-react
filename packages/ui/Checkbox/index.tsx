@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
 	Checkbox as CheckboxPrimitive,
 	CheckboxProps,
@@ -7,15 +7,12 @@ import {
 
 import { VisuallyHidden } from "react-aria";
 
-import { CSS, keyframes, styled, Tone } from "../stitches.config";
 import _ from "lodash";
-import { getCheckboxToneStyle } from "../util/tones";
-import { Box } from "../Box";
 import { LucideIcon } from "../LucideIcon";
+import { CSS, styled, Tone } from "../stitches.config";
+import { Text } from "../Text";
+import { getCheckboxToneStyle } from "../util/tones";
 export interface CheckboxExtendedProps extends CheckboxProps {
-	//realkit
-	disabled?: boolean | undefined;
-	//custom
 	defaultChecked?: boolean | undefined;
 	children?: React.ReactNode;
 	tone?: Tone;
@@ -36,12 +33,10 @@ export interface CheckboxExtendedProps extends CheckboxProps {
 
 function CheckboxWithLabel(
 	{
-		disabled,
 		defaultChecked,
 		children,
-		checkEmoji,
-		fontSize,
-		tone = "gray",
+		fontSize = "lg",
+		tone = "slate",
 		css,
 		...props
 	}: CheckboxExtendedProps,
@@ -50,49 +45,29 @@ function CheckboxWithLabel(
 	const checkbox = useCheckboxState({
 		state: defaultChecked,
 	});
-	// console.log(checkbox.state);
+	console.log(checkbox);
 	return (
 		<CheckboxLabel
-			css={{
-				fontSize: fontSize,
-			}}
-			status={!!disabled ? "disabled" : "enabled"}
+			data-state={props.disabled ? "disabled" : undefined}
+			css={{ fontSize: `$${fontSize}`, color: "$baseText" }}
 		>
 			<VisuallyHidden>
 				<CheckboxPrimitive
-					disabled={disabled}
+					// disabled={disabled}
 					ref={ref}
 					{...checkbox}
 					{...props}
 				/>
 			</VisuallyHidden>
 			<CheckboxRoot
+				data-state={checkbox.state ? "checked" : "unchecked"}
 				css={_.merge(getCheckboxToneStyle(tone), css)}
-				data-state={
-					props.checked !== undefined
-						? props.checked
-							? "checked"
-							: "unchecked"
-						: checkbox.state
-						? "checked"
-						: "unchecked"
-				} // styling based on state
 			>
-				{/* use checked if it's present, else use state */}
-				{props.checked === true ? (
-					<CheckboxIndicator>
-						{checkEmoji ? checkEmoji : <LucideIcon name="check" />}
-					</CheckboxIndicator>
-				) : (
-					checkbox.state && (
-						<CheckboxIndicator>
-							{checkEmoji ? checkEmoji : <LucideIcon name="check" />}
-						</CheckboxIndicator>
-					)
-				)}
+				<CheckboxIndicator checked={!!checkbox.state}>
+					<LucideIcon strokeWidth={2.5} name="check" />
+				</CheckboxIndicator>
 			</CheckboxRoot>
-
-			<Box as="span">{children}</Box>
+			<Text css={{ fontSize: "inherit" }}>{children}</Text>
 		</CheckboxLabel>
 	);
 }
@@ -117,6 +92,10 @@ const CheckboxLabel = styled("label", {
 			},
 		},
 	},
+	"&[data-state=disabled]": {
+		opacity: 0.65,
+		cursor: "not-allowed",
+	},
 });
 
 const CheckboxRoot = styled("div", {
@@ -138,13 +117,22 @@ const CheckboxRoot = styled("div", {
 
 const CheckboxIndicator = styled("div", {
 	aspectRatio: "1/1",
-	height: "24px",
-	width: "24px",
+	height: "1em",
+	width: "1em",
 	position: "relative",
 	textAlign: "center",
 	overflow: "hidden",
 	display: "inline-flex",
 	alignItems: "center",
+	color: "inherit",
 	justifyContent: "center",
 	padding: 0,
+	opacity: 0,
+	variants: {
+		checked: {
+			true: {
+				opacity: 1,
+			},
+		},
+	},
 });

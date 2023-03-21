@@ -32,7 +32,7 @@ export const LucideIcon = ({
 	return (
 		<LucideIcon
 			color={color}
-			size={size ? size : "1.45em"}
+			size={size ? size : "100%"}
 			strokeWidth={strokeWidth}
 			fill={fill}
 			style={{
