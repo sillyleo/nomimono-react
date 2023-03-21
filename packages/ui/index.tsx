@@ -4,6 +4,8 @@ export { Box, Stack } from "./Box";
 export { Spinner, AutoSpinner } from "./Spinner";
 export { default as NomiStyle, nomiClass } from "./NomiStyle";
 export { Display } from "./util/Display";
+export { Checkbox } from "./Checkbox";
+export { Footer } from "./Footer";
 // stitches
 export {
 	styled,

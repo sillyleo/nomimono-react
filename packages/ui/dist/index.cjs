@@ -55,6 +55,26 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
 
 // index.tsx
 var ui_exports = {};
@@ -63,7 +83,9 @@ __export(ui_exports, {
   BaseButton: () => BaseButton,
   Box: () => Box,
   Button: () => Button,
+  Checkbox: () => Checkbox,
   Display: () => Display,
+  Footer: () => Footer,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
   Spinner: () => Spinner,
@@ -2208,6 +2230,51 @@ function getButtonShadowStyle(tone, depth) {
   } else
     return {};
 }
+function getCheckboxToneStyle(tone) {
+  if (tone === "sky" || tone === "mint" || tone === "lime" || tone === "yellow" || tone === "amber") {
+    return {
+      bgTone2: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
+      "&:active": {
+        bgTone3: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "black"
+    };
+  } else if (
+    // grayscale series
+    tone === "gray" || tone === "mauve" || tone === "slate" || tone === "sage" || tone === "olive" || tone === "sand"
+  ) {
+    return {
+      bgTone3: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "8"}`,
+      "&:active": {
+        bgTone4: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "white"
+    };
+  } else {
+    return {
+      bgTone2: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
+      "&:active": {
+        bgTone3: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "white"
+    };
+  }
+}
 
 // Button/index.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
@@ -2565,13 +2632,296 @@ function Display(_a) {
     }
   );
 }
+
+// Checkbox/index.tsx
+var import_react3 = __toESM(require("react"), 1);
+var import_Checkbox = require("reakit/Checkbox");
+var import_react_aria = require("react-aria");
+var import_lodash3 = __toESM(require("lodash"), 1);
+
+// LucideIcon/index.tsx
+var import_lodash2 = __toESM(require("lodash"), 1);
+var icons = __toESM(require("lucide-react"), 1);
+var import_jsx_runtime4 = require("react/jsx-runtime");
+var LucideIcon = (_a) => {
+  var _b = _a, {
+    name,
+    color,
+    size,
+    boxSize,
+    fill = "none",
+    strokeWidth,
+    className
+  } = _b, props = __objRest(_b, [
+    "name",
+    "color",
+    "size",
+    "boxSize",
+    "fill",
+    "strokeWidth",
+    "className"
+  ]);
+  const iconNameCamelCase = import_lodash2.default.camelCase(name);
+  const IconNameUpperCase = iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
+  const LucideIcon2 = icons[IconNameUpperCase];
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+    LucideIcon2,
+    __spreadValues({
+      color,
+      size: size ? size : "100%",
+      strokeWidth,
+      fill,
+      style: {
+        flexShrink: 1,
+        height: boxSize ? boxSize : void 0,
+        width: boxSize ? boxSize : void 0,
+        aspectRatio: "1"
+      },
+      className
+    }, props)
+  );
+};
+
+// Checkbox/index.tsx
+var import_jsx_runtime5 = require("react/jsx-runtime");
+function CheckboxWithLabel(_a, ref) {
+  var _b = _a, {
+    defaultChecked,
+    children,
+    fontSize = "lg",
+    tone = "slate",
+    css: css2
+  } = _b, props = __objRest(_b, [
+    "defaultChecked",
+    "children",
+    "fontSize",
+    "tone",
+    "css"
+  ]);
+  const checkbox = (0, import_Checkbox.useCheckboxState)({
+    state: defaultChecked
+  });
+  console.log(checkbox);
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(
+    CheckboxLabel,
+    {
+      "data-state": props.disabled ? "disabled" : void 0,
+      css: { fontSize: `$${fontSize}`, color: "$baseText" },
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+          import_Checkbox.Checkbox,
+          __spreadValues(__spreadValues({
+            ref
+          }, checkbox), props)
+        ) }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+          CheckboxRoot,
+          {
+            "data-state": checkbox.state ? "checked" : "unchecked",
+            css: import_lodash3.default.merge(getCheckboxToneStyle(tone), css2),
+            children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Text, { css: { fontSize: "inherit" }, children })
+      ]
+    }
+  );
+}
+var Checkbox = import_react3.default.forwardRef(CheckboxWithLabel);
+var CheckboxLabel = styled("label", {
+  lineHeight: 1,
+  height: "1em",
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "0.4em",
+  userSelect: "none",
+  variants: {
+    status: {
+      enabled: {
+        cursor: "pointer"
+      },
+      disabled: {
+        opacity: 0.65,
+        cursor: "not-allowed"
+      }
+    }
+  },
+  "&[data-state=disabled]": {
+    opacity: 0.65,
+    cursor: "not-allowed"
+  }
+});
+var CheckboxRoot = styled("div", {
+  aspectRatio: "1",
+  fontSize: "inherit",
+  width: "auto",
+  height: "100%",
+  overflow: "hidden",
+  flexShrink: 1,
+  borderRadius: "25%",
+  justifyContent: "center",
+  padding: "0",
+  border: "none",
+  display: "inline-flex",
+  transition: "all 0.2s",
+  alignItems: "center",
+  ":active": { transform: "scale(0.9)" }
+});
+var CheckboxIndicator = styled("div", {
+  aspectRatio: "1/1",
+  height: "1em",
+  width: "1em",
+  position: "relative",
+  textAlign: "center",
+  overflow: "hidden",
+  display: "inline-flex",
+  alignItems: "center",
+  color: "inherit",
+  justifyContent: "center",
+  padding: 0,
+  opacity: 0,
+  variants: {
+    checked: {
+      true: {
+        opacity: 1
+      }
+    }
+  }
+});
+
+// Footer/index.tsx
+var import_graphql_request = require("graphql-request");
+var import_react4 = __toESM(require("react"), 1);
+var import_jsx_runtime6 = require("react/jsx-runtime");
+var hygraph = new import_graphql_request.GraphQLClient(
+  "https://ap-northeast-1.cdn.hygraph.com/content/clf0ox8k023ql01t56zef5n6w/master"
+);
+var QUERY = import_graphql_request.gql`
+	query Footers {
+		footers {
+			id
+			sectionTitle
+			sectionContent {
+				icon {
+					url
+				}
+				linkTitle
+				url
+			}
+		}
+	}
+`;
+var Footer = ({ isDark }) => {
+  function getFooterData() {
+    return __async(this, null, function* () {
+      const data = yield hygraph.request(QUERY);
+      return data;
+    });
+  }
+  const [footerData, setFooterData] = import_react4.default.useState(null);
+  (0, import_react4.useEffect)(() => {
+    getFooterData().then((data) => {
+      setFooterData(data);
+    });
+  }, []);
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(FooterContainer, { className: isDark ? stitchesDarkTheme : "defaultColor", children: footerData && footerData.footers.map(
+    (section, i) => /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(FooterSection, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Text, { size: "subtitle1", children: section.sectionTitle }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(FooterContent, { children: section.sectionContent.map((sectionContent, j) => {
+        return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(FooterLink, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("a", { href: sectionContent.url, children: [
+          sectionContent.icon && /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { alt: "icon", src: sectionContent.icon.url }),
+          sectionContent.linkTitle
+        ] }) }, j);
+      }) })
+    ] }, i)
+  ) });
+};
+var FooterContainer = styled("div", {
+  boxSizing: "border-box",
+  maxWidth: "1000px",
+  m: "0 auto",
+  p: 48,
+  pb: 128,
+  pt: 0,
+  gap: 48,
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  justifyContent: "flex-start",
+  flexWrap: "wrap",
+  width: "100%",
+  color: "$baseText",
+  right: "0%",
+  position: "relative",
+  "@sm": {
+    display: "grid",
+    right: "-5%",
+    position: "relative",
+    gridTemplateColumns: "repeat(2, 1fr)"
+  },
+  "@md": {
+    right: "-12%",
+    position: "relative",
+    display: "grid",
+    gridTemplateColumns: "repeat(2, 1fr)"
+  },
+  "@lg": {
+    right: "-2.5%",
+    position: "relative",
+    display: "grid",
+    gridTemplateColumns: "repeat(4, 1fr)"
+  },
+  "& a": {
+    color: "$baseText",
+    opacity: 0.6,
+    fontFamily: "$body",
+    textDecoration: "none"
+  },
+  "& a:hover": {
+    opacity: 1
+  }
+});
+var FooterSection = styled("div", {
+  flexGrow: 1,
+  m: 0,
+  p: 0,
+  display: "inline-flex",
+  flexDirection: "column",
+  gap: 16
+});
+var FooterContent = styled("ul", {
+  flex: 1,
+  m: 0,
+  p: 0,
+  display: "inline-flex",
+  flexDirection: "column",
+  gap: 16
+});
+var FooterLink = styled("li", {
+  m: 0,
+  p: 0,
+  listStyle: "none",
+  "& a": {
+    display: "inline-flex",
+    gap: 4,
+    alignItems: "center"
+  },
+  "& img": {
+    filter: "invert(1)"
+  },
+  [`.${stitchesDarkTheme} & img`]: {
+    filter: "invert(0)"
+  }
+});
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AutoSpinner,
   BaseButton,
   Box,
   Button,
+  Checkbox,
   Display,
+  Footer,
   NomiStyle,
   Radix,
   Spinner,

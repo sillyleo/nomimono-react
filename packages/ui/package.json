@@ -69,6 +69,8 @@
 		"@stitches/react": "^1.2.8",
 		"@storybook/addons": "^6.5.16",
 		"framer-motion": "^10.2.4",
+		"graphql": "^16.6.0",
+		"graphql-request": "^5.2.0",
 		"lodash": "^4.17.21",
 		"lucide-react": "^0.126.0",
 		"react-aria": "^3.23.1",
