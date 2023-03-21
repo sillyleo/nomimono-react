@@ -37,3 +37,9 @@ packages/ui/dist
 .fleet/run.json
 packages/ui/.turbo
 *.log
+.idea/vcs.xml
+.idea/nomi.iml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
