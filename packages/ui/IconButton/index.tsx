@@ -18,6 +18,12 @@ export interface IconButtonProps
 	tone?: Tone;
 	intent?: "primary" | "secondary" | "ghost";
 	depth?: "0" | "1" | "2" | "3";
+	/**
+	 * Get HeroIconOne from https://react-icons.github.io/react-icons/icons?name=hi
+	 *
+	 * @type {string}
+	 * @memberOf IconButtonProps
+	 */
 	name?: string;
 	children?: React.ReactNode;
 	css?: CSS;

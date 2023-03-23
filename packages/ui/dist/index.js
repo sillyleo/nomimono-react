@@ -2900,8 +2900,8 @@ var FooterLink = styled("li", {
 });
 
 // Dialog/index.tsx
-import * as DialogPrimitive17 from "@radix-ui/react-dialog";
-import { blackA as blackA17 } from "@radix-ui/colors";
+import * as DialogPrimitive18 from "@radix-ui/react-dialog";
+import { blackA as blackA18 } from "@radix-ui/colors";
 
 // dist/index.js
 import _4 from "lodash";
@@ -2927,8 +2927,8 @@ import { jsx as jsx52, jsxs as jsxs42 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient2, gql as gql2 } from "graphql-request";
 import React32, { useEffect as useEffect2 } from "react";
 import { jsx as jsx62, jsxs as jsxs52 } from "react/jsx-runtime";
-import * as DialogPrimitive16 from "@radix-ui/react-dialog";
-import { blackA as blackA16 } from "@radix-ui/colors";
+import * as DialogPrimitive17 from "@radix-ui/react-dialog";
+import { blackA as blackA17 } from "@radix-ui/colors";
 import _42 from "lodash";
 import React42 from "react";
 import { createStitches as createStitches22, defaultThemeMap as defaultThemeMap22 } from "@stitches/react";
@@ -2952,8 +2952,8 @@ import { jsx as jsx522, jsxs as jsxs422 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient22, gql as gql22 } from "graphql-request";
 import React322, { useEffect as useEffect22 } from "react";
 import { jsx as jsx622, jsxs as jsxs522 } from "react/jsx-runtime";
-import * as DialogPrimitive15 from "@radix-ui/react-dialog";
-import { blackA as blackA15 } from "@radix-ui/colors";
+import * as DialogPrimitive16 from "@radix-ui/react-dialog";
+import { blackA as blackA16 } from "@radix-ui/colors";
 import _422 from "lodash";
 import React422 from "react";
 import { createStitches as createStitches222, defaultThemeMap as defaultThemeMap222 } from "@stitches/react";
@@ -2977,8 +2977,8 @@ import { jsx as jsx5222, jsxs as jsxs4222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient222, gql as gql222 } from "graphql-request";
 import React3222, { useEffect as useEffect222 } from "react";
 import { jsx as jsx6222, jsxs as jsxs5222 } from "react/jsx-runtime";
-import * as DialogPrimitive14 from "@radix-ui/react-dialog";
-import { blackA as blackA14 } from "@radix-ui/colors";
+import * as DialogPrimitive15 from "@radix-ui/react-dialog";
+import { blackA as blackA15 } from "@radix-ui/colors";
 import _4222 from "lodash";
 import React4222 from "react";
 import { createStitches as createStitches2222, defaultThemeMap as defaultThemeMap2222 } from "@stitches/react";
@@ -3002,8 +3002,8 @@ import { jsx as jsx52222, jsxs as jsxs42222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient2222, gql as gql2222 } from "graphql-request";
 import React32222, { useEffect as useEffect2222 } from "react";
 import { jsx as jsx62222, jsxs as jsxs52222 } from "react/jsx-runtime";
-import * as DialogPrimitive13 from "@radix-ui/react-dialog";
-import { blackA as blackA13 } from "@radix-ui/colors";
+import * as DialogPrimitive14 from "@radix-ui/react-dialog";
+import { blackA as blackA14 } from "@radix-ui/colors";
 import _42222 from "lodash";
 import React42222 from "react";
 import { createStitches as createStitches22222, defaultThemeMap as defaultThemeMap22222 } from "@stitches/react";
@@ -3027,8 +3027,8 @@ import { jsx as jsx522222, jsxs as jsxs422222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient22222, gql as gql22222 } from "graphql-request";
 import React322222, { useEffect as useEffect22222 } from "react";
 import { jsx as jsx622222, jsxs as jsxs522222 } from "react/jsx-runtime";
-import * as DialogPrimitive12 from "@radix-ui/react-dialog";
-import { blackA as blackA12 } from "@radix-ui/colors";
+import * as DialogPrimitive13 from "@radix-ui/react-dialog";
+import { blackA as blackA13 } from "@radix-ui/colors";
 import _422222 from "lodash";
 import React422222 from "react";
 import { createStitches as createStitches222222, defaultThemeMap as defaultThemeMap222222 } from "@stitches/react";
@@ -3052,8 +3052,8 @@ import { jsx as jsx5222222, jsxs as jsxs4222222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient222222, gql as gql222222 } from "graphql-request";
 import React3222222, { useEffect as useEffect222222 } from "react";
 import { jsx as jsx6222222, jsxs as jsxs5222222 } from "react/jsx-runtime";
-import * as DialogPrimitive11 from "@radix-ui/react-dialog";
-import { blackA as blackA11 } from "@radix-ui/colors";
+import * as DialogPrimitive12 from "@radix-ui/react-dialog";
+import { blackA as blackA12 } from "@radix-ui/colors";
 import _4222222 from "lodash";
 import React4222222 from "react";
 import { createStitches as createStitches2222222, defaultThemeMap as defaultThemeMap2222222 } from "@stitches/react";
@@ -3077,8 +3077,8 @@ import { jsx as jsx52222222, jsxs as jsxs42222222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient2222222, gql as gql2222222 } from "graphql-request";
 import React32222222, { useEffect as useEffect2222222 } from "react";
 import { jsx as jsx62222222, jsxs as jsxs52222222 } from "react/jsx-runtime";
-import * as DialogPrimitive10 from "@radix-ui/react-dialog";
-import { blackA as blackA10 } from "@radix-ui/colors";
+import * as DialogPrimitive11 from "@radix-ui/react-dialog";
+import { blackA as blackA11 } from "@radix-ui/colors";
 import _42222222 from "lodash";
 import React42222222 from "react";
 import { createStitches as createStitches22222222, defaultThemeMap as defaultThemeMap22222222 } from "@stitches/react";
@@ -3102,8 +3102,8 @@ import { jsx as jsx522222222, jsxs as jsxs422222222 } from "react/jsx-runtime";
 import { GraphQLClient as GraphQLClient22222222, gql as gql22222222 } from "graphql-request";
 import React322222222, { useEffect as useEffect22222222 } from "react";
 import { jsx as jsx622222222, jsxs as jsxs522222222 } from "react/jsx-runtime";
-import * as DialogPrimitive9 from "@radix-ui/react-dialog";
-import { blackA as blackA9 } from "@radix-ui/colors";
+import * as DialogPrimitive10 from "@radix-ui/react-dialog";
+import { blackA as blackA10 } from "@radix-ui/colors";
 import _422222222 from "lodash";
 import React422222222 from "react";
 import { createStitches as createStitches222222222, defaultThemeMap as defaultThemeMap222222222 } from "@stitches/react";
@@ -3127,8 +3127,8 @@ import { jsx as jsx5222222222, jsxs as jsxs4222222222 } from "react/jsx-runtime"
 import { GraphQLClient as GraphQLClient222222222, gql as gql222222222 } from "graphql-request";
 import React3222222222, { useEffect as useEffect222222222 } from "react";
 import { jsx as jsx6222222222, jsxs as jsxs5222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive8 from "@radix-ui/react-dialog";
-import { blackA as blackA8 } from "@radix-ui/colors";
+import * as DialogPrimitive9 from "@radix-ui/react-dialog";
+import { blackA as blackA9 } from "@radix-ui/colors";
 import _4222222222 from "lodash";
 import React4222222222 from "react";
 import { createStitches as createStitches2222222222, defaultThemeMap as defaultThemeMap2222222222 } from "@stitches/react";
@@ -3152,8 +3152,8 @@ import { jsx as jsx52222222222, jsxs as jsxs42222222222 } from "react/jsx-runtim
 import { GraphQLClient as GraphQLClient2222222222, gql as gql2222222222 } from "graphql-request";
 import React32222222222, { useEffect as useEffect2222222222 } from "react";
 import { jsx as jsx62222222222, jsxs as jsxs52222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive7 from "@radix-ui/react-dialog";
-import { blackA as blackA7 } from "@radix-ui/colors";
+import * as DialogPrimitive8 from "@radix-ui/react-dialog";
+import { blackA as blackA8 } from "@radix-ui/colors";
 import _42222222222 from "lodash";
 import React42222222222 from "react";
 import { createStitches as createStitches22222222222, defaultThemeMap as defaultThemeMap22222222222 } from "@stitches/react";
@@ -3177,8 +3177,8 @@ import { jsx as jsx522222222222, jsxs as jsxs422222222222 } from "react/jsx-runt
 import { GraphQLClient as GraphQLClient22222222222, gql as gql22222222222 } from "graphql-request";
 import React322222222222, { useEffect as useEffect22222222222 } from "react";
 import { jsx as jsx622222222222, jsxs as jsxs522222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive6 from "@radix-ui/react-dialog";
-import { blackA as blackA6 } from "@radix-ui/colors";
+import * as DialogPrimitive7 from "@radix-ui/react-dialog";
+import { blackA as blackA7 } from "@radix-ui/colors";
 import _422222222222 from "lodash";
 import React422222222222 from "react";
 import { createStitches as createStitches222222222222, defaultThemeMap as defaultThemeMap222222222222 } from "@stitches/react";
@@ -3202,8 +3202,8 @@ import { jsx as jsx5222222222222, jsxs as jsxs4222222222222 } from "react/jsx-ru
 import { GraphQLClient as GraphQLClient222222222222, gql as gql222222222222 } from "graphql-request";
 import React3222222222222, { useEffect as useEffect222222222222 } from "react";
 import { jsx as jsx6222222222222, jsxs as jsxs5222222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive5 from "@radix-ui/react-dialog";
-import { blackA as blackA5 } from "@radix-ui/colors";
+import * as DialogPrimitive6 from "@radix-ui/react-dialog";
+import { blackA as blackA6 } from "@radix-ui/colors";
 import _4222222222222 from "lodash";
 import React4222222222222 from "react";
 import { createStitches as createStitches2222222222222, defaultThemeMap as defaultThemeMap2222222222222 } from "@stitches/react";
@@ -3227,8 +3227,8 @@ import { jsx as jsx52222222222222, jsxs as jsxs42222222222222 } from "react/jsx-
 import { GraphQLClient as GraphQLClient2222222222222, gql as gql2222222222222 } from "graphql-request";
 import React32222222222222, { useEffect as useEffect2222222222222 } from "react";
 import { jsx as jsx62222222222222, jsxs as jsxs52222222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive4 from "@radix-ui/react-dialog";
-import { blackA as blackA4 } from "@radix-ui/colors";
+import * as DialogPrimitive5 from "@radix-ui/react-dialog";
+import { blackA as blackA5 } from "@radix-ui/colors";
 import _42222222222222 from "lodash";
 import React42222222222222 from "react";
 import { createStitches as createStitches22222222222222, defaultThemeMap as defaultThemeMap22222222222222 } from "@stitches/react";
@@ -3252,8 +3252,8 @@ import { jsx as jsx522222222222222, jsxs as jsxs422222222222222 } from "react/js
 import { GraphQLClient as GraphQLClient22222222222222, gql as gql22222222222222 } from "graphql-request";
 import React322222222222222, { useEffect as useEffect22222222222222 } from "react";
 import { jsx as jsx622222222222222, jsxs as jsxs522222222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive3 from "@radix-ui/react-dialog";
-import { blackA as blackA3 } from "@radix-ui/colors";
+import * as DialogPrimitive4 from "@radix-ui/react-dialog";
+import { blackA as blackA4 } from "@radix-ui/colors";
 import _422222222222222 from "lodash";
 import React422222222222222 from "react";
 import { createStitches as createStitches222222222222222, defaultThemeMap as defaultThemeMap222222222222222 } from "@stitches/react";
@@ -3277,8 +3277,8 @@ import { jsx as jsx5222222222222222, jsxs as jsxs4222222222222222 } from "react/
 import { GraphQLClient as GraphQLClient222222222222222, gql as gql222222222222222 } from "graphql-request";
 import React3222222222222222, { useEffect as useEffect222222222222222 } from "react";
 import { jsx as jsx6222222222222222, jsxs as jsxs5222222222222222 } from "react/jsx-runtime";
-import * as DialogPrimitive2 from "@radix-ui/react-dialog";
-import { blackA as blackA2 } from "@radix-ui/colors";
+import * as DialogPrimitive3 from "@radix-ui/react-dialog";
+import { blackA as blackA3 } from "@radix-ui/colors";
 import _4222222222222222 from "lodash";
 import React4222222222222222 from "react";
 import { createStitches as createStitches2222222222222222, defaultThemeMap as defaultThemeMap2222222222222222 } from "@stitches/react";
@@ -3302,13 +3302,38 @@ import { jsx as jsx52222222222222222, jsxs as jsxs42222222222222222 } from "reac
 import { GraphQLClient as GraphQLClient2222222222222222, gql as gql2222222222222222 } from "graphql-request";
 import React32222222222222222, { useEffect as useEffect2222222222222222 } from "react";
 import { jsx as jsx62222222222222222, jsxs as jsxs52222222222222222 } from "react/jsx-runtime";
+import * as DialogPrimitive2 from "@radix-ui/react-dialog";
+import { blackA as blackA2 } from "@radix-ui/colors";
+import _42222222222222222 from "lodash";
+import React42222222222222222 from "react";
+import { createStitches as createStitches22222222222222222, defaultThemeMap as defaultThemeMap22222222222222222 } from "@stitches/react";
+import * as RadixColors32222222222222222 from "@radix-ui/colors";
+import { jsx as jsx72222222222222222, jsxs as jsxs62222222222222222 } from "react/jsx-runtime";
+import * as RadixColors222222222222222222 from "@radix-ui/colors";
+import { jsx as jsx222222222222222222, jsxs as jsxs222222222222222222 } from "react/jsx-runtime";
+import { motion as motion22222222222222222 } from "framer-motion";
+import { jsx as jsx322222222222222222, jsxs as jsxs322222222222222222 } from "react/jsx-runtime";
+import React222222222222222222 from "react";
+import {
+  Checkbox as CheckboxPrimitive22222222222222222,
+  useCheckboxState as useCheckboxState22222222222222222
+} from "reakit/Checkbox";
+import { VisuallyHidden as VisuallyHidden22222222222222222 } from "react-aria";
+import _322222222222222222 from "lodash";
+import _222222222222222222 from "lodash";
+import * as icons22222222222222222 from "lucide-react";
+import { jsx as jsx422222222222222222 } from "react/jsx-runtime";
+import { jsx as jsx522222222222222222, jsxs as jsxs422222222222222222 } from "react/jsx-runtime";
+import { GraphQLClient as GraphQLClient22222222222222222, gql as gql22222222222222222 } from "graphql-request";
+import React322222222222222222, { useEffect as useEffect22222222222222222 } from "react";
+import { jsx as jsx622222222222222222, jsxs as jsxs522222222222222222 } from "react/jsx-runtime";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { blackA } from "@radix-ui/colors";
-import _42222222222222222 from "lodash";
+import _422222222222222222 from "lodash";
 import * as HeroIcons from "react-icons/hi";
-import { Fragment, jsx as jsx72222222222222222 } from "react/jsx-runtime";
+import { Fragment, jsx as jsx722222222222222222 } from "react/jsx-runtime";
 import { jsx as jsx8 } from "react/jsx-runtime";
-import { jsx as jsx9, jsxs as jsxs62222222222222222 } from "react/jsx-runtime";
+import { jsx as jsx9, jsxs as jsxs622222222222222222 } from "react/jsx-runtime";
 import _5 from "lodash";
 import * as HeroIcons2 from "react-icons/hi";
 import { Fragment as Fragment2, jsx as jsx10 } from "react/jsx-runtime";
@@ -3384,6 +3409,11 @@ import * as HeroIcons16 from "react-icons/hi";
 import { Fragment as Fragment16, jsx as jsx56 } from "react/jsx-runtime";
 import { jsx as jsx57 } from "react/jsx-runtime";
 import { jsx as jsx58, jsxs as jsxs21 } from "react/jsx-runtime";
+import _20 from "lodash";
+import * as HeroIcons17 from "react-icons/hi";
+import { Fragment as Fragment17, jsx as jsx59 } from "react/jsx-runtime";
+import { jsx as jsx60 } from "react/jsx-runtime";
+import { jsx as jsx61, jsxs as jsxs23 } from "react/jsx-runtime";
 var __defProp2 = Object.defineProperty;
 var __defProps2 = Object.defineProperties;
 var __getOwnPropDescs2 = Object.getOwnPropertyDescriptors;
@@ -13825,6 +13855,36 @@ var BaseButton2222 = styled2222("button", {
       }
     }
   },
+  compoundVariants: [
+    {
+      size: "sm",
+      isRound: true,
+      css: {
+        borderRadius: "full"
+      }
+    },
+    {
+      size: "md",
+      isRound: true,
+      css: {
+        borderRadius: "full"
+      }
+    },
+    {
+      size: "lg",
+      isRound: true,
+      css: {
+        borderRadius: "full"
+      }
+    },
+    {
+      size: "xl",
+      isRound: true,
+      css: {
+        borderRadius: "full"
+      }
+    }
+  ],
   defaultVariants: {
     size: "md",
     align: "center"
@@ -46314,7 +46374,7 @@ var Button2222222222222222 = React4222222222222222.forwardRef(
       leftIcon,
       rightIcon,
       depth,
-      css: css22222222222222222,
+      css: css3,
       isDark
     } = _b, props = __objRest2222222222222222(_b, [
       "size",
@@ -46339,7 +46399,7 @@ var Button2222222222222222 = React4222222222222222.forwardRef(
         css: _4222222222222222.merge(
           getButtonToneStyle2222222222222222(tone, intent),
           getButtonShadowStyle2222222222222222(tone, depth),
-          css22222222222222222
+          css3
         )
       }, props), {
         children: [
@@ -46553,9 +46613,9 @@ var LucideIcon2222222222222222 = (_a) => {
   ]);
   const iconNameCamelCase = _22222222222222222.camelCase(name);
   const IconNameUpperCase = iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
-  const LucideIcon22222222222222222 = icons2222222222222222[IconNameUpperCase];
+  const LucideIcon3 = icons2222222222222222[IconNameUpperCase];
   return /* @__PURE__ */ jsx42222222222222222(
-    LucideIcon22222222222222222,
+    LucideIcon3,
     __spreadValues2222222222222222({
       color,
       size: size ? size : "100%",
@@ -46577,7 +46637,7 @@ function CheckboxWithLabel2222222222222222(_a, ref) {
     children,
     fontSize = "lg",
     tone = "slate",
-    css: css22222222222222222
+    css: css3
   } = _b, props = __objRest2222222222222222(_b, [
     "defaultChecked",
     "children",
@@ -46605,7 +46665,7 @@ function CheckboxWithLabel2222222222222222(_a, ref) {
           CheckboxRoot2222222222222222,
           {
             "data-state": checkbox.state ? "checked" : "unchecked",
-            css: _32222222222222222.merge(getCheckboxToneStyle2222222222222222(tone), css22222222222222222),
+            css: _32222222222222222.merge(getCheckboxToneStyle2222222222222222(tone), css3),
             children: /* @__PURE__ */ jsx52222222222222222(CheckboxIndicator2222222222222222, { checked: !!checkbox.state, children: /* @__PURE__ */ jsx52222222222222222(LucideIcon2222222222222222, { strokeWidth: 2.5, name: "check" }) })
           }
         ),
@@ -46770,10 +46830,2716 @@ var FooterLink2222222222222222 = styled2222222222222222("li", {
     filter: "invert(0)"
   }
 });
+var __defProp22222222222222222 = Object.defineProperty;
+var __defProps22222222222222222 = Object.defineProperties;
+var __getOwnPropDescs22222222222222222 = Object.getOwnPropertyDescriptors;
+var __getOwnPropSymbols22222222222222222 = Object.getOwnPropertySymbols;
+var __hasOwnProp22222222222222222 = Object.prototype.hasOwnProperty;
+var __propIsEnum22222222222222222 = Object.prototype.propertyIsEnumerable;
+var __defNormalProp22222222222222222 = (obj, key, value) => key in obj ? __defProp22222222222222222(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues22222222222222222 = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp22222222222222222.call(b, prop))
+      __defNormalProp22222222222222222(a, prop, b[prop]);
+  if (__getOwnPropSymbols22222222222222222)
+    for (var prop of __getOwnPropSymbols22222222222222222(b)) {
+      if (__propIsEnum22222222222222222.call(b, prop))
+        __defNormalProp22222222222222222(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps22222222222222222 = (a, b) => __defProps22222222222222222(a, __getOwnPropDescs22222222222222222(b));
+var __objRest22222222222222222 = (source, exclude) => {
+  var target = {};
+  for (var prop in source)
+    if (__hasOwnProp22222222222222222.call(source, prop) && exclude.indexOf(prop) < 0)
+      target[prop] = source[prop];
+  if (source != null && __getOwnPropSymbols22222222222222222)
+    for (var prop of __getOwnPropSymbols22222222222222222(source)) {
+      if (exclude.indexOf(prop) < 0 && __propIsEnum22222222222222222.call(source, prop))
+        target[prop] = source[prop];
+    }
+  return target;
+};
+var theme_default22222222222222222 = {
+  brand: {
+    hover: "#6DEFBF",
+    primary: "#3CEAAA",
+    pressed: "#33C790",
+    disable: "#1E7555",
+    secondary: "#03BCE4"
+  },
+  support: {
+    red: "#F16769",
+    orange: "#FFB459",
+    blue: "#4EA3FE",
+    purpple: "#C692E0",
+    silver: "#D3D5F2",
+    yellow: "#FFED70"
+  },
+  colors: {
+    tomato: {
+      "1": "#fffcfc",
+      "2": "#fff8f7",
+      "3": "#fff0ee",
+      "4": "#ffe6e2",
+      "5": "#fdd8d3",
+      "6": "#fac7be",
+      "7": "#f3b0a2",
+      "8": "#ea9280",
+      "9": "#e54d2e",
+      "10": "#db4324",
+      "11": "#ca3214",
+      "12": "#341711"
+    },
+    red: {
+      "1": "#fffcfc",
+      "2": "#fff8f8",
+      "3": "#ffefef",
+      "4": "#ffe5e5",
+      "5": "#fdd8d8",
+      "6": "#f9c6c6",
+      "7": "#f3aeaf",
+      "8": "#eb9091",
+      "9": "#e5484d",
+      "10": "#dc3d43",
+      "11": "#cd2b31",
+      "12": "#381316"
+    },
+    crimson: {
+      "1": "#fffcfd",
+      "2": "#fff7fb",
+      "3": "#feeff6",
+      "4": "#fce5f0",
+      "5": "#f9d8e7",
+      "6": "#f4c6db",
+      "7": "#edadc8",
+      "8": "#e58fb1",
+      "9": "#e93d82",
+      "10": "#e03177",
+      "11": "#d31e66",
+      "12": "#3d0d1d"
+    },
+    pink: {
+      "1": "#fffcfe",
+      "2": "#fff7fc",
+      "3": "#feeef8",
+      "4": "#fce5f3",
+      "5": "#f9d8ec",
+      "6": "#f3c6e2",
+      "7": "#ecadd4",
+      "8": "#e38ec3",
+      "9": "#d6409f",
+      "10": "#d23197",
+      "11": "#cd1d8d",
+      "12": "#3b0a2a"
+    },
+    plum: {
+      "1": "#fefcff",
+      "2": "#fff8ff",
+      "3": "#fceffc",
+      "4": "#f9e5f9",
+      "5": "#f3d9f4",
+      "6": "#ebc8ed",
+      "7": "#dfafe3",
+      "8": "#cf91d8",
+      "9": "#ab4aba",
+      "10": "#a43cb4",
+      "11": "#9c2bad",
+      "12": "#340c3b"
+    },
+    purple: {
+      "1": "#fefcfe",
+      "2": "#fdfaff",
+      "3": "#f9f1fe",
+      "4": "#f3e7fc",
+      "5": "#eddbf9",
+      "6": "#e3ccf4",
+      "7": "#d3b4ed",
+      "8": "#be93e4",
+      "9": "#8e4ec6",
+      "10": "#8445bc",
+      "11": "#793aaf",
+      "12": "#2b0e44"
+    },
+    violet: {
+      "1": "#fdfcfe",
+      "2": "#fbfaff",
+      "3": "#f5f2ff",
+      "4": "#ede9fe",
+      "5": "#e4defc",
+      "6": "#d7cff9",
+      "7": "#c4b8f3",
+      "8": "#aa99ec",
+      "9": "#6e56cf",
+      "10": "#644fc1",
+      "11": "#5746af",
+      "12": "#20134b"
+    },
+    indigo: {
+      "1": "#fdfdfe",
+      "2": "#f8faff",
+      "3": "#f0f4ff",
+      "4": "#e6edfe",
+      "5": "#d9e2fc",
+      "6": "#c6d4f9",
+      "7": "#aec0f5",
+      "8": "#8da4ef",
+      "9": "#3e63dd",
+      "10": "#3a5ccc",
+      "11": "#3451b2",
+      "12": "#101d46"
+    },
+    blue: {
+      "1": "#fbfdff",
+      "2": "#f5faff",
+      "3": "#edf6ff",
+      "4": "#e1f0ff",
+      "5": "#cee7fe",
+      "6": "#b7d9f8",
+      "7": "#96c7f2",
+      "8": "#5eb0ef",
+      "9": "#0091ff",
+      "10": "#0081f1",
+      "11": "#006adc",
+      "12": "#00254d"
+    },
+    cyan: {
+      "1": "#fafdfe",
+      "2": "#f2fcfd",
+      "3": "#e7f9fb",
+      "4": "#d8f3f6",
+      "5": "#c4eaef",
+      "6": "#aadee6",
+      "7": "#84cdda",
+      "8": "#3db9cf",
+      "9": "#05a2c2",
+      "10": "#0894b3",
+      "11": "#0c7792",
+      "12": "#04313c"
+    },
+    teal: {
+      "1": "#fafefd",
+      "2": "#f1fcfa",
+      "3": "#e7f9f5",
+      "4": "#d9f3ee",
+      "5": "#c7ebe5",
+      "6": "#afdfd7",
+      "7": "#8dcec3",
+      "8": "#53b9ab",
+      "9": "#12a594",
+      "10": "#0e9888",
+      "11": "#067a6f",
+      "12": "#10302b"
+    },
+    green: {
+      "1": "#fbfefc",
+      "2": "#f2fcf5",
+      "3": "#e9f9ee",
+      "4": "#ddf3e4",
+      "5": "#ccebd7",
+      "6": "#b4dfc4",
+      "7": "#92ceac",
+      "8": "#5bb98c",
+      "9": "#30a46c",
+      "10": "#299764",
+      "11": "#18794e",
+      "12": "#153226"
+    },
+    grass: {
+      "1": "#fbfefb",
+      "2": "#f3fcf3",
+      "3": "#ebf9eb",
+      "4": "#dff3df",
+      "5": "#ceebcf",
+      "6": "#b7dfba",
+      "7": "#97cf9c",
+      "8": "#65ba75",
+      "9": "#46a758",
+      "10": "#3d9a50",
+      "11": "#297c3b",
+      "12": "#1b311e"
+    },
+    brown: {
+      "1": "#fefdfc",
+      "2": "#fcf9f6",
+      "3": "#f8f1ea",
+      "4": "#f4e9dd",
+      "5": "#efddcc",
+      "6": "#e8cdb5",
+      "7": "#ddb896",
+      "8": "#d09e72",
+      "9": "#ad7f58",
+      "10": "#a07653",
+      "11": "#886349",
+      "12": "#3f2c22"
+    },
+    orange: {
+      "1": "#fefcfb",
+      "2": "#fef8f4",
+      "3": "#fff1e7",
+      "4": "#ffe8d7",
+      "5": "#ffdcc3",
+      "6": "#ffcca7",
+      "7": "#ffb381",
+      "8": "#fa934e",
+      "9": "#f76808",
+      "10": "#ed5f00",
+      "11": "#bd4b00",
+      "12": "#451e11"
+    },
+    sky: {
+      "1": "#f9feff",
+      "2": "#f1fcff",
+      "3": "#e4f9ff",
+      "4": "#d5f4fd",
+      "5": "#c1ecf9",
+      "6": "#a4dff1",
+      "7": "#79cfea",
+      "8": "#2ebde5",
+      "9": "#68ddfd",
+      "10": "#5fd4f4",
+      "11": "#0078a1",
+      "12": "#003242"
+    },
+    mint: {
+      "1": "#f9fefd",
+      "2": "#effefa",
+      "3": "#e1fbf4",
+      "4": "#d2f7ed",
+      "5": "#c0efe3",
+      "6": "#a5e4d4",
+      "7": "#7dd4c0",
+      "8": "#40c4aa",
+      "9": "#70e1c8",
+      "10": "#69d9c1",
+      "11": "#147d6f",
+      "12": "#09342e"
+    },
+    lime: {
+      "1": "#fcfdfa",
+      "2": "#f7fcf0",
+      "3": "#eefadc",
+      "4": "#e4f7c7",
+      "5": "#d7f2b0",
+      "6": "#c9e894",
+      "7": "#b1d16a",
+      "8": "#94ba2c",
+      "9": "#99d52a",
+      "10": "#93c926",
+      "11": "#5d770d",
+      "12": "#263209"
+    },
+    yellow: {
+      "1": "#fdfdf9",
+      "2": "#fffce8",
+      "3": "#fffbd1",
+      "4": "#fff8bb",
+      "5": "#fef2a4",
+      "6": "#f9e68c",
+      "7": "#efd36c",
+      "8": "#ebbc00",
+      "9": "#f5d90a",
+      "10": "#f7ce00",
+      "11": "#946800",
+      "12": "#35290f"
+    },
+    amber: {
+      "1": "#fefdfb",
+      "2": "#fff9ed",
+      "3": "#fff4d5",
+      "4": "#ffecbc",
+      "5": "#ffe3a2",
+      "6": "#ffd386",
+      "7": "#f3ba63",
+      "8": "#ee9d2b",
+      "9": "#ffb224",
+      "10": "#ffa01c",
+      "11": "#ad5700",
+      "12": "#4e2009"
+    },
+    gold: {
+      "1": "#fdfdfc",
+      "2": "#fbf9f2",
+      "3": "#f5f2e9",
+      "4": "#eeeadd",
+      "5": "#e5dfd0",
+      "6": "#dad1bd",
+      "7": "#cbbda4",
+      "8": "#b8a383",
+      "9": "#978365",
+      "10": "#8c795d",
+      "11": "#776750",
+      "12": "#3b352b"
+    },
+    bronze: {
+      "1": "#fdfcfc",
+      "2": "#fdf8f6",
+      "3": "#f8f1ee",
+      "4": "#f2e8e4",
+      "5": "#eaddd7",
+      "6": "#e0cec7",
+      "7": "#d1b9b0",
+      "8": "#bfa094",
+      "9": "#a18072",
+      "10": "#977669",
+      "11": "#846358",
+      "12": "#43302b"
+    },
+    gray: {
+      "1": "#fcfcfc",
+      "2": "#f8f8f8",
+      "3": "#f3f3f3",
+      "4": "#ededed",
+      "5": "#e8e8e8",
+      "6": "#e2e2e2",
+      "7": "#dbdbdb",
+      "8": "#c7c7c7",
+      "9": "#8f8f8f",
+      "10": "#858585",
+      "11": "#6f6f6f",
+      "12": "#171717"
+    },
+    mauve: {
+      "1": "#fdfcfd",
+      "2": "#f9f8f9",
+      "3": "#f4f2f4",
+      "4": "#eeedef",
+      "5": "#e9e8ea",
+      "6": "#e4e2e4",
+      "7": "#dcdbdd",
+      "8": "#c8c7cb",
+      "9": "#908e96",
+      "10": "#86848d",
+      "11": "#6f6e77",
+      "12": "#1a1523"
+    },
+    slate: {
+      "1": "#fbfcfd",
+      "2": "#f8f9fa",
+      "3": "#f1f3f5",
+      "4": "#eceef0",
+      "5": "#e6e8eb",
+      "6": "#dfe3e6",
+      "7": "#d7dbdf",
+      "8": "#c1c8cd",
+      "9": "#889096",
+      "10": "#7e868c",
+      "11": "#687076",
+      "12": "#11181c"
+    },
+    sage: {
+      "1": "#fbfdfc",
+      "2": "#f8faf9",
+      "3": "#f1f4f3",
+      "4": "#ecefed",
+      "5": "#e6e9e8",
+      "6": "#dfe4e2",
+      "7": "#d7dcda",
+      "8": "#c2c9c6",
+      "9": "#8a918e",
+      "10": "#808784",
+      "11": "#6a716e",
+      "12": "#111c18"
+    },
+    olive: {
+      "1": "#fcfdfc",
+      "2": "#f8faf8",
+      "3": "#f2f4f2",
+      "4": "#ecefec",
+      "5": "#e6e9e6",
+      "6": "#e0e4e0",
+      "7": "#d8dcd8",
+      "8": "#c3c8c2",
+      "9": "#8b918a",
+      "10": "#818780",
+      "11": "#6b716a",
+      "12": "#141e12"
+    },
+    sand: {
+      "1": "#fdfdfc",
+      "2": "#f9f9f8",
+      "3": "#f3f3f2",
+      "4": "#eeeeec",
+      "5": "#e9e9e6",
+      "6": "#e3e3e0",
+      "7": "#dbdbd7",
+      "8": "#c8c7c1",
+      "9": "#90908c",
+      "10": "#868682",
+      "11": "#706f6c",
+      "12": "#1b1b18"
+    },
+    accent: {
+      "1": "#fbfdff",
+      "2": "#f5faff",
+      "3": "#edf6ff",
+      "4": "#e1f0ff",
+      "5": "#cee7fe",
+      "6": "#b7d9f8",
+      "7": "#96c7f2",
+      "8": "#5eb0ef",
+      "9": "#0091ff",
+      "10": "#0081f1",
+      "11": "#006adc",
+      "12": "#00254d"
+    },
+    base: {
+      text: "#11181c",
+      textSecondary: "#687076",
+      textTertiary: "#889096",
+      background: "#fbfcfd",
+      backgroundSecondary: "#f8f9fa",
+      backgroundTertiary: "#f1f3f5",
+      pureBackground: "#FFFFFF",
+      pureForeground: "black"
+    }
+  },
+  borderRadius: {
+    none: "0px",
+    sm: "0.125rem",
+    DEFAULT: "0.25rem",
+    md: "0.375rem",
+    lg: "0.5rem",
+    xl: "0.75rem",
+    "2xl": "1rem",
+    "3xl": "1.5rem",
+    full: "9999px"
+  },
+  borderWidth: {
+    "0": "0px",
+    "1": "1px",
+    "2": "2px",
+    "4": "4px",
+    "8": "8px",
+    DEFAULT: "1px"
+  },
+  opacity: {
+    "0": "0%",
+    "5": "50%",
+    "10": "10%",
+    "20": "20%",
+    "25": "25%",
+    "30": "30%",
+    "40": "40%",
+    "50": "50%",
+    "60": "60%",
+    "70": "70%",
+    "75": "75%",
+    "80": "80%",
+    "95": "95%",
+    "100": "100%"
+  },
+  fontFamilies: {
+    heading: "Sk-Modernist",
+    body: "Inter"
+  },
+  lineHeights: {
+    heading: "110%",
+    body: "150%",
+    tight: "140%",
+    single: "100%"
+  },
+  letterSpacing: {
+    default: "0%",
+    increased: "2%",
+    decreased: "-2%"
+  },
+  fontWeights: {
+    normal: 400,
+    medium: 500,
+    bold: 700,
+    extrabold: 800
+  },
+  fontSizes: {
+    "6xl": "72px",
+    "5xl": "64px",
+    "4xl": "56px",
+    "3xl": "48px",
+    "2xl": "36px",
+    xl: "24px",
+    lg: "18px",
+    base: "16px",
+    sm: "14px",
+    xs: "11px"
+  },
+  typography: {
+    "page-title": {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "72px",
+      letterSpacing: "-2%"
+    },
+    "page-title2": {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "64px",
+      letterSpacing: "-2%"
+    },
+    title1: {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "48px",
+      letterSpacing: "-2%"
+    },
+    title2: {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "36px",
+      letterSpacing: "-2%"
+    },
+    title3: {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "24px",
+      letterSpacing: "-2%"
+    },
+    subtitle1: {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "18px",
+      letterSpacing: "-2%"
+    },
+    subtitle2: {
+      fontFamily: "Sk-Modernist",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "16px",
+      letterSpacing: "-2%"
+    },
+    overline: {
+      fontFamily: "Inter",
+      fontWeight: 700,
+      lineHeight: "110%",
+      fontSize: "11px",
+      letterSpacing: "2%",
+      textCase: "uppercase"
+    },
+    "body-heading": {
+      fontFamily: "Inter",
+      fontWeight: 400,
+      lineHeight: "150%",
+      fontSize: "18px",
+      letterSpacing: "0%",
+      paragraphSpacing: "1.5rem"
+    },
+    body: {
+      fontFamily: "Inter",
+      fontWeight: 400,
+      lineHeight: "150%",
+      fontSize: "16px",
+      letterSpacing: "0%"
+    },
+    "body-bold": {
+      fontFamily: "Inter",
+      fontWeight: 700,
+      lineHeight: "150%",
+      fontSize: "16px",
+      letterSpacing: "0%"
+    },
+    label: {
+      fontFamily: "Inter",
+      fontWeight: 400,
+      lineHeight: "140%",
+      fontSize: "14px",
+      letterSpacing: "0%"
+    },
+    caption: {
+      fontFamily: "Inter",
+      fontWeight: 400,
+      lineHeight: "150%",
+      fontSize: "11px",
+      letterSpacing: "0%"
+    }
+  },
+  paragraphSpacing: {
+    xs: "0.25rem",
+    sm: "0.5rem",
+    md: "1rem",
+    lg: "1.5rem",
+    xl: "2rem"
+  },
+  light: {
+    tomato: {
+      "1": "#fffcfc",
+      "2": "#fff8f7",
+      "3": "#fff0ee",
+      "4": "#ffe6e2",
+      "5": "#fdd8d3",
+      "6": "#fac7be",
+      "7": "#f3b0a2",
+      "8": "#ea9280",
+      "9": "#e54d2e",
+      "10": "#db4324",
+      "11": "#ca3214",
+      "12": "#341711"
+    },
+    red: {
+      "1": "#fffcfc",
+      "2": "#fff8f8",
+      "3": "#ffefef",
+      "4": "#ffe5e5",
+      "5": "#fdd8d8",
+      "6": "#f9c6c6",
+      "7": "#f3aeaf",
+      "8": "#eb9091",
+      "9": "#e5484d",
+      "10": "#dc3d43",
+      "11": "#cd2b31",
+      "12": "#381316"
+    },
+    crimson: {
+      "1": "#fffcfd",
+      "2": "#fff7fb",
+      "3": "#feeff6",
+      "4": "#fce5f0",
+      "5": "#f9d8e7",
+      "6": "#f4c6db",
+      "7": "#edadc8",
+      "8": "#e58fb1",
+      "9": "#e93d82",
+      "10": "#e03177",
+      "11": "#d31e66",
+      "12": "#3d0d1d"
+    },
+    pink: {
+      "1": "#fffcfe",
+      "2": "#fff7fc",
+      "3": "#feeef8",
+      "4": "#fce5f3",
+      "5": "#f9d8ec",
+      "6": "#f3c6e2",
+      "7": "#ecadd4",
+      "8": "#e38ec3",
+      "9": "#d6409f",
+      "10": "#d23197",
+      "11": "#cd1d8d",
+      "12": "#3b0a2a"
+    },
+    plum: {
+      "1": "#fefcff",
+      "2": "#fff8ff",
+      "3": "#fceffc",
+      "4": "#f9e5f9",
+      "5": "#f3d9f4",
+      "6": "#ebc8ed",
+      "7": "#dfafe3",
+      "8": "#cf91d8",
+      "9": "#ab4aba",
+      "10": "#a43cb4",
+      "11": "#9c2bad",
+      "12": "#340c3b"
+    },
+    purple: {
+      "1": "#fefcfe",
+      "2": "#fdfaff",
+      "3": "#f9f1fe",
+      "4": "#f3e7fc",
+      "5": "#eddbf9",
+      "6": "#e3ccf4",
+      "7": "#d3b4ed",
+      "8": "#be93e4",
+      "9": "#8e4ec6",
+      "10": "#8445bc",
+      "11": "#793aaf",
+      "12": "#2b0e44"
+    },
+    violet: {
+      "1": "#fdfcfe",
+      "2": "#fbfaff",
+      "3": "#f5f2ff",
+      "4": "#ede9fe",
+      "5": "#e4defc",
+      "6": "#d7cff9",
+      "7": "#c4b8f3",
+      "8": "#aa99ec",
+      "9": "#6e56cf",
+      "10": "#644fc1",
+      "11": "#5746af",
+      "12": "#20134b"
+    },
+    indigo: {
+      "1": "#fdfdfe",
+      "2": "#f8faff",
+      "3": "#f0f4ff",
+      "4": "#e6edfe",
+      "5": "#d9e2fc",
+      "6": "#c6d4f9",
+      "7": "#aec0f5",
+      "8": "#8da4ef",
+      "9": "#3e63dd",
+      "10": "#3a5ccc",
+      "11": "#3451b2",
+      "12": "#101d46"
+    },
+    blue: {
+      "1": "#fbfdff",
+      "2": "#f5faff",
+      "3": "#edf6ff",
+      "4": "#e1f0ff",
+      "5": "#cee7fe",
+      "6": "#b7d9f8",
+      "7": "#96c7f2",
+      "8": "#5eb0ef",
+      "9": "#0091ff",
+      "10": "#0081f1",
+      "11": "#006adc",
+      "12": "#00254d"
+    },
+    cyan: {
+      "1": "#fafdfe",
+      "2": "#f2fcfd",
+      "3": "#e7f9fb",
+      "4": "#d8f3f6",
+      "5": "#c4eaef",
+      "6": "#aadee6",
+      "7": "#84cdda",
+      "8": "#3db9cf",
+      "9": "#05a2c2",
+      "10": "#0894b3",
+      "11": "#0c7792",
+      "12": "#04313c"
+    },
+    teal: {
+      "1": "#fafefd",
+      "2": "#f1fcfa",
+      "3": "#e7f9f5",
+      "4": "#d9f3ee",
+      "5": "#c7ebe5",
+      "6": "#afdfd7",
+      "7": "#8dcec3",
+      "8": "#53b9ab",
+      "9": "#12a594",
+      "10": "#0e9888",
+      "11": "#067a6f",
+      "12": "#10302b"
+    },
+    green: {
+      "1": "#fbfefc",
+      "2": "#f2fcf5",
+      "3": "#e9f9ee",
+      "4": "#ddf3e4",
+      "5": "#ccebd7",
+      "6": "#b4dfc4",
+      "7": "#92ceac",
+      "8": "#5bb98c",
+      "9": "#30a46c",
+      "10": "#299764",
+      "11": "#18794e",
+      "12": "#153226"
+    },
+    grass: {
+      "1": "#fbfefb",
+      "2": "#f3fcf3",
+      "3": "#ebf9eb",
+      "4": "#dff3df",
+      "5": "#ceebcf",
+      "6": "#b7dfba",
+      "7": "#97cf9c",
+      "8": "#65ba75",
+      "9": "#46a758",
+      "10": "#3d9a50",
+      "11": "#297c3b",
+      "12": "#1b311e"
+    },
+    brown: {
+      "1": "#fefdfc",
+      "2": "#fcf9f6",
+      "3": "#f8f1ea",
+      "4": "#f4e9dd",
+      "5": "#efddcc",
+      "6": "#e8cdb5",
+      "7": "#ddb896",
+      "8": "#d09e72",
+      "9": "#ad7f58",
+      "10": "#a07653",
+      "11": "#886349",
+      "12": "#3f2c22"
+    },
+    orange: {
+      "1": "#fefcfb",
+      "2": "#fef8f4",
+      "3": "#fff1e7",
+      "4": "#ffe8d7",
+      "5": "#ffdcc3",
+      "6": "#ffcca7",
+      "7": "#ffb381",
+      "8": "#fa934e",
+      "9": "#f76808",
+      "10": "#ed5f00",
+      "11": "#bd4b00",
+      "12": "#451e11"
+    },
+    sky: {
+      "1": "#f9feff",
+      "2": "#f1fcff",
+      "3": "#e4f9ff",
+      "4": "#d5f4fd",
+      "5": "#c1ecf9",
+      "6": "#a4dff1",
+      "7": "#79cfea",
+      "8": "#2ebde5",
+      "9": "#68ddfd",
+      "10": "#5fd4f4",
+      "11": "#0078a1",
+      "12": "#003242"
+    },
+    mint: {
+      "1": "#f9fefd",
+      "2": "#effefa",
+      "3": "#e1fbf4",
+      "4": "#d2f7ed",
+      "5": "#c0efe3",
+      "6": "#a5e4d4",
+      "7": "#7dd4c0",
+      "8": "#40c4aa",
+      "9": "#70e1c8",
+      "10": "#69d9c1",
+      "11": "#147d6f",
+      "12": "#09342e"
+    },
+    lime: {
+      "1": "#fcfdfa",
+      "2": "#f7fcf0",
+      "3": "#eefadc",
+      "4": "#e4f7c7",
+      "5": "#d7f2b0",
+      "6": "#c9e894",
+      "7": "#b1d16a",
+      "8": "#94ba2c",
+      "9": "#99d52a",
+      "10": "#93c926",
+      "11": "#5d770d",
+      "12": "#263209"
+    },
+    yellow: {
+      "1": "#fdfdf9",
+      "2": "#fffce8",
+      "3": "#fffbd1",
+      "4": "#fff8bb",
+      "5": "#fef2a4",
+      "6": "#f9e68c",
+      "7": "#efd36c",
+      "8": "#ebbc00",
+      "9": "#f5d90a",
+      "10": "#f7ce00",
+      "11": "#946800",
+      "12": "#35290f"
+    },
+    amber: {
+      "1": "#fefdfb",
+      "2": "#fff9ed",
+      "3": "#fff4d5",
+      "4": "#ffecbc",
+      "5": "#ffe3a2",
+      "6": "#ffd386",
+      "7": "#f3ba63",
+      "8": "#ee9d2b",
+      "9": "#ffb224",
+      "10": "#ffa01c",
+      "11": "#ad5700",
+      "12": "#4e2009"
+    },
+    gold: {
+      "1": "#fdfdfc",
+      "2": "#fbf9f2",
+      "3": "#f5f2e9",
+      "4": "#eeeadd",
+      "5": "#e5dfd0",
+      "6": "#dad1bd",
+      "7": "#cbbda4",
+      "8": "#b8a383",
+      "9": "#978365",
+      "10": "#8c795d",
+      "11": "#776750",
+      "12": "#3b352b"
+    },
+    bronze: {
+      "1": "#fdfcfc",
+      "2": "#fdf8f6",
+      "3": "#f8f1ee",
+      "4": "#f2e8e4",
+      "5": "#eaddd7",
+      "6": "#e0cec7",
+      "7": "#d1b9b0",
+      "8": "#bfa094",
+      "9": "#a18072",
+      "10": "#977669",
+      "11": "#846358",
+      "12": "#43302b"
+    },
+    gray: {
+      "1": "#fcfcfc",
+      "2": "#f8f8f8",
+      "3": "#f3f3f3",
+      "4": "#ededed",
+      "5": "#e8e8e8",
+      "6": "#e2e2e2",
+      "7": "#dbdbdb",
+      "8": "#c7c7c7",
+      "9": "#8f8f8f",
+      "10": "#858585",
+      "11": "#6f6f6f",
+      "12": "#171717"
+    },
+    mauve: {
+      "1": "#fdfcfd",
+      "2": "#f9f8f9",
+      "3": "#f4f2f4",
+      "4": "#eeedef",
+      "5": "#e9e8ea",
+      "6": "#e4e2e4",
+      "7": "#dcdbdd",
+      "8": "#c8c7cb",
+      "9": "#908e96",
+      "10": "#86848d",
+      "11": "#6f6e77",
+      "12": "#1a1523"
+    },
+    slate: {
+      "1": "#fbfcfd",
+      "2": "#f8f9fa",
+      "3": "#f1f3f5",
+      "4": "#eceef0",
+      "5": "#e6e8eb",
+      "6": "#dfe3e6",
+      "7": "#d7dbdf",
+      "8": "#c1c8cd",
+      "9": "#889096",
+      "10": "#7e868c",
+      "11": "#687076",
+      "12": "#11181c"
+    },
+    sage: {
+      "1": "#fbfdfc",
+      "2": "#f8faf9",
+      "3": "#f1f4f3",
+      "4": "#ecefed",
+      "5": "#e6e9e8",
+      "6": "#dfe4e2",
+      "7": "#d7dcda",
+      "8": "#c2c9c6",
+      "9": "#8a918e",
+      "10": "#808784",
+      "11": "#6a716e",
+      "12": "#111c18"
+    },
+    olive: {
+      "1": "#fcfdfc",
+      "2": "#f8faf8",
+      "3": "#f2f4f2",
+      "4": "#ecefec",
+      "5": "#e6e9e6",
+      "6": "#e0e4e0",
+      "7": "#d8dcd8",
+      "8": "#c3c8c2",
+      "9": "#8b918a",
+      "10": "#818780",
+      "11": "#6b716a",
+      "12": "#141e12"
+    },
+    sand: {
+      "1": "#fdfdfc",
+      "2": "#f9f9f8",
+      "3": "#f3f3f2",
+      "4": "#eeeeec",
+      "5": "#e9e9e6",
+      "6": "#e3e3e0",
+      "7": "#dbdbd7",
+      "8": "#c8c7c1",
+      "9": "#90908c",
+      "10": "#868682",
+      "11": "#706f6c",
+      "12": "#1b1b18"
+    },
+    accent: {
+      "1": "#fbfdff",
+      "2": "#f5faff",
+      "3": "#edf6ff",
+      "4": "#e1f0ff",
+      "5": "#cee7fe",
+      "6": "#b7d9f8",
+      "7": "#96c7f2",
+      "8": "#5eb0ef",
+      "9": "#0091ff",
+      "10": "#0081f1",
+      "11": "#006adc",
+      "12": "#00254d"
+    },
+    base: {
+      text: "#11181c",
+      textSecondary: "#687076",
+      textTertiary: "#889096",
+      background: "#fbfcfd",
+      backgroundSecondary: "#f8f9fa",
+      backgroundTertiary: "#f1f3f5",
+      pureBackground: "#FFFFFF",
+      pureForeground: "black"
+    }
+  },
+  dark: {
+    tomato: {
+      "1": "#1d1412",
+      "2": "#2a1410",
+      "3": "#3b1813",
+      "4": "#481a14",
+      "5": "#541c15",
+      "6": "#652016",
+      "7": "#7f2315",
+      "8": "#a42a12",
+      "9": "#e54d2e",
+      "10": "#ec5e41",
+      "11": "#f16a50",
+      "12": "#feefec"
+    },
+    red: {
+      "1": "#1f1315",
+      "2": "#291415",
+      "3": "#3c181a",
+      "4": "#481a1d",
+      "5": "#541b1f",
+      "6": "#671e22",
+      "7": "#822025",
+      "8": "#aa2429",
+      "9": "#e5484d",
+      "10": "#f2555a",
+      "11": "#ff6369",
+      "12": "#feecee"
+    },
+    crimson: {
+      "1": "#1d1418",
+      "2": "#27141c",
+      "3": "#3c1827",
+      "4": "#481a2d",
+      "5": "#541b33",
+      "6": "#641d3b",
+      "7": "#801d45",
+      "8": "#ae1955",
+      "9": "#e93d82",
+      "10": "#f04f88",
+      "11": "#f76190",
+      "12": "#feecf4"
+    },
+    pink: {
+      "1": "#1f121b",
+      "2": "#271421",
+      "3": "#3a182f",
+      "4": "#451a37",
+      "5": "#501b3f",
+      "6": "#601d48",
+      "7": "#7a1d5a",
+      "8": "#a71873",
+      "9": "#d6409f",
+      "10": "#e34ba9",
+      "11": "#f65cb6",
+      "12": "#feebf7"
+    },
+    plum: {
+      "1": "#1d131d",
+      "2": "#251425",
+      "3": "#341a34",
+      "4": "#3e1d40",
+      "5": "#48214b",
+      "6": "#542658",
+      "7": "#692d6f",
+      "8": "#883894",
+      "9": "#ab4aba",
+      "10": "#bd54c6",
+      "11": "#d864d8",
+      "12": "#fbecfc"
+    },
+    purple: {
+      "1": "#1b141d",
+      "2": "#221527",
+      "3": "#301a3a",
+      "4": "#3a1e48",
+      "5": "#432155",
+      "6": "#4e2667",
+      "7": "#5f2d84",
+      "8": "#7938b2",
+      "9": "#8e4ec6",
+      "10": "#9d5bd2",
+      "11": "#bf7af0",
+      "12": "#f7ecfc"
+    },
+    violet: {
+      "1": "#17151f",
+      "2": "#1c172b",
+      "3": "#251e40",
+      "4": "#2c2250",
+      "5": "#32275f",
+      "6": "#392c72",
+      "7": "#443592",
+      "8": "#5842c3",
+      "9": "#6e56cf",
+      "10": "#7c66dc",
+      "11": "#9e8cfc",
+      "12": "#f1eefe"
+    },
+    indigo: {
+      "1": "#131620",
+      "2": "#15192d",
+      "3": "#192140",
+      "4": "#1c274f",
+      "5": "#1f2c5c",
+      "6": "#22346e",
+      "7": "#273e89",
+      "8": "#2f4eb2",
+      "9": "#3e63dd",
+      "10": "#5373e7",
+      "11": "#849dff",
+      "12": "#eef1fd"
+    },
+    blue: {
+      "1": "#0f1720",
+      "2": "#0f1b2d",
+      "3": "#10243e",
+      "4": "#102a4c",
+      "5": "#0f3058",
+      "6": "#0d3868",
+      "7": "#0a4481",
+      "8": "#0954a5",
+      "9": "#0091ff",
+      "10": "#369eff",
+      "11": "#52a9ff",
+      "12": "#eaf6ff"
+    },
+    cyan: {
+      "1": "#07191d",
+      "2": "#061e24",
+      "3": "#072830",
+      "4": "#07303b",
+      "5": "#073844",
+      "6": "#064150",
+      "7": "#045063",
+      "8": "#00647d",
+      "9": "#05a2c2",
+      "10": "#00b1cc",
+      "11": "#00c2d7",
+      "12": "#e1f8fa"
+    },
+    teal: {
+      "1": "#091915",
+      "2": "#04201b",
+      "3": "#062923",
+      "4": "#07312b",
+      "5": "#083932",
+      "6": "#09443c",
+      "7": "#0b544a",
+      "8": "#0c6d62",
+      "9": "#12a594",
+      "10": "#10b3a3",
+      "11": "#0ac5b3",
+      "12": "#e1faf4"
+    },
+    green: {
+      "1": "#0d1912",
+      "2": "#0c1f17",
+      "3": "#0f291e",
+      "4": "#113123",
+      "5": "#133929",
+      "6": "#164430",
+      "7": "#1b543a",
+      "8": "#236e4a",
+      "9": "#30a46c",
+      "10": "#3cb179",
+      "11": "#4cc38a",
+      "12": "#e5fbeb"
+    },
+    grass: {
+      "1": "#0d1912",
+      "2": "#0f1e13",
+      "3": "#132819",
+      "4": "#16301d",
+      "5": "#193921",
+      "6": "#1d4427",
+      "7": "#245530",
+      "8": "#2f6e3b",
+      "9": "#46a758",
+      "10": "#55b467",
+      "11": "#63c174",
+      "12": "#e5fbeb"
+    },
+    brown: {
+      "1": "#191513",
+      "2": "#221813",
+      "3": "#2e201a",
+      "4": "#36261e",
+      "5": "#3e2c22",
+      "6": "#493528",
+      "7": "#5c4332",
+      "8": "#775940",
+      "9": "#ad7f58",
+      "10": "#bd8b60",
+      "11": "#dba16e",
+      "12": "#faf0e5"
+    },
+    orange: {
+      "1": "#1f1206",
+      "2": "#2b1400",
+      "3": "#391a03",
+      "4": "#441f04",
+      "5": "#4f2305",
+      "6": "#5f2a06",
+      "7": "#763205",
+      "8": "#943e00",
+      "9": "#f76808",
+      "10": "#ff802b",
+      "11": "#ff8b3e",
+      "12": "#feeadd"
+    },
+    sky: {
+      "1": "#0c1820",
+      "2": "#071d2a",
+      "3": "#082636",
+      "4": "#082d41",
+      "5": "#08354c",
+      "6": "#083e59",
+      "7": "#064b6b",
+      "8": "#005d85",
+      "9": "#68ddfd",
+      "10": "#8ae8ff",
+      "11": "#2ec8ee",
+      "12": "#eaf8ff"
+    },
+    mint: {
+      "1": "#081917",
+      "2": "#05201e",
+      "3": "#052926",
+      "4": "#04312c",
+      "5": "#033a34",
+      "6": "#01453d",
+      "7": "#00564a",
+      "8": "#006d5b",
+      "9": "#70e1c8",
+      "10": "#95f3d9",
+      "11": "#25d0ab",
+      "12": "#e7fcf7"
+    },
+    lime: {
+      "1": "#141807",
+      "2": "#181d08",
+      "3": "#1e260d",
+      "4": "#252e0f",
+      "5": "#2b3711",
+      "6": "#344213",
+      "7": "#415215",
+      "8": "#536716",
+      "9": "#99d52a",
+      "10": "#c4f042",
+      "11": "#87be22",
+      "12": "#effbdd"
+    },
+    yellow: {
+      "1": "#1c1500",
+      "2": "#221a00",
+      "3": "#2c2100",
+      "4": "#352800",
+      "5": "#3e3000",
+      "6": "#493c00",
+      "7": "#594a05",
+      "8": "#705e00",
+      "9": "#f5d90a",
+      "10": "#ffef5c",
+      "11": "#f0c000",
+      "12": "#fffad1"
+    },
+    amber: {
+      "1": "#1f1300",
+      "2": "#271700",
+      "3": "#341c00",
+      "4": "#3f2200",
+      "5": "#4a2900",
+      "6": "#573300",
+      "7": "#693f05",
+      "8": "#824e00",
+      "9": "#ffb224",
+      "10": "#ffcb47",
+      "11": "#f1a10d",
+      "12": "#fef3dd"
+    },
+    gold: {
+      "1": "#171613",
+      "2": "#1c1a15",
+      "3": "#26231c",
+      "4": "#2e2a21",
+      "5": "#353026",
+      "6": "#3e382c",
+      "7": "#504737",
+      "8": "#6b5d48",
+      "9": "#978365",
+      "10": "#a59071",
+      "11": "#bfa888",
+      "12": "#f7f4e7"
+    },
+    bronze: {
+      "1": "#191514",
+      "2": "#1f1917",
+      "3": "#2a211f",
+      "4": "#332824",
+      "5": "#3b2e29",
+      "6": "#453530",
+      "7": "#57433c",
+      "8": "#74594e",
+      "9": "#a18072",
+      "10": "#b08c7d",
+      "11": "#cba393",
+      "12": "#f9ede7"
+    },
+    gray: {
+      "1": "#161616",
+      "2": "#1c1c1c",
+      "3": "#232323",
+      "4": "#282828",
+      "5": "#2e2e2e",
+      "6": "#343434",
+      "7": "#3e3e3e",
+      "8": "#505050",
+      "9": "#707070",
+      "10": "#7e7e7e",
+      "11": "#a0a0a0",
+      "12": "#ededed"
+    },
+    mauve: {
+      "1": "#161618",
+      "2": "#1c1c1f",
+      "3": "#232326",
+      "4": "#28282c",
+      "5": "#2e2e32",
+      "6": "#34343a",
+      "7": "#3e3e44",
+      "8": "#504f57",
+      "9": "#706f78",
+      "10": "#7e7d86",
+      "11": "#a09fa6",
+      "12": "#ededef"
+    },
+    slate: {
+      "1": "#151718",
+      "2": "#1a1d1e",
+      "3": "#202425",
+      "4": "#26292b",
+      "5": "#2b2f31",
+      "6": "#313538",
+      "7": "#3a3f42",
+      "8": "#4c5155",
+      "9": "#697177",
+      "10": "#787f85",
+      "11": "#9ba1a6",
+      "12": "#ecedee"
+    },
+    sage: {
+      "1": "#141716",
+      "2": "#191d1b",
+      "3": "#1f2421",
+      "4": "#252a27",
+      "5": "#2a2f2c",
+      "6": "#303633",
+      "7": "#393f3c",
+      "8": "#4a524e",
+      "9": "#66736d",
+      "10": "#75817b",
+      "11": "#99a29e",
+      "12": "#eceeed"
+    },
+    olive: {
+      "1": "#151715",
+      "2": "#1a1d19",
+      "3": "#20241f",
+      "4": "#262925",
+      "5": "#2b2f2a",
+      "6": "#313530",
+      "7": "#3b3f3a",
+      "8": "#4c514b",
+      "9": "#687366",
+      "10": "#778175",
+      "11": "#9aa299",
+      "12": "#eceeec"
+    },
+    sand: {
+      "1": "#161615",
+      "2": "#1c1c1a",
+      "3": "#232320",
+      "4": "#282826",
+      "5": "#2e2e2b",
+      "6": "#353431",
+      "7": "#3e3e3a",
+      "8": "#51504b",
+      "9": "#717069",
+      "10": "#7f7e77",
+      "11": "#a1a09a",
+      "12": "#ededec"
+    },
+    accent: {
+      "1": "#0f1720",
+      "2": "#0f1b2d",
+      "3": "#10243e",
+      "4": "#102a4c",
+      "5": "#0f3058",
+      "6": "#0d3868",
+      "7": "#0a4481",
+      "8": "#0954a5",
+      "9": "#0091ff",
+      "10": "#369eff",
+      "11": "#52a9ff",
+      "12": "#eaf6ff"
+    },
+    base: {
+      text: "#ecedee",
+      textSecondary: "#9ba1a6",
+      textTertiary: "#697177",
+      background: "#151718",
+      backgroundSecondary: "#1a1d1e",
+      backgroundTertiary: "#202425",
+      pureForeground: "#FFFFFF",
+      pureBackground: "black"
+    }
+  },
+  spacing: {
+    "0": "0px",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "7": "1.75rem",
+    "8": "2rem",
+    "9": "2.25rem",
+    "10": "2.5rem",
+    "11": "2.75rem",
+    "12": "3rem",
+    "14": "3.5rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem",
+    "28": "7rem",
+    "32": "8rem",
+    "36": "9rem",
+    "40": "10rem",
+    "44": "11rem",
+    "48": "12rem",
+    "52": "13rem",
+    "56": "14rem",
+    "60": "15rem",
+    "64": "16rem",
+    "72": "18rem",
+    "80": "20rem",
+    "96": "24rem",
+    px: "1px"
+  },
+  screens: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+    "2xl": "1536px"
+  },
+  boxShadow: {
+    sm: {
+      x: 0,
+      y: 1,
+      blur: 2,
+      spread: 0,
+      color: "rgba(0 ,0 ,0,0.05)",
+      type: "dropShadow"
+    },
+    DEFAULT: [
+      {
+        x: 0,
+        y: 1,
+        blur: 3,
+        spread: 0,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      },
+      {
+        x: 0,
+        y: 1,
+        blur: 2,
+        spread: -1,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      }
+    ],
+    md: [
+      {
+        x: 0,
+        y: 4,
+        blur: 6,
+        spread: -1,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      },
+      {
+        x: 0,
+        y: 2,
+        blur: 4,
+        spread: -2,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      }
+    ],
+    lg: [
+      {
+        x: 0,
+        y: 10,
+        blur: 15,
+        spread: "03",
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      },
+      {
+        x: 0,
+        y: 4,
+        blur: 6,
+        spread: -4,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      }
+    ],
+    xl: [
+      {
+        x: 0,
+        y: 20,
+        blur: 25,
+        spread: -5,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      },
+      {
+        x: 0,
+        y: 8,
+        blur: 10,
+        spread: -6,
+        color: "rgba(0,0,0,0.1)",
+        type: "dropShadow"
+      }
+    ],
+    "2xl": [
+      {
+        x: 0,
+        y: 25,
+        blur: 50,
+        spread: -12,
+        color: "rgba(0,0,0,0.25)",
+        type: "dropShadow"
+      }
+    ],
+    inner: {
+      x: 0,
+      y: 2,
+      blur: 4,
+      spread: 0,
+      color: "rgba(0,0,0,0.05)",
+      type: "innerShadow"
+    }
+  },
+  tokenSetOrder: {
+    "0": "global",
+    "1": "light",
+    "2": "dark",
+    "3": "theme"
+  }
+};
+var Radix22222222222222222 = RadixColors32222222222222222;
+function capitalize22222222222222222(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+function flattenKeys22222222222222222(obj, sep = "", parentKey = "") {
+  return Object.keys(obj).reduce((acc, key) => {
+    const value = obj[key];
+    const newKey = parentKey ? parentKey + sep + capitalize22222222222222222(key) : key;
+    if (typeof value === "object") {
+      Object.assign(acc, flattenKeys22222222222222222(value, sep, newKey));
+    } else {
+      acc[newKey] = value;
+    }
+    return acc;
+  }, {});
+}
+var lightColors22222222222222222 = flattenKeys22222222222222222(theme_default22222222222222222.light);
+var brandColors22222222222222222 = flattenKeys22222222222222222(theme_default22222222222222222.brand);
+var supportColors22222222222222222 = flattenKeys22222222222222222(theme_default22222222222222222.support);
+var darkColors22222222222222222 = flattenKeys22222222222222222(theme_default22222222222222222.dark);
+var bgToneScales22222222222222222 = {
+  bgTone1: (value) => ({
+    backgroundColor: `$${value}1`
+  }),
+  bgTone2: (value) => ({
+    backgroundColor: `$${value}2`
+  }),
+  bgTone3: (value) => ({
+    backgroundColor: `$${value}3`
+  }),
+  bgTone4: (value) => ({
+    backgroundColor: `$${value}4`
+  }),
+  bgTone5: (value) => ({
+    backgroundColor: `$${value}5`
+  }),
+  bgTone6: (value) => ({
+    backgroundColor: `$${value}6`
+  }),
+  bgTone7: (value) => ({
+    backgroundColor: `$${value}7`
+  }),
+  bgTone8: (value) => ({
+    backgroundColor: `$${value}8`
+  }),
+  bgTone9: (value) => ({
+    backgroundColor: `$${value}9`
+  }),
+  bgTone10: (value) => ({
+    backgroundColor: `$${value}10`
+  }),
+  bgTone11: (value) => ({
+    backgroundColor: `$${value}11`
+  }),
+  bgTone12: (value) => ({
+    backgroundColor: `$${value}12`
+  })
+};
+var textToneScales22222222222222222 = {
+  textTone1: (value) => ({
+    color: `$${value}1`
+  }),
+  textTone2: (value) => ({
+    color: `$${value}2`
+  }),
+  textTone3: (value) => ({
+    color: `$${value}3`
+  }),
+  textTone4: (value) => ({
+    color: `$${value}4`
+  }),
+  textTone5: (value) => ({
+    color: `$${value}5`
+  }),
+  textTone6: (value) => ({
+    color: `$${value}6`
+  }),
+  textTone7: (value) => ({
+    color: `$${value}7`
+  }),
+  textTone8: (value) => ({
+    color: `$${value}8`
+  }),
+  textTone9: (value) => ({
+    color: `$${value}9`
+  }),
+  textTone10: (value) => ({
+    color: `$${value}10`
+  }),
+  textTone11: (value) => ({
+    color: `$${value}11`
+  }),
+  textTone12: (value) => ({
+    color: `$${value}12`
+  })
+};
+var borderToneScales22222222222222222 = {
+  borderTone1: (value) => ({
+    borderColor: `$${value}1`
+  }),
+  borderTone2: (value) => ({
+    borderColor: `$${value}2`
+  }),
+  borderTone3: (value) => ({
+    borderColor: `$${value}3`
+  }),
+  borderTone4: (value) => ({
+    borderColor: `$${value}4`
+  }),
+  borderTone5: (value) => ({
+    borderColor: `$${value}5`
+  }),
+  borderTone6: (value) => ({
+    borderColor: `$${value}6`
+  }),
+  borderTone7: (value) => ({
+    borderColor: `$${value}7`
+  }),
+  borderTone8: (value) => ({
+    borderColor: `$${value}8`
+  }),
+  borderTone9: (value) => ({
+    borderColor: `$${value}9`
+  }),
+  borderTone10: (value) => ({
+    borderColor: `$${value}10`
+  }),
+  borderTone11: (value) => ({
+    borderColor: `$${value}11`
+  }),
+  borderTone12: (value) => ({
+    borderColor: `$${value}12`
+  })
+};
+var {
+  styled: styled22222222222222222,
+  css: css22222222222222222,
+  globalCss: globalCss22222222222222222,
+  keyframes: keyframes22222222222222222,
+  getCssText: getCssText22222222222222222,
+  theme: theme22222222222222222,
+  createTheme: createTheme22222222222222222,
+  config: config22222222222222222
+} = createStitches22222222222222222({
+  theme: {
+    colors: __spreadValues22222222222222222(__spreadValues22222222222222222(__spreadValues22222222222222222({}, lightColors22222222222222222), brandColors22222222222222222), supportColors22222222222222222),
+    space: __spreadValues22222222222222222({
+      "100%": "100%"
+    }, theme_default22222222222222222.spacing),
+    sizes: __spreadValues22222222222222222({
+      "100%": "100%"
+    }, theme_default22222222222222222.spacing),
+    fontSizes: __spreadValues22222222222222222({}, theme_default22222222222222222.fontSizes),
+    fonts: {
+      heading: `${theme_default22222222222222222.fontFamilies.heading},'SkModernistBold',SkModernistBold,'Sk-Modernist-Bold',sans-serif`,
+      branding: `${theme_default22222222222222222.fontFamilies.heading},'SkModernistRegular',SkModernistRegular,'Sk-Modernist-Regular',sans-serif`,
+      body: `'Inter Tight',${theme_default22222222222222222.fontFamilies.body}, sans-serif`
+    },
+    fontWeights: __spreadValues22222222222222222({}, theme_default22222222222222222.fontWeights),
+    lineHeights: __spreadValues22222222222222222({}, theme_default22222222222222222.lineHeights),
+    letterSpacings: __spreadValues22222222222222222({}, theme_default22222222222222222.letterSpacing),
+    borderWidths: __spreadValues22222222222222222({}, theme_default22222222222222222.borderWidth),
+    borderStyles: {
+      solid: "solid",
+      dashed: "dashed"
+    },
+    radii: __spreadValues22222222222222222({}, theme_default22222222222222222.borderRadius),
+    zIndices: {},
+    transitions: {
+      fast: "all 0.1s",
+      slow: "all 0.4s ease-in-out"
+    },
+    shadows: {
+      1: `0.3px 0.5px 0.7px ${Radix22222222222222222.blackA.blackA5},
+          0.4px 0.8px 1px -1.2px ${Radix22222222222222222.blackA.blackA5},
+          1px 2px 2.5px -2.5px ${Radix22222222222222222.blackA.blackA5}`,
+      2: `0.3px 0.5px 0.7px ${Radix22222222222222222.blackA.blackA5},
+          0.8px 1.6px 2px -0.8px ${Radix22222222222222222.blackA.blackA5},
+          2.1px 4.1px 5.2px -1.7px ${Radix22222222222222222.blackA.blackA5},
+          5px 10px 12.6px -2.5px ${Radix22222222222222222.blackA.blackA5}`,
+      3: `0.3px 0.5px 0.7px ${Radix22222222222222222.blackA.blackA5},
+          1.5px 2.9px 3.7px -0.4px ${Radix22222222222222222.blackA.blackA4},
+          2.7px 5.4px 6.8px -0.7px ${Radix22222222222222222.blackA.blackA4},
+          4.5px 8.9px 11.2px -1.1px ${Radix22222222222222222.blackA.blackA4},
+          7.1px 14.3px 18px -1.4px ${Radix22222222222222222.blackA.blackA4},
+          11.2px 22.3px 28.1px -1.8px ${Radix22222222222222222.blackA.blackA4}`,
+      subtle: `0.3px 0.5px 0.7px ${Radix22222222222222222.blackA.blackA3},
+          0.8px 1.6px 2px -0.8px ${Radix22222222222222222.blackA.blackA3},
+          2.1px 4.1px 5.2px -1.7px ${Radix22222222222222222.blackA.blackA3}`
+    }
+  },
+  media: {
+    sm: "(min-width: 480px)",
+    md: "(min-width: 768px)",
+    lg: "(min-width: 1024px)",
+    xl: "(min-width: 1280px)",
+    "2xl": "(min-width: 1536px)"
+  },
+  utils: __spreadProps22222222222222222(__spreadValues22222222222222222(__spreadValues22222222222222222(__spreadValues22222222222222222({}, bgToneScales22222222222222222), textToneScales22222222222222222), borderToneScales22222222222222222), {
+    m: (value) => ({
+      margin: value
+    }),
+    mr: (value) => ({
+      marginRight: value
+    }),
+    mb: (value) => ({
+      marginBottom: value
+    }),
+    ml: (value) => ({
+      marginLeft: value
+    }),
+    mx: (value) => ({
+      marginLeft: value,
+      marginRight: value
+    }),
+    my: (value) => ({
+      marginTop: value,
+      marginBottom: value
+    }),
+    // Abbreviated padding properties
+    p: (value) => ({
+      padding: value
+    }),
+    pt: (value) => ({
+      paddingTop: value
+    }),
+    pr: (value) => ({
+      paddingRight: value
+    }),
+    pb: (value) => ({
+      paddingBottom: value
+    }),
+    pl: (value) => ({
+      paddingLeft: value
+    }),
+    px: (value) => ({
+      paddingLeft: value,
+      paddingRight: value
+    }),
+    py: (value) => ({
+      paddingTop: value,
+      paddingBottom: value
+    }),
+    // A property for applying flex together
+    flex: (value) => ({
+      display: "flex",
+      flex: value
+    }),
+    // A property for applying grid together
+    grid: (value) => ({
+      display: "grid",
+      grid: value
+    }),
+    // A property for applying width/height together
+    boxSize: (value) => ({
+      width: value,
+      height: value
+    }),
+    w: (value) => ({
+      width: value
+    }),
+    h: (value) => ({
+      height: value
+    }),
+    // An abbreviated property for border-radius
+    br: (value) => ({
+      borderRadius: value
+    }),
+    bg: (value) => ({
+      backgroundColor: value
+    })
+  }),
+  themeMap: __spreadValues22222222222222222({}, defaultThemeMap22222222222222222)
+});
+var stitchesDarkTheme22222222222222222 = createTheme22222222222222222("dark", {
+  colors: __spreadValues22222222222222222({}, darkColors22222222222222222)
+});
+var reset22222222222222222 = globalCss22222222222222222({
+  "*": { margin: 0, boxSizing: "border-box" }
+});
+var brandFonts22222222222222222 = globalCss22222222222222222({
+  "@font-face": [
+    {
+      fontFamily: "skModernistBold",
+      src: 'url("/fonts/sk-modernist-bold-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-bold-webfont.woff") format("woff"),url("/fonts/sk-modernist-bold-webfont.ttf") format("truetype")',
+      fontWeight: "bold"
+    },
+    {
+      fontFamily: "skModernistRegular",
+      src: 'url("/fonts/sk-modernist-regular-webfont.woff2") format("woff2"), url("/fonts/sk-modernist-regular-webfont.woff") format("woff"),url("/fonts/sk-modernist-regular-webfont.ttf") format("truetype")',
+      fontWeight: 400
+    }
+  ]
+});
+var Box22222222222222222 = styled22222222222222222("div", {});
+var Stack22222222222222222 = styled22222222222222222(Box22222222222222222, {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4"
+});
+var AutoSpinner22222222222222222 = () => {
+  return /* @__PURE__ */ jsx72222222222222222(
+    "svg",
+    {
+      version: "1.1",
+      id: "L9",
+      xmlns: "http://www.w3.org/2000/svg",
+      xmlnsXlink: "http://www.w3.org/1999/xlink",
+      x: "0px",
+      y: "0px",
+      width: "100%",
+      height: "100%",
+      viewBox: "0 0 100 100",
+      enableBackground: "new 0 0 0 0",
+      xmlSpace: "preserve",
+      children: /* @__PURE__ */ jsx72222222222222222(
+        "path",
+        {
+          fill: "currentColor",
+          d: "M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50",
+          children: /* @__PURE__ */ jsx72222222222222222(
+            "animateTransform",
+            {
+              attributeName: "transform",
+              attributeType: "XML",
+              type: "rotate",
+              dur: "1s",
+              from: "0 50 50",
+              to: "360 50 50",
+              repeatCount: "indefinite"
+            }
+          )
+        }
+      )
+    }
+  );
+};
+function getButtonToneStyle22222222222222222(tone, intent) {
+  if (!tone) {
+    return;
+  } else if (tone === "sky" || tone === "mint" || tone === "lime" || tone === "yellow" || tone === "amber") {
+    if (intent === "primary") {
+      return {
+        bgTone9: tone,
+        "&:hover": {
+          bgTone10: tone
+        },
+        "&:active": {
+          bgTone11: tone
+        },
+        color: "black"
+      };
+    } else if (intent === "secondary") {
+      return {
+        bgTone4: tone,
+        "&:hover": {
+          bgTone5: tone
+        },
+        "&:active": {
+          bgTone6: tone
+        },
+        color: `$${tone}11`
+      };
+    } else if (intent === "ghost") {
+      return {
+        bg: "transparent",
+        "&:hover": {
+          bgTone3: tone
+        },
+        "&:active": {
+          bgTone4: tone
+        },
+        color: `$${tone}11`
+      };
+    }
+  } else if (
+    // grayscale series
+    tone === "gray" || tone === "mauve" || tone === "slate" || tone === "sage" || tone === "olive" || tone === "sand"
+  ) {
+    if (intent === "primary") {
+      return {
+        bgTone12: tone,
+        "&:hover": {
+          bgTone12: tone
+        },
+        "&:active": {
+          bgTone12: tone
+        },
+        color: `$${tone}2`
+      };
+    } else if (intent === "secondary") {
+      return {
+        bgTone6: tone,
+        "&:hover": {
+          bgTone7: tone
+        },
+        "&:active": {
+          bgTone8: tone
+        },
+        color: `$${tone}12`
+      };
+    } else {
+      return {
+        bg: "transparent",
+        "&:hover": {
+          bgTone3: tone
+        },
+        "&:active": {
+          bgTone4: tone
+        },
+        color: `$${tone}11`
+      };
+    }
+  } else {
+    if (intent === "primary") {
+      return {
+        bgTone9: tone,
+        "&:hover": {
+          bgTone10: tone
+        },
+        "&:active": {
+          bgTone11: tone
+        },
+        color: "white"
+      };
+    } else if (intent === "secondary") {
+      return {
+        bgTone4: tone,
+        "&:hover": {
+          bgTone5: tone
+        },
+        "&:active": {
+          bgTone6: tone
+        },
+        color: `$${tone}11`
+      };
+    } else {
+      return {
+        bg: "transparent",
+        "&:hover": {
+          bgTone3: tone
+        },
+        "&:active": {
+          bgTone4: tone
+        },
+        color: `$${tone}11`
+      };
+    }
+  }
+}
+function getButtonShadowStyle22222222222222222(tone, depth) {
+  const colorFromRadix = __objRest22222222222222222(RadixColors222222222222222222, []);
+  const shadowColor = colorFromRadix[tone + "A"];
+  if (depth === "0") {
+    return {
+      boxShadow: "none"
+    };
+  } else if (depth === "1") {
+    return {
+      $$shadowColor: shadowColor[tone + "A6"],
+      boxShadow: `0 0.5px 0.7px $$shadowColor,                
+                0 0.8px 1px -1.2px $$shadowColor,
+                0 2px 2.5px -2.5px $$shadowColor;`
+    };
+  } else if (depth === "2") {
+    return {
+      $$shadowColor: shadowColor[tone + "A4"],
+      boxShadow: `0 0.5px 0.7px $$shadowColor,
+                0 1.6px 2px -0.8px $$shadowColor,
+                0 4.1px 5.2px -1.7px $$shadowColor,
+                0 10px 12.6px -2.5px $$shadowColor;`
+    };
+  } else if (depth === "3") {
+    return {
+      $$shadowColor: shadowColor[tone + "A5"],
+      boxShadow: `0 0.5px 0.7px $$shadowColor,
+                0 2.9px 3.7px -0.4px $$shadowColor,
+                0 5.4px 6.8px -0.7px $$shadowColor,
+                0 8.9px 11.2px -1.1px $$shadowColor,
+                0 14.3px 18px -1.4px $$shadowColor,
+                0 22.3px 28.1px -1.8px $$shadowColor`
+    };
+  } else
+    return {};
+}
+function getCheckboxToneStyle22222222222222222(tone) {
+  if (tone === "sky" || tone === "mint" || tone === "lime" || tone === "yellow" || tone === "amber") {
+    return {
+      bgTone2: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
+      "&:active": {
+        bgTone3: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "black"
+    };
+  } else if (
+    // grayscale series
+    tone === "gray" || tone === "mauve" || tone === "slate" || tone === "sage" || tone === "olive" || tone === "sand"
+  ) {
+    return {
+      bgTone3: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "8"}`,
+      "&:active": {
+        bgTone4: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "white"
+    };
+  } else {
+    return {
+      bgTone2: tone,
+      boxShadow: `0 0 0 1.5px $colors$${tone + "7"}`,
+      "&:active": {
+        bgTone3: tone
+      },
+      "&[data-state=checked]": {
+        bgTone9: tone,
+        boxShadow: `0 0 0 1.5px $colors$${tone + "9"}`
+      },
+      color: "white"
+    };
+  }
+}
+var BaseButton22222222222222222 = styled22222222222222222("button", {
+  all: "unset",
+  border: "none",
+  boxSizing: "border-box",
+  userSelect: "none",
+  position: "relative",
+  "&:disabled": {
+    cursor: "not-allowed",
+    opacity: 0.75
+  },
+  // "&:hover": {
+  // 	transform: "translateY(-1px)",
+  // },
+  "&:active": {
+    transform: "translateY(1px)"
+  },
+  // mdx fix
+  "& .button-text p": {
+    lineHeight: 1
+    // opacity: 0,
+  },
+  overflow: "hidden",
+  fontFamily: "$heading",
+  fontWeight: "$bold",
+  cursor: "pointer",
+  display: "inline-flex",
+  gap: "$2",
+  // lineHeight: ,
+  alignItems: "center",
+  fontSize: "$base",
+  transition: "$fast",
+  variants: {
+    size: {
+      sm: {
+        borderRadius: "$lg",
+        fontSize: 11,
+        height: 30,
+        px: "$2",
+        py: "$2"
+      },
+      md: {
+        borderRadius: "$lg",
+        fontSize: 13,
+        height: "$8",
+        px: "$3",
+        py: "$2"
+      },
+      lg: {
+        borderRadius: "$xl",
+        fontSize: 15,
+        height: "$10",
+        px: "$4",
+        py: "$3"
+      },
+      xl: {
+        borderRadius: "$xl",
+        fontSize: 17,
+        height: "$11",
+        px: "$5",
+        py: "$4"
+      }
+    },
+    isRound: {
+      true: {
+        borderRadius: "$full"
+      }
+    },
+    align: {
+      left: {
+        justifyContent: "flex-start"
+      },
+      center: {
+        justifyContent: "center"
+      },
+      right: {
+        justifyContent: "flex-end"
+      },
+      between: {
+        justifyContent: "space-between"
+      },
+      around: {
+        justifyContent: "space-around"
+      }
+    }
+  },
+  defaultVariants: {
+    size: "md",
+    align: "center"
+  }
+});
+var Button22222222222222222 = React42222222222222222.forwardRef(
+  (_a, ref) => {
+    var _b = _a, {
+      size,
+      align,
+      tone = "slate",
+      intent = "primary",
+      isLoading,
+      children,
+      leftIcon,
+      rightIcon,
+      depth,
+      css: css222222222222222222,
+      isDark
+    } = _b, props = __objRest22222222222222222(_b, [
+      "size",
+      "align",
+      "tone",
+      "intent",
+      "isLoading",
+      "children",
+      "leftIcon",
+      "rightIcon",
+      "depth",
+      "css",
+      "isDark"
+    ]);
+    return /* @__PURE__ */ jsxs222222222222222222(
+      BaseButton22222222222222222,
+      __spreadProps22222222222222222(__spreadValues22222222222222222({
+        className: isDark ? stitchesDarkTheme22222222222222222 : void 0,
+        ref,
+        size,
+        align,
+        css: _42222222222222222.merge(
+          getButtonToneStyle22222222222222222(tone, intent),
+          getButtonShadowStyle22222222222222222(tone, depth),
+          css222222222222222222
+        )
+      }, props), {
+        children: [
+          /* @__PURE__ */ jsx222222222222222222(
+            Box22222222222222222,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: leftIcon
+            }
+          ),
+          isLoading && /* @__PURE__ */ jsx222222222222222222(
+            Box22222222222222222,
+            {
+              style: {
+                position: "absolute",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                inset: 0
+              },
+              children: /* @__PURE__ */ jsx222222222222222222(AutoSpinner22222222222222222, {})
+            }
+          ),
+          /* @__PURE__ */ jsx222222222222222222(
+            Box22222222222222222,
+            {
+              className: "button-text",
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children
+            }
+          ),
+          /* @__PURE__ */ jsx222222222222222222(
+            Box22222222222222222,
+            {
+              style: {
+                opacity: isLoading ? 0 : 1
+              },
+              children: rightIcon
+            }
+          )
+        ]
+      })
+    );
+  }
+);
+var Text22222222222222222 = styled22222222222222222("div", {
+  fontFamily: "$heading",
+  variants: {
+    size: {
+      "page-title": {
+        fontWeight: "$bold",
+        fontSize: "$6xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      "page-title2": {
+        fontWeight: "$bold",
+        fontSize: "$5xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title1: {
+        fontWeight: "$bold",
+        fontSize: "$3xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title2: {
+        fontWeight: "$bold",
+        fontSize: "$2xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      title3: {
+        fontWeight: "$bold",
+        fontSize: "$xl",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      subtitle1: {
+        fontWeight: "$bold",
+        fontSize: "$lg",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      subtitle2: {
+        fontWeight: "$bold",
+        fontSize: "$base",
+        lineHeight: "$heading",
+        letterSpacing: "$decreased"
+      },
+      overline: {
+        fontFamily: "$body",
+        fontWeight: "$bold",
+        fontSize: "$xs",
+        lineHeight: "$heading",
+        letterSpacing: "$increased",
+        textTransform: "$uppercase"
+      },
+      body: {
+        fontFamily: "$body",
+        fontWeight: "$normal",
+        fontSize: "$base",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      },
+      "body-bold": {
+        fontWeight: "$bold",
+        fontFamily: "$body",
+        fontSize: "$base",
+        lineHeight: "body",
+        letterSpacing: "$default"
+      },
+      label: {
+        fontFamily: "$body",
+        fontSize: "$sm",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      },
+      caption: {
+        fontFamily: "$body",
+        fontSize: "$xs",
+        lineHeight: "$body",
+        letterSpacing: "$default"
+      }
+    }
+  },
+  defaultVariants: {
+    size: "body"
+  }
+});
+var nomiObject22222222222222222 = {
+  fontSize: "$base",
+  fontFamily: "$body",
+  lineHeight: "$body",
+  webkitFontSmoothing: "antialiased",
+  "& h1": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$2xl",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h2": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$xl",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h3": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$lg",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& h4": {
+    fontFamily: "$heading",
+    fontWeight: "$bold",
+    fontSize: "$base",
+    lineHeight: "$heading",
+    letterSpacing: "$decreased"
+  },
+  "& > *": {
+    marginBottom: "$6"
+  },
+  "& > *:last-child": {
+    marginBottom: 0
+  },
+  "& a": {
+    color: "$grass9"
+  },
+  "& a:hover": {
+    color: "$grass11"
+  },
+  "& ul,& ol": {
+    paddingLeft: "$4"
+  },
+  "& li": {
+    marginBottom: "$2"
+  },
+  "& img": {
+    maxWidth: "100%",
+    height: "auto"
+  }
+};
+var NomiStyle22222222222222222 = styled22222222222222222("div", nomiObject22222222222222222);
+var nomiClass22222222222222222 = css22222222222222222(nomiObject22222222222222222);
+var LucideIcon22222222222222222 = (_a) => {
+  var _b = _a, {
+    name = "activity",
+    color,
+    size,
+    boxSize,
+    fill = "none",
+    strokeWidth,
+    className
+  } = _b, props = __objRest22222222222222222(_b, [
+    "name",
+    "color",
+    "size",
+    "boxSize",
+    "fill",
+    "strokeWidth",
+    "className"
+  ]);
+  const iconNameCamelCase = _222222222222222222.camelCase(name);
+  const IconNameUpperCase = iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
+  const LucideIcon222222222222222222 = icons22222222222222222[IconNameUpperCase];
+  return /* @__PURE__ */ jsx422222222222222222(
+    LucideIcon222222222222222222,
+    __spreadValues22222222222222222({
+      color,
+      size: size ? size : "100%",
+      strokeWidth,
+      fill,
+      style: {
+        flexShrink: 1,
+        height: boxSize ? boxSize : void 0,
+        width: boxSize ? boxSize : void 0,
+        aspectRatio: "1"
+      },
+      className
+    }, props)
+  );
+};
+function CheckboxWithLabel22222222222222222(_a, ref) {
+  var _b = _a, {
+    defaultChecked,
+    children,
+    fontSize = "lg",
+    tone = "slate",
+    css: css222222222222222222
+  } = _b, props = __objRest22222222222222222(_b, [
+    "defaultChecked",
+    "children",
+    "fontSize",
+    "tone",
+    "css"
+  ]);
+  const checkbox = useCheckboxState22222222222222222({
+    state: defaultChecked
+  });
+  console.log(checkbox);
+  return /* @__PURE__ */ jsxs422222222222222222(
+    CheckboxLabel22222222222222222,
+    {
+      "data-state": props.disabled ? "disabled" : void 0,
+      css: { fontSize: `$${fontSize}`, color: "$baseText" },
+      children: [
+        /* @__PURE__ */ jsx522222222222222222(VisuallyHidden22222222222222222, { children: /* @__PURE__ */ jsx522222222222222222(
+          CheckboxPrimitive22222222222222222,
+          __spreadValues22222222222222222(__spreadValues22222222222222222({
+            ref
+          }, checkbox), props)
+        ) }),
+        /* @__PURE__ */ jsx522222222222222222(
+          CheckboxRoot22222222222222222,
+          {
+            "data-state": checkbox.state ? "checked" : "unchecked",
+            css: _322222222222222222.merge(getCheckboxToneStyle22222222222222222(tone), css222222222222222222),
+            children: /* @__PURE__ */ jsx522222222222222222(CheckboxIndicator22222222222222222, { checked: !!checkbox.state, children: /* @__PURE__ */ jsx522222222222222222(LucideIcon22222222222222222, { strokeWidth: 2.5, name: "check" }) })
+          }
+        ),
+        /* @__PURE__ */ jsx522222222222222222(Text22222222222222222, { css: { fontSize: "inherit" }, children })
+      ]
+    }
+  );
+}
+var Checkbox22222222222222222 = React222222222222222222.forwardRef(CheckboxWithLabel22222222222222222);
+var CheckboxLabel22222222222222222 = styled22222222222222222("label", {
+  lineHeight: 1,
+  height: "1em",
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "0.4em",
+  userSelect: "none",
+  variants: {
+    status: {
+      enabled: {
+        cursor: "pointer"
+      },
+      disabled: {
+        opacity: 0.65,
+        cursor: "not-allowed"
+      }
+    }
+  },
+  "&[data-state=disabled]": {
+    opacity: 0.65,
+    cursor: "not-allowed"
+  }
+});
+var CheckboxRoot22222222222222222 = styled22222222222222222("div", {
+  aspectRatio: "1",
+  fontSize: "inherit",
+  width: "auto",
+  height: "100%",
+  overflow: "hidden",
+  flexShrink: 1,
+  borderRadius: "25%",
+  justifyContent: "center",
+  padding: "0",
+  border: "none",
+  display: "inline-flex",
+  transition: "all 0.2s",
+  alignItems: "center",
+  ":active": { transform: "scale(0.9)" }
+});
+var CheckboxIndicator22222222222222222 = styled22222222222222222("div", {
+  aspectRatio: "1/1",
+  height: "1em",
+  width: "1em",
+  position: "relative",
+  textAlign: "center",
+  overflow: "hidden",
+  display: "inline-flex",
+  alignItems: "center",
+  color: "inherit",
+  justifyContent: "center",
+  padding: 0,
+  opacity: 0,
+  variants: {
+    checked: {
+      true: {
+        opacity: 1
+      }
+    }
+  }
+});
+var hygraph22222222222222222 = new GraphQLClient22222222222222222(
+  "https://ap-northeast-1.cdn.hygraph.com/content/clf0ox8k023ql01t56zef5n6w/master"
+);
+var QUERY22222222222222222 = gql22222222222222222`
+	query Footers {
+		footers {
+			id
+			sectionTitle
+			sectionContent {
+				icon {
+					url
+				}
+				linkTitle
+				url
+			}
+		}
+	}
+`;
+var FooterContainer22222222222222222 = styled22222222222222222("div", {
+  boxSizing: "border-box",
+  maxWidth: "1000px",
+  m: "0 auto",
+  p: 48,
+  pb: 128,
+  pt: 0,
+  gap: 48,
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  justifyContent: "flex-start",
+  flexWrap: "wrap",
+  width: "100%",
+  color: "$baseText",
+  right: "0%",
+  position: "relative",
+  "@sm": {
+    display: "grid",
+    right: "-5%",
+    position: "relative",
+    gridTemplateColumns: "repeat(2, 1fr)"
+  },
+  "@md": {
+    right: "-12%",
+    position: "relative",
+    display: "grid",
+    gridTemplateColumns: "repeat(2, 1fr)"
+  },
+  "@lg": {
+    right: "-2.5%",
+    position: "relative",
+    display: "grid",
+    gridTemplateColumns: "repeat(4, 1fr)"
+  },
+  "& a": {
+    color: "$baseText",
+    opacity: 0.6,
+    fontFamily: "$body",
+    textDecoration: "none"
+  },
+  "& a:hover": {
+    opacity: 1
+  }
+});
+var FooterSection22222222222222222 = styled22222222222222222("div", {
+  flexGrow: 1,
+  m: 0,
+  p: 0,
+  display: "inline-flex",
+  flexDirection: "column",
+  gap: 16
+});
+var FooterContent22222222222222222 = styled22222222222222222("ul", {
+  flex: 1,
+  m: 0,
+  p: 0,
+  display: "inline-flex",
+  flexDirection: "column",
+  gap: 16
+});
+var FooterLink22222222222222222 = styled22222222222222222("li", {
+  m: 0,
+  p: 0,
+  listStyle: "none",
+  "& a": {
+    display: "inline-flex",
+    gap: 4,
+    alignItems: "center"
+  },
+  "& img": {
+    filter: "invert(1)"
+  },
+  [`.${stitchesDarkTheme22222222222222222} & img`]: {
+    filter: "invert(0)"
+  }
+});
 var HeroIcon = (props) => {
-  const icons22222222222222222 = __objRest2222222222222222(HeroIcons, []);
-  const OutlineIcon = icons22222222222222222[props.icon] || icons22222222222222222["HiArchive"];
-  return /* @__PURE__ */ jsx72222222222222222(Fragment, { children: /* @__PURE__ */ jsx72222222222222222(
+  const icons222222222222222222 = __objRest22222222222222222(HeroIcons, []);
+  const OutlineIcon = icons222222222222222222[props.icon] || icons222222222222222222["HiArchive"];
+  return /* @__PURE__ */ jsx722222222222222222(Fragment, { children: /* @__PURE__ */ jsx722222222222222222(
     OutlineIcon,
     {
       style: { width: "100%", height: "100%" },
@@ -46785,13 +49551,13 @@ var HeroIconOne = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2222222222222222(_b, [
+  } = _b, props = __objRest22222222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx72222222222222222(Box2222222222222222, __spreadProps2222222222222222(__spreadValues2222222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx72222222222222222(HeroIcon, { icon: name }) }));
+  return /* @__PURE__ */ jsx722222222222222222(Box22222222222222222, __spreadProps22222222222222222(__spreadValues22222222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx722222222222222222(HeroIcon, { icon: name }) }));
 };
-var IconButtonWrapper = styled2222222222222222(BaseButton2222222222222222, {
+var IconButtonWrapper = styled22222222222222222(BaseButton22222222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -46806,8 +49572,8 @@ var IconButton = (_a) => {
     tone = "slate",
     intent = "primary",
     depth,
-    css: css22222222222222222
-  } = _b, props = __objRest2222222222222222(_b, [
+    css: css222222222222222222
+  } = _b, props = __objRest22222222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -46817,15 +49583,15 @@ var IconButton = (_a) => {
   ]);
   return /* @__PURE__ */ jsx8(
     IconButtonWrapper,
-    __spreadProps2222222222222222(__spreadValues2222222222222222({
-      css: _42222222222222222.merge(
-        getButtonToneStyle2222222222222222(tone, intent),
-        getButtonShadowStyle2222222222222222(tone, depth),
+    __spreadProps22222222222222222(__spreadValues22222222222222222({
+      css: _422222222222222222.merge(
+        getButtonToneStyle22222222222222222(tone, intent),
+        getButtonShadowStyle22222222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
         },
-        css22222222222222222
+        css222222222222222222
       )
     }, props), {
       children: children ? children : /* @__PURE__ */ jsx8(HeroIconOne, { boxSize: "70%", name })
@@ -46859,34 +49625,34 @@ var Dialog = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root22 = styled2222222222222222(DialogPrimitive.Root, {
+var Root22 = styled22222222222222222(DialogPrimitive.Root, {
   boxSizing: "border-box"
 });
 Root22.displayName = "Root";
 Dialog.Root = Root22;
-var Trigger22 = styled2222222222222222(DialogPrimitive.Trigger, {});
+var Trigger22 = styled22222222222222222(DialogPrimitive.Trigger, {});
 Trigger22.displayName = "Trigger";
 Dialog.Trigger = Trigger22;
-var Portal22 = styled2222222222222222(DialogPrimitive.Portal, {});
+var Portal22 = styled22222222222222222(DialogPrimitive.Portal, {});
 Portal22.displayName = "Portal";
 Dialog.Portal = Portal22;
-var Title22 = styled2222222222222222(DialogPrimitive.Title, {
+var Title22 = styled22222222222222222(DialogPrimitive.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title22.displayName = "Title";
 Dialog.Title = Title22;
-var Description22 = styled2222222222222222(DialogPrimitive.Description, {
+var Description22 = styled22222222222222222(DialogPrimitive.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description22.displayName = "Description";
 Dialog.Description = Description22;
-var Close22 = styled2222222222222222(DialogPrimitive.Close, {});
+var Close22 = styled22222222222222222(DialogPrimitive.Close, {});
 Close22.displayName = "Close";
 Dialog.Close = Close22;
-var Overlay22 = styled2222222222222222(DialogPrimitive.Overlay, {
+var Overlay22 = styled22222222222222222(DialogPrimitive.Overlay, {
   backgroundColor: blackA.blackA8,
   position: "fixed",
   inset: 0,
@@ -46896,7 +49662,7 @@ var Overlay22 = styled2222222222222222(DialogPrimitive.Overlay, {
 });
 Overlay22.displayName = "Overlay";
 Dialog.Overlay = Overlay22;
-var Content22 = styled2222222222222222(DialogPrimitive.Content, {
+var Content22 = styled22222222222222222(DialogPrimitive.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -46912,9 +49678,9 @@ var Content22 = styled2222222222222222(DialogPrimitive.Content, {
 Content22.displayName = "Content";
 Dialog.Content = Content22;
 var ContentWithClose = (props) => {
-  return /* @__PURE__ */ jsxs62222222222222222(Content22, __spreadProps2222222222222222(__spreadValues2222222222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs622222222222222222(Content22, __spreadProps22222222222222222(__spreadValues22222222222222222({}, props), { children: [
     /* @__PURE__ */ jsx9(
-      Box2222222222222222,
+      Box22222222222222222,
       {
         css: {
           position: "absolute",
@@ -46926,7 +49692,7 @@ var ContentWithClose = (props) => {
       }
     ),
     /* @__PURE__ */ jsx9(
-      Box2222222222222222,
+      Box22222222222222222,
       {
         css: {
           padding: "$6",
@@ -46949,7 +49715,7 @@ var ContentWithClose = (props) => {
 ContentWithClose.displayName = "ContentWithClose";
 Dialog.ContentWithClose = ContentWithClose;
 var HeroIcon2 = (props) => {
-  const icons3 = __objRest222222222222222(HeroIcons2, []);
+  const icons3 = __objRest2222222222222222(HeroIcons2, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx10(Fragment2, { children: /* @__PURE__ */ jsx10(
     OutlineIcon,
@@ -46963,13 +49729,13 @@ var HeroIconOne2 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest222222222222222(_b, [
+  } = _b, props = __objRest2222222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx10(Box222222222222222, __spreadProps222222222222222(__spreadValues222222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx10(HeroIcon2, { icon: name }) }));
+  return /* @__PURE__ */ jsx10(Box2222222222222222, __spreadProps2222222222222222(__spreadValues2222222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx10(HeroIcon2, { icon: name }) }));
 };
-var IconButtonWrapper2 = styled222222222222222(BaseButton222222222222222, {
+var IconButtonWrapper2 = styled2222222222222222(BaseButton2222222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -46985,7 +49751,7 @@ var IconButton2 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest222222222222222(_b, [
+  } = _b, props = __objRest2222222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -46995,10 +49761,10 @@ var IconButton2 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx11(
     IconButtonWrapper2,
-    __spreadProps222222222222222(__spreadValues222222222222222({
+    __spreadProps2222222222222222(__spreadValues2222222222222222({
       css: _5.merge(
-        getButtonToneStyle222222222222222(tone, intent),
-        getButtonShadowStyle222222222222222(tone, depth),
+        getButtonToneStyle2222222222222222(tone, intent),
+        getButtonShadowStyle2222222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47037,34 +49803,34 @@ var Dialog2 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root42 = styled222222222222222(DialogPrimitive2.Root, {
+var Root42 = styled2222222222222222(DialogPrimitive2.Root, {
   boxSizing: "border-box"
 });
 Root42.displayName = "Root";
 Dialog2.Root = Root42;
-var Trigger42 = styled222222222222222(DialogPrimitive2.Trigger, {});
+var Trigger42 = styled2222222222222222(DialogPrimitive2.Trigger, {});
 Trigger42.displayName = "Trigger";
 Dialog2.Trigger = Trigger42;
-var Portal42 = styled222222222222222(DialogPrimitive2.Portal, {});
+var Portal42 = styled2222222222222222(DialogPrimitive2.Portal, {});
 Portal42.displayName = "Portal";
 Dialog2.Portal = Portal42;
-var Title42 = styled222222222222222(DialogPrimitive2.Title, {
+var Title42 = styled2222222222222222(DialogPrimitive2.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title42.displayName = "Title";
 Dialog2.Title = Title42;
-var Description42 = styled222222222222222(DialogPrimitive2.Description, {
+var Description42 = styled2222222222222222(DialogPrimitive2.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description42.displayName = "Description";
 Dialog2.Description = Description42;
-var Close42 = styled222222222222222(DialogPrimitive2.Close, {});
+var Close42 = styled2222222222222222(DialogPrimitive2.Close, {});
 Close42.displayName = "Close";
 Dialog2.Close = Close42;
-var Overlay42 = styled222222222222222(DialogPrimitive2.Overlay, {
+var Overlay42 = styled2222222222222222(DialogPrimitive2.Overlay, {
   backgroundColor: blackA2.blackA8,
   position: "fixed",
   inset: 0,
@@ -47074,7 +49840,7 @@ var Overlay42 = styled222222222222222(DialogPrimitive2.Overlay, {
 });
 Overlay42.displayName = "Overlay";
 Dialog2.Overlay = Overlay42;
-var Content42 = styled222222222222222(DialogPrimitive2.Content, {
+var Content42 = styled2222222222222222(DialogPrimitive2.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47090,9 +49856,9 @@ var Content42 = styled222222222222222(DialogPrimitive2.Content, {
 Content42.displayName = "Content";
 Dialog2.Content = Content42;
 var ContentWithClose2 = (props) => {
-  return /* @__PURE__ */ jsxs7(Content42, __spreadProps222222222222222(__spreadValues222222222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs7(Content42, __spreadProps2222222222222222(__spreadValues2222222222222222({}, props), { children: [
     /* @__PURE__ */ jsx12(
-      Box2222222222222222,
+      Box22222222222222222,
       {
         css: {
           position: "absolute",
@@ -47104,7 +49870,7 @@ var ContentWithClose2 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx12(
-      Box2222222222222222,
+      Box22222222222222222,
       {
         css: {
           padding: "$6",
@@ -47127,7 +49893,7 @@ var ContentWithClose2 = (props) => {
 ContentWithClose2.displayName = "ContentWithClose";
 Dialog2.ContentWithClose = ContentWithClose2;
 var HeroIcon3 = (props) => {
-  const icons3 = __objRest22222222222222(HeroIcons3, []);
+  const icons3 = __objRest222222222222222(HeroIcons3, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx13(Fragment3, { children: /* @__PURE__ */ jsx13(
     OutlineIcon,
@@ -47141,13 +49907,13 @@ var HeroIconOne3 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest22222222222222(_b, [
+  } = _b, props = __objRest222222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx13(Box22222222222222, __spreadProps22222222222222(__spreadValues22222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx13(HeroIcon3, { icon: name }) }));
+  return /* @__PURE__ */ jsx13(Box222222222222222, __spreadProps222222222222222(__spreadValues222222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx13(HeroIcon3, { icon: name }) }));
 };
-var IconButtonWrapper3 = styled22222222222222(BaseButton22222222222222, {
+var IconButtonWrapper3 = styled222222222222222(BaseButton222222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -47163,7 +49929,7 @@ var IconButton3 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest22222222222222(_b, [
+  } = _b, props = __objRest222222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -47173,10 +49939,10 @@ var IconButton3 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx14(
     IconButtonWrapper3,
-    __spreadProps22222222222222(__spreadValues22222222222222({
+    __spreadProps222222222222222(__spreadValues222222222222222({
       css: _6.merge(
-        getButtonToneStyle22222222222222(tone, intent),
-        getButtonShadowStyle22222222222222(tone, depth),
+        getButtonToneStyle222222222222222(tone, intent),
+        getButtonShadowStyle222222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47215,34 +49981,34 @@ var Dialog3 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root52 = styled22222222222222(DialogPrimitive3.Root, {
+var Root52 = styled222222222222222(DialogPrimitive3.Root, {
   boxSizing: "border-box"
 });
 Root52.displayName = "Root";
 Dialog3.Root = Root52;
-var Trigger52 = styled22222222222222(DialogPrimitive3.Trigger, {});
+var Trigger52 = styled222222222222222(DialogPrimitive3.Trigger, {});
 Trigger52.displayName = "Trigger";
 Dialog3.Trigger = Trigger52;
-var Portal52 = styled22222222222222(DialogPrimitive3.Portal, {});
+var Portal52 = styled222222222222222(DialogPrimitive3.Portal, {});
 Portal52.displayName = "Portal";
 Dialog3.Portal = Portal52;
-var Title52 = styled22222222222222(DialogPrimitive3.Title, {
+var Title52 = styled222222222222222(DialogPrimitive3.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title52.displayName = "Title";
 Dialog3.Title = Title52;
-var Description52 = styled22222222222222(DialogPrimitive3.Description, {
+var Description52 = styled222222222222222(DialogPrimitive3.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description52.displayName = "Description";
 Dialog3.Description = Description52;
-var Close52 = styled22222222222222(DialogPrimitive3.Close, {});
+var Close52 = styled222222222222222(DialogPrimitive3.Close, {});
 Close52.displayName = "Close";
 Dialog3.Close = Close52;
-var Overlay52 = styled22222222222222(DialogPrimitive3.Overlay, {
+var Overlay52 = styled222222222222222(DialogPrimitive3.Overlay, {
   backgroundColor: blackA3.blackA8,
   position: "fixed",
   inset: 0,
@@ -47252,7 +50018,7 @@ var Overlay52 = styled22222222222222(DialogPrimitive3.Overlay, {
 });
 Overlay52.displayName = "Overlay";
 Dialog3.Overlay = Overlay52;
-var Content52 = styled22222222222222(DialogPrimitive3.Content, {
+var Content52 = styled222222222222222(DialogPrimitive3.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47268,9 +50034,9 @@ var Content52 = styled22222222222222(DialogPrimitive3.Content, {
 Content52.displayName = "Content";
 Dialog3.Content = Content52;
 var ContentWithClose3 = (props) => {
-  return /* @__PURE__ */ jsxs8(Content52, __spreadProps22222222222222(__spreadValues22222222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs8(Content52, __spreadProps222222222222222(__spreadValues222222222222222({}, props), { children: [
     /* @__PURE__ */ jsx15(
-      Box222222222222222,
+      Box2222222222222222,
       {
         css: {
           position: "absolute",
@@ -47282,7 +50048,7 @@ var ContentWithClose3 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx15(
-      Box222222222222222,
+      Box2222222222222222,
       {
         css: {
           padding: "$6",
@@ -47305,7 +50071,7 @@ var ContentWithClose3 = (props) => {
 ContentWithClose3.displayName = "ContentWithClose";
 Dialog3.ContentWithClose = ContentWithClose3;
 var HeroIcon4 = (props) => {
-  const icons3 = __objRest2222222222222(HeroIcons4, []);
+  const icons3 = __objRest22222222222222(HeroIcons4, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx16(Fragment4, { children: /* @__PURE__ */ jsx16(
     OutlineIcon,
@@ -47319,13 +50085,13 @@ var HeroIconOne4 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2222222222222(_b, [
+  } = _b, props = __objRest22222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx16(Box2222222222222, __spreadProps2222222222222(__spreadValues2222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx16(HeroIcon4, { icon: name }) }));
+  return /* @__PURE__ */ jsx16(Box22222222222222, __spreadProps22222222222222(__spreadValues22222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx16(HeroIcon4, { icon: name }) }));
 };
-var IconButtonWrapper4 = styled2222222222222(BaseButton2222222222222, {
+var IconButtonWrapper4 = styled22222222222222(BaseButton22222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -47341,7 +50107,7 @@ var IconButton4 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest2222222222222(_b, [
+  } = _b, props = __objRest22222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -47351,10 +50117,10 @@ var IconButton4 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx17(
     IconButtonWrapper4,
-    __spreadProps2222222222222(__spreadValues2222222222222({
+    __spreadProps22222222222222(__spreadValues22222222222222({
       css: _7.merge(
-        getButtonToneStyle2222222222222(tone, intent),
-        getButtonShadowStyle2222222222222(tone, depth),
+        getButtonToneStyle22222222222222(tone, intent),
+        getButtonShadowStyle22222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47393,34 +50159,34 @@ var Dialog4 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root72 = styled2222222222222(DialogPrimitive4.Root, {
+var Root72 = styled22222222222222(DialogPrimitive4.Root, {
   boxSizing: "border-box"
 });
 Root72.displayName = "Root";
 Dialog4.Root = Root72;
-var Trigger72 = styled2222222222222(DialogPrimitive4.Trigger, {});
+var Trigger72 = styled22222222222222(DialogPrimitive4.Trigger, {});
 Trigger72.displayName = "Trigger";
 Dialog4.Trigger = Trigger72;
-var Portal72 = styled2222222222222(DialogPrimitive4.Portal, {});
+var Portal72 = styled22222222222222(DialogPrimitive4.Portal, {});
 Portal72.displayName = "Portal";
 Dialog4.Portal = Portal72;
-var Title72 = styled2222222222222(DialogPrimitive4.Title, {
+var Title72 = styled22222222222222(DialogPrimitive4.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title72.displayName = "Title";
 Dialog4.Title = Title72;
-var Description72 = styled2222222222222(DialogPrimitive4.Description, {
+var Description72 = styled22222222222222(DialogPrimitive4.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description72.displayName = "Description";
 Dialog4.Description = Description72;
-var Close72 = styled2222222222222(DialogPrimitive4.Close, {});
+var Close72 = styled22222222222222(DialogPrimitive4.Close, {});
 Close72.displayName = "Close";
 Dialog4.Close = Close72;
-var Overlay72 = styled2222222222222(DialogPrimitive4.Overlay, {
+var Overlay72 = styled22222222222222(DialogPrimitive4.Overlay, {
   backgroundColor: blackA4.blackA8,
   position: "fixed",
   inset: 0,
@@ -47430,7 +50196,7 @@ var Overlay72 = styled2222222222222(DialogPrimitive4.Overlay, {
 });
 Overlay72.displayName = "Overlay";
 Dialog4.Overlay = Overlay72;
-var Content72 = styled2222222222222(DialogPrimitive4.Content, {
+var Content72 = styled22222222222222(DialogPrimitive4.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47446,9 +50212,9 @@ var Content72 = styled2222222222222(DialogPrimitive4.Content, {
 Content72.displayName = "Content";
 Dialog4.Content = Content72;
 var ContentWithClose4 = (props) => {
-  return /* @__PURE__ */ jsxs9(Content72, __spreadProps2222222222222(__spreadValues2222222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs9(Content72, __spreadProps22222222222222(__spreadValues22222222222222({}, props), { children: [
     /* @__PURE__ */ jsx18(
-      Box22222222222222,
+      Box222222222222222,
       {
         css: {
           position: "absolute",
@@ -47460,7 +50226,7 @@ var ContentWithClose4 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx18(
-      Box22222222222222,
+      Box222222222222222,
       {
         css: {
           padding: "$6",
@@ -47483,7 +50249,7 @@ var ContentWithClose4 = (props) => {
 ContentWithClose4.displayName = "ContentWithClose";
 Dialog4.ContentWithClose = ContentWithClose4;
 var HeroIcon5 = (props) => {
-  const icons3 = __objRest222222222222(HeroIcons5, []);
+  const icons3 = __objRest2222222222222(HeroIcons5, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx19(Fragment5, { children: /* @__PURE__ */ jsx19(
     OutlineIcon,
@@ -47497,13 +50263,13 @@ var HeroIconOne5 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest222222222222(_b, [
+  } = _b, props = __objRest2222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx19(Box222222222222, __spreadProps222222222222(__spreadValues222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx19(HeroIcon5, { icon: name }) }));
+  return /* @__PURE__ */ jsx19(Box2222222222222, __spreadProps2222222222222(__spreadValues2222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx19(HeroIcon5, { icon: name }) }));
 };
-var IconButtonWrapper5 = styled222222222222(BaseButton222222222222, {
+var IconButtonWrapper5 = styled2222222222222(BaseButton2222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -47519,7 +50285,7 @@ var IconButton5 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest222222222222(_b, [
+  } = _b, props = __objRest2222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -47529,10 +50295,10 @@ var IconButton5 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx20(
     IconButtonWrapper5,
-    __spreadProps222222222222(__spreadValues222222222222({
+    __spreadProps2222222222222(__spreadValues2222222222222({
       css: _8.merge(
-        getButtonToneStyle222222222222(tone, intent),
-        getButtonShadowStyle222222222222(tone, depth),
+        getButtonToneStyle2222222222222(tone, intent),
+        getButtonShadowStyle2222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47571,34 +50337,34 @@ var Dialog5 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root82 = styled222222222222(DialogPrimitive5.Root, {
+var Root82 = styled2222222222222(DialogPrimitive5.Root, {
   boxSizing: "border-box"
 });
 Root82.displayName = "Root";
 Dialog5.Root = Root82;
-var Trigger82 = styled222222222222(DialogPrimitive5.Trigger, {});
+var Trigger82 = styled2222222222222(DialogPrimitive5.Trigger, {});
 Trigger82.displayName = "Trigger";
 Dialog5.Trigger = Trigger82;
-var Portal82 = styled222222222222(DialogPrimitive5.Portal, {});
+var Portal82 = styled2222222222222(DialogPrimitive5.Portal, {});
 Portal82.displayName = "Portal";
 Dialog5.Portal = Portal82;
-var Title82 = styled222222222222(DialogPrimitive5.Title, {
+var Title82 = styled2222222222222(DialogPrimitive5.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title82.displayName = "Title";
 Dialog5.Title = Title82;
-var Description82 = styled222222222222(DialogPrimitive5.Description, {
+var Description82 = styled2222222222222(DialogPrimitive5.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description82.displayName = "Description";
 Dialog5.Description = Description82;
-var Close82 = styled222222222222(DialogPrimitive5.Close, {});
+var Close82 = styled2222222222222(DialogPrimitive5.Close, {});
 Close82.displayName = "Close";
 Dialog5.Close = Close82;
-var Overlay82 = styled222222222222(DialogPrimitive5.Overlay, {
+var Overlay82 = styled2222222222222(DialogPrimitive5.Overlay, {
   backgroundColor: blackA5.blackA8,
   position: "fixed",
   inset: 0,
@@ -47608,7 +50374,7 @@ var Overlay82 = styled222222222222(DialogPrimitive5.Overlay, {
 });
 Overlay82.displayName = "Overlay";
 Dialog5.Overlay = Overlay82;
-var Content82 = styled222222222222(DialogPrimitive5.Content, {
+var Content82 = styled2222222222222(DialogPrimitive5.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47624,9 +50390,9 @@ var Content82 = styled222222222222(DialogPrimitive5.Content, {
 Content82.displayName = "Content";
 Dialog5.Content = Content82;
 var ContentWithClose5 = (props) => {
-  return /* @__PURE__ */ jsxs10(Content82, __spreadProps222222222222(__spreadValues222222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs10(Content82, __spreadProps2222222222222(__spreadValues2222222222222({}, props), { children: [
     /* @__PURE__ */ jsx21(
-      Box2222222222222,
+      Box22222222222222,
       {
         css: {
           position: "absolute",
@@ -47638,7 +50404,7 @@ var ContentWithClose5 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx21(
-      Box2222222222222,
+      Box22222222222222,
       {
         css: {
           padding: "$6",
@@ -47661,7 +50427,7 @@ var ContentWithClose5 = (props) => {
 ContentWithClose5.displayName = "ContentWithClose";
 Dialog5.ContentWithClose = ContentWithClose5;
 var HeroIcon6 = (props) => {
-  const icons3 = __objRest22222222222(HeroIcons6, []);
+  const icons3 = __objRest222222222222(HeroIcons6, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx23(Fragment6, { children: /* @__PURE__ */ jsx23(
     OutlineIcon,
@@ -47675,13 +50441,13 @@ var HeroIconOne6 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest22222222222(_b, [
+  } = _b, props = __objRest222222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx23(Box22222222222, __spreadProps22222222222(__spreadValues22222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx23(HeroIcon6, { icon: name }) }));
+  return /* @__PURE__ */ jsx23(Box222222222222, __spreadProps222222222222(__spreadValues222222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx23(HeroIcon6, { icon: name }) }));
 };
-var IconButtonWrapper6 = styled22222222222(BaseButton22222222222, {
+var IconButtonWrapper6 = styled222222222222(BaseButton222222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -47697,7 +50463,7 @@ var IconButton6 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest22222222222(_b, [
+  } = _b, props = __objRest222222222222(_b, [
     "children",
     "name",
     "tone",
@@ -47707,10 +50473,10 @@ var IconButton6 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx24(
     IconButtonWrapper6,
-    __spreadProps22222222222(__spreadValues22222222222({
+    __spreadProps222222222222(__spreadValues222222222222({
       css: _9.merge(
-        getButtonToneStyle22222222222(tone, intent),
-        getButtonShadowStyle22222222222(tone, depth),
+        getButtonToneStyle222222222222(tone, intent),
+        getButtonShadowStyle222222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47749,34 +50515,34 @@ var Dialog6 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root92 = styled22222222222(DialogPrimitive6.Root, {
+var Root92 = styled222222222222(DialogPrimitive6.Root, {
   boxSizing: "border-box"
 });
 Root92.displayName = "Root";
 Dialog6.Root = Root92;
-var Trigger92 = styled22222222222(DialogPrimitive6.Trigger, {});
+var Trigger92 = styled222222222222(DialogPrimitive6.Trigger, {});
 Trigger92.displayName = "Trigger";
 Dialog6.Trigger = Trigger92;
-var Portal92 = styled22222222222(DialogPrimitive6.Portal, {});
+var Portal92 = styled222222222222(DialogPrimitive6.Portal, {});
 Portal92.displayName = "Portal";
 Dialog6.Portal = Portal92;
-var Title92 = styled22222222222(DialogPrimitive6.Title, {
+var Title92 = styled222222222222(DialogPrimitive6.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title92.displayName = "Title";
 Dialog6.Title = Title92;
-var Description92 = styled22222222222(DialogPrimitive6.Description, {
+var Description92 = styled222222222222(DialogPrimitive6.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description92.displayName = "Description";
 Dialog6.Description = Description92;
-var Close92 = styled22222222222(DialogPrimitive6.Close, {});
+var Close92 = styled222222222222(DialogPrimitive6.Close, {});
 Close92.displayName = "Close";
 Dialog6.Close = Close92;
-var Overlay92 = styled22222222222(DialogPrimitive6.Overlay, {
+var Overlay92 = styled222222222222(DialogPrimitive6.Overlay, {
   backgroundColor: blackA6.blackA8,
   position: "fixed",
   inset: 0,
@@ -47786,7 +50552,7 @@ var Overlay92 = styled22222222222(DialogPrimitive6.Overlay, {
 });
 Overlay92.displayName = "Overlay";
 Dialog6.Overlay = Overlay92;
-var Content92 = styled22222222222(DialogPrimitive6.Content, {
+var Content92 = styled222222222222(DialogPrimitive6.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47802,9 +50568,9 @@ var Content92 = styled22222222222(DialogPrimitive6.Content, {
 Content92.displayName = "Content";
 Dialog6.Content = Content92;
 var ContentWithClose6 = (props) => {
-  return /* @__PURE__ */ jsxs11(Content92, __spreadProps22222222222(__spreadValues22222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs11(Content92, __spreadProps222222222222(__spreadValues222222222222({}, props), { children: [
     /* @__PURE__ */ jsx25(
-      Box222222222222,
+      Box2222222222222,
       {
         css: {
           position: "absolute",
@@ -47816,7 +50582,7 @@ var ContentWithClose6 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx25(
-      Box222222222222,
+      Box2222222222222,
       {
         css: {
           padding: "$6",
@@ -47839,7 +50605,7 @@ var ContentWithClose6 = (props) => {
 ContentWithClose6.displayName = "ContentWithClose";
 Dialog6.ContentWithClose = ContentWithClose6;
 var HeroIcon7 = (props) => {
-  const icons3 = __objRest2222222222(HeroIcons7, []);
+  const icons3 = __objRest22222222222(HeroIcons7, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx26(Fragment7, { children: /* @__PURE__ */ jsx26(
     OutlineIcon,
@@ -47853,13 +50619,13 @@ var HeroIconOne7 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2222222222(_b, [
+  } = _b, props = __objRest22222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx26(Box2222222222, __spreadProps2222222222(__spreadValues2222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx26(HeroIcon7, { icon: name }) }));
+  return /* @__PURE__ */ jsx26(Box22222222222, __spreadProps22222222222(__spreadValues22222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx26(HeroIcon7, { icon: name }) }));
 };
-var IconButtonWrapper7 = styled2222222222(BaseButton2222222222, {
+var IconButtonWrapper7 = styled22222222222(BaseButton22222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -47875,7 +50641,7 @@ var IconButton7 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest2222222222(_b, [
+  } = _b, props = __objRest22222222222(_b, [
     "children",
     "name",
     "tone",
@@ -47885,10 +50651,10 @@ var IconButton7 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx27(
     IconButtonWrapper7,
-    __spreadProps2222222222(__spreadValues2222222222({
+    __spreadProps22222222222(__spreadValues22222222222({
       css: _10.merge(
-        getButtonToneStyle2222222222(tone, intent),
-        getButtonShadowStyle2222222222(tone, depth),
+        getButtonToneStyle22222222222(tone, intent),
+        getButtonShadowStyle22222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -47927,34 +50693,34 @@ var Dialog7 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root112 = styled2222222222(DialogPrimitive7.Root, {
+var Root112 = styled22222222222(DialogPrimitive7.Root, {
   boxSizing: "border-box"
 });
 Root112.displayName = "Root";
 Dialog7.Root = Root112;
-var Trigger112 = styled2222222222(DialogPrimitive7.Trigger, {});
+var Trigger112 = styled22222222222(DialogPrimitive7.Trigger, {});
 Trigger112.displayName = "Trigger";
 Dialog7.Trigger = Trigger112;
-var Portal112 = styled2222222222(DialogPrimitive7.Portal, {});
+var Portal112 = styled22222222222(DialogPrimitive7.Portal, {});
 Portal112.displayName = "Portal";
 Dialog7.Portal = Portal112;
-var Title112 = styled2222222222(DialogPrimitive7.Title, {
+var Title112 = styled22222222222(DialogPrimitive7.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title112.displayName = "Title";
 Dialog7.Title = Title112;
-var Description112 = styled2222222222(DialogPrimitive7.Description, {
+var Description112 = styled22222222222(DialogPrimitive7.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description112.displayName = "Description";
 Dialog7.Description = Description112;
-var Close112 = styled2222222222(DialogPrimitive7.Close, {});
+var Close112 = styled22222222222(DialogPrimitive7.Close, {});
 Close112.displayName = "Close";
 Dialog7.Close = Close112;
-var Overlay112 = styled2222222222(DialogPrimitive7.Overlay, {
+var Overlay112 = styled22222222222(DialogPrimitive7.Overlay, {
   backgroundColor: blackA7.blackA8,
   position: "fixed",
   inset: 0,
@@ -47964,7 +50730,7 @@ var Overlay112 = styled2222222222(DialogPrimitive7.Overlay, {
 });
 Overlay112.displayName = "Overlay";
 Dialog7.Overlay = Overlay112;
-var Content112 = styled2222222222(DialogPrimitive7.Content, {
+var Content112 = styled22222222222(DialogPrimitive7.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -47980,9 +50746,9 @@ var Content112 = styled2222222222(DialogPrimitive7.Content, {
 Content112.displayName = "Content";
 Dialog7.Content = Content112;
 var ContentWithClose7 = (props) => {
-  return /* @__PURE__ */ jsxs12(Content112, __spreadProps2222222222(__spreadValues2222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs12(Content112, __spreadProps22222222222(__spreadValues22222222222({}, props), { children: [
     /* @__PURE__ */ jsx28(
-      Box22222222222,
+      Box222222222222,
       {
         css: {
           position: "absolute",
@@ -47994,7 +50760,7 @@ var ContentWithClose7 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx28(
-      Box22222222222,
+      Box222222222222,
       {
         css: {
           padding: "$6",
@@ -48017,7 +50783,7 @@ var ContentWithClose7 = (props) => {
 ContentWithClose7.displayName = "ContentWithClose";
 Dialog7.ContentWithClose = ContentWithClose7;
 var HeroIcon8 = (props) => {
-  const icons3 = __objRest222222222(HeroIcons8, []);
+  const icons3 = __objRest2222222222(HeroIcons8, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx29(Fragment8, { children: /* @__PURE__ */ jsx29(
     OutlineIcon,
@@ -48031,13 +50797,13 @@ var HeroIconOne8 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest222222222(_b, [
+  } = _b, props = __objRest2222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx29(Box222222222, __spreadProps222222222(__spreadValues222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx29(HeroIcon8, { icon: name }) }));
+  return /* @__PURE__ */ jsx29(Box2222222222, __spreadProps2222222222(__spreadValues2222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx29(HeroIcon8, { icon: name }) }));
 };
-var IconButtonWrapper8 = styled222222222(BaseButton222222222, {
+var IconButtonWrapper8 = styled2222222222(BaseButton2222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48053,7 +50819,7 @@ var IconButton8 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest222222222(_b, [
+  } = _b, props = __objRest2222222222(_b, [
     "children",
     "name",
     "tone",
@@ -48063,10 +50829,10 @@ var IconButton8 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx30(
     IconButtonWrapper8,
-    __spreadProps222222222(__spreadValues222222222({
+    __spreadProps2222222222(__spreadValues2222222222({
       css: _11.merge(
-        getButtonToneStyle222222222(tone, intent),
-        getButtonShadowStyle222222222(tone, depth),
+        getButtonToneStyle2222222222(tone, intent),
+        getButtonShadowStyle2222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48105,34 +50871,34 @@ var Dialog8 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root122 = styled222222222(DialogPrimitive8.Root, {
+var Root122 = styled2222222222(DialogPrimitive8.Root, {
   boxSizing: "border-box"
 });
 Root122.displayName = "Root";
 Dialog8.Root = Root122;
-var Trigger122 = styled222222222(DialogPrimitive8.Trigger, {});
+var Trigger122 = styled2222222222(DialogPrimitive8.Trigger, {});
 Trigger122.displayName = "Trigger";
 Dialog8.Trigger = Trigger122;
-var Portal122 = styled222222222(DialogPrimitive8.Portal, {});
+var Portal122 = styled2222222222(DialogPrimitive8.Portal, {});
 Portal122.displayName = "Portal";
 Dialog8.Portal = Portal122;
-var Title122 = styled222222222(DialogPrimitive8.Title, {
+var Title122 = styled2222222222(DialogPrimitive8.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title122.displayName = "Title";
 Dialog8.Title = Title122;
-var Description122 = styled222222222(DialogPrimitive8.Description, {
+var Description122 = styled2222222222(DialogPrimitive8.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description122.displayName = "Description";
 Dialog8.Description = Description122;
-var Close122 = styled222222222(DialogPrimitive8.Close, {});
+var Close122 = styled2222222222(DialogPrimitive8.Close, {});
 Close122.displayName = "Close";
 Dialog8.Close = Close122;
-var Overlay122 = styled222222222(DialogPrimitive8.Overlay, {
+var Overlay122 = styled2222222222(DialogPrimitive8.Overlay, {
   backgroundColor: blackA8.blackA8,
   position: "fixed",
   inset: 0,
@@ -48142,7 +50908,7 @@ var Overlay122 = styled222222222(DialogPrimitive8.Overlay, {
 });
 Overlay122.displayName = "Overlay";
 Dialog8.Overlay = Overlay122;
-var Content122 = styled222222222(DialogPrimitive8.Content, {
+var Content122 = styled2222222222(DialogPrimitive8.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -48158,9 +50924,9 @@ var Content122 = styled222222222(DialogPrimitive8.Content, {
 Content122.displayName = "Content";
 Dialog8.Content = Content122;
 var ContentWithClose8 = (props) => {
-  return /* @__PURE__ */ jsxs13(Content122, __spreadProps222222222(__spreadValues222222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs13(Content122, __spreadProps2222222222(__spreadValues2222222222({}, props), { children: [
     /* @__PURE__ */ jsx31(
-      Box2222222222,
+      Box22222222222,
       {
         css: {
           position: "absolute",
@@ -48172,7 +50938,7 @@ var ContentWithClose8 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx31(
-      Box2222222222,
+      Box22222222222,
       {
         css: {
           padding: "$6",
@@ -48195,7 +50961,7 @@ var ContentWithClose8 = (props) => {
 ContentWithClose8.displayName = "ContentWithClose";
 Dialog8.ContentWithClose = ContentWithClose8;
 var HeroIcon9 = (props) => {
-  const icons3 = __objRest22222222(HeroIcons9, []);
+  const icons3 = __objRest222222222(HeroIcons9, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx33(Fragment9, { children: /* @__PURE__ */ jsx33(
     OutlineIcon,
@@ -48209,13 +50975,13 @@ var HeroIconOne9 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest22222222(_b, [
+  } = _b, props = __objRest222222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx33(Box22222222, __spreadProps22222222(__spreadValues22222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx33(HeroIcon9, { icon: name }) }));
+  return /* @__PURE__ */ jsx33(Box222222222, __spreadProps222222222(__spreadValues222222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx33(HeroIcon9, { icon: name }) }));
 };
-var IconButtonWrapper9 = styled22222222(BaseButton22222222, {
+var IconButtonWrapper9 = styled222222222(BaseButton222222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48231,7 +50997,7 @@ var IconButton9 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest22222222(_b, [
+  } = _b, props = __objRest222222222(_b, [
     "children",
     "name",
     "tone",
@@ -48241,10 +51007,10 @@ var IconButton9 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx34(
     IconButtonWrapper9,
-    __spreadProps22222222(__spreadValues22222222({
+    __spreadProps222222222(__spreadValues222222222({
       css: _12.merge(
-        getButtonToneStyle22222222(tone, intent),
-        getButtonShadowStyle22222222(tone, depth),
+        getButtonToneStyle222222222(tone, intent),
+        getButtonShadowStyle222222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48283,34 +51049,34 @@ var Dialog9 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root132 = styled22222222(DialogPrimitive9.Root, {
+var Root132 = styled222222222(DialogPrimitive9.Root, {
   boxSizing: "border-box"
 });
 Root132.displayName = "Root";
 Dialog9.Root = Root132;
-var Trigger132 = styled22222222(DialogPrimitive9.Trigger, {});
+var Trigger132 = styled222222222(DialogPrimitive9.Trigger, {});
 Trigger132.displayName = "Trigger";
 Dialog9.Trigger = Trigger132;
-var Portal132 = styled22222222(DialogPrimitive9.Portal, {});
+var Portal132 = styled222222222(DialogPrimitive9.Portal, {});
 Portal132.displayName = "Portal";
 Dialog9.Portal = Portal132;
-var Title132 = styled22222222(DialogPrimitive9.Title, {
+var Title132 = styled222222222(DialogPrimitive9.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title132.displayName = "Title";
 Dialog9.Title = Title132;
-var Description132 = styled22222222(DialogPrimitive9.Description, {
+var Description132 = styled222222222(DialogPrimitive9.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description132.displayName = "Description";
 Dialog9.Description = Description132;
-var Close132 = styled22222222(DialogPrimitive9.Close, {});
+var Close132 = styled222222222(DialogPrimitive9.Close, {});
 Close132.displayName = "Close";
 Dialog9.Close = Close132;
-var Overlay132 = styled22222222(DialogPrimitive9.Overlay, {
+var Overlay132 = styled222222222(DialogPrimitive9.Overlay, {
   backgroundColor: blackA9.blackA8,
   position: "fixed",
   inset: 0,
@@ -48320,7 +51086,7 @@ var Overlay132 = styled22222222(DialogPrimitive9.Overlay, {
 });
 Overlay132.displayName = "Overlay";
 Dialog9.Overlay = Overlay132;
-var Content132 = styled22222222(DialogPrimitive9.Content, {
+var Content132 = styled222222222(DialogPrimitive9.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -48336,9 +51102,9 @@ var Content132 = styled22222222(DialogPrimitive9.Content, {
 Content132.displayName = "Content";
 Dialog9.Content = Content132;
 var ContentWithClose9 = (props) => {
-  return /* @__PURE__ */ jsxs14(Content132, __spreadProps22222222(__spreadValues22222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs14(Content132, __spreadProps222222222(__spreadValues222222222({}, props), { children: [
     /* @__PURE__ */ jsx35(
-      Box222222222,
+      Box2222222222,
       {
         css: {
           position: "absolute",
@@ -48350,7 +51116,7 @@ var ContentWithClose9 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx35(
-      Box222222222,
+      Box2222222222,
       {
         css: {
           padding: "$6",
@@ -48373,7 +51139,7 @@ var ContentWithClose9 = (props) => {
 ContentWithClose9.displayName = "ContentWithClose";
 Dialog9.ContentWithClose = ContentWithClose9;
 var HeroIcon10 = (props) => {
-  const icons3 = __objRest2222222(HeroIcons10, []);
+  const icons3 = __objRest22222222(HeroIcons10, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx36(Fragment10, { children: /* @__PURE__ */ jsx36(
     OutlineIcon,
@@ -48387,13 +51153,13 @@ var HeroIconOne10 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2222222(_b, [
+  } = _b, props = __objRest22222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx36(Box2222222, __spreadProps2222222(__spreadValues2222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx36(HeroIcon10, { icon: name }) }));
+  return /* @__PURE__ */ jsx36(Box22222222, __spreadProps22222222(__spreadValues22222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx36(HeroIcon10, { icon: name }) }));
 };
-var IconButtonWrapper10 = styled2222222(BaseButton2222222, {
+var IconButtonWrapper10 = styled22222222(BaseButton22222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48409,7 +51175,7 @@ var IconButton10 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest2222222(_b, [
+  } = _b, props = __objRest22222222(_b, [
     "children",
     "name",
     "tone",
@@ -48419,10 +51185,10 @@ var IconButton10 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx37(
     IconButtonWrapper10,
-    __spreadProps2222222(__spreadValues2222222({
+    __spreadProps22222222(__spreadValues22222222({
       css: _13.merge(
-        getButtonToneStyle2222222(tone, intent),
-        getButtonShadowStyle2222222(tone, depth),
+        getButtonToneStyle22222222(tone, intent),
+        getButtonShadowStyle22222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48461,34 +51227,34 @@ var Dialog10 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root142 = styled2222222(DialogPrimitive10.Root, {
+var Root142 = styled22222222(DialogPrimitive10.Root, {
   boxSizing: "border-box"
 });
 Root142.displayName = "Root";
 Dialog10.Root = Root142;
-var Trigger142 = styled2222222(DialogPrimitive10.Trigger, {});
+var Trigger142 = styled22222222(DialogPrimitive10.Trigger, {});
 Trigger142.displayName = "Trigger";
 Dialog10.Trigger = Trigger142;
-var Portal142 = styled2222222(DialogPrimitive10.Portal, {});
+var Portal142 = styled22222222(DialogPrimitive10.Portal, {});
 Portal142.displayName = "Portal";
 Dialog10.Portal = Portal142;
-var Title142 = styled2222222(DialogPrimitive10.Title, {
+var Title142 = styled22222222(DialogPrimitive10.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title142.displayName = "Title";
 Dialog10.Title = Title142;
-var Description142 = styled2222222(DialogPrimitive10.Description, {
+var Description142 = styled22222222(DialogPrimitive10.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description142.displayName = "Description";
 Dialog10.Description = Description142;
-var Close142 = styled2222222(DialogPrimitive10.Close, {});
+var Close142 = styled22222222(DialogPrimitive10.Close, {});
 Close142.displayName = "Close";
 Dialog10.Close = Close142;
-var Overlay142 = styled2222222(DialogPrimitive10.Overlay, {
+var Overlay142 = styled22222222(DialogPrimitive10.Overlay, {
   backgroundColor: blackA10.blackA8,
   position: "fixed",
   inset: 0,
@@ -48498,7 +51264,7 @@ var Overlay142 = styled2222222(DialogPrimitive10.Overlay, {
 });
 Overlay142.displayName = "Overlay";
 Dialog10.Overlay = Overlay142;
-var Content142 = styled2222222(DialogPrimitive10.Content, {
+var Content142 = styled22222222(DialogPrimitive10.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -48514,9 +51280,9 @@ var Content142 = styled2222222(DialogPrimitive10.Content, {
 Content142.displayName = "Content";
 Dialog10.Content = Content142;
 var ContentWithClose10 = (props) => {
-  return /* @__PURE__ */ jsxs15(Content142, __spreadProps2222222(__spreadValues2222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs15(Content142, __spreadProps22222222(__spreadValues22222222({}, props), { children: [
     /* @__PURE__ */ jsx38(
-      Box22222222,
+      Box222222222,
       {
         css: {
           position: "absolute",
@@ -48528,7 +51294,7 @@ var ContentWithClose10 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx38(
-      Box22222222,
+      Box222222222,
       {
         css: {
           padding: "$6",
@@ -48551,7 +51317,7 @@ var ContentWithClose10 = (props) => {
 ContentWithClose10.displayName = "ContentWithClose";
 Dialog10.ContentWithClose = ContentWithClose10;
 var HeroIcon11 = (props) => {
-  const icons3 = __objRest222222(HeroIcons11, []);
+  const icons3 = __objRest2222222(HeroIcons11, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx39(Fragment11, { children: /* @__PURE__ */ jsx39(
     OutlineIcon,
@@ -48565,13 +51331,13 @@ var HeroIconOne11 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest222222(_b, [
+  } = _b, props = __objRest2222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx39(Box222222, __spreadProps222222(__spreadValues222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx39(HeroIcon11, { icon: name }) }));
+  return /* @__PURE__ */ jsx39(Box2222222, __spreadProps2222222(__spreadValues2222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx39(HeroIcon11, { icon: name }) }));
 };
-var IconButtonWrapper11 = styled222222(BaseButton222222, {
+var IconButtonWrapper11 = styled2222222(BaseButton2222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48587,7 +51353,7 @@ var IconButton11 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest222222(_b, [
+  } = _b, props = __objRest2222222(_b, [
     "children",
     "name",
     "tone",
@@ -48597,10 +51363,10 @@ var IconButton11 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx40(
     IconButtonWrapper11,
-    __spreadProps222222(__spreadValues222222({
+    __spreadProps2222222(__spreadValues2222222({
       css: _14.merge(
-        getButtonToneStyle222222(tone, intent),
-        getButtonShadowStyle222222(tone, depth),
+        getButtonToneStyle2222222(tone, intent),
+        getButtonShadowStyle2222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48639,34 +51405,34 @@ var Dialog11 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root162 = styled222222(DialogPrimitive11.Root, {
+var Root162 = styled2222222(DialogPrimitive11.Root, {
   boxSizing: "border-box"
 });
 Root162.displayName = "Root";
 Dialog11.Root = Root162;
-var Trigger162 = styled222222(DialogPrimitive11.Trigger, {});
+var Trigger162 = styled2222222(DialogPrimitive11.Trigger, {});
 Trigger162.displayName = "Trigger";
 Dialog11.Trigger = Trigger162;
-var Portal162 = styled222222(DialogPrimitive11.Portal, {});
+var Portal162 = styled2222222(DialogPrimitive11.Portal, {});
 Portal162.displayName = "Portal";
 Dialog11.Portal = Portal162;
-var Title162 = styled222222(DialogPrimitive11.Title, {
+var Title162 = styled2222222(DialogPrimitive11.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title162.displayName = "Title";
 Dialog11.Title = Title162;
-var Description162 = styled222222(DialogPrimitive11.Description, {
+var Description162 = styled2222222(DialogPrimitive11.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description162.displayName = "Description";
 Dialog11.Description = Description162;
-var Close162 = styled222222(DialogPrimitive11.Close, {});
+var Close162 = styled2222222(DialogPrimitive11.Close, {});
 Close162.displayName = "Close";
 Dialog11.Close = Close162;
-var Overlay162 = styled222222(DialogPrimitive11.Overlay, {
+var Overlay162 = styled2222222(DialogPrimitive11.Overlay, {
   backgroundColor: blackA11.blackA8,
   position: "fixed",
   inset: 0,
@@ -48676,7 +51442,7 @@ var Overlay162 = styled222222(DialogPrimitive11.Overlay, {
 });
 Overlay162.displayName = "Overlay";
 Dialog11.Overlay = Overlay162;
-var Content162 = styled222222(DialogPrimitive11.Content, {
+var Content162 = styled2222222(DialogPrimitive11.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -48692,9 +51458,9 @@ var Content162 = styled222222(DialogPrimitive11.Content, {
 Content162.displayName = "Content";
 Dialog11.Content = Content162;
 var ContentWithClose11 = (props) => {
-  return /* @__PURE__ */ jsxs16(Content162, __spreadProps222222(__spreadValues222222({}, props), { children: [
+  return /* @__PURE__ */ jsxs16(Content162, __spreadProps2222222(__spreadValues2222222({}, props), { children: [
     /* @__PURE__ */ jsx41(
-      Box2222222,
+      Box22222222,
       {
         css: {
           position: "absolute",
@@ -48706,7 +51472,7 @@ var ContentWithClose11 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx41(
-      Box2222222,
+      Box22222222,
       {
         css: {
           padding: "$6",
@@ -48729,7 +51495,7 @@ var ContentWithClose11 = (props) => {
 ContentWithClose11.displayName = "ContentWithClose";
 Dialog11.ContentWithClose = ContentWithClose11;
 var HeroIcon12 = (props) => {
-  const icons3 = __objRest22222(HeroIcons12, []);
+  const icons3 = __objRest222222(HeroIcons12, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx43(Fragment12, { children: /* @__PURE__ */ jsx43(
     OutlineIcon,
@@ -48743,13 +51509,13 @@ var HeroIconOne12 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest22222(_b, [
+  } = _b, props = __objRest222222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx43(Box22222, __spreadProps22222(__spreadValues22222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx43(HeroIcon12, { icon: name }) }));
+  return /* @__PURE__ */ jsx43(Box222222, __spreadProps222222(__spreadValues222222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx43(HeroIcon12, { icon: name }) }));
 };
-var IconButtonWrapper12 = styled22222(BaseButton22222, {
+var IconButtonWrapper12 = styled222222(BaseButton222222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48765,7 +51531,7 @@ var IconButton12 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest22222(_b, [
+  } = _b, props = __objRest222222(_b, [
     "children",
     "name",
     "tone",
@@ -48775,10 +51541,10 @@ var IconButton12 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx44(
     IconButtonWrapper12,
-    __spreadProps22222(__spreadValues22222({
+    __spreadProps222222(__spreadValues222222({
       css: _15.merge(
-        getButtonToneStyle22222(tone, intent),
-        getButtonShadowStyle22222(tone, depth),
+        getButtonToneStyle222222(tone, intent),
+        getButtonShadowStyle222222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48817,34 +51583,34 @@ var Dialog12 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root17 = styled22222(DialogPrimitive12.Root, {
+var Root172 = styled222222(DialogPrimitive12.Root, {
   boxSizing: "border-box"
 });
-Root17.displayName = "Root";
-Dialog12.Root = Root17;
-var Trigger17 = styled22222(DialogPrimitive12.Trigger, {});
-Trigger17.displayName = "Trigger";
-Dialog12.Trigger = Trigger17;
-var Portal17 = styled22222(DialogPrimitive12.Portal, {});
-Portal17.displayName = "Portal";
-Dialog12.Portal = Portal17;
-var Title17 = styled22222(DialogPrimitive12.Title, {
+Root172.displayName = "Root";
+Dialog12.Root = Root172;
+var Trigger172 = styled222222(DialogPrimitive12.Trigger, {});
+Trigger172.displayName = "Trigger";
+Dialog12.Trigger = Trigger172;
+var Portal172 = styled222222(DialogPrimitive12.Portal, {});
+Portal172.displayName = "Portal";
+Dialog12.Portal = Portal172;
+var Title172 = styled222222(DialogPrimitive12.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
-Title17.displayName = "Title";
-Dialog12.Title = Title17;
-var Description17 = styled22222(DialogPrimitive12.Description, {
+Title172.displayName = "Title";
+Dialog12.Title = Title172;
+var Description172 = styled222222(DialogPrimitive12.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
-Description17.displayName = "Description";
-Dialog12.Description = Description17;
-var Close17 = styled22222(DialogPrimitive12.Close, {});
-Close17.displayName = "Close";
-Dialog12.Close = Close17;
-var Overlay17 = styled22222(DialogPrimitive12.Overlay, {
+Description172.displayName = "Description";
+Dialog12.Description = Description172;
+var Close172 = styled222222(DialogPrimitive12.Close, {});
+Close172.displayName = "Close";
+Dialog12.Close = Close172;
+var Overlay172 = styled222222(DialogPrimitive12.Overlay, {
   backgroundColor: blackA12.blackA8,
   position: "fixed",
   inset: 0,
@@ -48852,9 +51618,9 @@ var Overlay17 = styled22222(DialogPrimitive12.Overlay, {
   alignItems: "center",
   justifyContent: "center"
 });
-Overlay17.displayName = "Overlay";
-Dialog12.Overlay = Overlay17;
-var Content17 = styled22222(DialogPrimitive12.Content, {
+Overlay172.displayName = "Overlay";
+Dialog12.Overlay = Overlay172;
+var Content172 = styled222222(DialogPrimitive12.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -48867,12 +51633,12 @@ var Content17 = styled22222(DialogPrimitive12.Content, {
   overflowY: "auto",
   "&:focus": { outline: "none" }
 });
-Content17.displayName = "Content";
-Dialog12.Content = Content17;
+Content172.displayName = "Content";
+Dialog12.Content = Content172;
 var ContentWithClose12 = (props) => {
-  return /* @__PURE__ */ jsxs17(Content17, __spreadProps22222(__spreadValues22222({}, props), { children: [
+  return /* @__PURE__ */ jsxs17(Content172, __spreadProps222222(__spreadValues222222({}, props), { children: [
     /* @__PURE__ */ jsx45(
-      Box222222,
+      Box2222222,
       {
         css: {
           position: "absolute",
@@ -48884,7 +51650,7 @@ var ContentWithClose12 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx45(
-      Box222222,
+      Box2222222,
       {
         css: {
           padding: "$6",
@@ -48907,7 +51673,7 @@ var ContentWithClose12 = (props) => {
 ContentWithClose12.displayName = "ContentWithClose";
 Dialog12.ContentWithClose = ContentWithClose12;
 var HeroIcon13 = (props) => {
-  const icons3 = __objRest2222(HeroIcons13, []);
+  const icons3 = __objRest22222(HeroIcons13, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx46(Fragment13, { children: /* @__PURE__ */ jsx46(
     OutlineIcon,
@@ -48921,13 +51687,13 @@ var HeroIconOne13 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2222(_b, [
+  } = _b, props = __objRest22222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx46(Box2222, __spreadProps2222(__spreadValues2222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx46(HeroIcon13, { icon: name }) }));
+  return /* @__PURE__ */ jsx46(Box22222, __spreadProps22222(__spreadValues22222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx46(HeroIcon13, { icon: name }) }));
 };
-var IconButtonWrapper13 = styled2222(BaseButton2222, {
+var IconButtonWrapper13 = styled22222(BaseButton22222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -48943,7 +51709,7 @@ var IconButton13 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest2222(_b, [
+  } = _b, props = __objRest22222(_b, [
     "children",
     "name",
     "tone",
@@ -48953,10 +51719,10 @@ var IconButton13 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx47(
     IconButtonWrapper13,
-    __spreadProps2222(__spreadValues2222({
+    __spreadProps22222(__spreadValues22222({
       css: _16.merge(
-        getButtonToneStyle2222(tone, intent),
-        getButtonShadowStyle2222(tone, depth),
+        getButtonToneStyle22222(tone, intent),
+        getButtonShadowStyle22222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -48995,34 +51761,34 @@ var Dialog13 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root18 = styled2222(DialogPrimitive13.Root, {
+var Root18 = styled22222(DialogPrimitive13.Root, {
   boxSizing: "border-box"
 });
 Root18.displayName = "Root";
 Dialog13.Root = Root18;
-var Trigger18 = styled2222(DialogPrimitive13.Trigger, {});
+var Trigger18 = styled22222(DialogPrimitive13.Trigger, {});
 Trigger18.displayName = "Trigger";
 Dialog13.Trigger = Trigger18;
-var Portal18 = styled2222(DialogPrimitive13.Portal, {});
+var Portal18 = styled22222(DialogPrimitive13.Portal, {});
 Portal18.displayName = "Portal";
 Dialog13.Portal = Portal18;
-var Title18 = styled2222(DialogPrimitive13.Title, {
+var Title18 = styled22222(DialogPrimitive13.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title18.displayName = "Title";
 Dialog13.Title = Title18;
-var Description18 = styled2222(DialogPrimitive13.Description, {
+var Description18 = styled22222(DialogPrimitive13.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description18.displayName = "Description";
 Dialog13.Description = Description18;
-var Close18 = styled2222(DialogPrimitive13.Close, {});
+var Close18 = styled22222(DialogPrimitive13.Close, {});
 Close18.displayName = "Close";
 Dialog13.Close = Close18;
-var Overlay18 = styled2222(DialogPrimitive13.Overlay, {
+var Overlay18 = styled22222(DialogPrimitive13.Overlay, {
   backgroundColor: blackA13.blackA8,
   position: "fixed",
   inset: 0,
@@ -49032,7 +51798,7 @@ var Overlay18 = styled2222(DialogPrimitive13.Overlay, {
 });
 Overlay18.displayName = "Overlay";
 Dialog13.Overlay = Overlay18;
-var Content18 = styled2222(DialogPrimitive13.Content, {
+var Content18 = styled22222(DialogPrimitive13.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -49048,9 +51814,9 @@ var Content18 = styled2222(DialogPrimitive13.Content, {
 Content18.displayName = "Content";
 Dialog13.Content = Content18;
 var ContentWithClose13 = (props) => {
-  return /* @__PURE__ */ jsxs18(Content18, __spreadProps2222(__spreadValues2222({}, props), { children: [
+  return /* @__PURE__ */ jsxs18(Content18, __spreadProps22222(__spreadValues22222({}, props), { children: [
     /* @__PURE__ */ jsx48(
-      Box22222,
+      Box222222,
       {
         css: {
           position: "absolute",
@@ -49062,7 +51828,7 @@ var ContentWithClose13 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx48(
-      Box22222,
+      Box222222,
       {
         css: {
           padding: "$6",
@@ -49085,7 +51851,7 @@ var ContentWithClose13 = (props) => {
 ContentWithClose13.displayName = "ContentWithClose";
 Dialog13.ContentWithClose = ContentWithClose13;
 var HeroIcon14 = (props) => {
-  const icons3 = __objRest222(HeroIcons14, []);
+  const icons3 = __objRest2222(HeroIcons14, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx49(Fragment14, { children: /* @__PURE__ */ jsx49(
     OutlineIcon,
@@ -49099,13 +51865,13 @@ var HeroIconOne14 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest222(_b, [
+  } = _b, props = __objRest2222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx49(Box222, __spreadProps222(__spreadValues222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx49(HeroIcon14, { icon: name }) }));
+  return /* @__PURE__ */ jsx49(Box2222, __spreadProps2222(__spreadValues2222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx49(HeroIcon14, { icon: name }) }));
 };
-var IconButtonWrapper14 = styled222(BaseButton222, {
+var IconButtonWrapper14 = styled2222(BaseButton2222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -49121,7 +51887,7 @@ var IconButton14 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest222(_b, [
+  } = _b, props = __objRest2222(_b, [
     "children",
     "name",
     "tone",
@@ -49131,10 +51897,10 @@ var IconButton14 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx50(
     IconButtonWrapper14,
-    __spreadProps222(__spreadValues222({
+    __spreadProps2222(__spreadValues2222({
       css: _17.merge(
-        getButtonToneStyle222(tone, intent),
-        getButtonShadowStyle222(tone, depth),
+        getButtonToneStyle2222(tone, intent),
+        getButtonShadowStyle2222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -49173,34 +51939,34 @@ var Dialog14 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root19 = styled222(DialogPrimitive14.Root, {
+var Root19 = styled2222(DialogPrimitive14.Root, {
   boxSizing: "border-box"
 });
 Root19.displayName = "Root";
 Dialog14.Root = Root19;
-var Trigger19 = styled222(DialogPrimitive14.Trigger, {});
+var Trigger19 = styled2222(DialogPrimitive14.Trigger, {});
 Trigger19.displayName = "Trigger";
 Dialog14.Trigger = Trigger19;
-var Portal19 = styled222(DialogPrimitive14.Portal, {});
+var Portal19 = styled2222(DialogPrimitive14.Portal, {});
 Portal19.displayName = "Portal";
 Dialog14.Portal = Portal19;
-var Title19 = styled222(DialogPrimitive14.Title, {
+var Title19 = styled2222(DialogPrimitive14.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title19.displayName = "Title";
 Dialog14.Title = Title19;
-var Description19 = styled222(DialogPrimitive14.Description, {
+var Description19 = styled2222(DialogPrimitive14.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description19.displayName = "Description";
 Dialog14.Description = Description19;
-var Close19 = styled222(DialogPrimitive14.Close, {});
+var Close19 = styled2222(DialogPrimitive14.Close, {});
 Close19.displayName = "Close";
 Dialog14.Close = Close19;
-var Overlay19 = styled222(DialogPrimitive14.Overlay, {
+var Overlay19 = styled2222(DialogPrimitive14.Overlay, {
   backgroundColor: blackA14.blackA8,
   position: "fixed",
   inset: 0,
@@ -49210,7 +51976,7 @@ var Overlay19 = styled222(DialogPrimitive14.Overlay, {
 });
 Overlay19.displayName = "Overlay";
 Dialog14.Overlay = Overlay19;
-var Content19 = styled222(DialogPrimitive14.Content, {
+var Content19 = styled2222(DialogPrimitive14.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -49226,9 +51992,9 @@ var Content19 = styled222(DialogPrimitive14.Content, {
 Content19.displayName = "Content";
 Dialog14.Content = Content19;
 var ContentWithClose14 = (props) => {
-  return /* @__PURE__ */ jsxs19(Content19, __spreadProps222(__spreadValues222({}, props), { children: [
+  return /* @__PURE__ */ jsxs19(Content19, __spreadProps2222(__spreadValues2222({}, props), { children: [
     /* @__PURE__ */ jsx51(
-      Box2222,
+      Box22222,
       {
         css: {
           position: "absolute",
@@ -49240,7 +52006,7 @@ var ContentWithClose14 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx51(
-      Box2222,
+      Box22222,
       {
         css: {
           padding: "$6",
@@ -49263,7 +52029,7 @@ var ContentWithClose14 = (props) => {
 ContentWithClose14.displayName = "ContentWithClose";
 Dialog14.ContentWithClose = ContentWithClose14;
 var HeroIcon15 = (props) => {
-  const icons3 = __objRest22(HeroIcons15, []);
+  const icons3 = __objRest222(HeroIcons15, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx53(Fragment15, { children: /* @__PURE__ */ jsx53(
     OutlineIcon,
@@ -49277,13 +52043,13 @@ var HeroIconOne15 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest22(_b, [
+  } = _b, props = __objRest222(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx53(Box22, __spreadProps22(__spreadValues22({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx53(HeroIcon15, { icon: name }) }));
+  return /* @__PURE__ */ jsx53(Box222, __spreadProps222(__spreadValues222({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx53(HeroIcon15, { icon: name }) }));
 };
-var IconButtonWrapper15 = styled22(BaseButton22, {
+var IconButtonWrapper15 = styled222(BaseButton222, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -49299,7 +52065,7 @@ var IconButton15 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest22(_b, [
+  } = _b, props = __objRest222(_b, [
     "children",
     "name",
     "tone",
@@ -49309,10 +52075,10 @@ var IconButton15 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx54(
     IconButtonWrapper15,
-    __spreadProps22(__spreadValues22({
+    __spreadProps222(__spreadValues222({
       css: _18.merge(
-        getButtonToneStyle22(tone, intent),
-        getButtonShadowStyle22(tone, depth),
+        getButtonToneStyle222(tone, intent),
+        getButtonShadowStyle222(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -49351,34 +52117,34 @@ var Dialog15 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root20 = styled22(DialogPrimitive15.Root, {
+var Root20 = styled222(DialogPrimitive15.Root, {
   boxSizing: "border-box"
 });
 Root20.displayName = "Root";
 Dialog15.Root = Root20;
-var Trigger20 = styled22(DialogPrimitive15.Trigger, {});
+var Trigger20 = styled222(DialogPrimitive15.Trigger, {});
 Trigger20.displayName = "Trigger";
 Dialog15.Trigger = Trigger20;
-var Portal20 = styled22(DialogPrimitive15.Portal, {});
+var Portal20 = styled222(DialogPrimitive15.Portal, {});
 Portal20.displayName = "Portal";
 Dialog15.Portal = Portal20;
-var Title20 = styled22(DialogPrimitive15.Title, {
+var Title20 = styled222(DialogPrimitive15.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title20.displayName = "Title";
 Dialog15.Title = Title20;
-var Description20 = styled22(DialogPrimitive15.Description, {
+var Description20 = styled222(DialogPrimitive15.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description20.displayName = "Description";
 Dialog15.Description = Description20;
-var Close20 = styled22(DialogPrimitive15.Close, {});
+var Close20 = styled222(DialogPrimitive15.Close, {});
 Close20.displayName = "Close";
 Dialog15.Close = Close20;
-var Overlay20 = styled22(DialogPrimitive15.Overlay, {
+var Overlay20 = styled222(DialogPrimitive15.Overlay, {
   backgroundColor: blackA15.blackA8,
   position: "fixed",
   inset: 0,
@@ -49388,7 +52154,7 @@ var Overlay20 = styled22(DialogPrimitive15.Overlay, {
 });
 Overlay20.displayName = "Overlay";
 Dialog15.Overlay = Overlay20;
-var Content20 = styled22(DialogPrimitive15.Content, {
+var Content20 = styled222(DialogPrimitive15.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -49404,9 +52170,9 @@ var Content20 = styled22(DialogPrimitive15.Content, {
 Content20.displayName = "Content";
 Dialog15.Content = Content20;
 var ContentWithClose15 = (props) => {
-  return /* @__PURE__ */ jsxs20(Content20, __spreadProps22(__spreadValues22({}, props), { children: [
+  return /* @__PURE__ */ jsxs20(Content20, __spreadProps222(__spreadValues222({}, props), { children: [
     /* @__PURE__ */ jsx55(
-      Box222,
+      Box2222,
       {
         css: {
           position: "absolute",
@@ -49418,7 +52184,7 @@ var ContentWithClose15 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx55(
-      Box222,
+      Box2222,
       {
         css: {
           padding: "$6",
@@ -49441,7 +52207,7 @@ var ContentWithClose15 = (props) => {
 ContentWithClose15.displayName = "ContentWithClose";
 Dialog15.ContentWithClose = ContentWithClose15;
 var HeroIcon16 = (props) => {
-  const icons3 = __objRest2(HeroIcons16, []);
+  const icons3 = __objRest22(HeroIcons16, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx56(Fragment16, { children: /* @__PURE__ */ jsx56(
     OutlineIcon,
@@ -49455,13 +52221,13 @@ var HeroIconOne16 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest2(_b, [
+  } = _b, props = __objRest22(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx56(Box2, __spreadProps2(__spreadValues2({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx56(HeroIcon16, { icon: name }) }));
+  return /* @__PURE__ */ jsx56(Box22, __spreadProps22(__spreadValues22({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx56(HeroIcon16, { icon: name }) }));
 };
-var IconButtonWrapper16 = styled2(BaseButton2, {
+var IconButtonWrapper16 = styled22(BaseButton22, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -49477,7 +52243,7 @@ var IconButton16 = (_a) => {
     intent = "primary",
     depth,
     css: css3
-  } = _b, props = __objRest2(_b, [
+  } = _b, props = __objRest22(_b, [
     "children",
     "name",
     "tone",
@@ -49487,10 +52253,10 @@ var IconButton16 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx57(
     IconButtonWrapper16,
-    __spreadProps2(__spreadValues2({
+    __spreadProps22(__spreadValues22({
       css: _19.merge(
-        getButtonToneStyle2(tone, intent),
-        getButtonShadowStyle2(tone, depth),
+        getButtonToneStyle22(tone, intent),
+        getButtonShadowStyle22(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -49529,34 +52295,34 @@ var Dialog16 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root23 = styled2(DialogPrimitive16.Root, {
+var Root23 = styled22(DialogPrimitive16.Root, {
   boxSizing: "border-box"
 });
 Root23.displayName = "Root";
 Dialog16.Root = Root23;
-var Trigger23 = styled2(DialogPrimitive16.Trigger, {});
+var Trigger23 = styled22(DialogPrimitive16.Trigger, {});
 Trigger23.displayName = "Trigger";
 Dialog16.Trigger = Trigger23;
-var Portal23 = styled2(DialogPrimitive16.Portal, {});
+var Portal23 = styled22(DialogPrimitive16.Portal, {});
 Portal23.displayName = "Portal";
 Dialog16.Portal = Portal23;
-var Title23 = styled2(DialogPrimitive16.Title, {
+var Title23 = styled22(DialogPrimitive16.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title23.displayName = "Title";
 Dialog16.Title = Title23;
-var Description23 = styled2(DialogPrimitive16.Description, {
+var Description23 = styled22(DialogPrimitive16.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description23.displayName = "Description";
 Dialog16.Description = Description23;
-var Close23 = styled2(DialogPrimitive16.Close, {});
+var Close23 = styled22(DialogPrimitive16.Close, {});
 Close23.displayName = "Close";
 Dialog16.Close = Close23;
-var Overlay23 = styled2(DialogPrimitive16.Overlay, {
+var Overlay23 = styled22(DialogPrimitive16.Overlay, {
   backgroundColor: blackA16.blackA8,
   position: "fixed",
   inset: 0,
@@ -49566,7 +52332,7 @@ var Overlay23 = styled2(DialogPrimitive16.Overlay, {
 });
 Overlay23.displayName = "Overlay";
 Dialog16.Overlay = Overlay23;
-var Content23 = styled2(DialogPrimitive16.Content, {
+var Content23 = styled22(DialogPrimitive16.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -49582,9 +52348,9 @@ var Content23 = styled2(DialogPrimitive16.Content, {
 Content23.displayName = "Content";
 Dialog16.Content = Content23;
 var ContentWithClose16 = (props) => {
-  return /* @__PURE__ */ jsxs21(Content23, __spreadProps2(__spreadValues2({}, props), { children: [
+  return /* @__PURE__ */ jsxs21(Content23, __spreadProps22(__spreadValues22({}, props), { children: [
     /* @__PURE__ */ jsx58(
-      Box22,
+      Box222,
       {
         css: {
           position: "absolute",
@@ -49596,7 +52362,7 @@ var ContentWithClose16 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx58(
-      Box22,
+      Box222,
       {
         css: {
           padding: "$6",
@@ -49618,15 +52384,8 @@ var ContentWithClose16 = (props) => {
 };
 ContentWithClose16.displayName = "ContentWithClose";
 Dialog16.ContentWithClose = ContentWithClose16;
-
-// IconButton/index.tsx
-import _20 from "lodash";
-
-// HeroIconOne/index.tsx
-import * as HeroIcons17 from "react-icons/hi";
-import { Fragment as Fragment17, jsx as jsx59 } from "react/jsx-runtime";
 var HeroIcon17 = (props) => {
-  const icons3 = __objRest(HeroIcons17, []);
+  const icons3 = __objRest2(HeroIcons17, []);
   const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
   return /* @__PURE__ */ jsx59(Fragment17, { children: /* @__PURE__ */ jsx59(
     OutlineIcon,
@@ -49640,16 +52399,13 @@ var HeroIconOne17 = (_a) => {
   var _b = _a, {
     name = "HiArchive",
     boxSize = "24px"
-  } = _b, props = __objRest(_b, [
+  } = _b, props = __objRest2(_b, [
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx59(Box, __spreadProps(__spreadValues({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx59(HeroIcon17, { icon: name }) }));
+  return /* @__PURE__ */ jsx59(Box2, __spreadProps2(__spreadValues2({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx59(HeroIcon17, { icon: name }) }));
 };
-
-// IconButton/index.tsx
-import { jsx as jsx60 } from "react/jsx-runtime";
-var IconButtonWrapper17 = styled(BaseButton, {
+var IconButtonWrapper17 = styled2(BaseButton2, {
   aspectRatio: "1",
   p: 0,
   rowGap: 0,
@@ -49666,7 +52422,7 @@ var IconButton17 = (_a) => {
     depth,
     css: css3,
     isRound
-  } = _b, props = __objRest(_b, [
+  } = _b, props = __objRest2(_b, [
     "children",
     "name",
     "tone",
@@ -49677,11 +52433,11 @@ var IconButton17 = (_a) => {
   ]);
   return /* @__PURE__ */ jsx60(
     IconButtonWrapper17,
-    __spreadProps(__spreadValues({
+    __spreadProps2(__spreadValues2({
       isRound,
       css: _20.merge(
-        getButtonToneStyle(tone, intent),
-        getButtonShadowStyle(tone, depth),
+        getButtonToneStyle2(tone, intent),
+        getButtonShadowStyle2(tone, depth),
         {
           p: 0,
           rowGap: 0
@@ -49693,9 +52449,6 @@ var IconButton17 = (_a) => {
     })
   );
 };
-
-// Dialog/index.tsx
-import { jsx as jsx61, jsxs as jsxs23 } from "react/jsx-runtime";
 var Dialog17 = () => {
   return /* @__PURE__ */ jsx61("code", { children: /* @__PURE__ */ jsx61("pre", { children: `<Dialog.Root>
 	<Dialog.Trigger asChild>
@@ -49723,34 +52476,34 @@ var Dialog17 = () => {
 	</Dialog.Portal>
 </Dialog.Root>` }) });
 };
-var Root24 = styled(DialogPrimitive17.Root, {
+var Root24 = styled2(DialogPrimitive17.Root, {
   boxSizing: "border-box"
 });
 Root24.displayName = "Root";
 Dialog17.Root = Root24;
-var Trigger24 = styled(DialogPrimitive17.Trigger, {});
+var Trigger24 = styled2(DialogPrimitive17.Trigger, {});
 Trigger24.displayName = "Trigger";
 Dialog17.Trigger = Trigger24;
-var Portal24 = styled(DialogPrimitive17.Portal, {});
+var Portal24 = styled2(DialogPrimitive17.Portal, {});
 Portal24.displayName = "Portal";
 Dialog17.Portal = Portal24;
-var Title24 = styled(DialogPrimitive17.Title, {
+var Title24 = styled2(DialogPrimitive17.Title, {
   fontSize: "$base",
   color: "$baseText",
   fontWeight: "$bold"
 });
 Title24.displayName = "Title";
 Dialog17.Title = Title24;
-var Description24 = styled(DialogPrimitive17.Description, {
+var Description24 = styled2(DialogPrimitive17.Description, {
   fontSize: "$sm",
   color: "$baseTextTertiary"
 });
 Description24.displayName = "Description";
 Dialog17.Description = Description24;
-var Close24 = styled(DialogPrimitive17.Close, {});
+var Close24 = styled2(DialogPrimitive17.Close, {});
 Close24.displayName = "Close";
 Dialog17.Close = Close24;
-var Overlay24 = styled(DialogPrimitive17.Overlay, {
+var Overlay24 = styled2(DialogPrimitive17.Overlay, {
   backgroundColor: blackA17.blackA8,
   position: "fixed",
   inset: 0,
@@ -49760,7 +52513,7 @@ var Overlay24 = styled(DialogPrimitive17.Overlay, {
 });
 Overlay24.displayName = "Overlay";
 Dialog17.Overlay = Overlay24;
-var Content24 = styled(DialogPrimitive17.Content, {
+var Content24 = styled2(DialogPrimitive17.Content, {
   boxSizing: "border-box",
   backgroundColor: "$baseBackground",
   borderRadius: "$2xl",
@@ -49776,9 +52529,9 @@ var Content24 = styled(DialogPrimitive17.Content, {
 Content24.displayName = "Content";
 Dialog17.Content = Content24;
 var ContentWithClose17 = (props) => {
-  return /* @__PURE__ */ jsxs23(Content24, __spreadProps(__spreadValues({}, props), { children: [
+  return /* @__PURE__ */ jsxs23(Content24, __spreadProps2(__spreadValues2({}, props), { children: [
     /* @__PURE__ */ jsx61(
-      Box2,
+      Box22,
       {
         css: {
           position: "absolute",
@@ -49790,7 +52543,7 @@ var ContentWithClose17 = (props) => {
       }
     ),
     /* @__PURE__ */ jsx61(
-      Box2,
+      Box22,
       {
         css: {
           padding: "$6",
@@ -49812,13 +52565,207 @@ var ContentWithClose17 = (props) => {
 };
 ContentWithClose17.displayName = "ContentWithClose";
 Dialog17.ContentWithClose = ContentWithClose17;
+
+// IconButton/index.tsx
+import _21 from "lodash";
+
+// HeroIconOne/index.tsx
+import * as HeroIcons18 from "react-icons/hi";
+import { Fragment as Fragment18, jsx as jsx63 } from "react/jsx-runtime";
+var HeroIcon18 = (props) => {
+  const icons3 = __objRest(HeroIcons18, []);
+  const OutlineIcon = icons3[props.icon] || icons3["HiArchive"];
+  return /* @__PURE__ */ jsx63(Fragment18, { children: /* @__PURE__ */ jsx63(
+    OutlineIcon,
+    {
+      style: { width: "100%", height: "100%" },
+      "aria-hidden": "true"
+    }
+  ) });
+};
+var HeroIconOne18 = (_a) => {
+  var _b = _a, {
+    name = "HiArchive",
+    boxSize = "24px"
+  } = _b, props = __objRest(_b, [
+    "name",
+    "boxSize"
+  ]);
+  return /* @__PURE__ */ jsx63(Box, __spreadProps(__spreadValues({ css: { boxSize } }, props), { children: /* @__PURE__ */ jsx63(HeroIcon18, { icon: name }) }));
+};
+
+// IconButton/index.tsx
+import { jsx as jsx64 } from "react/jsx-runtime";
+var IconButtonWrapper18 = styled(BaseButton, {
+  aspectRatio: "1",
+  p: 0,
+  rowGap: 0,
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+var IconButton18 = (_a) => {
+  var _b = _a, {
+    children,
+    name,
+    tone = "slate",
+    intent = "primary",
+    depth,
+    css: css3,
+    isRound
+  } = _b, props = __objRest(_b, [
+    "children",
+    "name",
+    "tone",
+    "intent",
+    "depth",
+    "css",
+    "isRound"
+  ]);
+  return /* @__PURE__ */ jsx64(
+    IconButtonWrapper18,
+    __spreadProps(__spreadValues({
+      isRound,
+      css: _21.merge(
+        getButtonToneStyle(tone, intent),
+        getButtonShadowStyle(tone, depth),
+        {
+          p: 0,
+          rowGap: 0
+        },
+        css3
+      )
+    }, props), {
+      children: children ? children : /* @__PURE__ */ jsx64(HeroIconOne18, { boxSize: "65%", name })
+    })
+  );
+};
+
+// Dialog/index.tsx
+import { jsx as jsx65, jsxs as jsxs24 } from "react/jsx-runtime";
+var Dialog18 = () => {
+  return /* @__PURE__ */ jsx65("code", { children: /* @__PURE__ */ jsx65("pre", { children: `<Dialog.Root>
+	<Dialog.Trigger asChild>
+		<Button>Open Dialog with Close + Scroll</Button>
+	</Dialog.Trigger>
+	<Dialog.Portal>
+		<Dialog.Overlay>
+			<Dialog.ContentWithClose>
+				{/* repeat paragraph 10 times */}
+				{[...Array(20)].map((_, i) => (
+					<Text key={i}>
+						Lorem ipsum odor amet, consectetuer adipiscing elit. Ac
+						purus in massa egestas mollis varius; dignissim elementum.
+						Mollis tincidunt mattis hendrerit dolor eros enim, nisi
+						ligula ornare. Hendrerit parturient habitant pharetra rutrum
+						gravida porttitor eros feugiat. Mollis elit sodales taciti
+						duis praesent id. Consequat urna vitae morbi nunc congue.
+					</Text>
+				))}
+				<Dialog.Close asChild>
+					<Button>Close Button in content</Button>
+				</Dialog.Close>
+			</Dialog.ContentWithClose>
+		</Dialog.Overlay>
+	</Dialog.Portal>
+</Dialog.Root>` }) });
+};
+var Root25 = styled(DialogPrimitive18.Root, {
+  boxSizing: "border-box"
+});
+Root25.displayName = "Root";
+Dialog18.Root = Root25;
+var Trigger25 = styled(DialogPrimitive18.Trigger, {});
+Trigger25.displayName = "Trigger";
+Dialog18.Trigger = Trigger25;
+var Portal25 = styled(DialogPrimitive18.Portal, {});
+Portal25.displayName = "Portal";
+Dialog18.Portal = Portal25;
+var Title25 = styled(DialogPrimitive18.Title, {
+  fontSize: "$base",
+  color: "$baseText",
+  fontWeight: "$bold"
+});
+Title25.displayName = "Title";
+Dialog18.Title = Title25;
+var Description25 = styled(DialogPrimitive18.Description, {
+  fontSize: "$sm",
+  color: "$baseTextTertiary"
+});
+Description25.displayName = "Description";
+Dialog18.Description = Description25;
+var Close25 = styled(DialogPrimitive18.Close, {});
+Close25.displayName = "Close";
+Dialog18.Close = Close25;
+var Overlay25 = styled(DialogPrimitive18.Overlay, {
+  backgroundColor: blackA18.blackA8,
+  position: "fixed",
+  inset: 0,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+Overlay25.displayName = "Overlay";
+Dialog18.Overlay = Overlay25;
+var Content25 = styled(DialogPrimitive18.Content, {
+  boxSizing: "border-box",
+  backgroundColor: "$baseBackground",
+  borderRadius: "$2xl",
+  boxShadow: "$2",
+  zIndex: 40,
+  position: "relative",
+  width: "90vw",
+  maxWidth: "650px",
+  // maxHeight: "85vh",
+  overflowY: "auto",
+  "&:focus": { outline: "none" }
+});
+Content25.displayName = "Content";
+Dialog18.Content = Content25;
+var ContentWithClose18 = (props) => {
+  return /* @__PURE__ */ jsxs24(Content25, __spreadProps(__spreadValues({}, props), { children: [
+    /* @__PURE__ */ jsx65(
+      Box2,
+      {
+        css: {
+          position: "absolute",
+          top: "$2",
+          right: "$2",
+          zIndex: 50
+        },
+        children: /* @__PURE__ */ jsx65(DialogPrimitive18.Close, { asChild: true, children: /* @__PURE__ */ jsx65(IconButton18, { isRound: true, name: "x", intent: "ghost" }) })
+      }
+    ),
+    /* @__PURE__ */ jsx65(
+      Box2,
+      {
+        css: {
+          padding: "$6",
+          pb: "$12",
+          boxSizing: "border-box",
+          position: "relative",
+          WebkitMaskImage: "linear-gradient(to bottom, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%)",
+          maskImage: "linear-gradient(to bottom, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%)",
+          width: "100%",
+          minWidth: "100%",
+          maxHeight: "85vh",
+          overflowY: "auto",
+          ":focus": { outline: "none" }
+        },
+        children: props.children
+      }
+    )
+  ] }));
+};
+ContentWithClose18.displayName = "ContentWithClose";
+Dialog18.ContentWithClose = ContentWithClose18;
 export {
   AutoSpinner,
   BaseButton,
   Box,
   Button,
   Checkbox,
-  Dialog17 as Dialog,
+  Dialog18 as Dialog,
   Display,
   Footer,
   NomiStyle_default as NomiStyle,
