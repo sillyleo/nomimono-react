@@ -12,6 +12,29 @@ const meta: Meta<typeof Text> = {
 			color: "$baseText",
 		},
 	},
+	argTypes: {
+		size: {
+			control: "radio",
+			options: [
+				"page-title",
+				"page-title2",
+				"title1",
+				"title2",
+				"title3",
+				"subtitle1",
+				"subtitle2",
+				"overline",
+				"body",
+				"body-bold",
+			],
+		},
+		ref: {
+			control: false,
+		},
+		css: {
+			control: false,
+		},
+	},
 };
 
 export default meta;

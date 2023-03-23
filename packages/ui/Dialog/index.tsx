@@ -105,7 +105,7 @@ export const ContentWithClose = (props: any) => {
 				}}
 			>
 				<DialogPrimitive.Close asChild>
-					<IconButton isRound name="x" intent="ghost" />
+					<IconButton isRound name="HiOutlineX" intent="ghost" />
 				</DialogPrimitive.Close>
 			</Box>
 			<Box

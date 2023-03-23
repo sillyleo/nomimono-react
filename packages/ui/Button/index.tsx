@@ -43,7 +43,7 @@ export const BaseButton = styled("button", {
 				borderRadius: "$lg",
 				fontSize: 11,
 				height: 30,
-				px: "$2",
+				px: "$3",
 				py: "$2",
 			},
 			md: {
@@ -97,34 +97,35 @@ export const BaseButton = styled("button", {
 			size: "sm",
 			isRound: true,
 			css: {
-				borderRadius: "full",
+				borderRadius: "$full",
 			},
 		},
 		{
 			size: "md",
 			isRound: true,
 			css: {
-				borderRadius: "full",
+				borderRadius: "$full",
 			},
 		},
 		{
 			size: "lg",
 			isRound: true,
 			css: {
-				borderRadius: "full",
+				borderRadius: "$full",
 			},
 		},
 		{
 			size: "xl",
 			isRound: true,
 			css: {
-				borderRadius: "full",
+				borderRadius: "$full",
 			},
 		},
 	],
 
 	defaultVariants: {
 		size: "md",
+		isRound: true,
 		align: "center",
 	},
 });
@@ -181,13 +182,15 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 				{...props}
 			>
 				{/*left icon*/}
-				<Box
-					style={{
-						opacity: isLoading ? 0 : 1,
-					}}
-				>
-					{leftIcon}
-				</Box>
+				{leftIcon && (
+					<Box
+						style={{
+							opacity: isLoading ? 0 : 1,
+						}}
+					>
+						{leftIcon}
+					</Box>
+				)}
 				{/*loading*/}
 				{isLoading && (
 					<Box
@@ -212,13 +215,15 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 					{children}
 				</Box>
 				{/*right icon*/}
-				<Box
-					style={{
-						opacity: isLoading ? 0 : 1,
-					}}
-				>
-					{rightIcon}
-				</Box>
+				{rightIcon && (
+					<Box
+						style={{
+							opacity: isLoading ? 0 : 1,
+						}}
+					>
+						{rightIcon}
+					</Box>
+				)}
 			</BaseButton>
 		);
 	}

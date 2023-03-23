@@ -9,6 +9,11 @@ const meta: Meta<typeof Button> = {
 	args: {
 		children: "Button",
 	},
+	argTypes: {
+		isRound: {
+			control: "boolean",
+		},
+	},
 };
 
 export default meta;
