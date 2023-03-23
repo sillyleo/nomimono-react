@@ -1,8 +1,8 @@
 // Button.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Text } from ".";
 import { Box } from "../Box";
+import { Text } from "../Text";
 const meta: Meta<typeof Text> = {
 	title: "Atomic/Text",
 	component: Text,

@@ -152,27 +152,27 @@ export function getButtonShadowStyle(
 	} else if (depth === "1") {
 		return {
 			$$shadowColor: shadowColor[tone + "A6"],
-			boxShadow: `0.3px 0.5px 0.7px $$shadowColor,                
-                0.4px 0.8px 1px -1.2px $$shadowColor,
-                1px 2px 2.5px -2.5px $$shadowColor;`,
+			boxShadow: `0 0.5px 0.7px $$shadowColor,                
+                0 0.8px 1px -1.2px $$shadowColor,
+                0 2px 2.5px -2.5px $$shadowColor;`,
 		};
 	} else if (depth === "2") {
 		return {
-			$$shadowColor: shadowColor[tone + "A6"],
-			boxShadow: `0.3px 0.5px 0.7px $$shadowColor,
-                0.8px 1.6px 2px -0.8px $$shadowColor,
-                2.1px 4.1px 5.2px -1.7px $$shadowColor,
-                5px 10px 12.6px -2.5px $$shadowColor;`,
+			$$shadowColor: shadowColor[tone + "A4"],
+			boxShadow: `0 0.5px 0.7px $$shadowColor,
+                0 1.6px 2px -0.8px $$shadowColor,
+                0 4.1px 5.2px -1.7px $$shadowColor,
+                0 10px 12.6px -2.5px $$shadowColor;`,
 		};
 	} else if (depth === "3") {
 		return {
 			$$shadowColor: shadowColor[tone + "A5"],
-			boxShadow: `0.3px 0.5px 0.7px $$shadowColor,
-                1.5px 2.9px 3.7px -0.4px $$shadowColor,
-                2.7px 5.4px 6.8px -0.7px $$shadowColor,
-                4.5px 8.9px 11.2px -1.1px $$shadowColor,
-                7.1px 14.3px 18px -1.4px $$shadowColor,
-                11.2px 22.3px 28.1px -1.8px $$shadowColor`,
+			boxShadow: `0 0.5px 0.7px $$shadowColor,
+                0 2.9px 3.7px -0.4px $$shadowColor,
+                0 5.4px 6.8px -0.7px $$shadowColor,
+                0 8.9px 11.2px -1.1px $$shadowColor,
+                0 14.3px 18px -1.4px $$shadowColor,
+                0 22.3px 28.1px -1.8px $$shadowColor`,
 		};
 	} else return {};
 }

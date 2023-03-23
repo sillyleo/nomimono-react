@@ -1,10 +1,10 @@
 // Footer.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Footer } from ".";
+import { Footer } from "../Footer";
 
 const meta: Meta<typeof Footer> = {
-	title: "Atomic/Footer",
+	title: "Misc/Footer",
 	component: Footer,
 };
 

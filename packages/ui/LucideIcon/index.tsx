@@ -14,7 +14,7 @@ export interface IconProps {
 }
 
 export const LucideIcon = ({
-	name,
+	name = "activity",
 	color,
 	size,
 	boxSize,

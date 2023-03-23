@@ -16,10 +16,9 @@ export const BaseButton = styled("button", {
 		cursor: "not-allowed",
 		opacity: 0.75,
 	},
-
-	"&:hover": {
-		transform: "translateY(-1px)",
-	},
+	// "&:hover": {
+	// 	transform: "translateY(-1px)",
+	// },
 	"&:active": {
 		transform: "translateY(1px)",
 	},
@@ -44,29 +43,34 @@ export const BaseButton = styled("button", {
 				borderRadius: "$lg",
 				fontSize: 11,
 				height: 30,
-				px: "$3",
+				px: "$2",
 				py: "$2",
 			},
 			md: {
 				borderRadius: "$lg",
 				fontSize: 13,
 				height: "$8",
-				px: "$4",
+				px: "$3",
 				py: "$2",
 			},
 			lg: {
 				borderRadius: "$xl",
 				fontSize: 15,
 				height: "$10",
-				px: "$5",
+				px: "$4",
 				py: "$3",
 			},
 			xl: {
 				borderRadius: "$xl",
 				fontSize: 17,
 				height: "$11",
-				px: "$6",
+				px: "$5",
 				py: "$4",
+			},
+		},
+		isRound: {
+			true: {
+				borderRadius: "$full",
 			},
 		},
 
@@ -88,6 +92,37 @@ export const BaseButton = styled("button", {
 			},
 		},
 	},
+	compoundVariants: [
+		{
+			size: "sm",
+			isRound: true,
+			css: {
+				borderRadius: "full",
+			},
+		},
+		{
+			size: "md",
+			isRound: true,
+			css: {
+				borderRadius: "full",
+			},
+		},
+		{
+			size: "lg",
+			isRound: true,
+			css: {
+				borderRadius: "full",
+			},
+		},
+		{
+			size: "xl",
+			isRound: true,
+			css: {
+				borderRadius: "full",
+			},
+		},
+	],
+
 	defaultVariants: {
 		size: "md",
 		align: "center",

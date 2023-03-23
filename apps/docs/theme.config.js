@@ -1,9 +1,11 @@
 // Nextra config
 
 import { motion } from "framer-motion";
-import { brandFonts, styled, Text } from "nomimono";
+import { brandFonts,reset, styled, Text } from "nomimono";
 
 brandFonts();
+reset();
+
 
 const NomiLogoText = styled("span", {
 	fontFamily: "$heading",

@@ -6,6 +6,7 @@ export { default as NomiStyle, nomiClass } from "./NomiStyle";
 export { Display } from "./util/Display";
 export { Checkbox } from "./Checkbox";
 export { Footer } from "./Footer";
+export { Dialog } from "./Dialog";
 // stitches
 export {
 	styled,

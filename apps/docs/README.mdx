@@ -11,10 +11,20 @@ In your file, import the components you need:
 ```jsx
 import { Button } from "nomimono";
 ```
+Initialize css reset in `index.tsx` or `app.tsx`, where all compoenets can access:
 
-See all components here at the [Workshop](https://nomi-workshop.vercel.app/).
+```jsx
+import { reset } from "nomimono";
+// css reset
+reset();
+```
+
 
 For dark theme, add `stitchesDarkTheme` class to the root element:
+
+See all component usage here at the [Workshop](https://nomi-workshop.vercel.app/).
+
+## Dark mode
 
 ```jsx
 import { stitchesDarkTheme } from "nomimono";
@@ -23,6 +33,8 @@ import { stitchesDarkTheme } from "nomimono";
 	{/* Component will display in dark mode */}
 </div>;
 ```
+
+You'll have to implement your own theme switcher.
 
 ## Brand Fonts (optional)
 
@@ -37,7 +49,7 @@ Initialize brand fonts in your `index.tsx` or `app.tsx`, where all compoenets ca
 
 ```jsx
 import { brandFonts } from "nomimono";
-//set up fonts
+//set up fonts (optional)
 brandFonts();
 ```
 

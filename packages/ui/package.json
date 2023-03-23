@@ -17,7 +17,7 @@
 	"scripts": {
 		"lint": "eslint *.ts*",
 		"build": "tsup index.tsx --format esm,cjs --dts --external react",
-		"watch": "tsup index.tsx --format esm,cjs --watch --dts --external react",
+		"watch": "tsup index.tsx --format esm,cjs --watch --ignore-watch stories --ignore-watch .turbo  --dts --external react",
 		"ship": "tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
 		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs",
 		"storybook": "storybook dev -p 4000",
@@ -66,6 +66,7 @@
 		"@fontsource/inter": "^4.5.15",
 		"@fontsource/inter-tight": "^4.5.2",
 		"@radix-ui/colors": "^0.1.8",
+		"@radix-ui/react-dialog": "^1.0.3",
 		"@stitches/react": "^1.2.8",
 		"@storybook/addons": "^6.5.16",
 		"framer-motion": "^10.2.4",
