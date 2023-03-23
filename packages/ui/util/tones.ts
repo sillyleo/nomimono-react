@@ -152,7 +152,7 @@ export function getButtonShadowStyle(
 		};
 	} else if (depth === "1") {
 		return {
-			[`.${stitchesDarkTheme} &`]: {
+			[`:not(.${stitchesDarkTheme}) &`]: {
 				$$shadowColor: shadowColor[tone + "A6"],
 				boxShadow: `0 0.5px 0.7px $$shadowColor,                
                 0 0.8px 1px -1.2px $$shadowColor,
@@ -161,7 +161,7 @@ export function getButtonShadowStyle(
 		};
 	} else if (depth === "2") {
 		return {
-			[`.${stitchesDarkTheme} &`]: {
+			[`:not(.${stitchesDarkTheme}) &`]: {
 				$$shadowColor: shadowColor[tone + "A4"],
 				boxShadow: `0 0.5px 0.7px $$shadowColor,
                 0 1.6px 2px -0.8px $$shadowColor,
@@ -171,7 +171,7 @@ export function getButtonShadowStyle(
 		};
 	} else if (depth === "3") {
 		return {
-			[`.${stitchesDarkTheme} &`]: {
+			[`:not(.${stitchesDarkTheme}) &`]: {
 				$$shadowColor: shadowColor[tone + "A5"],
 				boxShadow: `0 0.5px 0.7px $$shadowColor,
                 0 2.9px 3.7px -0.4px $$shadowColor,
