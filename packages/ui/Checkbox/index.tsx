@@ -35,7 +35,7 @@ function CheckboxWithLabel(
 	{
 		defaultChecked,
 		children,
-		fontSize = "lg",
+		fontSize = "base",
 		tone = "slate",
 		css,
 		...props
@@ -45,7 +45,6 @@ function CheckboxWithLabel(
 	const checkbox = useCheckboxState({
 		state: defaultChecked,
 	});
-	console.log(checkbox);
 	return (
 		<CheckboxLabel
 			data-state={props.disabled ? "disabled" : undefined}
