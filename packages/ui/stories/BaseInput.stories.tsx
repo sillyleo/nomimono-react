@@ -6,6 +6,27 @@ import { BaseInput } from "../Input";
 const meta: Meta<typeof BaseInput> = {
 	title: "Atomic/BaseInput",
 	component: BaseInput,
+	argTypes: {
+		align: {
+			control: "radio",
+			options: ["left", "center", "right"],
+		},
+		fontSize: {
+			control: "radio",
+			options: [
+				"xs",
+				"sm",
+				"base",
+				"lg",
+				"xl",
+				"2xl",
+				"3xl",
+				"4xl",
+				"5xl",
+				"6xl",
+			],
+		},
+	},
 };
 
 export default meta;

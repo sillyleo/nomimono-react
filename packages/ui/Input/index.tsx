@@ -11,12 +11,12 @@ export const BaseInput = styled("input", {
 		appearance: "none",
 		margin: 0,
 	},
-	fontSize: "$xl",
 	fontWeight: 700,
 	p: "$4",
 	borderRadius: "$2xl",
 	fontFamily: "$heading",
-	textAlign: "right",
+	fontSize: "$base",
+	textAlign: "left",
 	border: "1px solid $mauve10",
 	"&:hover": {
 		borderColor: "$mauve12",
@@ -38,5 +38,56 @@ export const BaseInput = styled("input", {
 	"&.error": {
 		border: "1px solid $red9",
 		outline: "1px solid $red9",
+	},
+
+	// TODO: maybe sync size with button?
+	variants: {
+		fontSize: {
+			xs: {
+				fontSize: "$xs",
+				p: "$2",
+				borderRadius: "$md",
+			},
+			sm: {
+				fontSize: "$sm",
+				p: "$2",
+				borderRadius: "$md",
+			},
+			base: {
+				fontSize: "$base",
+			},
+			lg: {
+				fontSize: "$lg",
+			},
+			xl: {
+				fontSize: "$xl",
+			},
+			"2xl": {
+				fontSize: "$2xl",
+			},
+			"3xl": {
+				fontSize: "$3xl",
+			},
+			"4xl": {
+				fontSize: "$4xl",
+			},
+			"5xl": {
+				fontSize: "$5xl",
+			},
+			"6xl": {
+				fontSize: "$6xl",
+			},
+		},
+		align: {
+			left: {
+				textAlign: "left",
+			},
+			center: {
+				textAlign: "center",
+			},
+			right: {
+				textAlign: "right",
+			},
+		},
 	},
 });
