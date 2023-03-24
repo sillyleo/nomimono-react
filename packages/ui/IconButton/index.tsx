@@ -19,10 +19,13 @@ export interface IconButtonProps
 	intent?: "primary" | "secondary" | "ghost";
 	depth?: "0" | "1" | "2" | "3";
 	/**
-	 * Get HeroIconOne from https://react-icons.github.io/react-icons/icons?name=hi
+	 * Defaults to HeroIconOne
 	 *
 	 */
 	name?: string;
+	/**
+	 * Add your own icon with size 65% ~ 60%
+	 */
 	children?: React.ReactNode;
 	css?: CSS;
 	isRound?: boolean;
@@ -35,7 +38,7 @@ export const IconButton = ({
 	intent = "primary",
 	depth,
 	css,
-	isRound,
+	isRound = false,
 	...props
 }: IconButtonProps) => {
 	//@ts-ignore

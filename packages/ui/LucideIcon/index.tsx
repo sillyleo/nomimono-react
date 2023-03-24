@@ -1,5 +1,5 @@
 import _ from "lodash";
-import * as icons from "lucide-react";
+import * as LucideIcons from "lucide-react";
 import React from "react";
 import * as CSS from "csstype";
 
@@ -34,7 +34,7 @@ export const LucideIcon = ({
 		iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
 
 	// @ts-ignore
-	const LucideIcon = icons[IconNameUpperCase];
+	const LucideIcon = LucideIcons[IconNameUpperCase] || LucideIcons["Activity"];
 	return (
 		<LucideIcon
 			color={color}
@@ -51,4 +51,14 @@ export const LucideIcon = ({
 			{...props}
 		/>
 	);
+};
+
+// a function to return a array of all icons names from Lucide
+export const getLucideIconList = () => {
+	const { ...icons } = LucideIcons;
+	// filter the icon names not ending with "Icon"
+	const iconList = Object.keys(icons).filter((icon) => icon.endsWith("Icon"));
+	// remove Icon from the end of the name
+	const iconNames = iconList.map((icon) => icon.slice(0, -4));
+	return iconNames;
 };

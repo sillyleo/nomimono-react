@@ -1,13 +1,16 @@
 // IconButton.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
+import { HeroIcon } from "../HeroIcon";
 import { IconButton } from "../IconButton";
+import { LucideIcon } from "../LucideIcon";
 
 const meta: Meta<typeof IconButton> = {
 	title: "Atomic/IconButton",
 	component: IconButton,
 	args: {
 		name: "HiAcademicCap",
+		intent: "secondary",
 	},
 	// TODO: also add easier-to-use argTypes for other components
 	argTypes: {
@@ -35,11 +38,19 @@ export const Default: Story = {
 };
 
 export const Round: Story = {
-	args: { isRound: true, children: "IconButton" },
+	args: { isRound: true },
 };
 
-export const CustomIcon: Story = {
+export const CustomIconLucide: Story = {
 	args: {
-		children: "IconButton",
+		isRound: true,
+		children: <LucideIcon boxSize={"60%"} name="backpack" />,
+	},
+};
+
+export const CustomIconHeroIconSolid: Story = {
+	args: {
+		isRound: true,
+		children: <HeroIcon iconStyle="solid" boxSize={"60%"} name="ArchiveBox" />,
 	},
 };

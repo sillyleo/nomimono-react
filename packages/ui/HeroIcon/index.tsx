@@ -66,6 +66,7 @@ export interface HeroIconProps {
 
 // https://github.com/tailwindlabs/heroicons/issues/278#issuecomment-851594776
 export function HeroIcon({
+	// Get icon name from Hero v2 https://heroicons.com/
 	name = "squares-2x2",
 	iconStyle = "outline",
 	boxSize = "24px",
@@ -84,3 +85,13 @@ export function HeroIcon({
 		</Box>
 	);
 }
+
+// a function to return a array of all icons names from HeroIcons
+export const getHeroIconList = () => {
+	const { ...icons } = OutlineIcons;
+	// remove Icon from the end of the name
+	const iconNames = Object.keys(icons).map((icon) => {
+		return icon.replace("Icon", "");
+	});
+	return iconNames;
+};

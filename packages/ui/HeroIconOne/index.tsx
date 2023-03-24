@@ -46,7 +46,7 @@ export const HeroIconOne = ({
 };
 
 // a function to return a array of all icons names from HeroIcons
-export const HeroIconOneList = () => {
+export const getHeroIconOneList = () => {
 	const { ...icons } = HeroIcons;
 	return Object.keys(icons);
 };
