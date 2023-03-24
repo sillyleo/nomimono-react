@@ -70,6 +70,7 @@
 		"@radix-ui/react-dialog": "^1.0.3",
 		"@stitches/react": "^1.2.8",
 		"@storybook/addons": "^6.5.16",
+		"ariakit": "2.0.0-next.43",
 		"framer-motion": "^10.2.4",
 		"graphql": "^16.6.0",
 		"graphql-request": "^5.2.0",

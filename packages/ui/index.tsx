@@ -10,6 +10,8 @@ export { Dialog } from "./Dialog";
 export { HeroIconOne } from "./HeroIconOne";
 export { HeroIcon } from "./HeroIcon";
 export { LucideIcon } from "./LucideIcon";
+export { Tooltip } from "./Tooltip";
+export { BaseInput } from "./Input";
 // stitches
 export {
 	styled,
