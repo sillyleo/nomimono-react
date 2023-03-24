@@ -4,6 +4,12 @@ import React from "react";
 import * as CSS from "csstype";
 
 export interface IconProps {
+	/*
+	 * Get icon name from https://lucide.dev/
+	 *
+	 * @type {string}
+	 * @memberOf IconProps
+	 * */
 	name: string;
 	color?: string;
 	size?: number;

@@ -1,6 +1,6 @@
 {
 	"name": "nomimono",
-	"version": "0.0.307",
+	"version": "0.0.308",
 	"access": "public",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
@@ -65,6 +65,7 @@
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
 		"@fontsource/inter-tight": "^4.5.2",
+		"@heroicons/react": "^2.0.16",
 		"@radix-ui/colors": "^0.1.8",
 		"@radix-ui/react-dialog": "^1.0.3",
 		"@stitches/react": "^1.2.8",

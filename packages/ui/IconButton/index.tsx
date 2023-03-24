@@ -21,8 +21,6 @@ export interface IconButtonProps
 	/**
 	 * Get HeroIconOne from https://react-icons.github.io/react-icons/icons?name=hi
 	 *
-	 * @type {string}
-	 * @memberOf IconButtonProps
 	 */
 	name?: string;
 	children?: React.ReactNode;
@@ -40,6 +38,7 @@ export const IconButton = ({
 	isRound,
 	...props
 }: IconButtonProps) => {
+	//@ts-ignore
 	return (
 		<IconButtonWrapper
 			isRound={isRound}

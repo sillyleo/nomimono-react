@@ -10,6 +10,7 @@ import * as Stitches from '@stitches/react';
 import * as RadixColors from '@radix-ui/colors';
 import { CheckboxProps } from 'reakit/Checkbox';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
+import * as CSS$1 from 'csstype';
 
 declare const Radix: typeof RadixColors;
 declare const styled: <Type extends _stitches_react_types_util.Function | keyof JSX.IntrinsicElements | React.ComponentType<any>, Composers extends (string | _stitches_react_types_util.Function | React.ComponentType<any> | {
@@ -10341,4 +10342,29 @@ declare const Dialog: {
     };
 };
 
-export { AutoSpinner, BaseButton, Box, Button, CSS, Checkbox, Dialog, Display, Footer, NomiStyle, Radix, Spinner, Stack, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
+interface HeroIconOneProps {
+    name?: string;
+    boxSize?: string;
+    css?: CSS;
+}
+declare const HeroIconOne: ({ name, boxSize, ...props }: HeroIconOneProps) => JSX.Element;
+
+interface HeroIconProps {
+    name?: string;
+    boxSize?: CSS$1.Properties["width"];
+    iconStyle?: "outline" | "solid" | "mini";
+}
+declare function HeroIcon({ name, iconStyle, boxSize, ...props }: HeroIconProps): JSX.Element;
+
+interface IconProps {
+    name: string;
+    color?: string;
+    size?: number;
+    strokeWidth?: number;
+    fill?: string;
+    boxSize?: CSS$1.Properties["width"];
+    className?: string;
+}
+declare const LucideIcon: ({ name, color, size, boxSize, fill, strokeWidth, className, ...props }: IconProps) => JSX.Element;
+
+export { AutoSpinner, BaseButton, Box, Button, CSS, Checkbox, Dialog, Display, Footer, HeroIcon, HeroIconOne, LucideIcon, NomiStyle, Radix, Spinner, Stack, Text, Tone, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

@@ -9,7 +9,7 @@ const meta: Meta<typeof IconButton> = {
 	args: {
 		name: "HiAcademicCap",
 	},
-	// TODO: also add argTypes for other components
+	// TODO: also add easier-to-use argTypes for other components
 	argTypes: {
 		size: {
 			control: "radio",

@@ -7,6 +7,9 @@ export { Display } from "./util/Display";
 export { Checkbox } from "./Checkbox";
 export { Footer } from "./Footer";
 export { Dialog } from "./Dialog";
+export { HeroIconOne } from "./HeroIconOne";
+export { HeroIcon } from "./HeroIcon";
+export { LucideIcon } from "./LucideIcon";
 // stitches
 export {
 	styled,
