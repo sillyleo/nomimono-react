@@ -35,3 +35,8 @@ type Story = StoryObj<typeof BaseInput>;
 export const Default: Story = {
 	args: {},
 };
+export const Error: Story = {
+	args: {
+		className: "error",
+	},
+};

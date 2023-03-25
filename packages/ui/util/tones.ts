@@ -284,3 +284,10 @@ export function getCheckboxToneStyle(tone: string) {
 		};
 	}
 }
+
+// checkbox tone
+export function getInputToneStyle(tone: string) {
+	return {
+		bgTone2: tone,
+	};
+}
