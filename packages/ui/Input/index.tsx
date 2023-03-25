@@ -1,4 +1,4 @@
-import { styled } from "../stitches.config";
+import { stitchesDarkTheme, styled } from "../stitches.config";
 
 // TODO: move to nomimono lib later
 export const BaseInput = styled("input", {
@@ -20,12 +20,13 @@ export const BaseInput = styled("input", {
 	fontFamily: "$heading",
 	fontSize: "$base",
 	textAlign: "left",
-	border: "1px solid $slate8",
+	border: "1px solid $slate9",
 	"&:hover": {
-		borderColor: "$mauve9",
+		borderColor: "$mauve10",
 	},
+
 	"&:focus": {
-		borderColor: "$mauve9",
+		borderColor: "$mauve10",
 		bgTone1: "mauve",
 	},
 	"&:disabled": {
@@ -45,7 +46,6 @@ export const BaseInput = styled("input", {
 		bgTone2: "red",
 	},
 
-	// TODO: maybe sync size with button?
 	variants: {
 		fontSize: {
 			xs: {
