@@ -15,7 +15,7 @@ export const BaseInput = styled("input", {
 		margin: 0,
 	},
 	fontWeight: 700,
-	p: "$4",
+	p: "$5",
 	borderRadius: "$2xl",
 	fontFamily: "$heading",
 	fontSize: "$base",
@@ -24,7 +24,6 @@ export const BaseInput = styled("input", {
 	"&:hover": {
 		borderColor: "$mauve10",
 	},
-
 	"&:focus": {
 		borderColor: "$mauve10",
 		bgTone1: "mauve",
@@ -50,27 +49,32 @@ export const BaseInput = styled("input", {
 		fontSize: {
 			xs: {
 				fontSize: "$xs",
-				p: "$2",
+				py: "$2",
+				px: "$3",
 				borderRadius: "$lg",
 			},
 			sm: {
 				fontSize: "$sm",
-				p: "$2",
+				py: "$2",
+				px: "$3",
 				borderRadius: "$lg",
 			},
 			base: {
 				fontSize: "$base",
-				p: "$2",
+				py: "$2",
+				px: "$3",
 				borderRadius: "$xl",
 			},
 			lg: {
 				fontSize: "$lg",
-				p: "$3",
+				py: "$3",
+				px: "$4",
 				borderRadius: "$2xl",
 			},
 			xl: {
 				fontSize: "$xl",
-				p: "$3",
+				py: "$3",
+				px: "$4",
 				borderRadius: "$2xl",
 			},
 			"2xl": {
@@ -100,5 +104,9 @@ export const BaseInput = styled("input", {
 				textAlign: "right",
 			},
 		},
+	},
+	defaultVariants: {
+		fontSize: "base",
+		align: "left",
 	},
 });
