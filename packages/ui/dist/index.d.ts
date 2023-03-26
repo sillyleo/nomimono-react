@@ -10372,7 +10372,11 @@ declare function Tooltip({ label, children, }: {
     children: React.ReactNode;
 }): JSX.Element;
 
-declare const BaseInput: _stitches_react_types_styled_component.StyledComponent<"input", {}, {
+declare const BaseInput: _stitches_react_types_styled_component.StyledComponent<"input", {
+    fontSize?: "sm" | "lg" | "xl" | "2xl" | "6xl" | "5xl" | "4xl" | "3xl" | "base" | "xs" | undefined;
+    align?: "left" | "right" | "center" | undefined;
+    asBackdrop?: boolean | "true" | undefined;
+}, {
     sm: "(min-width: 480px)";
     md: "(min-width: 768px)";
     lg: "(min-width: 1024px)";

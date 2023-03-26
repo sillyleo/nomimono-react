@@ -1,0 +1,52 @@
+{
+	"name": "nomi",
+	"version": "0.0.0",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/nomimono.cjs",
+	"module": "./dist/nomimono.js",
+	"exports": {
+		".": {
+			"import": "./dist/nomimono.js",
+			"require": "./dist/nomimono.cjs"
+		},
+		"./style": {
+			"import": "./dist/style.css",
+			"require": "./dist/style.css"
+		}
+	},
+	"scripts": {
+		"watch": "tsc && vite build --watch",
+		"build": "tsc && vite build",
+		"storybook": "storybook dev -p 4000",
+		"dev": "turbo run watch & turbo run storybook",
+		"build-storybook": "storybook build",
+		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"tailwind-variants": "^0.1.1",
+		"@storybook/addon-essentials": "^7.0.0-rc.8",
+		"@storybook/addon-interactions": "^7.0.0-rc.8",
+		"@storybook/addon-links": "^7.0.0-rc.8",
+		"@storybook/blocks": "^7.0.0-rc.8",
+		"@storybook/react": "^7.0.0-rc.8",
+		"@storybook/react-vite": "^7.0.0-rc.8",
+		"@storybook/testing-library": "^0.0.14-next.1",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react-swc": "^3.0.0",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"prop-types": "^15.8.1",
+		"storybook": "^7.0.0-rc.8",
+		"tailwindcss": "^3.2.7",
+		"typescript": "^4.9.3",
+		"vite": "^4.2.0"
+	}
+}
