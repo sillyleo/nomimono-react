@@ -18,9 +18,9 @@
 		"nomimono#dev": {},
 		"nomimono#watch": {},
 		"nomimono#storybook": {},
-		"nomi#dev": {},
-		"nomi#watch": {},
-		"nomi#storybook": {},
+		"nomi-mono#dev": {},
+		"nomi-mono#watch": {},
+		"nomi-mono#storybook": {},
 		"build-token": {},
 		"chromatic": {}
 	}

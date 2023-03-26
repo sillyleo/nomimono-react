@@ -20,7 +20,7 @@
 		"watch": "tsup index.tsx --format esm,cjs --watch --ignore-watch stories --ignore-watch .turbo --ignore-watch .storybook --ignore-watch dist --dts --external react",
 		"ship": "tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
 		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs",
-		"storybook": "storybook dev -p 4000",
+		"storybook": "storybook dev -p 4001",
 		"dev": "turbo run watch & turbo run storybook",
 		"build-storybook": "storybook build",
 		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes"
