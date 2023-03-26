@@ -1,6 +1,5 @@
 import { stitchesDarkTheme, styled } from "../stitches.config";
 
-// TODO: move to nomimono lib later
 export const BaseInput = styled("input", {
 	boxSizing: "boder-box",
 	bgTone1: "mauve",
@@ -104,9 +103,101 @@ export const BaseInput = styled("input", {
 				textAlign: "right",
 			},
 		},
+		asBackdrop: {
+			true: {
+				position: "absolute",
+				inset: 0,
+			},
+		},
 	},
 	defaultVariants: {
 		fontSize: "base",
 		align: "left",
 	},
 });
+
+const Slot = styled("div", {
+	position: "absolute",
+	bgTone5: "mauve",
+	boxSize: 80,
+	borderRadius: "$xl",
+	zIndex: 1,
+	variants: {
+		position: {
+			left: {
+				left: 2,
+				top: "50%",
+				transform: "translateY(-50%)",
+			},
+			right: {
+				right: 2,
+				top: "50%",
+				transform: "translateY(-50%)",
+			},
+			top: {
+				top: 2,
+				left: "50%",
+				transform: "translateX(-50%)",
+			},
+			bottom: {
+				bottom: 2,
+				left: "50%",
+				transform: "translateX(-50%)",
+			},
+			topLeft: {
+				top: 2,
+				left: 2,
+			},
+			topRight: {
+				top: 2,
+				right: 2,
+			},
+			bottomLeft: {
+				bottom: 2,
+				left: 2,
+			},
+			bottomRight: {
+				bottom: 2,
+				right: 2,
+			},
+		},
+	},
+	defaultVariants: {
+		position: "left",
+	},
+});
+
+const SlotWrapper = styled("div", {
+	position: "relative",
+	display: "block",
+});
+
+export const Input = ({
+	label,
+	helperText,
+	leftSlot,
+	rightSlot,
+	topSlot,
+	bottomSlot,
+	...props
+}: any) => {
+	return (
+		<SlotWrapper
+			as="label"
+			css={{
+				boxSize: 400,
+			}}
+		>
+			<Slot position="bottomLeft" />
+			<Slot position="bottomRight" />
+			<Slot position="topRight" />
+			<Slot position="topLeft" />
+			<Slot position="top" />
+			<Slot position="bottom" />
+			<Slot position="left" />
+			<Slot position="right" />
+
+			<BaseInput align="center" asBackdrop {...props} />
+		</SlotWrapper>
+	);
+};

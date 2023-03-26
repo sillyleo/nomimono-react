@@ -4,7 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { BaseInput } from "../Input";
 
 const meta: Meta<typeof BaseInput> = {
-	title: "Atomic/BaseInput",
+	title: "Atomic/Input/BaseInput",
 	component: BaseInput,
 	argTypes: {
 		align: {
