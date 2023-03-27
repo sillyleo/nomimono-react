@@ -1,6 +1,6 @@
 import { GraphQLClient, gql } from "graphql-request";
 import React, { useEffect } from "react";
-import { stitchesDarkTheme, styled } from "../stitches.config";
+import { stitchesDarkTheme, styled } from "../../stitches.config";
 import { Text } from "../Text";
 
 // Get content from Hygraph CMS

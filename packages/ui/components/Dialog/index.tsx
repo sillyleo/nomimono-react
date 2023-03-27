@@ -1,8 +1,8 @@
 import React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { blackA } from "@radix-ui/colors";
-import { styled } from "../stitches.config";
-import { Box } from "..";
+import { styled } from "../../stitches.config";
+import { Box } from "../Box";
 import { IconButton } from "../IconButton";
 
 export const Dialog = () => {

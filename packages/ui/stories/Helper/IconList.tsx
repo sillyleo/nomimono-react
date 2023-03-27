@@ -1,7 +1,7 @@
 import { IconGallery, IconItem } from "@storybook/addon-docs";
-import { getHeroIconOneList, HeroIconOne } from "../../HeroIconOne";
-import { getHeroIconList, HeroIcon } from "../../HeroIcon";
-import { LucideIcon, getLucideIconList } from "../../LucideIcon";
+import { getHeroIconOneList, HeroIconOne } from "../../components/HeroIconOne";
+import { getHeroIconList, HeroIcon } from "../../components/HeroIcon";
+import { LucideIcon, getLucideIconList } from "../../components/LucideIcon";
 
 export function HeroIconOneList() {
 	const allIcons = getHeroIconOneList();

@@ -1,7 +1,7 @@
 import React, { forwardRef, Ref } from "react";
 import { Box } from "../Box";
 import { Spinner } from "../Spinner";
-import { styled } from "../stitches.config";
+import { styled } from "../../stitches.config";
 
 export interface BrandButtonProps {
 	// this doesn't extend

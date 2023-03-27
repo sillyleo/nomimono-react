@@ -1,4 +1,4 @@
-import { stitchesDarkTheme, styled } from "../stitches.config";
+import { stitchesDarkTheme, styled } from "../../stitches.config";
 
 export const BaseInput = styled("input", {
 	boxSizing: "boder-box",

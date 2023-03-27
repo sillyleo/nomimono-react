@@ -1,9 +1,9 @@
 // IconButton.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { HeroIcon } from "../HeroIcon";
-import { IconButton } from "../IconButton";
-import { LucideIcon } from "../LucideIcon";
+import { HeroIcon } from "../components/HeroIcon";
+import { IconButton } from "../components/IconButton";
+import { LucideIcon } from "../components/LucideIcon";
 
 const meta: Meta<typeof IconButton> = {
 	title: "Atomic/IconButton",

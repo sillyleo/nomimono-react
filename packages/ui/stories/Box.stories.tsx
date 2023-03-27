@@ -1,7 +1,7 @@
 // Box.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Box, Stack } from "../Box";
+import { Box, Stack } from "../components/Box";
 
 const meta: Meta<typeof Box> = {
 	title: "Atomic/Box",

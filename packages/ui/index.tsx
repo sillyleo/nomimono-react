@@ -1,17 +1,17 @@
-export { Button, BaseButton } from "./Button";
-export { Text } from "./Text";
-export { Box, Stack } from "./Box";
-export { Spinner, AutoSpinner } from "./Spinner";
-export { default as NomiStyle, nomiClass } from "./NomiStyle";
+export { Button, BaseButton } from "./components/Button";
+export { Text } from "./components/Text";
+export { Box, Stack } from "./components/Box";
+export { Spinner, AutoSpinner } from "./components/Spinner";
+export { default as NomiStyle, nomiClass } from "./components/NomiStyle";
 export { Display } from "./util/Display";
-export { Checkbox } from "./Checkbox";
-export { Footer } from "./Footer";
-export { Dialog } from "./Dialog";
-export { HeroIconOne } from "./HeroIconOne";
-export { HeroIcon } from "./HeroIcon";
-export { LucideIcon } from "./LucideIcon";
-export { Tooltip } from "./Tooltip";
-export { BaseInput } from "./Input";
+export { Checkbox } from "./components/Checkbox";
+export { Footer } from "./components/Footer";
+export { Dialog } from "./components/Dialog";
+export { HeroIconOne } from "./components/HeroIconOne";
+export { HeroIcon } from "./components/HeroIcon";
+export { LucideIcon } from "./components/LucideIcon";
+export { Tooltip } from "./components/Tooltip";
+export { BaseInput } from "./components/Input";
 // stitches
 export {
 	styled,

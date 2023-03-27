@@ -2,9 +2,9 @@ import _ from "lodash";
 import React from "react";
 import { Box } from "../Box";
 import { AutoSpinner } from "../Spinner";
-import { CSS, stitchesDarkTheme, Tone } from "../stitches.config";
-import { styled } from "../stitches.config";
-import { getButtonShadowStyle, getButtonToneStyle } from "../util/tones";
+import { CSS, stitchesDarkTheme, Tone } from "../../stitches.config";
+import { styled } from "../../stitches.config";
+import { getButtonShadowStyle, getButtonToneStyle } from "../../util/tones";
 
 export const BaseButton = styled("button", {
 	all: "unset",

@@ -2,8 +2,8 @@
 
 import { Meta, StoryObj } from "@storybook/react";
 import { Text } from "..";
-import { Button } from "../Button";
-import { Dialog } from "../Dialog";
+import { Button } from "../components/Button";
+import { Dialog } from "../components/Dialog";
 
 const DialogDefault = () => {
 	return (

@@ -1,8 +1,8 @@
 import _ from "lodash";
 import { BaseButton } from "../Button";
 import { HeroIconOne } from "../HeroIconOne";
-import { styled, Tone, CSS } from "../stitches.config";
-import { getButtonShadowStyle, getButtonToneStyle } from "../util/tones";
+import { styled, Tone, CSS } from "../../stitches.config";
+import { getButtonShadowStyle, getButtonToneStyle } from "../../util/tones";
 
 export const IconButtonWrapper = styled(BaseButton, {
 	aspectRatio: "1",

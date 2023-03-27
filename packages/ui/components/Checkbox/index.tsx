@@ -9,9 +9,9 @@ import { VisuallyHidden } from "react-aria";
 
 import _ from "lodash";
 import { LucideIcon } from "../LucideIcon";
-import { CSS, styled, Tone } from "../stitches.config";
+import { CSS, styled, Tone } from "../../stitches.config";
 import { Text } from "../Text";
-import { getCheckboxToneStyle } from "../util/tones";
+import { getCheckboxToneStyle } from "../../util/tones";
 export interface CheckboxExtendedProps extends CheckboxProps {
 	defaultChecked?: boolean | undefined;
 	children?: React.ReactNode;

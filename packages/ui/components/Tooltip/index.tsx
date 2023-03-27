@@ -3,7 +3,7 @@ import {
 	TooltipAnchor,
 	useTooltipState,
 } from "ariakit/tooltip";
-import { Radix, styled } from "../stitches.config";
+import { Radix, styled } from "../../stitches.config";
 
 const StyledTooltip = styled(TooltipPrimitive, {
 	backgroundColor: Radix.blackA.blackA11,

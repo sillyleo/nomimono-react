@@ -5,6 +5,19 @@
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./style": {
+			"import": "./dist/style.css",
+			"require": "./dist/style.css"
+		}
+	},
 	"type": "module",
 	"license": "MIT",
 	"author": {
@@ -16,9 +29,9 @@
 	"homepage": "https://github.com/sillyleo/nomimono#readme",
 	"scripts": {
 		"lint": "eslint *.ts*",
-		"build": "tsup index.tsx --format esm,cjs --dts --external react",
-		"watch": "tsup index.tsx --format esm,cjs --watch --ignore-watch stories --ignore-watch .turbo --ignore-watch .storybook --ignore-watch dist --dts --external react",
-		"ship": "tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
+		"build": "tsup style.css --minify & tsup index.tsx --format esm,cjs --dts --external react",
+		"watch": "tsup style.css --watch components --watch stories & tsup index.tsx --format esm,cjs --watch components --dts --external react",
+		"ship": "tsup style.css --minify && tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
 		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs",
 		"storybook": "storybook dev -p 4000",
 		"dev": "turbo run watch & turbo run storybook",
@@ -32,6 +45,7 @@
 		"@babel/preset-typescript": "^7.21.0",
 		"@changesets/cli": "^2.26.0",
 		"@macaron-elements/loader-webpack": "^0.3.1",
+		"@radix-ui/colors": "^0.1.8",
 		"@storybook/addon-actions": "^7.0.0-rc.3",
 		"@storybook/addon-docs": "^7.0.0-rc.3",
 		"@storybook/addon-essentials": "^7.0.0-rc.3",
@@ -49,25 +63,28 @@
 		"@types/lodash": "^4.14.191",
 		"@types/react": "^18.0.17",
 		"@types/react-dom": "^18.0.6",
+		"autoprefixer": "^10.4.14",
 		"babel-loader": "^8.3.0",
 		"chromatic": "^6.17.1",
 		"eslint": "^7.32.0",
 		"eslint-config-custom": "workspace:*",
+		"postcss": "^8.4.21",
 		"prop-types": "^15.8.1",
 		"react": "^18.2.0",
 		"react-dom": "18.2.0",
 		"storybook": "^7.0.0-rc.3",
+		"storybook-addon-designs": "^6.3.1",
 		"storybook-addon-themes": "^6.1.0",
+		"tailwindcss": "^3.2.7",
 		"tsconfig": "workspace:*",
 		"tsup": "^6.6.3",
 		"typescript": "^4.5.2",
-		"storybook-addon-designs": "^6.3.1"
+		"windy-radix-palette": "^0.5.0"
 	},
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
 		"@fontsource/inter-tight": "^4.5.2",
 		"@heroicons/react": "^2.0.16",
-		"@radix-ui/colors": "^0.1.8",
 		"@radix-ui/react-dialog": "^1.0.3",
 		"@stitches/react": "^1.2.8",
 		"@storybook/addons": "^6.5.16",

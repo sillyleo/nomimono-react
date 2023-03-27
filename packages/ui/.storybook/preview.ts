@@ -9,6 +9,7 @@ import type { Preview } from "@storybook/react";
 import DocTemplate from "./DocTemplate.mdx";
 import "@fontsource/inter"; // Defaults to weight 400.
 import YourTheme from "./YourTheme";
+import "../dist/style.css"
 
 brandFonts();
 //reset();
