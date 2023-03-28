@@ -1,5 +1,4 @@
 import { tv, type VariantProps } from 'tailwind-variants'
-import { Box } from "../Box";
 import { AutoSpinner } from "../Spinner";
 import React from "react";
 
@@ -47,14 +46,14 @@ interface TailwindButtonProps extends TailwindButtonVariants {
   isLoading?: boolean;
   }
 
+// TODO: lacks left icon and right icon and dynamic tones variants
+
 export const TailwindButton = ({
   children,
   isLoading = false,
   ...props
 }: TailwindButtonProps) => {
   return <button className={baseButton({...props})}>
-
-
 
     {/*loading*/}
       {isLoading && (

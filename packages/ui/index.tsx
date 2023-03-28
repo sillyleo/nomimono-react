@@ -12,6 +12,7 @@ export { HeroIcon } from "./components/HeroIcon";
 export { LucideIcon } from "./components/LucideIcon";
 export { Tooltip } from "./components/Tooltip";
 export { BaseInput } from "./components/Input";
+export { TailwindButton } from "./components/TailwindButton";
 // stitches
 export {
 	styled,
