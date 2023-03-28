@@ -4393,7 +4393,7 @@ var LucideIcon = (_a) => {
 
 // components/Checkbox/index.tsx
 import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
-function CheckboxWithLabel(_a, ref) {
+function CheckboxWithLabelNoref(_a, ref) {
   var _b = _a, {
     defaultChecked,
     children,
@@ -4416,18 +4416,20 @@ function CheckboxWithLabel(_a, ref) {
       "data-state": props.disabled ? "disabled" : void 0,
       css: { fontSize: `$${fontSize}`, color: "$baseText" },
       children: [
-        /* @__PURE__ */ jsx5(VisuallyHidden, { children: /* @__PURE__ */ jsx5(
-          CheckboxPrimitive,
-          __spreadValues(__spreadValues({
-            ref
-          }, checkbox), props)
-        ) }),
-        /* @__PURE__ */ jsx5(
+        /* @__PURE__ */ jsxs4(
           CheckboxRoot,
           {
             "data-state": checkbox.state ? "checked" : "unchecked",
             css: _3.merge(getCheckboxToneStyle(tone), css2),
-            children: /* @__PURE__ */ jsx5(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ jsx5(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+            children: [
+              /* @__PURE__ */ jsx5(VisuallyHidden, { children: /* @__PURE__ */ jsx5(
+                CheckboxPrimitive,
+                __spreadValues(__spreadValues({
+                  ref
+                }, checkbox), props)
+              ) }),
+              /* @__PURE__ */ jsx5(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ jsx5(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+            ]
           }
         ),
         /* @__PURE__ */ jsx5(Text, { css: { fontSize: "inherit" }, children })
@@ -4435,7 +4437,38 @@ function CheckboxWithLabel(_a, ref) {
     }
   );
 }
-var Checkbox = React2.forwardRef(CheckboxWithLabel);
+var CheckboxWithLabel = React2.forwardRef(CheckboxWithLabelNoref);
+function CheckboxNoref(_a, ref) {
+  var _b = _a, {
+    defaultChecked,
+    children,
+    tone = "slate"
+  } = _b, props = __objRest(_b, [
+    "defaultChecked",
+    "children",
+    "tone"
+  ]);
+  const checkbox = useCheckboxState({
+    state: defaultChecked
+  });
+  return /* @__PURE__ */ jsxs4(
+    CheckboxRoot,
+    {
+      "data-state": checkbox.state ? "checked" : "unchecked",
+      css: _3.merge(getCheckboxToneStyle(tone)),
+      children: [
+        /* @__PURE__ */ jsx5(VisuallyHidden, { children: /* @__PURE__ */ jsx5(
+          CheckboxPrimitive,
+          __spreadValues(__spreadValues({
+            ref
+          }, checkbox), props)
+        ) }),
+        /* @__PURE__ */ jsx5(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ jsx5(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+      ]
+    }
+  );
+}
+var Checkbox = React2.forwardRef(CheckboxNoref);
 var CheckboxLabel = styled("label", {
   lineHeight: 1,
   height: "1em",
@@ -4901,7 +4934,6 @@ function Tooltip({
 }
 
 // components/Input/index.tsx
-import { jsx as jsx12, jsxs as jsxs9 } from "react/jsx-runtime";
 var BaseInput = styled("input", {
   boxSizing: "boder-box",
   bgTone1: "mauve",
@@ -5016,10 +5048,12 @@ var BaseInput = styled("input", {
     align: "left"
   }
 });
+
+// components/Slot/index.tsx
 var Slot = styled("div", {
   position: "absolute",
-  bgTone5: "mauve",
-  boxSize: 80,
+  // bgTone5: "mauve",
+  // boxSize: 80,
   borderRadius: "$xl",
   zIndex: 1,
   variants: {
@@ -5073,7 +5107,7 @@ var SlotWrapper = styled("div", {
 
 // components/TailwindButton/index.tsx
 import { tv } from "tailwind-variants";
-import { jsx as jsx13, jsxs as jsxs10 } from "react/jsx-runtime";
+import { jsx as jsx12, jsxs as jsxs9 } from "react/jsx-runtime";
 var baseButton = tv({
   base: "border-none select-none relative disabled:cursor-not-allowed disabled:opacity-75 active:translate-y-[1px] transition linear overflow-hidden font-heading font-bold cursor-pointer inline-flex gap-2 items-center",
   variants: {
@@ -5106,22 +5140,32 @@ var baseButton = tv({
     size: "md",
     align: "center",
     intent: "primary",
-    isRound: true
+    isRound: false
   }
 });
 var TailwindButton = (_a) => {
   var _b = _a, {
     children,
-    isLoading = false
+    isLoading = false,
+    leftIcon,
+    rightIcon
   } = _b, props = __objRest(_b, [
     "children",
-    "isLoading"
+    "isLoading",
+    "leftIcon",
+    "rightIcon"
   ]);
-  return /* @__PURE__ */ jsxs10("button", { className: baseButton(__spreadValues({}, props)), children: [
-    isLoading && /* @__PURE__ */ jsx13("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ jsx13(AutoSpinner, {}) }),
-    /* @__PURE__ */ jsx13("div", { style: {
+  return /* @__PURE__ */ jsxs9("button", { className: baseButton(__spreadValues({}, props)), children: [
+    leftIcon && /* @__PURE__ */ jsx12("div", { style: {
       opacity: isLoading ? 0 : 1
-    }, children })
+    }, children: leftIcon }),
+    isLoading && /* @__PURE__ */ jsx12("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ jsx12(AutoSpinner, {}) }),
+    /* @__PURE__ */ jsx12("div", { style: {
+      opacity: isLoading ? 0 : 1
+    }, children }),
+    rightIcon && /* @__PURE__ */ jsx12("div", { style: {
+      opacity: isLoading ? 0 : 1
+    }, children: rightIcon })
   ] });
 };
 export {
@@ -5139,6 +5183,8 @@ export {
   LucideIcon,
   NomiStyle_default as NomiStyle,
   Radix,
+  Slot,
+  SlotWrapper,
   Spinner,
   Stack,
   TailwindButton,

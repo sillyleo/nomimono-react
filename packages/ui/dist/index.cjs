@@ -93,6 +93,8 @@ __export(ui_exports, {
   LucideIcon: () => LucideIcon,
   NomiStyle: () => NomiStyle_default,
   Radix: () => Radix,
+  Slot: () => Slot,
+  SlotWrapper: () => SlotWrapper,
   Spinner: () => Spinner,
   Stack: () => Stack,
   TailwindButton: () => TailwindButton,
@@ -4446,7 +4448,7 @@ var LucideIcon = (_a) => {
 
 // components/Checkbox/index.tsx
 var import_jsx_runtime5 = require("react/jsx-runtime");
-function CheckboxWithLabel(_a, ref) {
+function CheckboxWithLabelNoref(_a, ref) {
   var _b = _a, {
     defaultChecked,
     children,
@@ -4469,18 +4471,20 @@ function CheckboxWithLabel(_a, ref) {
       "data-state": props.disabled ? "disabled" : void 0,
       css: { fontSize: `$${fontSize}`, color: "$baseText" },
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
-          import_Checkbox.Checkbox,
-          __spreadValues(__spreadValues({
-            ref
-          }, checkbox), props)
-        ) }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(
           CheckboxRoot,
           {
             "data-state": checkbox.state ? "checked" : "unchecked",
             css: import_lodash3.default.merge(getCheckboxToneStyle(tone), css2),
-            children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+                import_Checkbox.Checkbox,
+                __spreadValues(__spreadValues({
+                  ref
+                }, checkbox), props)
+              ) }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+            ]
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Text, { css: { fontSize: "inherit" }, children })
@@ -4488,7 +4492,38 @@ function CheckboxWithLabel(_a, ref) {
     }
   );
 }
-var Checkbox = import_react3.default.forwardRef(CheckboxWithLabel);
+var CheckboxWithLabel = import_react3.default.forwardRef(CheckboxWithLabelNoref);
+function CheckboxNoref(_a, ref) {
+  var _b = _a, {
+    defaultChecked,
+    children,
+    tone = "slate"
+  } = _b, props = __objRest(_b, [
+    "defaultChecked",
+    "children",
+    "tone"
+  ]);
+  const checkbox = (0, import_Checkbox.useCheckboxState)({
+    state: defaultChecked
+  });
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(
+    CheckboxRoot,
+    {
+      "data-state": checkbox.state ? "checked" : "unchecked",
+      css: import_lodash3.default.merge(getCheckboxToneStyle(tone)),
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+          import_Checkbox.Checkbox,
+          __spreadValues(__spreadValues({
+            ref
+          }, checkbox), props)
+        ) }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(CheckboxIndicator, { checked: !!checkbox.state, children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(LucideIcon, { strokeWidth: 2.5, name: "check" }) })
+      ]
+    }
+  );
+}
+var Checkbox = import_react3.default.forwardRef(CheckboxNoref);
 var CheckboxLabel = styled("label", {
   lineHeight: 1,
   height: "1em",
@@ -4950,7 +4985,6 @@ function Tooltip({
 }
 
 // components/Input/index.tsx
-var import_jsx_runtime12 = require("react/jsx-runtime");
 var BaseInput = styled("input", {
   boxSizing: "boder-box",
   bgTone1: "mauve",
@@ -5065,10 +5099,12 @@ var BaseInput = styled("input", {
     align: "left"
   }
 });
+
+// components/Slot/index.tsx
 var Slot = styled("div", {
   position: "absolute",
-  bgTone5: "mauve",
-  boxSize: 80,
+  // bgTone5: "mauve",
+  // boxSize: 80,
   borderRadius: "$xl",
   zIndex: 1,
   variants: {
@@ -5122,7 +5158,7 @@ var SlotWrapper = styled("div", {
 
 // components/TailwindButton/index.tsx
 var import_tailwind_variants = require("tailwind-variants");
-var import_jsx_runtime13 = require("react/jsx-runtime");
+var import_jsx_runtime12 = require("react/jsx-runtime");
 var baseButton = (0, import_tailwind_variants.tv)({
   base: "border-none select-none relative disabled:cursor-not-allowed disabled:opacity-75 active:translate-y-[1px] transition linear overflow-hidden font-heading font-bold cursor-pointer inline-flex gap-2 items-center",
   variants: {
@@ -5155,22 +5191,32 @@ var baseButton = (0, import_tailwind_variants.tv)({
     size: "md",
     align: "center",
     intent: "primary",
-    isRound: true
+    isRound: false
   }
 });
 var TailwindButton = (_a) => {
   var _b = _a, {
     children,
-    isLoading = false
+    isLoading = false,
+    leftIcon,
+    rightIcon
   } = _b, props = __objRest(_b, [
     "children",
-    "isLoading"
+    "isLoading",
+    "leftIcon",
+    "rightIcon"
   ]);
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("button", { className: baseButton(__spreadValues({}, props)), children: [
-    isLoading && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(AutoSpinner, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { style: {
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("button", { className: baseButton(__spreadValues({}, props)), children: [
+    leftIcon && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { style: {
       opacity: isLoading ? 0 : 1
-    }, children })
+    }, children: leftIcon }),
+    isLoading && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(AutoSpinner, {}) }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { style: {
+      opacity: isLoading ? 0 : 1
+    }, children }),
+    rightIcon && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { style: {
+      opacity: isLoading ? 0 : 1
+    }, children: rightIcon })
   ] });
 };
 // Annotate the CommonJS export names for ESM import in node:
@@ -5189,6 +5235,8 @@ var TailwindButton = (_a) => {
   LucideIcon,
   NomiStyle,
   Radix,
+  Slot,
+  SlotWrapper,
   Spinner,
   Stack,
   TailwindButton,
