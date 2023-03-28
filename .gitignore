@@ -33,7 +33,6 @@ yarn-error.log*
 .turbo
 nomi.code-workspace
 .fleet/settings.json
-packages/ui/dist
 .fleet/run.json
 packages/ui/.turbo
 packages/ui/storybook-static
