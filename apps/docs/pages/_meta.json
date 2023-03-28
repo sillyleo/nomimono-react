@@ -2,9 +2,6 @@
 	"index": {
 		"title": "Introduction"
 	},
-	"development": {
-		"title": "Development"
-	},
 	"workshop": {
 		"title": "Workshop",
 		"type": "page",
