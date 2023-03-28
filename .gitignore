@@ -39,3 +39,4 @@ packages/ui/storybook-static
 *.log
 .idea
 *.log
+.vercel
