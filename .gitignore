@@ -36,5 +36,6 @@ nomi.code-workspace
 packages/ui/dist
 .fleet/run.json
 packages/ui/.turbo
+packages/ui/storybook-static
 *.log
 .idea
