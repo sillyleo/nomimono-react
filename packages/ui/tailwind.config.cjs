@@ -24,6 +24,7 @@ module.exports = {
       colors: {
         brand: theme.brand,
         support: theme.support,
+        accent: theme.colors.blue, // change accent here
       },
     },
   },
