@@ -131,25 +131,54 @@ export const BaseButton = styled("button", {
 });
 
 export interface ButtonProps extends React.ComponentProps<typeof BaseButton> {
+	/**
+	 * The size of the button.
+	 */
 	size?: "sm" | "md" | "lg" | "xl";
 	/**
-	 * No brand color here
+	 * The tone of the button.
+	 * No brand color here.
 	 */
 	tone?: Tone;
+	/**
+	 * The intent of the button.
+	 */
 	intent?: "primary" | "secondary" | "ghost";
 	/**
-	 * Use with leftIcon or rightIcon
+	 * The alignment of the button.
+	 * Use with leftIcon or rightIcon.
 	 */
 	align?: "left" | "center" | "right" | "between" | "around";
+	/**
+	 * The left icon of the button.
+	 */
 	leftIcon?: React.ReactNode;
+	/**
+	 * The right icon of the button.
+	 */
 	rightIcon?: React.ReactNode;
+	/**
+	 * Whether the button is in a loading state.
+	 */
 	isLoading?: boolean;
+	/**
+	 * The children of the button.
+	 */
 	children?: React.ReactNode;
+	/**
+	 * The depth of the button.
+	 */
 	depth?: "0" | "1" | "2" | "3";
+	/**
+	 * The override CSS of the button.
+	 */
 	css?: CSS;
+	/**
+	 * Force the button into dark mode.
+	 */
 	isDark?: boolean;
 }
-// add forwardRef to the component
+
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 	(
 		{
