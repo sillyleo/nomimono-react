@@ -6,11 +6,26 @@ module.exports = {
     "./components/**/*.{tsx,ts}","./stories/**/*.{tsx,ts,mdx}"
   ],
   theme: {
+     fontFamily: {
+			heading: ['Sk-Modernist','SkModernistBold','Sk-Modernist-Bold','sans-serif'],
+      body: ['Inter', 'Inter Tight']
+    },
     spacing: {
       ...theme.spacing
     },
-
-    extend: {},
+    letterSpacing: {
+      ...theme.letterSpacing
+    },
+    fontSize: {
+      ...theme.fontSize
+    },
+    borderRadii: {...theme.borderRadius},
+    extend: {
+      colors: {
+        brand: theme.brand,
+        support: theme.support,
+      },
+    },
   },
   plugins: [require('windy-radix-palette')]
 }
