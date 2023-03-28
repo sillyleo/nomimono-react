@@ -2,6 +2,7 @@
 
 const theme = require('./theme.json')
 module.exports = {
+    darkMode: 'class',
   content: [
     "./components/**/*.{tsx,ts}","./stories/**/*.{tsx,ts,mdx}"
   ],
