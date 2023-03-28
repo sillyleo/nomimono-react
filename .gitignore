@@ -38,3 +38,4 @@ packages/ui/.turbo
 packages/ui/storybook-static
 *.log
 .idea
+*.log
