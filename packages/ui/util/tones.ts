@@ -1,5 +1,7 @@
+import { Tone } from "./../stitches.config";
 import * as RadixColors from "@radix-ui/colors";
 import { stitchesDarkTheme } from "../stitches.config";
+import { Indicator } from "../components/RadioGroup";
 
 //Info:
 // get intent and tone from props, and return the correct style
@@ -223,6 +225,22 @@ export function getBarToneStyle(tone: string) {
 		},
 		"&::before": {
 			bgTone9: tone,
+		},
+	};
+}
+
+// radio group tone
+export function getRadioGroupToneStyle(tone: Tone) {
+	return {
+		bgTone1: tone,
+		boxShadowTone11: tone,
+		"&:hover": {
+			bgTone3: tone,
+			boxShadowTone9: tone,
+		},
+		"&[data-state=checked]": {
+			bgTone10: tone,
+			boxShadowTone10: tone,
 		},
 	};
 }

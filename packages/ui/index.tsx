@@ -5,6 +5,7 @@ export { Spinner, AutoSpinner } from "./components/Spinner";
 export { default as NomiStyle, nomiClass } from "./components/NomiStyle";
 export { Display } from "./util/Display";
 export { Checkbox, CheckboxWithLabel } from "./components/Checkbox";
+export { RadioGroup } from "./components/RadioGroup";
 export { Footer } from "./components/Footer";
 export { Dialog } from "./components/Dialog";
 export { HeroIconOne } from "./components/HeroIconOne";
@@ -16,15 +17,15 @@ export { SlotWrapper, Slot } from "./components/Slot";
 export { TailwindButton } from "./components/TailwindButton";
 // stitches
 export {
-  styled,
-  css,
-  globalCss,
-  keyframes,
-  theme as stitchesTheme,
-  stitchesDarkTheme,
-  reset,
-  brandFonts,
-  Radix
+	styled,
+	css,
+	globalCss,
+	keyframes,
+	theme as stitchesTheme,
+	stitchesDarkTheme,
+	reset,
+	brandFonts,
+	Radix,
 } from "./stitches.config";
 
 export type { CSS, Tone } from "./stitches.config";
