@@ -5,7 +5,7 @@ import { TailwindButton } from "../components/TailwindButton";
 
 const meta: Meta<typeof TailwindButton> = {
 	title: "Tailwind/Button",
-	component: TailwindButton.Demo,
+	component: TailwindButton.SecondaryButton,
 	args: {
 		children: "TailwindButton",
 	},

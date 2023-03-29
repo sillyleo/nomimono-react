@@ -97,14 +97,76 @@ export const TailwindButton = ({
 	);
 };
 
-const DemoButton = () => {
+
+
+const demoButton = tv({
+  slots: {
+    base: "inline-flex items-center rounded-full bg-[#3ceaaa]",
+    children: "font-medium leading-[140%] inline-block text-[14px] text-center"
+  },
+  variants: {
+    size: {
+      sm: {base: "px-4 py-2",
+          
+          children: "px-2.5"
+          },
+      md: {base: "px-4 py-2.5",
+                    children: "px-2.5"
+},
+      lg: {base: "px-6 py-3",
+                              children: "px-1.5"
+},
+      xl: {base:"px-6 py-4",
+                                        children: "px-1.5"
+}
+    }
+  },
+  defaultVariants: {
+    size: "md"
+}
+})
+
+type DemoButtonVariants = VariantProps<typeof demoButton>;
+
+export const DemoButton = (props: DemoButtonVariants) => {
+const { base, children } = demoButton(props);
 	return (
-		<button className="inline-flex items-center px-4 py-2.5 rounded-full bg-[#3ceaaa]">
-			<div className="px-2.5 py-1 font-medium leading-[140%] inline-block text-sm text-center">
+		<button className={base()}>
+			<div className={children()}>
 				Enable
 			</div>
 		</button>
 	);
 };
 
-TailwindButton.Demo = DemoButton;
+  
+TailwindButton.DemoButton = DemoButton;
+
+
+const secondaryButton = tv({
+  base: "inline-flex items-center rounded-full bg-black",
+  variants: {
+    size: {
+      sm: "px-4 py-2",
+      md: "px-4 py-2.5",
+      lg: "px-6 py-3",
+      xl: "px-6 py-4",
+    },
+  },
+  defaultVariants: {
+    size: "md",
+  },
+});
+
+type SecondaryButtonVariants = VariantProps<typeof secondaryButton>;
+
+const SecondaryButton = (props: SecondaryButtonVariants) => {
+  return (
+    <div className={secondaryButton(props)}>
+      <div className="px-2.5 py-1 text-white font-medium text-sm text-center leading-snug">
+        Button
+      </div>
+    </div>
+  );
+};
+TailwindButton.SecondaryButton = SecondaryButton;

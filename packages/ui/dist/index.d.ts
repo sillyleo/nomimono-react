@@ -13222,7 +13222,67 @@ interface TailwindButtonProps extends TailwindButtonVariants {
 }
 declare const TailwindButton: {
     ({ children, isLoading, leftIcon, rightIcon, ...props }: TailwindButtonProps): JSX.Element;
-    Demo: () => JSX.Element;
+    DemoButton: (props: DemoButtonVariants) => JSX.Element;
+    SecondaryButton: (props: SecondaryButtonVariants) => JSX.Element;
 };
+declare const demoButton: tailwind_variants.TVReturnType<{
+    size: {
+        sm: {
+            base: string;
+            children: string;
+        };
+        md: {
+            base: string;
+            children: string;
+        };
+        lg: {
+            base: string;
+            children: string;
+        };
+        xl: {
+            base: string;
+            children: string;
+        };
+    };
+}, unknown, {
+    base: string;
+    children: string;
+}, undefined, undefined, tailwind_variants_dist_config.TVConfig<{
+    size: {
+        sm: {
+            base: string;
+            children: string;
+        };
+        md: {
+            base: string;
+            children: string;
+        };
+        lg: {
+            base: string;
+            children: string;
+        };
+        xl: {
+            base: string;
+            children: string;
+        };
+    };
+}, unknown>>;
+type DemoButtonVariants = VariantProps<typeof demoButton>;
+declare const secondaryButton: tailwind_variants.TVReturnType<{
+    size: {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+    };
+}, unknown, undefined, undefined, "inline-flex items-center rounded-full bg-black", tailwind_variants_dist_config.TVConfig<{
+    size: {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+    };
+}, unknown>>;
+type SecondaryButtonVariants = VariantProps<typeof secondaryButton>;
 
 export { AutoSpinner, BaseButton, BaseInput, Box, Button, CSS, Checkbox, CheckboxWithLabel, Dialog, Display, Footer, HeroIcon, HeroIconOne, LucideIcon, NomiStyle, RadioGroup, Radix, Slot, SlotWrapper, Spinner, Stack, TailwindButton, Text, Tone, Tooltip, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

@@ -5265,10 +5265,58 @@ var TailwindButton = (_a) => {
     )
   ] });
 };
-var DemoButton = () => {
-  return /* @__PURE__ */ jsx13("button", { className: "inline-flex items-center px-4 py-2.5 rounded-full bg-[#3ceaaa]", children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 py-1 font-medium leading-[140%] inline-block text-sm text-center", children: "Enable" }) });
+var demoButton = tv({
+  slots: {
+    base: "inline-flex items-center rounded-full bg-[#3ceaaa]",
+    children: "font-medium leading-[140%] inline-block text-[14px] text-center"
+  },
+  variants: {
+    size: {
+      sm: {
+        base: "px-4 py-2",
+        children: "px-2.5"
+      },
+      md: {
+        base: "px-4 py-2.5",
+        children: "px-2.5"
+      },
+      lg: {
+        base: "px-6 py-3",
+        children: "px-1.5"
+      },
+      xl: {
+        base: "px-6 py-4",
+        children: "px-1.5"
+      }
+    }
+  },
+  defaultVariants: {
+    size: "md"
+  }
+});
+var DemoButton = (props) => {
+  const { base, children } = demoButton(props);
+  return /* @__PURE__ */ jsx13("button", { className: base(), children: /* @__PURE__ */ jsx13("div", { className: children(), children: "Enable" }) });
 };
-TailwindButton.Demo = DemoButton;
+TailwindButton.DemoButton = DemoButton;
+var secondaryButton = tv({
+  base: "inline-flex items-center rounded-full bg-black",
+  variants: {
+    size: {
+      sm: "px-4 py-2",
+      md: "px-4 py-2.5",
+      lg: "px-6 py-3",
+      xl: "px-6 py-4"
+    }
+  },
+  defaultVariants: {
+    size: "md"
+  }
+});
+var SecondaryButton = (props) => {
+  return /* @__PURE__ */ jsx13("div", { className: secondaryButton(props), children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 py-1 text-white font-medium text-sm text-center leading-snug", children: "Button" }) });
+};
+TailwindButton.SecondaryButton = SecondaryButton;
 export {
   AutoSpinner,
   BaseButton,
