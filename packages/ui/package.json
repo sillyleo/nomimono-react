@@ -32,7 +32,7 @@
 		"build": "tsup style.css --minify & tsup index.tsx --format esm,cjs --dts --external react",
 		"watch": "tsup style.css --watch components --watch stories & tsup index.tsx --format esm,cjs --watch components --dts --external react",
 		"ship": "tsup style.css --minify && tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
-		"build-token": "npx token-transformer ./tokens/figma-output/ ./tokens/theme-transformed.json --resolveReferences false && npx style-dictionary build --config sd.config.cjs",
+		"build-token": "npx token-transformer ./tokens/figma-output/Light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/Dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
 		"storybook": "storybook dev -p 4001",
 		"dev": "turbo run watch & turbo run storybook",
 		"build-storybook": "storybook build",
@@ -78,8 +78,7 @@
 		"tailwindcss": "^3.2.7",
 		"tsconfig": "workspace:*",
 		"tsup": "^6.6.3",
-		"typescript": "^4.5.2",
-		"windy-radix-palette": "^0.5.0"
+		"typescript": "^4.5.2"
 	},
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
@@ -95,7 +94,6 @@
 		"graphql-request": "^5.2.0",
 		"lodash": "^4.17.21",
 		"lucide-react": "^0.126.0",
-		"react-aria": "^3.23.1",
 		"react-icons": "^4.8.0",
 		"reakit": "^1.3.11",
 		"tailwind-variants": "^0.1.1"

@@ -4416,7 +4416,6 @@ function Display(_a) {
 // components/Checkbox/index.tsx
 var import_react3 = __toESM(require("react"), 1);
 var import_Checkbox = require("reakit/Checkbox");
-var import_react_aria = require("react-aria");
 var import_lodash3 = __toESM(require("lodash"), 1);
 
 // components/LucideIcon/index.tsx
@@ -4463,6 +4462,7 @@ var LucideIcon = (_a) => {
 };
 
 // components/Checkbox/index.tsx
+var import_ariakit = require("ariakit");
 var import_jsx_runtime5 = require("react/jsx-runtime");
 function CheckboxWithLabelNoref(_a, ref) {
   var _b = _a, {
@@ -4493,7 +4493,7 @@ function CheckboxWithLabelNoref(_a, ref) {
             "data-state": checkbox.state ? "checked" : "unchecked",
             css: import_lodash3.default.merge(getCheckboxToneStyle(tone), css2),
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_ariakit.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
                 import_Checkbox.Checkbox,
                 __spreadValues(__spreadValues({
                   ref
@@ -4520,7 +4520,7 @@ function CheckboxNoref(_a, ref) {
       "data-state": checkbox.state ? "checked" : "unchecked",
       css: import_lodash3.default.merge(getCheckboxToneStyle(tone)),
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_aria.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_ariakit.VisuallyHidden, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
           import_Checkbox.Checkbox,
           __spreadValues(__spreadValues({
             ref
@@ -5288,16 +5288,34 @@ var TailwindButton = (_a) => {
     "rightIcon"
   ]);
   return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("button", { className: baseButton(__spreadValues({}, props)), children: [
-    leftIcon && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children: leftIcon }),
+    leftIcon && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children: leftIcon
+      }
+    ),
     isLoading && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(AutoSpinner, {}) }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children }),
-    rightIcon && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children: rightIcon })
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children
+      }
+    ),
+    rightIcon && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children: rightIcon
+      }
+    )
   ] });
 };
 // Annotate the CommonJS export names for ESM import in node:

@@ -4359,7 +4359,6 @@ import {
   Checkbox as CheckboxPrimitive,
   useCheckboxState
 } from "reakit/Checkbox";
-import { VisuallyHidden } from "react-aria";
 import _3 from "lodash";
 
 // components/LucideIcon/index.tsx
@@ -4406,6 +4405,7 @@ var LucideIcon = (_a) => {
 };
 
 // components/Checkbox/index.tsx
+import { VisuallyHidden } from "ariakit";
 import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
 function CheckboxWithLabelNoref(_a, ref) {
   var _b = _a, {
@@ -5235,16 +5235,34 @@ var TailwindButton = (_a) => {
     "rightIcon"
   ]);
   return /* @__PURE__ */ jsxs10("button", { className: baseButton(__spreadValues({}, props)), children: [
-    leftIcon && /* @__PURE__ */ jsx13("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children: leftIcon }),
+    leftIcon && /* @__PURE__ */ jsx13(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children: leftIcon
+      }
+    ),
     isLoading && /* @__PURE__ */ jsx13("div", { className: "absolute flex items-center justify-center inset-0", children: /* @__PURE__ */ jsx13(AutoSpinner, {}) }),
-    /* @__PURE__ */ jsx13("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children }),
-    rightIcon && /* @__PURE__ */ jsx13("div", { style: {
-      opacity: isLoading ? 0 : 1
-    }, children: rightIcon })
+    /* @__PURE__ */ jsx13(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children
+      }
+    ),
+    rightIcon && /* @__PURE__ */ jsx13(
+      "div",
+      {
+        style: {
+          opacity: isLoading ? 0 : 1
+        },
+        children: rightIcon
+      }
+    )
   ] });
 };
 export {

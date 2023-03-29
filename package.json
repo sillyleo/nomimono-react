@@ -19,11 +19,5 @@
 		"prettier": "latest",
 		"turbo": "^1.8.5"
 	},
-	"packageManager": "pnpm@7.29.1",
-	"dependencies": {
-		"@radix-ui/react-radio-group": "^1.1.2",
-		"ariakit": "2.0.0-next.43",
-		"nomimono": "workspace:^",
-		"react-radio-group": "link:@types/@radix-ui/react-radio-group"
-	}
+	"packageManager": "pnpm@7.29.1"
 }
