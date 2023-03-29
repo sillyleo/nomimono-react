@@ -96,3 +96,15 @@ export const TailwindButton = ({
 		</button>
 	);
 };
+
+const DemoButton = () => {
+	return (
+		<button className="inline-flex items-center px-4 py-2.5 rounded-full bg-[#3ceaaa]">
+			<div className="px-2.5 py-1 font-medium leading-[140%] inline-block text-sm text-center">
+				Enable
+			</div>
+		</button>
+	);
+};
+
+TailwindButton.Demo = DemoButton;

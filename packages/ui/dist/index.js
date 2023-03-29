@@ -5265,6 +5265,10 @@ var TailwindButton = (_a) => {
     )
   ] });
 };
+var DemoButton = () => {
+  return /* @__PURE__ */ jsx13("button", { className: "inline-flex items-center px-4 py-2.5 rounded-full bg-[#3ceaaa]", children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 py-1 font-medium leading-[140%] inline-block text-sm text-center", children: "Enable" }) });
+};
+TailwindButton.Demo = DemoButton;
 export {
   AutoSpinner,
   BaseButton,

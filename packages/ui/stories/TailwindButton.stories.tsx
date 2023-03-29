@@ -4,8 +4,8 @@ import { Meta, StoryObj } from "@storybook/react";
 import { TailwindButton } from "../components/TailwindButton";
 
 const meta: Meta<typeof TailwindButton> = {
-	title: "Experimental/TailwindButton",
-	component: TailwindButton,
+	title: "Tailwind/Button",
+	component: TailwindButton.Demo,
 	args: {
 		children: "TailwindButton",
 	},

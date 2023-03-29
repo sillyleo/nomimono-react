@@ -16,9 +16,6 @@ module.exports = {
 			],
 			body: ["Inter", "Inter Tight"],
 		},
-		spacing: {
-			...theme.spacing,
-		},
 		fontSize: {
 			...theme.fontSize,
 		},

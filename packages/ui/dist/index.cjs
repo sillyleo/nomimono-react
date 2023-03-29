@@ -5318,6 +5318,10 @@ var TailwindButton = (_a) => {
     )
   ] });
 };
+var DemoButton = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", { className: "inline-flex items-center px-4 py-2.5 rounded-full bg-[#3ceaaa]", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "px-2.5 py-1 font-medium leading-[140%] inline-block text-sm text-center", children: "Enable" }) });
+};
+TailwindButton.Demo = DemoButton;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AutoSpinner,

@@ -13220,6 +13220,9 @@ interface TailwindButtonProps extends TailwindButtonVariants {
     leftIcon?: React__default.ReactNode;
     rightIcon?: React__default.ReactNode;
 }
-declare const TailwindButton: ({ children, isLoading, leftIcon, rightIcon, ...props }: TailwindButtonProps) => JSX.Element;
+declare const TailwindButton: {
+    ({ children, isLoading, leftIcon, rightIcon, ...props }: TailwindButtonProps): JSX.Element;
+    Demo: () => JSX.Element;
+};
 
 export { AutoSpinner, BaseButton, BaseInput, Box, Button, CSS, Checkbox, CheckboxWithLabel, Dialog, Display, Footer, HeroIcon, HeroIconOne, LucideIcon, NomiStyle, RadioGroup, Radix, Slot, SlotWrapper, Spinner, Stack, TailwindButton, Text, Tone, Tooltip, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };
