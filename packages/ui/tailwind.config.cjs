@@ -4,7 +4,7 @@ const theme = require("./tokens-light.json");
 const dark = require("./tokens-dark.json");
 
 module.exports = {
-	darkMode: "class",
+	// darkMode: "class",
 	content: ["./components/**/*.{tsx,ts}", "./stories/**/*.{tsx,ts,mdx}"],
 	theme: {
 		fontFamily: {

@@ -13223,7 +13223,7 @@ interface TailwindButtonProps extends TailwindButtonVariants {
 declare const TailwindButton: {
     ({ children, isLoading, leftIcon, rightIcon, ...props }: TailwindButtonProps): JSX.Element;
     DemoButton: (props: DemoButtonVariants) => JSX.Element;
-    SecondaryButton: (props: SecondaryButtonVariants) => JSX.Element;
+    SecondaryButton: ({ children, size, intent, ...rest }: SecondaryButtonVariants) => JSX.Element;
 };
 declare const demoButton: tailwind_variants.TVReturnType<{
     size: {
@@ -13275,6 +13275,11 @@ declare const secondaryButton: tailwind_variants.TVReturnType<{
         lg: string;
         xl: string;
     };
+    intent: {
+        primary: string;
+        outline: string;
+        text: string;
+    };
 }, unknown, undefined, undefined, "inline-flex items-center rounded-full bg-black", tailwind_variants_dist_config.TVConfig<{
     size: {
         sm: string;
@@ -13282,7 +13287,14 @@ declare const secondaryButton: tailwind_variants.TVReturnType<{
         lg: string;
         xl: string;
     };
+    intent: {
+        primary: string;
+        outline: string;
+        text: string;
+    };
 }, unknown>>;
-type SecondaryButtonVariants = VariantProps<typeof secondaryButton>;
+type SecondaryButtonVariants = VariantProps<typeof secondaryButton> & {
+    children: React__default.ReactNode;
+};
 
 export { AutoSpinner, BaseButton, BaseInput, Box, Button, CSS, Checkbox, CheckboxWithLabel, Dialog, Display, Footer, HeroIcon, HeroIconOne, LucideIcon, NomiStyle, RadioGroup, Radix, Slot, SlotWrapper, Spinner, Stack, TailwindButton, Text, Tone, Tooltip, brandFonts, css, globalCss, keyframes, nomiClass, reset, stitchesDarkTheme, theme as stitchesTheme, styled };

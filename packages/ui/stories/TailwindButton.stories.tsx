@@ -7,8 +7,8 @@ const meta: Meta<typeof TailwindButton> = {
 	title: "Tailwind/Button",
 	component: TailwindButton.SecondaryButton,
 	args: {
-		children: "TailwindButton",
-	},
+    children: "Button",
+  },
 	// argTypes: {
 	// 	isRound: {
 	// 		control: "boolean",
@@ -23,4 +23,19 @@ export const Default: Story = {
 	// args: {
 	// 	intent: "primary",
 	// },
+};
+
+export const Click: Story = {
+	render: (args) => {
+    return (
+      <TailwindButton.SecondaryButton
+        
+        onClick={() => {
+          console.log("clicked");
+        }}
+        {...args}>
+        Click me
+      </TailwindButton.SecondaryButton>
+    );
+  }
 };

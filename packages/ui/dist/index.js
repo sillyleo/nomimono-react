@@ -5303,18 +5303,27 @@ var secondaryButton = tv({
   base: "inline-flex items-center rounded-full bg-black",
   variants: {
     size: {
-      sm: "px-4 py-2",
-      md: "px-4 py-2.5",
-      lg: "px-6 py-3",
-      xl: "px-6 py-4"
+      sm: "px-4 py-2  text-sm ",
+      md: "px-4 py-2.5  text-sm ",
+      lg: "px-6 py-3  text-md ",
+      xl: "px-6 py-4  text-md "
+    },
+    intent: {
+      primary: "inline-flex items-center rounded-full bg-black text-white",
+      outline: "ring-1 ring-black bg-transparent dark:text-white",
+      // add this line to the "intent" object
+      text: "bg-transparent border-none dark:text-white"
+      // add this line to the "intent" object
     }
   },
   defaultVariants: {
-    size: "md"
+    size: "md",
+    intent: "primary"
   }
 });
-var SecondaryButton = (props) => {
-  return /* @__PURE__ */ jsx13("div", { className: secondaryButton(props), children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 py-1 text-white font-medium text-sm text-center leading-snug", children: "Button" }) });
+var SecondaryButton = (_a) => {
+  var _b = _a, { children, size, intent } = _b, rest = __objRest(_b, ["children", "size", "intent"]);
+  return /* @__PURE__ */ jsx13("div", __spreadProps(__spreadValues({ className: secondaryButton({ size, intent }) }, rest), { children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 font-medium text-center leading-[1.4]", children }) }));
 };
 TailwindButton.SecondaryButton = SecondaryButton;
 export {
