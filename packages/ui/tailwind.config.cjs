@@ -27,11 +27,18 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				neutral: theme.color["Neutral"],
-				primary: theme.color["Primary"],
-				secondary: theme.color["Secondary"],
-				support: theme.color["Support"],
-				neutralDark: dark.color["Neutral"],
+				...theme.color,
+				dark: {
+					...dark.color,
+				},
+				// dark: {
+				// 	...dark.color,
+				// },
+				// neutral: theme.color["Neutral"],
+				// primary: theme.color["Primary"],
+				// secondary: theme.color["Secondary"],
+				// support: theme.color["Support"],
+				// neutralDark: dark.color["Neutral"],
 			},
 		},
 	},

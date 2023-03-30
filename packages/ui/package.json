@@ -32,7 +32,7 @@
 		"build": "tsup style.css --minify & tsup index.tsx --format esm,cjs --dts --external react",
 		"watch": "tsup style.css --watch components --watch stories & tsup index.tsx --format esm,cjs --watch components --dts --external react",
 		"ship": "tsup style.css --minify && tsup index.tsx --format esm,cjs --dts --external react && npm version patch && npm publish --access public",
-		"build-token": "npx token-transformer ./tokens/figma-output/Light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/Dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
+		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
 		"storybook": "storybook dev -p 4001",
 		"dev": "turbo run watch & turbo run storybook",
 		"build-storybook": "storybook build",
@@ -78,7 +78,8 @@
 		"tailwindcss": "^3.2.7",
 		"tsconfig": "workspace:*",
 		"tsup": "^6.6.3",
-		"typescript": "^4.5.2"
+		"typescript": "^4.5.2",
+		"@storybook/addons": "^6.5.16"
 	},
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
@@ -87,7 +88,6 @@
 		"@radix-ui/react-dialog": "^1.0.3",
 		"@radix-ui/react-radio-group": "^1.1.2",
 		"@stitches/react": "^1.2.8",
-		"@storybook/addons": "^6.5.16",
 		"ariakit": "2.0.0-next.43",
 		"framer-motion": "^10.2.4",
 		"graphql": "^16.6.0",

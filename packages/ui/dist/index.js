@@ -5322,8 +5322,19 @@ var secondaryButton = tv({
   }
 });
 var SecondaryButton = (_a) => {
-  var _b = _a, { children, size, intent } = _b, rest = __objRest(_b, ["children", "size", "intent"]);
-  return /* @__PURE__ */ jsx13("div", __spreadProps(__spreadValues({ className: secondaryButton({ size, intent }) }, rest), { children: /* @__PURE__ */ jsx13("div", { className: "px-2.5 font-medium text-center leading-[1.4]", children }) }));
+  var _b = _a, {
+    children,
+    size,
+    intent
+  } = _b, rest = __objRest(_b, [
+    "children",
+    "size",
+    "intent"
+  ]);
+  return /* @__PURE__ */ jsxs10("div", __spreadProps(__spreadValues({ className: secondaryButton({ size, intent }) }, rest), { children: [
+    /* @__PURE__ */ jsx13("div", { className: "w-10 h-10 bg-neutralDark-Neutral-6" }),
+    /* @__PURE__ */ jsx13("div", { className: "px-2.5 font-medium text-center leading-[1.4]", children })
+  ] }));
 };
 TailwindButton.SecondaryButton = SecondaryButton;
 export {
