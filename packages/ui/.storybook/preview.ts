@@ -7,9 +7,11 @@ import {
 import { withThemeByClassName } from "@storybook/addon-styling";
 import type { Preview } from "@storybook/react";
 import DocTemplate from "./DocTemplate.mdx";
-import "@fontsource/inter"; // Defaults to weight 400.
 import YourTheme from "./YourTheme";
-import "../dist/style.css"
+import "../dist/style.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/700.css";
 
 brandFonts();
 //reset();
@@ -28,7 +30,15 @@ const preview: Preview = {
 	parameters: {
 		options: {
 			storySort: {
-				order: ["Reademe", ["Atomic", "Components", "Recepies", "Templates"]],
+				order: [
+					"Introduction",
+					"Color Guidance",
+					"Tailwind",
+					"Icons",
+					"Misc",
+					"Stitches",
+					"*",
+				],
 			},
 		},
 		backgrounds: {

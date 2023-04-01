@@ -1,6 +1,6 @@
 {
 	"name": "nomimono",
-	"version": "0.0.311",
+	"version": "0.0.313",
 	"access": "public",
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
@@ -79,11 +79,10 @@
 		"tsconfig": "workspace:*",
 		"tsup": "^6.6.3",
 		"typescript": "^4.5.2",
-		"@storybook/addons": "^6.5.16"
+		"@storybook/addons": "^6.5.16",
+		"@fontsource/inter": "^4.5.15"
 	},
 	"dependencies": {
-		"@fontsource/inter": "^4.5.15",
-		"@fontsource/inter-tight": "^4.5.2",
 		"@heroicons/react": "^2.0.16",
 		"@radix-ui/react-dialog": "^1.0.3",
 		"@radix-ui/react-radio-group": "^1.1.2",

@@ -78,11 +78,11 @@ export function HeroIcon({
 		iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
 
 	return (
-		<Box css={{ boxSize: boxSize }} {...props}>
+		<div style={{ width: boxSize, height: boxSize }} {...props}>
 			{iconStyle === "outline" && <OutlineIcon name={IconNameUpperCase} />}
 			{iconStyle === "solid" && <SolidIcon name={IconNameUpperCase} />}
 			{iconStyle === "mini" && <MiniIcon name={IconNameUpperCase} />}
-		</Box>
+		</div>
 	);
 }
 

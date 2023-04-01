@@ -4738,11 +4738,10 @@ var FooterLink = styled("li", {
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 
 // components/IconButton/index.tsx
-import _6 from "lodash";
+import _5 from "lodash";
 
 // components/HeroIconOne/index.tsx
 import * as HeroIcons from "react-icons/hi";
-import _5 from "lodash";
 import { Fragment, jsx as jsx8 } from "react/jsx-runtime";
 var HeroIcon = (props) => {
   const icons = __objRest(HeroIcons, []);
@@ -4763,7 +4762,7 @@ var HeroIconOne = (_a) => {
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ jsx8(Box, __spreadProps(__spreadValues({ css: _5.merge({ boxSize }, props.css) }, props), { children: /* @__PURE__ */ jsx8(HeroIcon, { icon: name }) }));
+  return /* @__PURE__ */ jsx8("div", __spreadProps(__spreadValues({ style: { width: boxSize, height: boxSize } }, props), { children: /* @__PURE__ */ jsx8(HeroIcon, { icon: name }) }));
 };
 
 // components/IconButton/index.tsx
@@ -4798,7 +4797,7 @@ var IconButton = (_a) => {
     IconButtonWrapper,
     __spreadProps(__spreadValues({
       isRound,
-      css: _6.merge(
+      css: _5.merge(
         getButtonToneStyle(tone, intent),
         getButtonShadowStyle(tone, depth),
         {
@@ -4936,7 +4935,7 @@ Dialog.ContentWithClose = ContentWithClose;
 import * as OutlineIcons from "@heroicons/react/24/outline";
 import * as SolidIcons from "@heroicons/react/24/solid";
 import * as MiniIcons from "@heroicons/react/20/solid";
-import _7 from "lodash";
+import _6 from "lodash";
 import { Fragment as Fragment2, jsx as jsx11, jsxs as jsxs8 } from "react/jsx-runtime";
 var MiniIcon = (props) => {
   const icons = __objRest(MiniIcons, []);
@@ -4973,9 +4972,9 @@ function HeroIcon2(_a) {
     "iconStyle",
     "boxSize"
   ]);
-  const iconNameCamelCase = _7.camelCase(name);
+  const iconNameCamelCase = _6.camelCase(name);
   const IconNameUpperCase = iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
-  return /* @__PURE__ */ jsxs8(Box, __spreadProps(__spreadValues({ css: { boxSize } }, props), { children: [
+  return /* @__PURE__ */ jsxs8("div", __spreadProps(__spreadValues({ style: { width: boxSize, height: boxSize } }, props), { children: [
     iconStyle === "outline" && /* @__PURE__ */ jsx11(OutlineIcon, { name: IconNameUpperCase }),
     iconStyle === "solid" && /* @__PURE__ */ jsx11(SolidIcon, { name: IconNameUpperCase }),
     iconStyle === "mini" && /* @__PURE__ */ jsx11(MiniIcon, { name: IconNameUpperCase })
@@ -5331,10 +5330,10 @@ var SecondaryButton = (_a) => {
     "size",
     "intent"
   ]);
-  return /* @__PURE__ */ jsxs10("div", __spreadProps(__spreadValues({ className: secondaryButton({ size, intent }) }, rest), { children: [
-    /* @__PURE__ */ jsx13("div", { className: "w-10 h-10 bg-neutralDark-Neutral-6" }),
-    /* @__PURE__ */ jsx13("div", { className: "px-2.5 font-medium text-center leading-[1.4]", children })
-  ] }));
+  return /* @__PURE__ */ jsxs10("div", { className: "items-center bg-primary-500 rounded-full flex px-16 py-8", children: [
+    /* @__PURE__ */ jsx13("div", { className: "items-center flex flex-shrink-0 h-4 justify-center w-4" }),
+    /* @__PURE__ */ jsx13("div", { className: "text-neutral-6 text-1 font-medium leading-snug text-center px-8 py-4", children: "Enable" })
+  ] });
 };
 TailwindButton.SecondaryButton = SecondaryButton;
 export {

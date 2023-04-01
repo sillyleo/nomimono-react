@@ -1,8 +1,5 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import * as HeroIcons from "react-icons/hi";
-import { Box } from "../Box";
-import _ from "lodash";
-import { CSS } from "../../stitches.config";
 
 // https://github.com/tailwindlabs/heroicons/issues/278#issuecomment-851594776
 const HeroIcon: FC<{ icon: string }> = (props) => {
@@ -29,7 +26,6 @@ export interface HeroIconOneProps {
 	 * */
 	name?: string;
 	boxSize?: string;
-	css?: CSS;
 }
 
 // from react-icons
@@ -39,9 +35,9 @@ export const HeroIconOne = ({
 	...props
 }: HeroIconOneProps) => {
 	return (
-		<Box css={_.merge({ boxSize: boxSize }, props.css)} {...props}>
+		<div style={{ width: boxSize, height: boxSize }} {...props}>
 			<HeroIcon icon={name} />
-		</Box>
+		</div>
 	);
 };
 

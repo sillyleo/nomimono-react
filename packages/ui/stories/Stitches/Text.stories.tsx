@@ -1,10 +1,10 @@
 // Button.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Box } from "../components/Box";
-import { Text } from "../components/Text";
+import { Box } from "../../components/Box";
+import { Text } from "../../components/Text";
 const meta: Meta<typeof Text> = {
-	title: "Atomic/Text",
+	title: "Stitches/Text",
 	component: Text,
 	args: {
 		children: "Text",

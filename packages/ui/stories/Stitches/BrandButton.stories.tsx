@@ -1,10 +1,10 @@
 // BrandButton.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { BrandButton } from "../components/BrandButton";
+import { BrandButton } from "../../components/BrandButton";
 
 const meta: Meta<typeof BrandButton> = {
-	title: "Atomic/BrandButton",
+	title: "Stitches/BrandButton",
 	component: BrandButton,
 	args: {
 		children: "BrandButton",

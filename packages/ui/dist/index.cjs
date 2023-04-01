@@ -4795,11 +4795,10 @@ var FooterLink = styled("li", {
 var DialogPrimitive = __toESM(require("@radix-ui/react-dialog"), 1);
 
 // components/IconButton/index.tsx
-var import_lodash6 = __toESM(require("lodash"), 1);
+var import_lodash5 = __toESM(require("lodash"), 1);
 
 // components/HeroIconOne/index.tsx
 var HeroIcons = __toESM(require("react-icons/hi"), 1);
-var import_lodash5 = __toESM(require("lodash"), 1);
 var import_jsx_runtime8 = require("react/jsx-runtime");
 var HeroIcon = (props) => {
   const icons = __objRest(HeroIcons, []);
@@ -4820,7 +4819,7 @@ var HeroIconOne = (_a) => {
     "name",
     "boxSize"
   ]);
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(Box, __spreadProps(__spreadValues({ css: import_lodash5.default.merge({ boxSize }, props.css) }, props), { children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(HeroIcon, { icon: name }) }));
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", __spreadProps(__spreadValues({ style: { width: boxSize, height: boxSize } }, props), { children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(HeroIcon, { icon: name }) }));
 };
 
 // components/IconButton/index.tsx
@@ -4855,7 +4854,7 @@ var IconButton = (_a) => {
     IconButtonWrapper,
     __spreadProps(__spreadValues({
       isRound,
-      css: import_lodash6.default.merge(
+      css: import_lodash5.default.merge(
         getButtonToneStyle(tone, intent),
         getButtonShadowStyle(tone, depth),
         {
@@ -4993,7 +4992,7 @@ Dialog.ContentWithClose = ContentWithClose;
 var OutlineIcons = __toESM(require("@heroicons/react/24/outline"), 1);
 var SolidIcons = __toESM(require("@heroicons/react/24/solid"), 1);
 var MiniIcons = __toESM(require("@heroicons/react/20/solid"), 1);
-var import_lodash7 = __toESM(require("lodash"), 1);
+var import_lodash6 = __toESM(require("lodash"), 1);
 var import_jsx_runtime11 = require("react/jsx-runtime");
 var MiniIcon = (props) => {
   const icons = __objRest(MiniIcons, []);
@@ -5030,9 +5029,9 @@ function HeroIcon2(_a) {
     "iconStyle",
     "boxSize"
   ]);
-  const iconNameCamelCase = import_lodash7.default.camelCase(name);
+  const iconNameCamelCase = import_lodash6.default.camelCase(name);
   const IconNameUpperCase = iconNameCamelCase.charAt(0).toUpperCase() + iconNameCamelCase.slice(1);
-  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(Box, __spreadProps(__spreadValues({ css: { boxSize } }, props), { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", __spreadProps(__spreadValues({ style: { width: boxSize, height: boxSize } }, props), { children: [
     iconStyle === "outline" && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(OutlineIcon, { name: IconNameUpperCase }),
     iconStyle === "solid" && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(SolidIcon, { name: IconNameUpperCase }),
     iconStyle === "mini" && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(MiniIcon, { name: IconNameUpperCase })
@@ -5384,10 +5383,10 @@ var SecondaryButton = (_a) => {
     "size",
     "intent"
   ]);
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", __spreadProps(__spreadValues({ className: secondaryButton({ size, intent }) }, rest), { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "w-10 h-10 bg-neutralDark-Neutral-6" }),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "px-2.5 font-medium text-center leading-[1.4]", children })
-  ] }));
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "items-center bg-primary-500 rounded-full flex px-16 py-8", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "items-center flex flex-shrink-0 h-4 justify-center w-4" }),
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "text-neutral-6 text-1 font-medium leading-snug text-center px-8 py-4", children: "Enable" })
+  ] });
 };
 TailwindButton.SecondaryButton = SecondaryButton;
 // Annotate the CommonJS export names for ESM import in node:

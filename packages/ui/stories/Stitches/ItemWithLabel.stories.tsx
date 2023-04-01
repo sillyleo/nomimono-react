@@ -1,10 +1,10 @@
 // RadioGroup.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { RadioGroup } from "../components/RadioGroup";
+import { RadioGroup } from "../../components/RadioGroup";
 
 const meta: Meta<typeof RadioGroup> = {
-	title: "Atomic/Radio/ItemWithLabel",
+	title: "Stitches/Radio/ItemWithLabel",
 	component: RadioGroup.ItemWithLabel,
 	parameters: {
 		docs: {

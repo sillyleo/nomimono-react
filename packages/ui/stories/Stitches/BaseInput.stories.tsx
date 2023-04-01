@@ -1,10 +1,10 @@
 // BaseInput.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { BaseInput } from "../components/Input";
+import { BaseInput } from "../../components/Input";
 
 const meta: Meta<typeof BaseInput> = {
-	title: "Atomic/Input/BaseInput",
+	title: "Stitches/Input/BaseInput",
 	component: BaseInput,
 	argTypes: {
 		align: {

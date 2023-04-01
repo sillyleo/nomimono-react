@@ -172,13 +172,22 @@ const SecondaryButton = ({
 	...rest
 }: SecondaryButtonVariants) => {
 	return (
-		<div className={secondaryButton({ size, intent })} {...rest}>
-			<div className="w-10 h-10 bg-neutralDark-Neutral-6"></div>
-			<div className="px-2.5 font-medium text-center leading-[1.4]">
-				{children}
+		<div className="items-center bg-primary-500 rounded-full flex px-16 py-8">
+			<div className="items-center flex flex-shrink-0 h-4 justify-center w-4">
+				{/* Todo: Add icon */}
+			</div>
+			<div className="text-neutral-6 text-1 font-medium leading-snug text-center px-8 py-4">
+				Enable
 			</div>
 		</div>
 	);
+	// return (
+	// 	<div className={secondaryButton({ size, intent })} {...rest}>
+	// 		<div className="px-2.5 font-medium text-center leading-[1.4]">
+	// 			{children}
+	// 		</div>
+	// 	</div>
+	// );
 };
 
 TailwindButton.SecondaryButton = SecondaryButton;

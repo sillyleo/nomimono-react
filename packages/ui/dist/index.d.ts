@@ -11753,7 +11753,6 @@ declare const Dialog: {
 interface HeroIconOneProps {
     name?: string;
     boxSize?: string;
-    css?: CSS;
 }
 declare const HeroIconOne: ({ name, boxSize, ...props }: HeroIconOneProps) => JSX.Element;
 
