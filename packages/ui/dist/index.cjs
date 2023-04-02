@@ -1710,7 +1710,7 @@ var theme_default = {
   }
 };
 
-// ../../node_modules/@radix-ui/colors/index.mjs
+// ../../node_modules/.pnpm/@radix-ui+colors@0.1.8/node_modules/@radix-ui/colors/index.mjs
 var colors_exports = {};
 __export(colors_exports, {
   amber: () => amber,

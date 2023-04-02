@@ -1,23 +1,22 @@
 {
-	"name": "nomi",
-	"version": "0.0.0",
-	"private": true,
-	"workspaces": [
-		"apps/*",
-		"packages/*"
-	],
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"lint": "turbo run lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
-		"ship": "turbo run ship",
-		"build-token": "turbo run build-token"
-	},
-	"devDependencies": {
-		"eslint-config-custom": "workspace:*",
-		"prettier": "latest",
-		"turbo": "^1.8.5"
-	},
-	"packageManager": "pnpm@7.29.1"
+    "name": "nomi",
+    "version": "0.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "ship": "turbo run ship",
+        "build-token": "turbo run build-token"
+    },
+    "devDependencies": {
+        "eslint-config-custom": "workspace:*",
+        "prettier": "latest",
+        "turbo": "^1.8.5"
+    }
 }
