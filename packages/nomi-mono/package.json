@@ -1,5 +1,5 @@
 {
-	"name": "nomi-mono",
+	"name": "nomi-tailwind",
 	"version": "0.0.1",
 	"access": "public",
 	"type": "module",
@@ -10,7 +10,7 @@
 	"module": "./dist/nomi-mono.js",
 	"exports": {
 		".": {
-			"import": "./dist/nomi-mono.js",
+			"import": "./dist/nomprivatei-mono.js",
 			"require": "./dist/nomi-mono.cjs"
 		},
 		"./style": {
@@ -26,7 +26,7 @@
 		"build-storybook": "storybook build",
 		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
 		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes",
-		"publish": "npm version patch && npm publish --access public",
+		"publish": "npm publish --access public --no-git-checks",
 		"ship": "turbo build && turbo publish"
 	},
 	"dependencies": {
@@ -40,16 +40,16 @@
 		"@storybook/blocks": "^7.0.0",
 		"@storybook/react": "^7.0.0",
 		"@storybook/react-vite": "^7.0.0",
-		"@storybook/testing-library": "^0.0.14-next.2",
-		"@types/react": "^18.0.28",
+		"@storybook/testing-library": "0.0.14-next.2",
+		"@types/react": "^18.0.32",
 		"@types/react-dom": "^18.0.11",
 		"@vitejs/plugin-react": "^3.1.0",
 		"autoprefixer": "^10.4.14",
 		"postcss": "^8.4.21",
 		"prop-types": "^15.8.1",
 		"storybook": "^7.0.0",
-		"tailwindcss": "^3.2.7",
-		"typescript": "^4.9.3",
-		"vite": "^4.2.0"
+		"tailwindcss": "^3.3.1",
+		"typescript": "^4.9.5",
+		"vite": "^4.2.1"
 	}
 }
