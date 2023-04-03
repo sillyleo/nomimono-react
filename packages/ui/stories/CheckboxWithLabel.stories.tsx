@@ -1,7 +1,7 @@
 // Checkbox.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { CheckboxWithLabel } from "../../components/Checkbox";
+import { CheckboxWithLabel } from "../components/Checkbox";
 
 const meta: Meta<typeof CheckboxWithLabel> = {
 	title: "Stitches/Checkbox/WithLabel",

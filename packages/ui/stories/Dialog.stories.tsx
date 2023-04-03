@@ -1,9 +1,9 @@
 // Dialog.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Text } from "../../components/Text";
-import { Button } from "../../components/Button";
-import { Dialog } from "../../components/Dialog";
+import { Text } from "../components/Text";
+import { Button } from "../components/Button";
+import { Dialog } from "../components/Dialog";
 
 const DialogDefault = () => {
 	return (

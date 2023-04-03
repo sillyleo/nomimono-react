@@ -4,9 +4,9 @@ import { Button } from "../components/index";
 const meta: Meta<typeof Button> = {
 	title: "Button",
 	component: Button,
-	// args: {
-	// 	children: "Button",
-	// },
+	args: {
+		children: "Button",
+	},
 	// argTypes: {
 	// 	isRound: {
 	// 		control: "boolean",

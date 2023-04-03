@@ -1,8 +1,8 @@
 // Tooltip.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Text } from "../../components/Text";
-import { Tooltip } from "../../components/Tooltip";
+import { Text } from "../components/Text";
+import { Tooltip } from "../components/Tooltip";
 
 const meta: Meta<typeof Tooltip> = {
 	title: "Stitches/Tooltip",

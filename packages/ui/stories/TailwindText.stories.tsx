@@ -1,7 +1,7 @@
 // TailwindText.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { TailwindText } from "../../components/TailwindText";
+import { TailwindText } from "../components/TailwindText";
 
 const meta: Meta<typeof TailwindText> = {
 	title: "Tailwind/Text",

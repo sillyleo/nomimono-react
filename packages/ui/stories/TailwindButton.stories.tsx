@@ -1,7 +1,7 @@
 // TailwindButton.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { TailwindButton } from "../../components/TailwindButton";
+import { TailwindButton } from "../components/TailwindButton";
 
 const meta: Meta<typeof TailwindButton> = {
 	title: "Tailwind/Button",

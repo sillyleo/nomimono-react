@@ -1,8 +1,8 @@
 // Input.stories.ts|tsx
 
 import { Meta, StoryObj } from "@storybook/react";
-import { Slot, SlotWrapper } from "../../components/Slot";
-import { BaseInput } from "../../components/Input";
+import { Slot, SlotWrapper } from "../components/Slot";
+import { BaseInput } from "../components/Input";
 
 const meta: Meta<typeof SlotWrapper> = {
 	title: "stitches/layout/SlotWrapper",
