@@ -1,6 +1,6 @@
 {
-	"name": "nomi-tailwind",
-	"version": "0.0.1",
+	"name": "nomimono",
+	"version": "0.0.336",
 	"access": "public",
 	"type": "module",
 	"files": [
@@ -18,6 +18,15 @@
 			"require": "./dist/style.css"
 		}
 	},
+	"type": "module",
+	"license": "MIT",
+	"author": {
+		"name": "Leo Lin"
+	},
+	"bugs": {
+		"url": "https://github.com/sillyleo/nomimono/issues"
+	},
+	"homepage": "https://github.com/sillyleo/nomimono#readme",
 	"scripts": {
 		"dev": "vite & storybook dev -p 6006",
 		"build": "tsc && vite build",
