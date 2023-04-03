@@ -17,6 +17,6 @@
     "devDependencies": {
         "eslint-config-custom": "workspace:*",
         "prettier": "latest",
-        "turbo": "^1.8.5"
+        "turbo": "^1.8.8"
     }
 }
