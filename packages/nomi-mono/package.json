@@ -1,6 +1,6 @@
 {
-	"name": "nomimono",
-	"version": "0.0.336",
+	"name": "@sayaww/nomi-mono",
+	"version": "0.0.2",
 	"access": "public",
 	"type": "module",
 	"files": [
@@ -18,7 +18,6 @@
 			"require": "./dist/style.css"
 		}
 	},
-	"type": "module",
 	"license": "MIT",
 	"author": {
 		"name": "Leo Lin"
@@ -35,8 +34,7 @@
 		"build-storybook": "storybook build",
 		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
 		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes",
-		"publish": "npm publish --access public --no-git-checks",
-		"ship": "turbo build && turbo publish"
+		"ship": "turbo build && npm publish --access public --no-git-checks"
 	},
 	"dependencies": {
 		"react": "^18.2.0",

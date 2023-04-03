@@ -1,11 +1,10 @@
 // Nextra config
 
-import { motion } from "framer-motion";
-import { brandFonts,reset, styled, Text } from "nomimono";
+// import { motion } from "framer-motion";
+// import { brandFonts,reset, styled, Text } from "nomimono";
 
-brandFonts();
-reset();
-
+// brandFonts();
+// reset();
 
 const NomiLogoText = styled("span", {
 	fontFamily: "$heading",
@@ -42,48 +41,48 @@ const jpLogoMotion = {
 };
 
 export default {
-	logo: (
-		<motion.div
-			layout
-			animate="animate"
-			initial="initial"
-			whileHover="hover"
-			variants={logoMotion}
-			style={{
-				position: "relative",
-				gap: "0.25em",
-				fontSize: "1.4em",
-				display: "flex",
-				alignItems: "center",
-			}}
-		>
-			<motion.span>🥤</motion.span>
-			<motion.div
-				// a placeholder for logo width
-				style={{ opacity: 0 }}
-			>
-				<NomiLogoText>Nomimono</NomiLogoText>
-			</motion.div>
-			<motion.div
-				style={logoStyle}
-				variants={enLogoMotion}
+	// logo: (
+	// 	<motion.div
+	// 		layout
+	// 		animate="animate"
+	// 		initial="initial"
+	// 		whileHover="hover"
+	// 		variants={logoMotion}
+	// 		style={{
+	// 			position: "relative",
+	// 			gap: "0.25em",
+	// 			fontSize: "1.4em",
+	// 			display: "flex",
+	// 			alignItems: "center",
+	// 		}}
+	// 	>
+	// 		<motion.span>🥤</motion.span>
+	// 		<motion.div
+	// 			// a placeholder for logo width
+	// 			style={{ opacity: 0 }}
+	// 		>
+	// 			<NomiLogoText>Nomimono</NomiLogoText>
+	// 		</motion.div>
+	// 		<motion.div
+	// 			style={logoStyle}
+	// 			variants={enLogoMotion}
 
-				// initial={{ y: 0 }}
-				// animate={{ y: -40 }}
-			>
-				<NomiLogoText>Nomimono</NomiLogoText>
-			</motion.div>
-			<motion.div
-				variants={jpLogoMotion}
-				style={logoStyle}
+	// 			// initial={{ y: 0 }}
+	// 			// animate={{ y: -40 }}
+	// 		>
+	// 			<NomiLogoText>Nomimono</NomiLogoText>
+	// 		</motion.div>
+	// 		<motion.div
+	// 			variants={jpLogoMotion}
+	// 			style={logoStyle}
 
-				// initial={{ y: 40 }}
-				// animate={{ y: 0 }}
-			>
-				<NomiLogoText css={{ fontSize: "0.98em" }}>のみもの</NomiLogoText>
-			</motion.div>
-		</motion.div>
-	),
+	// 			// initial={{ y: 40 }}
+	// 			// animate={{ y: 0 }}
+	// 		>
+	// 			<NomiLogoText css={{ fontSize: "0.98em" }}>のみもの</NomiLogoText>
+	// 		</motion.div>
+	// 	</motion.div>
+	// ),
 	docsRepositoryBase: "https://github.com/sillyleo/nomimono",
 	primaryHue: 27,
 	project: {

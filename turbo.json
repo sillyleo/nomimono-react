@@ -13,14 +13,6 @@
 		"dev": {
 			"cache": false
 		},
-		"nomimono#ship": {
-			"dependsOn": ["nomimono#build"]
-		},
-		"nomimono#dev": {},
-		"nomimono#watch": {},
-		"nomimono#watch-tailwind": {},
-		"nomimono#build-tailwind": {},
-		"nomimono#storybook": {},
 		"build-token": {},
 		"chromatic": {}
 	}

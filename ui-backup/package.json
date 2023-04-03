@@ -1,5 +1,5 @@
 {
-	"name": "nomimono",
+	"name": "nomimono-back",
 	"version": "0.0.336",
 	"access": "public",
 	"main": "dist/index.cjs",
