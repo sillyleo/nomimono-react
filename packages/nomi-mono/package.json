@@ -1,0 +1,40 @@
+{
+	"name": "nomi-mono",
+	"version": "0.0.336",
+	"access": "public",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/nomi-mono.cjs",
+	"module": "./dist/nomi-mono.js",
+	"exports": {
+		".": {
+			"import": "./dist/nomi-mono.js",
+			"require": "./dist/nomi-mono.cjs"
+		},
+		"./style": {
+			"import": "./dist/style.css",
+			"require": "./dist/style.css"
+		}
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react": "^3.1.0",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.2.7",
+		"typescript": "^4.9.3",
+		"vite": "^4.2.0"
+	}
+}
