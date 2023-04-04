@@ -37,6 +37,7 @@
 		"ship": "turbo build && npm publish --access public --no-git-checks"
 	},
 	"dependencies": {
+		"@fontsource/inter": "^4.5.15",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"tailwind-variants": "^0.1.1"

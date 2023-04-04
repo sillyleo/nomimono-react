@@ -11,7 +11,7 @@ importers:
         specifier: latest
         version: 2.8.7
       turbo:
-        specifier: latest
+        specifier: ^1.8.8
         version: 1.8.8
 
   apps/docs:
@@ -87,6 +87,9 @@ importers:
 
   packages/nomi-mono:
     dependencies:
+      '@fontsource/inter':
+        specifier: ^4.5.15
+        version: 4.5.15
       react:
         specifier: ^18.2.0
         version: 18.2.0
