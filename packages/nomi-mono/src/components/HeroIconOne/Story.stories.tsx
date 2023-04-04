@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Button } from ".";
+import { HeroIconOne } from ".";
 
-const meta: Meta<typeof Button> = {
-  title: "Button",
-  component: Button,
-  args: {
-    children: "Button"
-  }
+const meta: Meta<typeof HeroIconOne> = {
+  title: "Icons/HeroIconOne",
+  component: HeroIconOne
+  // args: {
+  // 	children: "HeroIcon",
+  // },
   // argTypes: {
   // 	isRound: {
   // 		control: "boolean",
@@ -15,7 +15,7 @@ const meta: Meta<typeof Button> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof Button>;
+type Story = StoryObj<typeof HeroIconOne>;
 
 export const Default: Story = {
   // args: {

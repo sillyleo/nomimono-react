@@ -1,16 +1,10 @@
 import { IconGallery, IconItem } from "@storybook/addon-docs";
 import {
-	getHeroIconOneList,
-	HeroIconOne
-} from "../../../packages/nomi-mono/src/components/HeroIconOne";
-import {
-	getHeroIconList,
-	HeroIcon
-} from "../../../packages/nomi-mono/src/components/HeroIcon";
-import {
-	getLucideIconList,
-	LucideIcon
-} from "../../../packages/nomi-mono/src/components/LucideIcon";
+  getHeroIconOneList,
+  HeroIconOne
+} from "../../src/components/HeroIconOne";
+import { getHeroIconList, HeroIcon } from "../../src/components/HeroIcon";
+import { getLucideIconList, LucideIcon } from "../../src/components/LucideIcon";
 
 export function HeroIconOneList() {
   const allIcons = getHeroIconOneList();

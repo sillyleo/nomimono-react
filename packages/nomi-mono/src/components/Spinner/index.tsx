@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Spinner(props: React.SVGProps<SVGSVGElement>) {
+export function FixedSizeSpinner(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="16"
@@ -30,7 +30,16 @@ export function Spinner(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export const AutoSpinner = () => {
+
+export interface SpinnerProps extends React.SVGProps<SVGSVGElement> {
+  /**
+   * The size of the spinner. Defaults to 100% of the parent element.
+   * */
+  size?: string | number;
+
+}
+
+export const Spinner = (props: SpinnerProps) => {
   return (
     <svg
       version="1.1"
@@ -39,11 +48,12 @@ export const AutoSpinner = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
-      width={"100%"}
-      height={"100%"}
+      width={props.size || "100%"}
+      height={props.size || "100%"}
       viewBox="0 0 100 100"
       enableBackground="new 0 0 0 0"
       xmlSpace="preserve"
+      {...props}
     >
       <path
         fill="currentColor"
