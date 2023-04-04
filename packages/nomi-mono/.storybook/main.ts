@@ -4,6 +4,8 @@ const config: StorybookConfig = {
 		"../*.mdx",
 		"../src/stories/*.mdx",
 		"../src/stories/*.stories.@(js|jsx|ts|tsx)",
+		"../src/components/**/*.stories.@(js|jsx|ts|tsx)",
+		"../src/components/**/*.mdx",
 	],
 	addons: [
 		"@storybook/addon-links",
@@ -15,7 +17,8 @@ const config: StorybookConfig = {
 		options: {},
 	},
 	docs: {
-		autodocs: "tag",
+		autodocs: true,
+		defaultName: "Spec",
 	},
 };
 export default config;

@@ -1,6 +1,6 @@
 # Installation
 
-```
+```bash
 pnpm i @sayaww/nomi-mono"
 ```
 
@@ -21,4 +21,25 @@ import "../src/style.css";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/700.css";
+```
+
+## Development
+
+```bash
+turbo dev 
+#http://localhost:6006
+```
+
+## Add a new component
+
+1. Duplicate from "Template" folder in `src/components` with the component name.
+2. Add the component name to `src/components/index.tsx`.
+
+
+## Publish
+
+Update your version in `package.json` manually.
+
+```bash
+turbo ship
 ```

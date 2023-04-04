@@ -1,5 +1,5 @@
 import { tv, type VariantProps } from "tailwind-variants";
-import { AutoSpinner } from "./Spinner";
+import { AutoSpinner } from "../Spinner";
 
 const buttonStyle = tv({
 	base: "px-3 py-2 bg-slate-800 text-slate-100 font-mono",
