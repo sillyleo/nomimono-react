@@ -5,7 +5,6 @@
   "workshop": {
     "title": "Workshop",
     "type": "page",
-    "href": "https://nomi-workshop.vercel.app",
-    "newWindow": true
+    "href": "https://nomi-workshop.vercel.app"
   }
 }
