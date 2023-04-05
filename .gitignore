@@ -40,3 +40,4 @@ packages/ui/storybook-static
 .idea
 *.log
 .vercel
+packages/nomi-mono/storybook-static

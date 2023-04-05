@@ -23,13 +23,13 @@ const buttonStyle = tv({
         base: "text-neutral-6 bg-primary-500 hover:bg-primary-400"
       },
       secondary: {
-        base: "text-neutral-1 bg-neutral-6 hover:bg-neutral-5"
+        base: "text-neutral-1 bg-neutral-6 dark:text-dark-neutral-1 dark:bg-dark-neutral-6 hover:bg-neutral-5 dark:hover:bg-neutral-5"
       },
       outline: {
-        base: "text-neutral-6 bg-neutral-0 hover:bg-neutral-1 outline outline-1 outline-neutral-6 hover:outline-neutral-5"
+        base: "text-neutral-6 dark:text-dark-neutral-6 hover:bg-neutral-1 dark:hover:bg-dark-neutral-1 outline outline-1 outline-neutral-6 dark:outline-dark-neutral-6 hover:outline-neutral-6 dark:hover:outline-dark-neutral-6"
       },
       text: {
-        base: "text-neutral-6 bg-transparent hover:bg-neutral-1"
+        base: "text-neutral-6 dark:text-dark-neutral-6 bg-transparent hover:bg-neutral-1 dark:hover:bg-dark-neutral-1"
       }
     },
     size: {
@@ -65,7 +65,9 @@ const buttonStyle = tv({
       intent: "primary",
       disabled: true,
       class: {
-        base: "text-neutral-5 bg-neutral-3 hover:bg-neutral-3 cursor-not-allowed"
+        base: "text-neutral-5 bg-neutral-3 hover:bg-neutral-3 " +
+          "dark:text-dark-neutral-5 dark:bg-dark-neutral-3 dark:hover:bg-dark-neutral-3 " +
+          "cursor-not-allowed"
       }
     },
     {
@@ -73,7 +75,9 @@ const buttonStyle = tv({
       intent: "secondary",
       disabled: true,
       class: {
-        base: "text-neutral-0 bg-neutral-5 hover:bg-neutral-5 cursor-not-allowed"
+        base: "text-neutral-0 bg-neutral-5 hover:bg-neutral-5 " +
+          "dark:text-dark-neutral-0 dark:bg-dark-neutral-5 dark:hover:bg-dark-neutral-5 " +
+          "cursor-not-allowed"
       }
     },
     {
@@ -81,7 +85,9 @@ const buttonStyle = tv({
       intent: "outline",
       disabled: true,
       class: {
-        base: "text-neutral-3 bg-neutral-0 hover:bg-neutral-0 cursor-not-allowed outline-neutral-3 hover:outline-neutral-3"
+        base: "text-neutral-3 outline-neutral-3 hover:outline-neutral-3" +
+          "dark:text-dark-neutral-3 dark:outline-dark-neutral-3 dark:hover:outline-dark-neutral-3" +
+          " cursor-not-allowed "
       }
     },
     {
@@ -89,7 +95,10 @@ const buttonStyle = tv({
       intent: "text",
       disabled: true,
       class: {
-        base: "px-2 text-neutral-3 bg-neutral-0 hover:bg-neutral-0 cursor-not-allowed"
+        base: "px-2 " +
+          "text-neutral-3 bg-neutral-0 hover:bg-neutral-0" +
+          "dark:text-dark-neutral-3 dark:bg-dark-neutral-0 dark:hover:bg-dark-neutral-0" +
+          " cursor-not-allowed"
       }
     },
     {
