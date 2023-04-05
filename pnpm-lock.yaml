@@ -19,6 +19,9 @@ importers:
       '@fontsource/inter':
         specifier: ^4.5.15
         version: 4.5.15
+      '@sayaww/nomi-mono':
+        specifier: workspace:*
+        version: link:../../packages/nomi-mono
       framer-motion:
         specifier: ^10.2.4
         version: 10.2.4(react-dom@18.2.0)(react@18.2.0)
