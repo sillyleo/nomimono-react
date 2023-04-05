@@ -1,10 +1,11 @@
 {
-  "index": {
-    "title": "Introduction"
-  },
   "workshop": {
     "title": "Workshop",
     "type": "page",
-    "href": "https://nomi-workshop.vercel.app"
+    "href": "https://nomi-workshop.vercel.app",
+    "newWindow": true
+  },
+  "index": {
+    "title": "Introduction"
   }
 }
