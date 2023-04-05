@@ -2,7 +2,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { Spinner } from ".";
 
 const meta: Meta<typeof Spinner> = {
-  title: "Spinner",
+  title: "Atomic/Spinner",
   component: Spinner,
   args: {
     size: 48

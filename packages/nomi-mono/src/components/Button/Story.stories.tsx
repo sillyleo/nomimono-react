@@ -1,11 +1,13 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { Button } from ".";
+import { LucideIcon } from "../LucideIcon";
 
 const meta: Meta<typeof Button> = {
-  title: "Button",
+  title: "Atomic/Button",
   component: Button,
   args: {
-    children: "Button"
+    children: "Button",
+    leftIcon: <LucideIcon name={"plus"} />
   }
   // argTypes: {
   // 	isRound: {

@@ -26,9 +26,21 @@ import "@fontsource/inter/700.css";
 ## Development
 
 ```bash
-turbo dev 
+turbo dev
 #http://localhost:6006
 ```
+
+## Import themes
+
+- In Tokens Studio in Figma, select `light` theme
+- Export from Figma, choose Tools > Export > single file
+- Uncheck `all token set`
+- check `include parent key`
+- save as `Light.json` and put into `figma-output` folder, then repeat for dark theme
+- put all files into figma-output folder
+- run `turbo build-token`
+- Access theme in `src/themes/tokens.json`
+- Migrate tokens manually to `tailwind.config.cjs`
 
 ## Add a new component
 
