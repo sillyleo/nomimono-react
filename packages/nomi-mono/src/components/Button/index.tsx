@@ -1,11 +1,13 @@
 import { tv, type VariantProps } from "tailwind-variants";
 import React from "react";
+import { Spinner } from "../Spinner";
 
 const buttonStyle = tv({
   slots: {
-    base: "items-center rounded-full flex",
+    base: "relative items-center rounded-full inline-flex active:translate-y-[1px] transition-transform duration-200 ease-in-out",
     content: "font-medium font-body text-center",
-    icon: "flex items-center justify-center w-[1em] h-[1em]"
+    icon: "flex items-center justify-center w-[1em] h-[1em]",
+    spinner: "absolute inset-0 flex items-center justify-center"
   },
   variants: {
     disabled: {
@@ -14,9 +16,7 @@ const buttonStyle = tv({
       }
     },
     isLoading: {
-      true: {
-        base: "opacity-50"
-      }
+      true: {}
     },
     intent: {
       primary: {
@@ -52,6 +52,14 @@ const buttonStyle = tv({
     }
   },
   compoundVariants: [
+    {
+      isLoading: true,
+      class: {
+        content: "opacity-0",
+        icon: "opacity-0"
+      }
+    }
+    ,
     {
       size: ["xs", "sm", "md", "lg"],
       intent: "primary",
@@ -117,19 +125,25 @@ export const Button = (props: ButtonProps) => {
     size,
     disabled,
     isLoading,
-    intent
+    intent,
+    children,
+    leftIcon,
+    rightIcon
   } = props;
 
-  const { base, content, icon } = buttonStyle(
+  // slot names here
+  const { base, content, icon, spinner } = buttonStyle(
+    // variants here
     { size, disabled, isLoading, intent }
   );
   return (
     <button className={base()}>
-      {props.leftIcon && <div className={icon()}>{props.leftIcon}</div>}
+      {isLoading && <div className={spinner()}><Spinner /></div>}
+      {leftIcon && <div className={icon()}>{leftIcon}</div>}
       <div className={content()}>
-        {props.children}
+        {children}
       </div>
-      {props.rightIcon && <div className={icon()}>{props.rightIcon}</div>}
+      {rightIcon && <div className={icon()}>{rightIcon}</div>}
     </button>
   );
 };

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: Sk-Modernist;
-		src: url("./public/fonts/sk-modernist-bold-webfont.woff2") format("woff2");
-		font-weight: bold;
-	}
+    @font-face {
+        font-family: Sk-Modernist;
+        src: url("fonts/sk-modernist-bold-webfont.woff2") format("woff2");
+        font-weight: bold;
+    }
 }
