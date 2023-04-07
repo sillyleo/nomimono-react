@@ -4,12 +4,26 @@ import { Spinner } from "../Spinner";
 
 const buttonStyle = tv({
   slots: {
-    base: "relative items-center rounded-full inline-flex active:translate-y-[1px] transition-transform duration-200 ease-in-out",
+    base: "relative items-center inline-flex active:translate-y-[1px] transition-transform duration-200 ease-in-out",
     content: "font-medium font-body text-center",
     icon: "flex items-center justify-center w-[1em] h-[1em]",
     spinner: "absolute inset-0 flex items-center justify-center"
   },
   variants: {
+    rounded: {
+      s: {
+        base: "rounded-s"
+      },
+      m: {
+        base: "rounded-m"
+      },
+      l: {
+        base: "rounded-l"
+      },
+      full: {
+        base: "rounded-full"
+      }
+    },
     disabled: {
       true: {
         base: "cursor-not-allowed"
@@ -58,8 +72,7 @@ const buttonStyle = tv({
         content: "opacity-0",
         icon: "opacity-0"
       }
-    }
-    ,
+    },
     {
       size: ["xs", "sm", "md", "lg"],
       intent: "primary",
@@ -114,7 +127,8 @@ const buttonStyle = tv({
     size: "sm",
     intent: "primary",
     disabled: false,
-    isLoading: false
+    isLoading: false,
+    rounded: 'm'
   }
 });
 
@@ -133,6 +147,7 @@ export const Button = (props: ButtonProps) => {
   const {
     size,
     disabled,
+    rounded,
     isLoading,
     intent,
     children,
@@ -143,7 +158,7 @@ export const Button = (props: ButtonProps) => {
   // slot names here
   const { base, content, icon, spinner } = buttonStyle(
     // variants here
-    { size, disabled, isLoading, intent }
+    { size, disabled, isLoading, intent, rounded }
   );
   return (
     <button className={base()}>
