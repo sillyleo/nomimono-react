@@ -42,3 +42,4 @@ packages/ui/storybook-static
 .vercel
 packages/nomi-mono/storybook-static
 .vscode
+packages/nomi-mono/build-storybook.log

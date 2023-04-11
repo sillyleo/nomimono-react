@@ -1,5 +1,10 @@
-import type { StorybookConfig } from "@storybook/react-vite";
+import type { StorybookConfig } from "@storybook/react-webpack5";
 const config: StorybookConfig = {
+	framework: {
+		name: "@storybook/react-webpack5",
+		options: {},
+	},
+
 	stories: [
 		"../*.mdx",
 		"../src/stories/*.mdx",
@@ -15,10 +20,7 @@ const config: StorybookConfig = {
 		"@storybook/addon-styling",
 		"@storybook/addon-mdx-gfm",
 	],
-	framework: {
-		name: "@storybook/react-vite",
-		options: {},
-	},
+
 	docs: {
 		autodocs: true,
 		defaultName: "Spec",
