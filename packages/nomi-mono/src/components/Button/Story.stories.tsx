@@ -7,7 +7,6 @@ const meta: Meta<typeof Button> = {
   component: Button,
   args: {
     children: "Button",
-    leftIcon: <LucideIcon name={"plus"} />
   }
   // argTypes: {
   // 	isRound: {
@@ -24,3 +23,9 @@ export const Default: Story = {
   // 	intent: "primary",
   // },
 };
+
+export const WithIcon: Story = {
+  args: {
+    leftIcon: <LucideIcon name={"plus"} />
+  }
+}

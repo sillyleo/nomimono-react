@@ -1,5 +1,5 @@
 {
-  "dark": {
+  "Dark": {
     "color": {
       "neutral": {
         "0": {
@@ -32,6 +32,10 @@
           "description": "Text"
         },
         "6": {
+          "value": "#A2A0A8",
+          "type": "color"
+        },
+        "7": {
           "value": "white",
           "type": "color"
         }
@@ -39,6 +43,10 @@
       "special": {
         "black": {
           "value": "Black",
+          "type": "color"
+        },
+        "link": {
+          "value": "#3CEAAA",
           "type": "color"
         }
       }

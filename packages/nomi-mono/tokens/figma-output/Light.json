@@ -1,5 +1,5 @@
 {
-  "light": {
+  "Light": {
     "spacing": {
       "0": {
         "5": {
@@ -233,6 +233,10 @@
           "description": "Text"
         },
         "6": {
+          "value": "#4A4656",
+          "type": "color"
+        },
+        "7": {
           "value": "black",
           "type": "color"
         }
@@ -240,6 +244,10 @@
       "sepcial": {
         "black": {
           "value": "Black",
+          "type": "color"
+        },
+        "link": {
+          "value": "#1ABC80",
           "type": "color"
         }
       }
@@ -566,15 +574,15 @@
     },
     "fontWeights": {
       "regular": {
-        "value": "regular",
+        "value": "Regular",
         "type": "fontWeights"
       },
       "medium": {
-        "value": "medium",
+        "value": "Medium",
         "type": "fontWeights"
       },
       "bold": {
-        "value": "bold",
+        "value": "Bold",
         "type": "fontWeights"
       }
     }
