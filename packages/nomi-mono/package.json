@@ -23,9 +23,9 @@
 		"name": "Leo Lin"
 	},
 	"bugs": {
-		"url": "https://github.com/sillyleo/nomimono/issues"
+		"url": "https://github.com/sillyleo/nomimono-react/issues"
 	},
-	"homepage": "https://github.com/sillyleo/nomimono#readme",
+	"homepage": "https://github.com/sillyleo/nomimono-react#readme",
 	"scripts": {
 		"dev": "pnpm run build -- --watch & storybook dev -p 6006",
 		"build": "tsup src/components/index.tsx --format esm,cjs --dts",

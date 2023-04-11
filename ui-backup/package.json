@@ -24,9 +24,9 @@
 		"name": "Leo Lin"
 	},
 	"bugs": {
-		"url": "https://github.com/sillyleo/nomimono/issues"
+		"url": "https://github.com/sillyleo/nomimono-react/issues"
 	},
-	"homepage": "https://github.com/sillyleo/nomimono#readme",
+	"homepage": "https://github.com/sillyleo/nomimono-react#readme",
 	"scripts": {
 		"lint": "eslint *.ts*",
 		"build": "tsup style.css --minify & tsup index.tsx --format esm,cjs --dts --external react",
