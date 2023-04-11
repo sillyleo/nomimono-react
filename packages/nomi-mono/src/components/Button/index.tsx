@@ -38,7 +38,7 @@ export const buttonStyle = tv({
 				base: "text-neutral-6 bg-primary-500 hover:bg-primary-400",
 			},
 			secondary: {
-				base: "text-neutral-1 bg-neutral-6 dark:text-dark-neutral-1 dark:bg-dark-neutral-6 hover:bg-neutral-5 dark:hover:bg-neutral-5",
+				base: "text-neutral-1 bg-neutral-7 dark:text-dark-neutral-1 dark:bg-dark-neutral-7 hover:bg-neutral-6 dark:hover:bg-neutral-6",
 			},
 			outline: {
 				base: "text-neutral-6 dark:text-dark-neutral-6 hover:bg-neutral-1 dark:hover:bg-dark-neutral-1 outline outline-1 outline-neutral-6 dark:outline-dark-neutral-6 hover:outline-neutral-6 dark:hover:outline-dark-neutral-6",
@@ -91,8 +91,8 @@ export const buttonStyle = tv({
 			disabled: true,
 			class: {
 				base:
-					"text-neutral-0 bg-neutral-5 hover:bg-neutral-5 " +
-					"dark:text-dark-neutral-0 dark:bg-dark-neutral-5 dark:hover:bg-dark-neutral-5 " +
+					"text-neutral-0 bg-neutral-7 hover:bg-neutral-6 " +
+					"dark:text-dark-neutral-0 dark:bg-dark-neutral-6 dark:hover:bg-dark-neutral-6 " +
 					"cursor-not-allowed",
 			},
 		},
@@ -133,7 +133,7 @@ export const buttonStyle = tv({
 		intent: "primary",
 		disabled: false,
 		isLoading: false,
-		rounded: "m",
+		rounded: "full",
 	},
 });
 
