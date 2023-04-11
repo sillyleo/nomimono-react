@@ -135,11 +135,20 @@ type ComponentVariant = VariantProps<typeof iconButtonStyle>;
 export interface IconButtonProps extends ComponentVariant {
 	children: React.ReactNode;
 	iconName?: string;
+	iconStyle?: "outline" | "solid" | "mini";
 }
 
 export const IconButton = (props: IconButtonProps) => {
-	const { size, disabled, rounded, isLoading, intent, children, iconName } =
-		props;
+	const {
+		size,
+		disabled,
+		rounded,
+		isLoading,
+		intent,
+		children,
+		iconName,
+		iconStyle = "mini",
+	} = props;
 	// slot names here
 	const { base, icon, spinner } = iconButtonStyle({
 		isLoading,
@@ -160,7 +169,11 @@ export const IconButton = (props: IconButtonProps) => {
 				{children ? (
 					children
 				) : (
-					<HeroIcon boxSize="100%" name={iconName || "plus"} />
+					<HeroIcon
+						boxSize="100%"
+						iconStyle={iconStyle}
+						name={iconName || "plus"}
+					/>
 				)}
 			</div>
 		</button>

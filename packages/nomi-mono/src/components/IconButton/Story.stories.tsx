@@ -4,7 +4,9 @@ import { IconButton } from ".";
 const meta: Meta<typeof IconButton> = {
 	title: "Atomic/IconButton",
 	component: IconButton,
-	args: {},
+	args: {
+		iconName: "academic-cap",
+	},
 	// argTypes: {
 	// 	isRound: {
 	// 		control: "boolean",

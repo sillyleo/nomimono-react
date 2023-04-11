@@ -27,9 +27,8 @@
 	},
 	"homepage": "https://github.com/sillyleo/nomimono#readme",
 	"scripts": {
-		"dev": "vite & storybook dev -p 6006",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
+		"dev": "pnpm run build -- --watch & storybook dev -p 6006",
+		"build": "tsup src/components/index.tsx --format cjs --dts",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
