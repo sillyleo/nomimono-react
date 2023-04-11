@@ -47,7 +47,6 @@ turbo dev
 1. Duplicate from "Template" folder in `src/components` with the component name.
 2. Add the component name to `src/components/index.tsx`.
 
-
 ## Publish
 
 Update your version in `package.json` manually.
@@ -55,3 +54,13 @@ Update your version in `package.json` manually.
 ```bash
 turbo ship
 ```
+
+## Publish storybook to Chromatic
+
+```bash
+turbo chromatic
+```
+
+## Embed Story in website
+
+Get `url` from the [top right corner of a story](https://nomi-workshop.vercel.app/?path=/story/atomic-button--default).
