@@ -5,7 +5,8 @@ const meta: Meta<typeof Input> = {
   title: "Atomic/Input",
   component: Input,
   args: {
-    children: "Input"
+    value: "Input",
+    type: "number"
   }
   // argTypes: {
   // 	isRound: {

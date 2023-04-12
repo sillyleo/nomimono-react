@@ -3,26 +3,48 @@ import React from "react";
 
 // also used in IconInput
 export const inputStyle = tv({
-  base: "w-full border rounded-s px-3 border-neutral-4 bg-neutral-0 dark:border-dark-neutral-4 dark:bg-dark-neutral-0 focus:outline-none focus:border-neutral-7 focus:ring-1 focus:ring-neutral-7 hover:border-neutral-7",
+  slots: {
+    base: "w-full border rounded-s px-3 border-neutral-4 bg-neutral-0 dark:border-dark-neutral-4 dark:bg-dark-neutral-0 focus:outline-none focus:border-neutral-7 focus:ring-1 focus:ring-neutral-7 hover:border-neutral-7"
+  },
   variants: {
     error: {
-      true: "text-support-red border-support-red border focus:border-support-red focus:ring-support-red hover:border-support-red"
+      true: {
+        base: "text-support-red border-support-red border focus:border-support-red focus:ring-support-red hover:border-support-red"
+      }
     },
     disabled: {
-      true: "placeholder:text-neutral-4 border-neutral-4 hover:border-neutral-4 cursor-not-allowed"
+      true: {
+        base: "placeholder:text-neutral-4 border-neutral-4 hover:border-neutral-4 cursor-not-allowed"
+      }
     },
     size: {
-      sm: "text-1 h-10",
-      md: "text-2 h-12",
-      lg: "text-2 h-14"
+      sm: {
+        base: "text-1 h-10"
+      },
+      md: {
+        base: "text-2 h-12"
+      },
+      lg: {
+        base: "text-2 h-14"
+      }
+
     },
     align: {
-      left: "text-left",
-      center: "text-center",
-      right: "text-right"
+
+      left: {
+        base: "text-left"
+      },
+      center: {
+        base: "text-center"
+      },
+      right: {
+        base: "text-right"
+      }
     },
     asBackdrop: {
-      true: "inset-0 absolute"
+      true: {
+        base: "inset-0 absolute"
+      }
     }
   },
   defaultVariants: {
@@ -35,27 +57,42 @@ export const inputStyle = tv({
 type InputVariants = VariantProps<typeof inputStyle>;
 
 export interface InputProps extends InputVariants {
+
   // custom props here
   children: React.ReactNode;
-  className?: string;
   placeholder?: string;
+  className?: string;
 }
+
 
 export const Input = (props: InputProps) => {
   const {
-    children,
-    className,
+    size,
+    error,
     disabled,
-    placeholder = "Input"
+    align,
+    asBackdrop,
+    children,
+    placeholder = "Input",
+    className,
+    ...rest
   } = props;
 
+  const { base } = inputStyle({
+    size,
+    error,
+    disabled,
+    align,
+    asBackdrop
+  });
 
   return (
     <input
       placeholder={placeholder}
-      disabled={disabled}
       className={
-        inputStyle({ ...props, className: className })
-      } />
+        base({ class: className })
+      }
+      {...rest}
+    />
   );
 };
