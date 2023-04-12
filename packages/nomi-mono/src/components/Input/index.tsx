@@ -17,7 +17,7 @@ export const inputStyle = tv({
         base: "placeholder:text-neutral-4 border-neutral-4 hover:border-neutral-4 cursor-not-allowed"
       }
     },
-    size: {
+    inputSize: {
       sm: {
         base: "text-1 h-10"
       },
@@ -48,7 +48,7 @@ export const inputStyle = tv({
     }
   },
   defaultVariants: {
-    size: "sm",
+    inputSize: "sm",
     error: false,
     disabled: false
   }
@@ -56,18 +56,18 @@ export const inputStyle = tv({
 
 type InputVariants = VariantProps<typeof inputStyle>;
 
-export interface InputProps extends InputVariants {
 
+// extend input props with html input type
+export interface InputProps extends InputVariants, React.InputHTMLAttributes<HTMLInputElement> {
   // custom props here
   children: React.ReactNode;
   placeholder?: string;
   className?: string;
 }
 
-
 export const Input = (props: InputProps) => {
   const {
-    size,
+    inputSize,
     error,
     disabled,
     align,
@@ -79,7 +79,7 @@ export const Input = (props: InputProps) => {
   } = props;
 
   const { base } = inputStyle({
-    size,
+    inputSize,
     error,
     disabled,
     align,

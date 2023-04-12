@@ -5,7 +5,6 @@ const meta: Meta<typeof Input> = {
   title: "Atomic/Input",
   component: Input,
   args: {
-    value: "Input",
     type: "number"
   }
   // argTypes: {
