@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/sillyleo/nomimono-react#readme",
   "scripts": {
-    "dev": "pnpm run build -- --watch src & storybook dev -p 6006",
+    "dev": "tsup src/components/index.tsx --format esm,cjs --dts --watch src & storybook dev -p 6006",
     "build": "tsup src/components/index.tsx --format esm,cjs --dts",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
