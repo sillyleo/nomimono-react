@@ -1,5 +1,31 @@
 # @sayaww/nomi-mono
 
+## 0.0.16
+
+### Patch Changes
+
+- up
+- up
+
+## 0.0.15
+
+### Patch Changes
+
+- up
+- up
+
+## 0.0.14
+
+### Patch Changes
+
+- up
+
+## 0.0.13
+
+### Patch Changes
+
+- up
+
 ## 0.0.12
 
 ### Patch Changes

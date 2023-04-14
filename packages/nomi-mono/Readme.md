@@ -49,7 +49,13 @@ turbo dev
 
 ## Publish
 
-Update your version in `package.json` manually.
+Bump version:
+
+```
+cd packages/nomi-mono && pnpm bump
+```
+
+Publish package to npm:
 
 ```bash
 turbo ship
