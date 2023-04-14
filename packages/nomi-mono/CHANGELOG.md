@@ -1,8 +1,18 @@
 # Change Log - @sayaww/nomi-mono
 
-This log was last generated on Fri, 14 Apr 2023 08:56:56 GMT and should not be manually modified.
+This log was last generated on Fri, 14 Apr 2023 09:02:31 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.0.21
+
+Fri, 14 Apr 2023 09:02:31 GMT
+
+### Patches
+
+- bump (sayaww@gmail.com)
+- Change files (sayaww@gmail.com)
+- Change files (sayaww@gmail.com)
 
 ## 0.0.19
 

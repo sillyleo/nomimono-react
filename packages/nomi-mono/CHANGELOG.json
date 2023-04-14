@@ -2,6 +2,33 @@
   "name": "@sayaww/nomi-mono",
   "entries": [
     {
+      "date": "Fri, 14 Apr 2023 09:02:31 GMT",
+      "tag": "@sayaww/nomi-mono_v0.0.21",
+      "version": "0.0.21",
+      "comments": {
+        "patch": [
+          {
+            "author": "sayaww@gmail.com",
+            "package": "@sayaww/nomi-mono",
+            "commit": "c2929b7a6eda50a1daa1ba1b1cfe369f5b21de34",
+            "comment": "bump"
+          },
+          {
+            "author": "sayaww@gmail.com",
+            "package": "@sayaww/nomi-mono",
+            "commit": "cf7bdcad98881876b14d8c88a2b6c1ed76242246",
+            "comment": "Change files"
+          },
+          {
+            "author": "sayaww@gmail.com",
+            "package": "@sayaww/nomi-mono",
+            "commit": "fda197947989313ce34503a4f9b5d3174ac557f9",
+            "comment": "Change files"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 14 Apr 2023 08:56:56 GMT",
       "tag": "@sayaww/nomi-mono_v0.0.19",
       "version": "0.0.19",
