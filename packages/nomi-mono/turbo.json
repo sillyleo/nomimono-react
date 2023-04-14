@@ -8,6 +8,7 @@
 		"storybook": {},
 		"build-token": {},
 		"chromatic": {},
-		"publish-packages": {}
+		"publish-packages": {},
+		"bump": {}
 	}
 }
