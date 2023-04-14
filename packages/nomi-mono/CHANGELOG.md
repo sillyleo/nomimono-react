@@ -1,5 +1,12 @@
 # Change Log - @sayaww/nomi-mono
 
+## 0.0.23
+
+### Patch Changes
+
+- up
+- up
+
 ## 0.0.22
 
 ### Patch Changes
