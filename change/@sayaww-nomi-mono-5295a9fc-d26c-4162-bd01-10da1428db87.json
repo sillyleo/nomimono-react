@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Change files",
+  "packageName": "@sayaww/nomi-mono",
+  "email": "sayaww@gmail.com",
+  "dependentChangeType": "patch"
+}
