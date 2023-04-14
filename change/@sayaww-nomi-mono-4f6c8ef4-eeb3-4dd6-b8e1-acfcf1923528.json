@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "bump",
+  "packageName": "@sayaww/nomi-mono",
+  "email": "sayaww@gmail.com",
+  "dependentChangeType": "patch"
+}
