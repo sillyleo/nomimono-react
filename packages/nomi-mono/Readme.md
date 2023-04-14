@@ -50,7 +50,7 @@ turbo dev
 ## Publish
 
 ```
-cd packages/nomi-mono && pnpm ship
+turbo ship
 ```
 
 ## Publish storybook to Chromatic

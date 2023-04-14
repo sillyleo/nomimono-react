@@ -1,5 +1,13 @@
 # docs
 
+## 0.0.15
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @sayaww/nomi-mono@0.0.24
+
 ## 0.0.14
 
 ### Patch Changes
