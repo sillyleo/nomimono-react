@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { SlotContainer } from ".";
+import { Slot } from ".";
 
-const meta: Meta<typeof SlotContainer> = {
-	title: "Atomic/Layout/Slot/Container",
-	component: SlotContainer,
+const meta: Meta<typeof Slot> = {
+	title: "Atomic/Slot",
+	component: Slot,
 	args: {
-		children: "SlotContainer",
+		children: "Slot",
 	},
 	// argTypes: {
 	// 	isRound: {
@@ -15,7 +15,7 @@ const meta: Meta<typeof SlotContainer> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof SlotContainer>;
+type Story = StoryObj<typeof Slot>;
 
 export const Default: Story = {
 	// args: {
