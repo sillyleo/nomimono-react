@@ -1,5 +1,12 @@
 # Change Log - @sayaww/nomi-mono
 
+## 0.0.18
+
+### Patch Changes
+
+- up
+- up
+
 This log was last generated on Fri, 14 Apr 2023 08:47:45 GMT and should not be manually modified.
 
 <!-- Start content -->
