@@ -1,78 +1,80 @@
 {
-  "name": "@sayaww/nomi-mono",
-  "version": "0.0.8",
-  "access": "public",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    },
-    "./style": {
-      "import": "./dist/index.css",
-      "require": "./dist/index.css"
-    }
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Leo Lin"
-  },
-  "bugs": {
-    "url": "https://github.com/sillyleo/nomimono-react/issues"
-  },
-  "homepage": "https://github.com/sillyleo/nomimono-react#readme",
-  "scripts": {
-    "dev": "tsup src/components/index.tsx --format esm,cjs --dts --watch src & storybook dev -p 6006",
-    "build": "tsup src/components/index.tsx --format esm,cjs --dts",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
-    "chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes",
-    "ship": "turbo build && npm publish --access public --no-git-checks"
-  },
-  "dependencies": {
-    "@fontsource/inter": "^4.5.15",
-    "@heroicons/react": "^2.0.17",
-    "@radix-ui/react-slot": "^1.0.1",
-    "@storybook/addon-docs": "^7.0.2",
-    "csstype": "^3.1.2",
-    "lodash": "^4.17.21",
-    "lucide-react": "^0.130.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "tailwind-variants": "^0.1.2"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-react": "^7.18.6",
-    "@babel/preset-typescript": "^7.21.4",
-    "@storybook/addon-essentials": "^7.0.2",
-    "@storybook/addon-interactions": "^7.0.2",
-    "@storybook/addon-links": "^7.0.2",
-    "@storybook/addon-mdx-gfm": "^7.0.2",
-    "@storybook/addon-styling": "^0.3.2",
-    "@storybook/blocks": "^7.0.2",
-    "@storybook/react": "^7.0.2",
-    "@storybook/react-vite": "^7.0.2",
-    "@storybook/react-webpack5": "^7.0.2",
-    "@storybook/testing-library": "0.1.0",
-    "@tailwindcss/forms": "^0.5.3",
-    "@types/react": "^18.0.32",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "prop-types": "^15.8.1",
-    "storybook": "^7.0.2",
-    "tailwindcss": "^3.3.1",
-    "tsup": "^6.7.0",
-    "typescript": "^4.9.5",
-    "vite": "^4.2.1"
-  }
+	"name": "@sayaww/nomi-mono",
+	"version": "0.0.9",
+	"private": false,
+	"access": "public",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./style": {
+			"import": "./dist/index.css",
+			"require": "./dist/index.css"
+		}
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Leo Lin"
+	},
+	"bugs": {
+		"url": "https://github.com/sillyleo/nomimono-react/issues"
+	},
+	"homepage": "https://github.com/sillyleo/nomimono-react#readme",
+	"scripts": {
+		"dev": "tsup src/components/index.tsx --format esm,cjs --dts --watch src & storybook dev -p 6006",
+		"build": "tsup src/components/index.tsx --format esm,cjs --dts",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build",
+		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
+		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes",
+		"ship": "turbo build && npm publish --access public --no-git-checks",
+		"publish-package": "turbo build && changeset version && changeset publish"
+	},
+	"dependencies": {
+		"@fontsource/inter": "^4.5.15",
+		"@heroicons/react": "^2.0.17",
+		"@radix-ui/react-slot": "^1.0.1",
+		"@storybook/addon-docs": "^7.0.2",
+		"csstype": "^3.1.2",
+		"lodash": "^4.17.21",
+		"lucide-react": "^0.130.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.8.0",
+		"tailwind-variants": "^0.1.2"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.21.4",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/preset-typescript": "^7.21.4",
+		"@storybook/addon-essentials": "^7.0.2",
+		"@storybook/addon-interactions": "^7.0.2",
+		"@storybook/addon-links": "^7.0.2",
+		"@storybook/addon-mdx-gfm": "^7.0.2",
+		"@storybook/addon-styling": "^0.3.2",
+		"@storybook/blocks": "^7.0.2",
+		"@storybook/react": "^7.0.2",
+		"@storybook/react-vite": "^7.0.2",
+		"@storybook/react-webpack5": "^7.0.2",
+		"@storybook/testing-library": "0.1.0",
+		"@tailwindcss/forms": "^0.5.3",
+		"@types/react": "^18.0.32",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react": "^3.1.0",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"prop-types": "^15.8.1",
+		"storybook": "^7.0.2",
+		"tailwindcss": "^3.3.1",
+		"tsup": "^6.7.0",
+		"typescript": "^4.9.5",
+		"vite": "^4.2.1"
+	}
 }

@@ -2,20 +2,36 @@ import { tv, type VariantProps } from "tailwind-variants";
 
 export const Slot = (props: any) => {
 	return (
-		<Slot.Container className="w-80">
+		<Slot.Container className="w-80 h-32">
 			<Slot.Backdrop>
 				<div className="w-full h-full inline-flex items-center justify-center">
 					<span>Backdrop</span>
 				</div>
 			</Slot.Backdrop>
-			<Slot.Child position="top">😀</Slot.Child>
-			<Slot.Child position="bottom">😁</Slot.Child>
-			<Slot.Child position="left">🤨</Slot.Child>
-			<Slot.Child position="right">😊</Slot.Child>
-			<Slot.Child position="leftTop">😌</Slot.Child>
-			<Slot.Child position="leftBottom">😚</Slot.Child>
-			<Slot.Child position="rightTop">😜</Slot.Child>
-			<Slot.Child position="rightBottom">😎</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="top">
+				😀
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="bottom">
+				😁
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="left">
+				🤨
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="right">
+				😊
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="leftTop">
+				😌
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="leftBottom">
+				😚
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="rightTop">
+				😜
+			</Slot.Child>
+			<Slot.Child className="text-center leading-[36px]" position="rightBottom">
+				😎
+			</Slot.Child>
 		</Slot.Container>
 	);
 };
