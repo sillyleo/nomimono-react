@@ -1,0 +1,26 @@
+{
+  "name": "@sayaww/nomi-mono",
+  "entries": [
+    {
+      "date": "Fri, 14 Apr 2023 08:56:56 GMT",
+      "tag": "@sayaww/nomi-mono_v0.0.19",
+      "version": "0.0.19",
+      "comments": {
+        "patch": [
+          {
+            "author": "sayaww@gmail.com",
+            "package": "@sayaww/nomi-mono",
+            "commit": "e03608b4a317c5e5b883ff4465a6d336c817fa0a",
+            "comment": "bump"
+          },
+          {
+            "author": "sayaww@gmail.com",
+            "package": "@sayaww/nomi-mono",
+            "commit": "0fd51f7047cba403518b19165e5f869f0f490faa",
+            "comment": "testing"
+          }
+        ]
+      }
+    }
+  ]
+}
