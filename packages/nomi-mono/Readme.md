@@ -49,16 +49,8 @@ turbo dev
 
 ## Publish
 
-Bump version:
-
 ```
-cd packages/nomi-mono && pnpm bump
-```
-
-Publish package to npm:
-
-```bash
-turbo ship
+cd packages/nomi-mono && pnpm ship
 ```
 
 ## Publish storybook to Chromatic

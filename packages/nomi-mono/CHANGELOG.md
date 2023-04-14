@@ -1,5 +1,33 @@
 # Change Log - @sayaww/nomi-mono
 
+## 0.0.22
+
+### Patch Changes
+
+- up
+- up
+
+## 0.0.21
+
+### Patch Changes
+
+- up
+- up
+
+## 0.0.20
+
+### Patch Changes
+
+- up
+- up
+
+## 0.0.19
+
+### Patch Changes
+
+- up
+- up
+
 This log was last generated on Fri, 14 Apr 2023 09:02:31 GMT and should not be manually modified.
 
 <!-- Start content -->
