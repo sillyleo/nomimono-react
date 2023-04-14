@@ -34,7 +34,7 @@
 		"build-storybook": "storybook build",
 		"build-token": "npx token-transformer ./tokens/figma-output/light.json ./tokens/tokens-transformed-light.json --resolveReferences false && npx style-dictionary build --config sd.config-light.cjs && npx token-transformer ./tokens/figma-output/dark.json ./tokens/tokens-transformed-dark.json --resolveReferences false && npx style-dictionary build --config sd.config-dark.cjs",
 		"chromatic": "npx chromatic --project-token=1a4afb4486c1 --exit-once-uploaded --auto-accept-changes",
-		"bump": "npx beachball publish --access public -y",
+		"bump": "git commit -a -m 'bump' && npx beachball publish --access public -y",
 		"ship": "turbo build && pnpm changeset version && npm publish --access public --no-git-checks"
 	},
 	"dependencies": {
