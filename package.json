@@ -15,14 +15,12 @@
 		"build-token": "turbo run build-token"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.26.1",
 		"eslint-config-custom": "workspace:*",
 		"prettier": "latest",
 		"turbo": "^1.9.1"
 	},
 	"engines": {
 		"node": ">=14.0.0"
-	},
-	"dependencies": {
-		"@changesets/cli": "^2.26.1"
 	}
 }
