@@ -540,8 +540,14 @@ select {
 .right-0 {
   right: 0px;
 }
+.right-4 {
+  right: 1rem;
+}
 .top-0 {
   top: 0px;
+}
+.top-4 {
+  top: 1rem;
 }
 .top-\[50\%\] {
   top: 50%;
@@ -630,9 +636,6 @@ select {
 .w-full {
   width: 100%;
 }
-.w-\[350px\] {
-  width: 350px;
-}
 .max-w-lg {
   max-width: 32rem;
 }
@@ -667,6 +670,9 @@ select {
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-end {
   align-items: flex-end;
 }
@@ -691,11 +697,6 @@ select {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -735,10 +736,6 @@ select {
 .border-support-red {
   --tw-border-opacity: 1;
   border-color: rgb(241 103 105 / var(--tw-border-opacity));
-}
-.border-slate-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 .border-b-slate-200 {
   --tw-border-opacity: 1;
@@ -790,6 +787,10 @@ select {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .p-2 {
   padding: 0.5rem;
 }
@@ -799,11 +800,8 @@ select {
 .p-4 {
   padding: 1rem;
 }
-.p-0 {
-  padding: 0px;
-}
-.p-5 {
-  padding: 1.25rem;
+.p-6 {
+  padding: 1.5rem;
 }
 .px-1 {
   padding-left: 0.25rem;
@@ -849,13 +847,13 @@ select {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -930,10 +928,6 @@ select {
 .leading-\[36px\] {
   line-height: 36px;
 }
-.text-cyan-500 {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
-}
 .text-neutral-0 {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -962,19 +956,26 @@ select {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
 .text-support-red {
   --tw-text-opacity: 1;
   color: rgb(241 103 105 / var(--tw-text-opacity));
-}
-.text-neutral-4 {
-  --tw-text-opacity: 1;
-  color: rgb(200 199 203 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
 }
 .opacity-100 {
   opacity: 1;
+}
+.opacity-70 {
+  opacity: 0.7;
 }
 .outline {
   outline-style: solid;
@@ -1011,6 +1012,9 @@ select {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.duration-100 {
+  transition-duration: 100ms;
+}
 .duration-200 {
   transition-duration: 200ms;
 }
@@ -1046,6 +1050,9 @@ select {
 }
 .slide-in-from-bottom-10 {
   --tw-enter-translate-y: 2.5rem;
+}
+.duration-100 {
+  animation-duration: 100ms;
 }
 .duration-200 {
   animation-duration: 200ms;
@@ -1100,6 +1107,9 @@ select {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
 .hover\:outline-neutral-3:hover {
   outline-color: #e4e2e4;
 }
@@ -1149,9 +1159,15 @@ select {
 .focus\:ring-offset-1:focus {
   --tw-ring-offset-width: 1px;
 }
+.focus\:ring-offset-2:focus {
+  --tw-ring-offset-width: 2px;
+}
 .active\:translate-y-\[1px\]:active {
   --tw-translate-y: 1px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.disabled\:pointer-events-none:disabled {
+  pointer-events: none;
 }
 .disabled\:cursor-not-allowed:disabled {
   cursor: not-allowed;
@@ -1186,6 +1202,31 @@ select {
 }
 .data-\[state\=open\]\:animate-accordion-down[data-state=open] {
   animation: accordion-down 0.2s ease-out;
+}
+.data-\[state\=open\]\:bg-slate-100[data-state=open] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.data-\[state\=closed\]\:animate-out[data-state=closed] {
+  animation-name: exit;
+  animation-duration: 150ms;
+  --tw-exit-opacity: initial;
+  --tw-exit-scale: initial;
+  --tw-exit-rotate: initial;
+  --tw-exit-translate-x: initial;
+  --tw-exit-translate-y: initial;
+}
+.data-\[state\=closed\]\:fade-out[data-state=closed] {
+  --tw-exit-opacity: 0;
+}
+.data-\[state\=open\]\:fade-in[data-state=open] {
+  --tw-enter-opacity: 0;
+}
+.data-\[state\=open\]\:fade-in-90[data-state=open] {
+  --tw-enter-opacity: 0.9;
+}
+.data-\[state\=open\]\:slide-in-from-bottom-10[data-state=open] {
+  --tw-enter-translate-y: 2.5rem;
 }
 :is([data-theme="dark"] .dark\:border-dark-neutral-4) {
   --tw-border-opacity: 1;
@@ -1227,6 +1268,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
+:is([data-theme="dark"] .dark\:bg-slate-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
 :is([data-theme="dark"] .dark\:text-dark-neutral-0) {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1246,6 +1291,10 @@ select {
 :is([data-theme="dark"] .dark\:text-dark-neutral-6) {
   --tw-text-opacity: 1;
   color: rgb(162 160 168 / var(--tw-text-opacity));
+}
+:is([data-theme="dark"] .dark\:text-slate-400) {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 :is([data-theme="dark"] .dark\:text-slate-50) {
   --tw-text-opacity: 1;
@@ -1294,7 +1343,14 @@ select {
 :is([data-theme="dark"] .dark\:focus\:ring-offset-slate-900:focus) {
   --tw-ring-offset-color: #0f172a;
 }
+:is([data-theme="dark"] .dark\:data-\[state\=open\]\:bg-slate-800[data-state=open]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
 @media (min-width: 640px) {
+  .sm\:max-w-lg {
+    max-width: 32rem;
+  }
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1316,6 +1372,9 @@ select {
     --tw-enter-scale: .9;
   }
   .sm\:slide-in-from-bottom-0 {
+    --tw-enter-translate-y: 0px;
+  }
+  .data-\[state\=open\]\:sm\:slide-in-from-bottom-0[data-state=open] {
     --tw-enter-translate-y: 0px;
   }
 }
