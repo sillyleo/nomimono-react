@@ -4,6 +4,7 @@ import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/700.css";
 import { withThemeByClassName } from "@storybook/addon-styling";
+import { withThemeByDataAttribute } from "@storybook/addon-styling";
 
 const preview: Preview = {
 	parameters: {
@@ -31,14 +32,26 @@ const preview: Preview = {
 		},
 	},
 };
+
 export const decorators = [
-	withThemeByClassName({
+	withThemeByDataAttribute({
 		themes: {
-			light: "",
+			light: "light",
 			dark: "dark",
 		},
 		defaultTheme: "light",
+		attributeName: "data-theme",
 	}),
 ];
+
+// export const decorators = [
+// 	withThemeByClassName({
+// 		themes: {
+// 			light: "",
+// 			dark: "dark",
+// 		},
+// 		defaultTheme: "light",
+// 	}),
+// ];
 
 export default preview;

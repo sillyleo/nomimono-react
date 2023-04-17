@@ -2,8 +2,7 @@ import { tv, type VariantProps } from "tailwind-variants";
 import React from "react";
 import { Spinner } from "../Spinner";
 
-// also used in IconButton
-export const buttonStyle = tv({
+const buttonStyle = tv({
 	slots: {
 		base: "relative items-center inline-flex active:translate-y-[1px] transition-transform duration-200 ease-in-out",
 		content: "font-medium font-body text-center",
