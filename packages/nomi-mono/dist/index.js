@@ -448,7 +448,17 @@ var textStyle = tv3({
 var Text = (props) => {
   const { size, children, className, asChild, ...rest } = props;
   const Comp = asChild ? Slot : "p";
-  return /* @__PURE__ */ jsx5(Comp, { className: textStyle({ size, className }), ...rest, children });
+  return /* @__PURE__ */ jsx5(
+    Comp,
+    {
+      className: textStyle({
+        size,
+        class: className
+      }),
+      ...rest,
+      children
+    }
+  );
 };
 
 // src/components/HeroIconOne/index.tsx

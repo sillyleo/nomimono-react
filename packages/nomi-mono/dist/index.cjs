@@ -491,7 +491,17 @@ var textStyle = (0, import_tailwind_variants3.tv)({
 var Text = (props) => {
   const { size, children, className, asChild, ...rest } = props;
   const Comp = asChild ? import_react_slot.Slot : "p";
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Comp, { className: textStyle({ size, className }), ...rest, children });
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+    Comp,
+    {
+      className: textStyle({
+        size,
+        class: className
+      }),
+      ...rest,
+      children
+    }
+  );
 };
 
 // src/components/HeroIconOne/index.tsx

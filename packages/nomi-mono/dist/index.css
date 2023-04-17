@@ -505,6 +505,17 @@ select {
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 .fixed {
   position: fixed;
 }
@@ -619,6 +630,9 @@ select {
 .w-full {
   width: 100%;
 }
+.w-\[350px\] {
+  width: 350px;
+}
 .max-w-lg {
   max-width: 32rem;
 }
@@ -678,6 +692,11 @@ select {
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -716,6 +735,10 @@ select {
 .border-support-red {
   --tw-border-opacity: 1;
   border-color: rgb(241 103 105 / var(--tw-border-opacity));
+}
+.border-slate-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 .border-b-slate-200 {
   --tw-border-opacity: 1;
@@ -776,6 +799,12 @@ select {
 .p-4 {
   padding: 1rem;
 }
+.p-0 {
+  padding: 0px;
+}
+.p-5 {
+  padding: 1.25rem;
+}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -823,6 +852,10 @@ select {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -932,6 +965,10 @@ select {
 .text-support-red {
   --tw-text-opacity: 1;
   color: rgb(241 103 105 / var(--tw-text-opacity));
+}
+.text-neutral-4 {
+  --tw-text-opacity: 1;
+  color: rgb(200 199 203 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;

@@ -42,7 +42,13 @@ export const Text = (props: TextProps) => {
 	const Comp = asChild ? Slot : "p";
 
 	return (
-		<Comp className={textStyle({ size, className: className })} {...rest}>
+		<Comp
+			className={textStyle({
+				size: size,
+				class: className,
+			})}
+			{...rest}
+		>
 			{children}
 		</Comp>
 	);
