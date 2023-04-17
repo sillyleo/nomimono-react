@@ -465,6 +465,7 @@ var IconButton = (props) => {
 
 // src/components/Text/index.tsx
 var import_tailwind_variants3 = require("tailwind-variants");
+var import_react_slot = require("@radix-ui/react-slot");
 var import_jsx_runtime5 = require("react/jsx-runtime");
 var textStyle = (0, import_tailwind_variants3.tv)({
   base: "font-body text-neutral-6 dark:text-dark-neutral-6",
@@ -488,7 +489,9 @@ var textStyle = (0, import_tailwind_variants3.tv)({
   }
 });
 var Text = (props) => {
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: textStyle({ ...props, className: props.className }), children: props.children });
+  const { size, children, className, asChild, ...rest } = props;
+  const Comp = asChild ? import_react_slot.Slot : "p";
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(Comp, { className: textStyle({ size, className }), ...rest, children });
 };
 
 // src/components/HeroIconOne/index.tsx

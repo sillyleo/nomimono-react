@@ -298,6 +298,7 @@ type TextVariants = VariantProps<typeof textStyle>;
 interface TextProps extends TextVariants {
     children: React$1.ReactNode;
     className?: string;
+    asChild?: boolean;
 }
 declare const Text: (props: TextProps) => JSX.Element;
 

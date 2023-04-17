@@ -1,5 +1,6 @@
 import React from "react";
 import { tv, type VariantProps } from "tailwind-variants";
+import { Slot } from "@radix-ui/react-slot";
 
 const textStyle = tv({
 	base: "font-body text-neutral-6 dark:text-dark-neutral-6",
@@ -32,12 +33,17 @@ export interface TextProps extends TextVariants {
 	 *
 	 * */
 	className?: string;
+	asChild?: boolean;
 }
 
 export const Text = (props: TextProps) => {
+	const { size, children, className, asChild, ...rest } = props;
+
+	const Comp = asChild ? Slot : "p";
+
 	return (
-		<div className={textStyle({ ...props, className: props.className })}>
-			{props.children}
-		</div>
+		<Comp className={textStyle({ size, className: className })} {...rest}>
+			{children}
+		</Comp>
 	);
 };

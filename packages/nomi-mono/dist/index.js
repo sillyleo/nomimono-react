@@ -422,6 +422,7 @@ var IconButton = (props) => {
 
 // src/components/Text/index.tsx
 import { tv as tv3 } from "tailwind-variants";
+import { Slot } from "@radix-ui/react-slot";
 import { jsx as jsx5 } from "react/jsx-runtime";
 var textStyle = tv3({
   base: "font-body text-neutral-6 dark:text-dark-neutral-6",
@@ -445,7 +446,9 @@ var textStyle = tv3({
   }
 });
 var Text = (props) => {
-  return /* @__PURE__ */ jsx5("div", { className: textStyle({ ...props, className: props.className }), children: props.children });
+  const { size, children, className, asChild, ...rest } = props;
+  const Comp = asChild ? Slot : "p";
+  return /* @__PURE__ */ jsx5(Comp, { className: textStyle({ size, className }), ...rest, children });
 };
 
 // src/components/HeroIconOne/index.tsx
