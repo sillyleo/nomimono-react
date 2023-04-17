@@ -252,13 +252,14 @@ var Button = (props) => {
     intent,
     children,
     leftIcon,
-    rightIcon
+    rightIcon,
+    ...rest
   } = props;
   const { base, content, icon, spinner } = buttonStyle(
     // variants here
     { size, disabled, isLoading, intent, rounded }
   );
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("button", { className: base(), children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("button", { className: base(), ...rest, children: [
     isLoading && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: spinner(), children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Spinner, {}) }),
     leftIcon && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: icon(), children: leftIcon }),
     /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: content(), children }),

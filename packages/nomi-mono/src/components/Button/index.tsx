@@ -155,6 +155,7 @@ export const Button = (props: ButtonProps) => {
 		children,
 		leftIcon,
 		rightIcon,
+		...rest
 	} = props;
 
 	// slot names here
@@ -163,7 +164,7 @@ export const Button = (props: ButtonProps) => {
 		{ size, disabled, isLoading, intent, rounded }
 	);
 	return (
-		<button className={base()}>
+		<button className={base()} {...rest}>
 			{isLoading && (
 				<div className={spinner()}>
 					<Spinner />

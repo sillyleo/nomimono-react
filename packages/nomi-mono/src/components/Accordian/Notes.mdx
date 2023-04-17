@@ -1,7 +1,5 @@
 import { Meta } from "@storybook/blocks";
-
 import * as ComponentStories from "./Story.stories";
-import { Accordion,AccordionRoot, AccordionItem, AccordionTrigger, AccordionContent } from ".";
 
 <Meta of={ComponentStories} />
 
@@ -12,7 +10,7 @@ https://ui.shadcn.com/docs/primitives/accordion
 
 
 ```jsx
-<AccordionRoot type="single" collapsible>
+<Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger>Is it accessible?</AccordionTrigger>
     <AccordionContent>
@@ -32,5 +30,5 @@ https://ui.shadcn.com/docs/primitives/accordion
       Yes. It's animated by default, but you can disable it if you prefer.
     </AccordionContent>
   </AccordionItem>
-</AccordionRoot>
+</Accordion>
 ```

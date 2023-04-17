@@ -209,13 +209,14 @@ var Button = (props) => {
     intent,
     children,
     leftIcon,
-    rightIcon
+    rightIcon,
+    ...rest
   } = props;
   const { base, content, icon, spinner } = buttonStyle(
     // variants here
     { size, disabled, isLoading, intent, rounded }
   );
-  return /* @__PURE__ */ jsxs2("button", { className: base(), children: [
+  return /* @__PURE__ */ jsxs2("button", { className: base(), ...rest, children: [
     isLoading && /* @__PURE__ */ jsx2("div", { className: spinner(), children: /* @__PURE__ */ jsx2(Spinner, {}) }),
     leftIcon && /* @__PURE__ */ jsx2("div", { className: icon(), children: leftIcon }),
     /* @__PURE__ */ jsx2("div", { className: content(), children }),

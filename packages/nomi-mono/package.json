@@ -37,9 +37,11 @@
 		"ship": "pnpm build && git commit -a -m 'bump' && pnpm changeset version && npm publish --access public --no-git-checks"
 	},
 	"dependencies": {
+		"@ariakit/react": "^0.1.2",
 		"@fontsource/inter": "^4.5.15",
 		"@heroicons/react": "^2.0.17",
 		"@radix-ui/react-accordion": "^1.1.1",
+		"@radix-ui/react-alert-dialog": "^1.0.3",
 		"@radix-ui/react-slot": "^1.0.1",
 		"@storybook/addon-docs": "^7.0.2",
 		"class-variance-authority": "^0.5.2",
